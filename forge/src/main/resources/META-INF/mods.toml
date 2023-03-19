@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+issueTrackerURL = "https://github.com/The-PokeCraft-Mod/PokeCraft/issues"
+license = "GPL-v3, LGPL-v3"
+
+[[mods]]
+modId = "pokecraft"
+version = "${version}"
+displayName = "PokeCraft"
+authors = "cMaKelite, hydos, greg_lor"
+description = '''
+PokeCraft is committed to bringing everyone the most immersive Pokemon Minecraft Mod to date! Every facet of the PokéCraft experience is curated by a passionate team with a high level of attention-to-detail.
+'''
+logoFile = "assets/pokecraft/banner.png"
+
+[[dependencies.pokecraft]]
+modId = "unimon"
+mandatory = true
+versionRange = "1.0.0+local.1"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pokecraft]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pokecraft]]
+modId = "minecraft"
+mandatory = true
+versionRange = "1.19.4"
+ordering = "NONE"
+side = "BOTH"

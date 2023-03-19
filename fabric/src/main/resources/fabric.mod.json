@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "pokecraft",
+  "version": "${version}",
+  "name": "PokeCraft",
+  "description": "PokeCraft is committed to bringing everyone the most immersive Pokemon Minecraft Mod to date! Every facet of the PokéCraft experience is curated by a passionate team with a high level of attention-to-detail.",
+  "authors": [
+    "cMaKelite", "hydos", "greg_lor"
+  ],
+  "contact": {
+    "homepage": "https://thepokecraftmod.com",
+    "sources": "https://github.com/The-PokeCraft-Mod/PokeCraft"
+  },
+  "license": "GPL-v3, LGPL-v3",
+  "icon": "assets/pokecraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.thepokecraftmod.fabric.FabricPokeCraft"
+    ]
+  },
+  "mixins": [
+    "pokecraft.mixins.json",
+    "pokecraft-common.mixins.json"
+  ],
+  "depends": {
+    "unimon": "1.0.0+local.1",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
