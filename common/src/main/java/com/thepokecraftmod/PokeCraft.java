@@ -1,5 +1,6 @@
 package com.thepokecraftmod;
 
+import net.minecraft.resources.ResourceLocation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -23,5 +24,9 @@ public class PokeCraft {
         if (INSTANCE != null) throw new RuntimeException("Another platform has already been defined");
         INSTANCE = platformUniMon;
         onInitialize();
+    }
+
+    public static ResourceLocation id(String path) {
+        return new ResourceLocation(MOD_ID, path);
     }
 }

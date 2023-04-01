@@ -16,7 +16,7 @@ logoFile = "banner.png"
 [[dependencies.pokecraft]]
 modId = "unimon"
 mandatory = true
-versionRange = "1.0.0+local.1"
+versionRange = "1.0.0+local.3"
 ordering = "NONE"
 side = "BOTH"
 

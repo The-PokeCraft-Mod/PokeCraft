@@ -17,6 +17,9 @@
   "entrypoints": {
     "main": [
       "com.thepokecraftmod.fabric.FabricPokeCraft"
+    ],
+    "client": [
+      "com.thepokecraftmod.fabric.client.FabricPokeCraftClient"
     ]
   },
   "mixins": [
@@ -24,7 +27,7 @@
     "pokecraft-common.mixins.json"
   ],
   "depends": {
-    "unimon": "1.0.0+local.1",
+    "unimon": "1.0.0+local.3",
     "fabric": "*",
     "minecraft": "1.19.4"
   }

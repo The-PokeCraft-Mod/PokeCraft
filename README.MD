@@ -25,15 +25,6 @@ PokéCraft came to be through like-minded individuals pursuing the goal of a fle
 4. Easy to read, Modern code structure.
 5. Reloadable, Datapack driven configuration.
 
-
-## Building the Mod
-
-1. Clone the repository or download it as a zip.
-2. If you are on Windows, run ./gradlew.bat build. If on linux, run ./gradlew build. This may fail if you don't have Java
-   17 or above installed and your JAVA_HOME env variable set.
-3. The mod will be located in forge/build/libs (forge) and fabric/build/libs (fabric)
-
-
 ## Discord
 
 PokéCraft Discord: https://discord.gg/trccJWVM

@@ -11,7 +11,7 @@ dependencies {
     // Do NOT use other classes from fabric loader
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
 
-    modImplementation "com.thepokecraftmod:UniMon:1.0.0+local.1"
+    modImplementation "com.thepokecraftmod:UniMon:${rootProject.unimon_version}"
 }
 
 publishing {
