@@ -1,6 +1,7 @@
 plugins {
     id "architectury-plugin" version "3.4-SNAPSHOT"
     id "dev.architectury.loom" version "0.12.0-SNAPSHOT" apply false
+    id "org.cadixdev.licenser" version '0.6.1' apply false
 }
 
 architectury {
@@ -9,9 +10,15 @@ architectury {
 
 subprojects {
     apply plugin: "dev.architectury.loom"
+    apply plugin: "org.cadixdev.licenser"
 
     loom {
         silentMojangMappingsLicense()
+    }
+
+    license {
+        header = rootProject.file("HEADER")
+        include("**/*.java")
     }
 
     repositories {

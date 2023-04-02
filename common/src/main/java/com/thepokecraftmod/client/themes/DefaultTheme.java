@@ -1,21 +1,35 @@
+/*
+ * Copyright (C) 2023 ThePokeCraftMod
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+
 package com.thepokecraftmod.client.themes;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.vertex.PoseStack;
 import com.thepokecraftmod.PokeCraft;
 import com.thepokecraftmod.client.ScreenUtils;
-import com.thepokecraftmod.unimon.api.mon.MonInstance;
 import com.thepokecraftmod.unimon.client.UniMonClient;
 import com.thepokecraftmod.unimon.client.render.ScreenLikeInfo;
 import com.thepokecraftmod.unimon.client.theme.Theme;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiComponent;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.TitleScreen;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.resources.ResourceLocation;
 
-import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
