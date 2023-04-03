@@ -7,6 +7,9 @@ architectury {
     fabric()
 }
 
+var datagenFolder = getRootProject().file("common/src/main/generated")
+
+
 loom {
     accessWidenerPath = project(":common").loom.accessWidenerPath
 
@@ -15,7 +18,7 @@ loom {
             inherit client
             name "DataGen"
             vmArg "-Dfabric-api.datagen"
-            vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
+            vmArg "-Dfabric-api.datagen.output-dir=${datagenFolder}"
             vmArg "-Dfabric-api.datagen.modid=pokecraft"
 
             runDir "build/datagen"

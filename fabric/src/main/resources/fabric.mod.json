@@ -20,6 +20,9 @@
     ],
     "client": [
       "com.thepokecraftmod.pokecraft.fabric.client.FabricPokeCraftClient"
+    ],
+    "fabric-datagen": [
+      "com.thepokecraftmod.pokecraft.fabric.datagen.PokeCraftDataGen"
     ]
   },
   "mixins": [
