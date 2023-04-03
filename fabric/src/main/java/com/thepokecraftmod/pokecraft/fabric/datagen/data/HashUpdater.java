@@ -1,4 +1,4 @@
-package com.thepokecraftmod.pokecraft.pokecraft.tools;
+package com.thepokecraftmod.pokecraft.fabric.datagen.data;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class SpeciesHashUpdater {
+public class HashUpdater {
     private static final MessageDigest HASH_DIGEST;
     private static final Gson HASH_CHECK_GSON = new Gson();
     private static final Gson OUTPUT_GSON = new GsonBuilder().setPrettyPrinting().create();

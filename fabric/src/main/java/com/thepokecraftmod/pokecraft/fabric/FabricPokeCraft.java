@@ -30,11 +30,11 @@ public class FabricPokeCraft extends PokeCraft implements ModInitializer {
 
     public FabricPokeCraft() {
         PokeCraft.onInitialize(this);
+        if(FabricDataGenHelper.ENABLED) this.fixDataGen();
     }
 
     @Override
     public void onInitialize() {
-        if(FabricDataGenHelper.ENABLED) this.fixDataGen();
         initializeNetworking();
         initializeRegistries();
     }
@@ -44,14 +44,14 @@ public class FabricPokeCraft extends PokeCraft implements ModInitializer {
      */
     private void fixDataGen() {
         try {
+            UniMon.getInstance();
+        } catch (RuntimeException e) {
+            UniMon.onInitialize(new FabricUniMon(), true);
+        }
+        try {
             UniMonNetworking.getInstance();
         } catch (RuntimeException e) {
             UniMonNetworking.onInitialize(new FabricUniMonNetworking());
-        }
-        try {
-            UniMon.getInstance();
-        } catch (RuntimeException e) {
-            new FabricUniMon();
         }
     }
 }

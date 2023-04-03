@@ -75,7 +75,7 @@ public class DefaultTheme implements Theme {
                 RenderSystem.enableBlend();
                 RenderSystem.setShaderTexture(0, SLICE_TEX);
                 ScreenUtils.drawTexture(stack, 0, currentY - sliceHeight / 2 + 3, 0, 0, 90, sliceHeight, 90, sliceHeight);
-                font.draw(stack, mon.species.toString(), 4, currentY, 0xFFFFFFFF);
+                font.draw(stack, mon.getDisplayName(), 4, currentY, 0xFFFFFFFF);
                 currentY += fullSliceHeight;
             }
 
