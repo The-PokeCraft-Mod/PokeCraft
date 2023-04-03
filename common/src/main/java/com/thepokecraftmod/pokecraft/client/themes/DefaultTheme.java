@@ -16,11 +16,11 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package com.thepokecraftmod.client.themes;
+package com.thepokecraftmod.pokecraft.client.themes;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.thepokecraftmod.PokeCraft;
-import com.thepokecraftmod.client.ScreenUtils;
+import com.thepokecraftmod.pokecraft.PokeCraft;
+import com.thepokecraftmod.pokecraft.client.ScreenUtils;
 import com.thepokecraftmod.unimon.client.UniMonClient;
 import com.thepokecraftmod.unimon.client.render.ScreenLikeInfo;
 import com.thepokecraftmod.unimon.client.theme.Theme;
@@ -55,30 +55,32 @@ public class DefaultTheme implements Theme {
     }
 
     private void renderParty(ScreenLikeInfo info) {
-        var stack = info.stack();
-        var client = Minecraft.getInstance();
-        var font = Minecraft.getInstance().font;
-        var window = client.getWindow();
-        var height = window.getGuiScaledHeight();
-        var party = UniMonClient.getInstance().party.getParty();
-        var sliceSpacing = 6;
-        var sliceHeight = 24;
-        var fullSliceHeight = sliceHeight + sliceSpacing;
-        var currentY = height / 2 - (((party.size() - 1) * fullSliceHeight) / 2);
+        if (UniMonClient.getInstance().party != null) {
+            var stack = info.stack();
+            var client = Minecraft.getInstance();
+            var font = Minecraft.getInstance().font;
+            var window = client.getWindow();
+            var height = window.getGuiScaledHeight();
+            var party = UniMonClient.getInstance().party.getParty();
+            var sliceSpacing = 6;
+            var sliceHeight = 24;
+            var fullSliceHeight = sliceHeight + sliceSpacing;
+            var currentY = height / 2 - (((party.size() - 1) * fullSliceHeight) / 2);
 
-        stack.pushPose();
-        RenderSystem.setShader(GameRenderer::getPositionTexShader);
-        RenderSystem.setShaderColor(1, 1, 1, 1f);
+            stack.pushPose();
+            RenderSystem.setShader(GameRenderer::getPositionTexShader);
+            RenderSystem.setShaderColor(1, 1, 1, 1f);
 
-        for (var mon : party) {
-            RenderSystem.enableBlend();
-            RenderSystem.setShaderTexture(0, SLICE_TEX);
-            ScreenUtils.drawTexture(stack, 0, currentY - sliceHeight / 2 + 3, 0, 0, 90, sliceHeight, 90, sliceHeight);
-            font.draw(stack, mon.species.toString(), 4, currentY, 0xFFFFFFFF);
-            currentY += fullSliceHeight;
+            for (var mon : party) {
+                RenderSystem.enableBlend();
+                RenderSystem.setShaderTexture(0, SLICE_TEX);
+                ScreenUtils.drawTexture(stack, 0, currentY - sliceHeight / 2 + 3, 0, 0, 90, sliceHeight, 90, sliceHeight);
+                font.draw(stack, mon.species.toString(), 4, currentY, 0xFFFFFFFF);
+                currentY += fullSliceHeight;
+            }
+
+            RenderSystem.disableBlend();
+            stack.popPose();
         }
-
-        RenderSystem.disableBlend();
-        stack.popPose();
     }
 }

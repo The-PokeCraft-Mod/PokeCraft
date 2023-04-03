@@ -16,9 +16,9 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package com.thepokecraftmod.forge.client;
+package com.thepokecraftmod.pokecraft.forge.client;
 
-import com.thepokecraftmod.client.PokeCraftClient;
+import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
 import net.minecraftforge.eventbus.api.IEventBus;
 
 public class ForgePokeCraftClient extends PokeCraftClient {

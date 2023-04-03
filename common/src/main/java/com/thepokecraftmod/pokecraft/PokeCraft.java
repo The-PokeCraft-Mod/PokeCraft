@@ -16,8 +16,12 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package com.thepokecraftmod;
+package com.thepokecraftmod.pokecraft;
 
+import com.thepokecraftmod.pokecraft.api.registry.PokeCraftRegistries;
+import com.thepokecraftmod.pokecraft.level.block.PokeCraftBlocks;
+import com.thepokecraftmod.pokecraft.level.item.PokeCraftItems;
+import com.thepokecraftmod.pokecraft.network.PokeCraftNetworking;
 import net.minecraft.resources.ResourceLocation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -27,8 +31,14 @@ public class PokeCraft {
     public static final String MOD_ID = "pokecraft";
     private static PokeCraft INSTANCE;
 
-    private static void onInitialize() {
+    private void onInitialize() {
+        PokeCraftRegistries.onInitialize();
+        PokeCraftNetworking.onInitialize();
+    }
 
+    protected void initializeRegistries() {
+         // PokeCraftBlocks.onInitialize();
+         // PokeCraftItems.onInitialize();
     }
 
     public static PokeCraft getInstance() {
@@ -41,7 +51,7 @@ public class PokeCraft {
     public static void onInitialize(PokeCraft platformUniMon) {
         if (INSTANCE != null) throw new RuntimeException("Another platform has already been defined");
         INSTANCE = platformUniMon;
-        onInitialize();
+        INSTANCE.onInitialize();
     }
 
     public static ResourceLocation id(String path) {

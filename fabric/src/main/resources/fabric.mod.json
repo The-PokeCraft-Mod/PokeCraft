@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.thepokecraftmod.fabric.FabricPokeCraft"
+      "com.thepokecraftmod.pokecraft.fabric.FabricPokeCraft"
     ],
     "client": [
-      "com.thepokecraftmod.fabric.client.FabricPokeCraftClient"
+      "com.thepokecraftmod.pokecraft.fabric.client.FabricPokeCraftClient"
     ]
   },
   "mixins": [

@@ -16,10 +16,10 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package com.thepokecraftmod.client;
+package com.thepokecraftmod.pokecraft.client;
 
-import com.thepokecraftmod.PokeCraft;
-import com.thepokecraftmod.client.themes.DefaultTheme;
+import com.thepokecraftmod.pokecraft.PokeCraft;
+import com.thepokecraftmod.pokecraft.client.themes.DefaultTheme;
 import com.thepokecraftmod.unimon.client.theme.ThemeManager;
 
 public class PokeCraftClient {

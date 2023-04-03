@@ -16,14 +16,16 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package com.thepokecraftmod.forge;
+package com.thepokecraftmod.pokecraft.forge;
 
-import com.thepokecraftmod.PokeCraft;
-import com.thepokecraftmod.forge.client.ForgePokeCraftClient;
+import com.thepokecraftmod.pokecraft.PokeCraft;
+import com.thepokecraftmod.pokecraft.forge.client.ForgePokeCraftClient;
+import com.thepokecraftmod.unimon.platform.PlatformRegistry;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.RegisterEvent;
 
 @Mod(PokeCraft.MOD_ID)
 public class ForgePokeCraft extends PokeCraft {
@@ -32,5 +34,16 @@ public class ForgePokeCraft extends PokeCraft {
         var eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         PokeCraft.onInitialize(this);
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> new ForgePokeCraftClient(eventBus));
+
+        eventBus.addListener(this::registerRegistries);
+    }
+
+    private void registerRegistries(RegisterEvent event) {
+        initializeRegistries();
+
+        PlatformRegistry.allRegistries(registry -> event.register(registry.registryKey, helper -> {
+            for (var entry : registry)
+                helper.register(entry.getKey(), entry.getValue());
+        }));
     }
 }

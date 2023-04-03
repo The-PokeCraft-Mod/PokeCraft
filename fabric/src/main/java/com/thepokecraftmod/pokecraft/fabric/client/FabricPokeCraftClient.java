@@ -16,19 +16,18 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package com.thepokecraftmod.fabric;
+package com.thepokecraftmod.pokecraft.fabric.client;
 
-import com.thepokecraftmod.PokeCraft;
-import net.fabricmc.api.ModInitializer;
+import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
+import net.fabricmc.api.ClientModInitializer;
 
-public class FabricPokeCraft extends PokeCraft implements ModInitializer {
+public class FabricPokeCraftClient extends PokeCraftClient implements ClientModInitializer {
 
-    public FabricPokeCraft() {
-        PokeCraft.onInitialize(this);
+    public FabricPokeCraftClient() {
+        PokeCraftClient.onInitialize(this);
     }
 
     @Override
-    public void onInitialize() {
-
+    public void onInitializeClient() {
     }
 }

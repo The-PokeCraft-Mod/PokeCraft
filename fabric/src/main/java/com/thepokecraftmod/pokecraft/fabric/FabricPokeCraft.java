@@ -16,20 +16,19 @@
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
 
-package com.thepokecraftmod.client;
+package com.thepokecraftmod.pokecraft.fabric;
 
-import com.mojang.blaze3d.vertex.PoseStack;
-import net.minecraft.client.gui.GuiComponent;
+import com.thepokecraftmod.pokecraft.PokeCraft;
+import net.fabricmc.api.ModInitializer;
 
-/**
- * Mojang is incapable of writing UI Code, so we maintain our own version of theirs
- */
-public class ScreenUtils {
+public class FabricPokeCraft extends PokeCraft implements ModInitializer {
 
-    /**
-     * Draws a texture to the screen. Can also be used to draw coloured squares.
-     */
-    public static void drawTexture(PoseStack matrices, int x, int y, int u, int v, int width, int height, int textureWidth, int textureHeight) {
-        GuiComponent.blit(matrices, x, y, u, v, width, height, textureWidth, textureHeight);
+    public FabricPokeCraft() {
+        PokeCraft.onInitialize(this);
+    }
+
+    @Override
+    public void onInitialize() {
+        initializeRegistries();
     }
 }
