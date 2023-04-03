@@ -30,5 +30,6 @@ public class FabricPokeCraft extends PokeCraft implements ModInitializer {
     @Override
     public void onInitialize() {
         initializeNetworking();
+        initializeRegistries();
     }
 }

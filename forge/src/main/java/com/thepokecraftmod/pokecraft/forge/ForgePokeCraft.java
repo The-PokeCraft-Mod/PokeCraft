@@ -34,10 +34,10 @@ public class ForgePokeCraft extends PokeCraft {
         var eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         PokeCraft.onInitialize(this);
         initializeNetworking();
+        initializeRegistries();
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> new ForgePokeCraftClient(eventBus));
 
         eventBus.addListener(this::registerRegistries);
-
     }
 
     private void registerRegistries(RegisterEvent event) {
