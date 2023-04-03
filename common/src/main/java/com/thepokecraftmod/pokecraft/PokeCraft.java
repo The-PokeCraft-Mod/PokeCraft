@@ -22,6 +22,7 @@ import com.thepokecraftmod.pokecraft.api.registry.PokeCraftRegistries;
 import com.thepokecraftmod.pokecraft.level.block.PokeCraftBlocks;
 import com.thepokecraftmod.pokecraft.level.item.PokeCraftItems;
 import com.thepokecraftmod.pokecraft.network.PokeCraftNetworking;
+import com.thepokecraftmod.unimon.api.event.SetupEvents;
 import net.minecraft.resources.ResourceLocation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -33,12 +34,16 @@ public class PokeCraft {
 
     private void onInitialize() {
         PokeCraftRegistries.onInitialize();
+        SetupEvents.INITIALIZE_REGISTRIES.listen(this::initializeRegistries);
+    }
+
+    protected void initializeNetworking() {
         PokeCraftNetworking.onInitialize();
     }
 
-    protected void initializeRegistries() {
-         // PokeCraftBlocks.onInitialize();
-         // PokeCraftItems.onInitialize();
+    private void initializeRegistries() {
+        PokeCraftBlocks.onInitialize();
+        PokeCraftItems.onInitialize();
     }
 
     public static PokeCraft getInstance() {
