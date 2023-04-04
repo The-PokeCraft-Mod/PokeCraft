@@ -189,52 +189,54 @@
       ]
     }
   },
-  "transformInfo": {
+  "transforms": {
     "shiny": {
+      "type": "pokecraft:visual",
       "category": "skin",
-      "type": "visual",
       "variant": "shiny"
     },
     "paldean": {
-      "category": "pokecraft:region",
-      "type": "replaceInfo",
-      "typing": ["poison", "ground"],
-      "moveSet": {
-        "levelMoves": {
-          "1": [
-            "pokecraft:mud_shot",
-            "pokecraft:tail_whip"
-          ],
-          "4": [
-            "pokecraft:tackle"
-          ],
-          "8": [
-            "pokecraft:poison_tail"
-          ],
-          "12": [
-            "pokecraft:toxic_spikes"
-          ],
-          "16": [
-            "pokecraft:slam"
-          ],
-          "21": [
-            "pokecraft:yawn"
-          ],
-          "24": [
-            "pokecraft:poison_jab"
-          ],
-          "28": [
-            "pokecraft:sludge_wave"
-          ],
-          "32": [
-            "pokecraft:amnesia"
-          ],
-          "36": [
-            "pokecraft:toxic"
-          ],
-          "40": [
-            "pokecraft:earthquake"
-          ]
+      "type": "pokecraft:modify_species",
+      "category": "region",
+      "info": {
+        "typing": ["poison", "ground"],
+        "moveSet": {
+          "levelMoves": {
+            "1": [
+              "pokecraft:mud_shot",
+              "pokecraft:tail_whip"
+            ],
+            "4": [
+              "pokecraft:tackle"
+            ],
+            "8": [
+              "pokecraft:poison_tail"
+            ],
+            "12": [
+              "pokecraft:toxic_spikes"
+            ],
+            "16": [
+              "pokecraft:slam"
+            ],
+            "21": [
+              "pokecraft:yawn"
+            ],
+            "24": [
+              "pokecraft:poison_jab"
+            ],
+            "28": [
+              "pokecraft:sludge_wave"
+            ],
+            "32": [
+              "pokecraft:amnesia"
+            ],
+            "36": [
+              "pokecraft:toxic"
+            ],
+            "40": [
+              "pokecraft:earthquake"
+            ]
+          }
         }
       }
     }

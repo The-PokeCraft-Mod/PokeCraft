@@ -11,10 +11,10 @@ public class EvolutionConditionTypes {
     public static final EvolutionCondition.Type<?> TRANSFORM = register("transform", TransformEvolutionCondition.CODEC, TransformEvolutionCondition.class);
 
     public static void onInitialize() {
-        PokeCraftRegistries.EVOLUTION_CONDITIONS.freeze();
+        PokeCraftRegistries.EVOLUTION_CONDITION_TYPES.freeze();
     }
 
     public static <T extends EvolutionCondition> EvolutionCondition.Type<?> register(String name, Codec<T> codec, Class<T> clazz) {
-        return PokeCraftRegistries.EVOLUTION_CONDITIONS.register(PokeCraft.id(name), new EvolutionCondition.Type<>(codec, clazz));
+        return PokeCraftRegistries.EVOLUTION_CONDITION_TYPES.register(PokeCraft.id(name), new EvolutionCondition.Type<>(codec, clazz));
     }
 }
