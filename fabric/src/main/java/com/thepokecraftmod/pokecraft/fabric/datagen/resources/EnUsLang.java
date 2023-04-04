@@ -1,7 +1,7 @@
 package com.thepokecraftmod.pokecraft.fabric.datagen.resources;
 
 import com.thepokecraftmod.pokecraft.level.block.PokeCraftBlocks;
-import com.thepokecraftmod.unimon.level.entity.UniMonEntities;
+import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntities;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 
@@ -14,6 +14,6 @@ public class EnUsLang extends FabricLanguageProvider {
     @Override
     public void generateTranslations(TranslationBuilder builder) {
         builder.add(PokeCraftBlocks.GREGANACL, "greganacl");
-        builder.add(UniMonEntities.MON, "pokemon");
+        builder.add(PokeCraftEntities.POKEMON, "pokemon");
     }
 }

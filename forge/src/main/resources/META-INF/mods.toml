@@ -14,13 +14,6 @@ PokeCraft is committed to bringing everyone the most immersive Pokemon Minecraft
 logoFile = "banner.png"
 
 [[dependencies.pokecraft]]
-modId = "unimon"
-mandatory = true
-versionRange = "[1.0.0,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.pokecraft]]
 modId = "forge"
 mandatory = true
 versionRange = "[43,)"

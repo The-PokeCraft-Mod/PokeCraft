@@ -3,10 +3,13 @@
   "package": "com.thepokecraftmod.pokecraft.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
+    "client.debug.DebugScreenOverlayMixin",
+    "client.sync.ClientPacketListenerMixin"
   ],
   "mixins": [
     "registry.ReloadableServerResourcesMixin",
-    "registry.TagManagerMixin"
+    "registry.TagManagerMixin",
+    "party.ServerPlayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

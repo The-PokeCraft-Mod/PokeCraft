@@ -29,8 +29,8 @@ import com.mojang.serialization.JsonOps;
 import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.api.event.RegistryEvents;
 import com.thepokecraftmod.pokecraft.network.packets.s2c.S2CSyncRegistry;
-import com.thepokecraftmod.unimon.api.event.DataEvents;
-import com.thepokecraftmod.unimon.network.UniMonNetworking;
+import com.thepokecraftmod.pokecraft.api.event.DataEvents;
+import com.thepokecraftmod.pokecraft.network.PokeCraftNetworking;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderOwner;
 import net.minecraft.core.Registry;
@@ -223,7 +223,7 @@ public class DynamicLazySyncingRegistry<T> extends SimpleJsonResourceReloadListe
      */
     @ApiStatus.Internal
     private void syncRegistry(ServerPlayer player) {
-        UniMonNetworking.getInstance().sendPacket(new S2CSyncRegistry(this), player);
+        PokeCraftNetworking.getInstance().sendPacket(new S2CSyncRegistry(this), player);
     }
 
     @ApiStatus.Internal

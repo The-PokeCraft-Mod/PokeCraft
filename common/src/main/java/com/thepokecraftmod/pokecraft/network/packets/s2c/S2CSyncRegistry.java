@@ -3,7 +3,7 @@ package com.thepokecraftmod.pokecraft.network.packets.s2c;
 import com.mojang.serialization.Codec;
 import com.thepokecraftmod.pokecraft.api.registry.DynamicLazySyncingRegistry;
 import com.thepokecraftmod.pokecraft.network.handler.ClientPacketHandler;
-import com.thepokecraftmod.unimon.network.packets.s2c.S2CPacket;
+import com.thepokecraftmod.pokecraft.network.packets.s2c.S2CPacket;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.nbt.NbtOps;
