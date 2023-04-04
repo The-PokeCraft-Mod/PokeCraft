@@ -32,17 +32,17 @@ public class TagManagerMixin {
     }
 
     @Redirect(method = "reload", at = @At(value = "INVOKE", target = "Ljava/util/stream/Stream;toList()Ljava/util/List;"))
-    private List<?> pokemod$makeMutableList(Stream<?> stream) {
+    private List<?> POKECRAFT$makeMutableList(Stream<?> stream) {
         return new ArrayList<>(stream.toList());
     }
 
     @Inject(method = "reload", at = @At(value = "INVOKE", target = "Ljava/util/concurrent/CompletableFuture;allOf([Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletableFuture;", shift = At.Shift.BEFORE), locals = LocalCapture.CAPTURE_FAILEXCEPTION)
-    private void pokemod$reloadCustomRegistries(PreparableReloadListener.PreparationBarrier preparationBarrier, ResourceManager resourceManager, ProfilerFiller preparationsProfiler, ProfilerFiller reloadProfiler, Executor backgroundExecutor, Executor gameExecutor, CallbackInfoReturnable<CompletableFuture> cir, List list) {
+    private void POKECRAFT$reloadCustomRegistries(PreparableReloadListener.PreparationBarrier preparationBarrier, ResourceManager resourceManager, ProfilerFiller preparationsProfiler, ProfilerFiller reloadProfiler, Executor backgroundExecutor, Executor gameExecutor, CallbackInfoReturnable<CompletableFuture> cir, List list) {
         for (var registry : DynamicLazySyncingRegistry.REGISTRY_MAP.values())
-            list.add(createPokeModTagLoader(resourceManager, backgroundExecutor, registry));
+            list.add(createPokeCraftTagLoader(resourceManager, backgroundExecutor, registry));
     }
 
-    private <T> CompletableFuture<TagManager.LoadResult<T>> createPokeModTagLoader(ResourceManager resourceManager, Executor backgroundExecutor, DynamicLazySyncingRegistry<T> registry) {
+    private <T> CompletableFuture<TagManager.LoadResult<T>> createPokeCraftTagLoader(ResourceManager resourceManager, Executor backgroundExecutor, DynamicLazySyncingRegistry<T> registry) {
         var tagloader = new TagLoader<>((id) -> Optional.ofNullable(registry.getHolder(id)), getTagDir(registry.registryKey()));
         return CompletableFuture.supplyAsync(() -> new TagManager.LoadResult<>(registry.registryKey(), tagloader.loadAndBuild(resourceManager)), backgroundExecutor);
     }

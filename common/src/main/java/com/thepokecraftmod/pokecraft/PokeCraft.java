@@ -18,7 +18,7 @@
 
 package com.thepokecraftmod.pokecraft;
 
-import com.thepokecraftmod.pokecraft.api.registry.PokeCraftRegistries;
+import com.thepokecraftmod.pokecraft.api.registry.builtin.PokeCraftRegistries;
 import com.thepokecraftmod.pokecraft.level.block.PokeCraftBlocks;
 import com.thepokecraftmod.pokecraft.level.item.PokeCraftItems;
 import com.thepokecraftmod.pokecraft.network.PokeCraftNetworking;

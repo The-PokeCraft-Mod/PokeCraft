@@ -1,0 +1,241 @@
+{
+  "stats": {
+    "hp": 55,
+    "speed": 15,
+    "attack": 45,
+    "defense": 45,
+    "specialAttack": 25,
+    "specialDefense": 25
+  },
+  "typing": [
+    "water",
+    "ground"
+  ],
+  "catchRate": 255,
+  "genderRatio": 50,
+  "xpInfo": {
+    "baseAmount": 52,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 70,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:unaware"
+    ],
+    "regular": [
+      "pokecraft:damp",
+      "pokecraft:water_absorb"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water1",
+      "field"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 0.3,
+    "height": 0.4
+  },
+  "evoTargets": [
+    {
+      "target": "pokecraft:clodsire",
+      "conditions": [
+        {
+          "type": "pokecraft:level",
+          "level": 20
+        },
+        {
+          "type": "pokecraft:transform",
+          "category": "pokecraft:region",
+          "value": "paldean"
+        }
+      ]
+    },
+    {
+      "target": "pokecraft:quagsire",
+      "conditions": [
+        {
+          "type": "pokecraft:level",
+          "level": 20
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {
+      "1": [
+        "pokecraft:water_gun",
+        "pokecraft:tail_whip"
+      ],
+      "4": [
+        "pokecraft:rain_dance"
+      ],
+      "8": [
+        "pokecraft:mud_shot"
+      ],
+      "12": [
+        "pokecraft:mist",
+        "pokecraft:haze"
+      ],
+      "16": [
+        "pokecraft:slam"
+      ],
+      "21": [
+        "pokecraft:yawn"
+      ],
+      "24": [
+        "pokecraft:aqua_tail"
+      ],
+      "28": [
+        "pokecraft:muddy_water"
+      ],
+      "32": [
+        "pokecraft:amnesia"
+      ],
+      "36": [
+        "pokecraft:toxic"
+      ],
+      "40": [
+        "pokecraft:earthquake"
+      ]
+    },
+    "discMoves": [
+      "pokecraft:snore",
+      "pokecraft:facade",
+      "pokecraft:waterfall",
+      "pokecraft:sludge_bomb",
+      "pokecraft:eerie_impulse",
+      "pokecraft:stomping_tantrum",
+      "pokecraft:icy_wind",
+      "pokecraft:surf",
+      "pokecraft:rest",
+      "pokecraft:encore",
+      "pokecraft:earthquake",
+      "pokecraft:iron_tail",
+      "pokecraft:sludge_wave",
+      "pokecraft:hydro_pump",
+      "pokecraft:earth_power",
+      "pokecraft:round",
+      "pokecraft:body_slam",
+      "pokecraft:sandstorm",
+      "pokecraft:bulldoze",
+      "pokecraft:amnesia",
+      "pokecraft:mud_shot",
+      "pokecraft:substitute",
+      "pokecraft:attract",
+      "pokecraft:hail",
+      "pokecraft:ice_beam",
+      "pokecraft:safeguard",
+      "pokecraft:protect",
+      "pokecraft:guard_swap",
+      "pokecraft:dig",
+      "pokecraft:rain_dance",
+      "pokecraft:scald",
+      "pokecraft:dive",
+      "pokecraft:endure",
+      "pokecraft:sleep_talk",
+      "pokecraft:whirlpool",
+      "pokecraft:muddy_water",
+      "pokecraft:ice_punch",
+      "pokecraft:blizzard"
+    ],
+    "eggMoves": [
+      "pokecraft:after_you",
+      "pokecraft:power_up_punch",
+      "pokecraft:acid_spray",
+      "pokecraft:counter",
+      "pokecraft:spit_up",
+      "pokecraft:curse",
+      "pokecraft:double_kick",
+      "pokecraft:ancient_power",
+      "pokecraft:swallow",
+      "pokecraft:recover",
+      "pokecraft:stockpile"
+    ],
+    "npcMoves": {
+      "pokecraft:transfer": [
+        "pokecraft:rock_smash",
+        "pokecraft:secret_power",
+        "pokecraft:natural_gift",
+        "pokecraft:confide",
+        "pokecraft:mud_sport",
+        "pokecraft:double_edge",
+        "pokecraft:hidden_power",
+        "pokecraft:water_pulse",
+        "pokecraft:double_team",
+        "pokecraft:mud_bomb",
+        "pokecraft:infestation",
+        "pokecraft:mud_slap",
+        "pokecraft:headbutt",
+        "pokecraft:dynamic_punch",
+        "pokecraft:swagger",
+        "pokecraft:defense_curl",
+        "pokecraft:flash",
+        "pokecraft:rollout",
+        "pokecraft:return",
+        "pokecraft:mimic",
+        "pokecraft:captivate",
+        "pokecraft:frustration"
+      ]
+    }
+  },
+  "transformInfo": {
+    "shiny": {
+      "category": "skin",
+      "type": "visual",
+      "variant": "shiny"
+    },
+    "paldean": {
+      "category": "pokecraft:region",
+      "type": "replaceInfo",
+      "moveSet": {
+        "levelMoves": {
+          "1": [
+            "pokecraft:mud_shot",
+            "pokecraft:tail_whip"
+          ],
+          "4": [
+            "pokecraft:tackle"
+          ],
+          "8": [
+            "pokecraft:poison_tail"
+          ],
+          "12": [
+            "pokecraft:toxic_spikes"
+          ],
+          "16": [
+            "pokecraft:slam"
+          ],
+          "21": [
+            "pokecraft:yawn"
+          ],
+          "24": [
+            "pokecraft:poison_jab"
+          ],
+          "28": [
+            "pokecraft:sludge_wave"
+          ],
+          "32": [
+            "pokecraft:amnesia"
+          ],
+          "36": [
+            "pokecraft:toxic"
+          ],
+          "40": [
+            "pokecraft:earthquake"
+          ]
+        }
+      }
+    }
+  }
+}

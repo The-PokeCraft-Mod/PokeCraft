@@ -22,7 +22,9 @@ import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
+import com.mojang.datafixers.util.Pair;
 import com.mojang.serialization.Codec;
+import com.mojang.serialization.DataResult;
 import com.mojang.serialization.JsonOps;
 import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.api.event.RegistryEvents;
@@ -57,7 +59,7 @@ import static net.minecraft.tags.TagManager.getTagDir;
  *
  * @param <T> the type of object you want to store
  */
-public class DynamicLazySyncingRegistry<T> extends SimpleJsonResourceReloadListener implements HolderOwner<T>, Iterable<T> {
+public class DynamicLazySyncingRegistry<T> extends SimpleJsonResourceReloadListener implements RegistryLike<T>, HolderOwner<T> {
     @ApiStatus.Internal
     public static final Map<ResourceKey<?>, DynamicLazySyncingRegistry<?>> REGISTRY_MAP = new HashMap<>();
     public static final Gson GSON = new Gson();
@@ -241,9 +243,10 @@ public class DynamicLazySyncingRegistry<T> extends SimpleJsonResourceReloadListe
 
     @ApiStatus.Internal
     protected T readJson(JsonElement json) {
-        return codec().decode(JsonOps.INSTANCE, json)
+        var decode = codec().decode(JsonOps.INSTANCE, json);
+        return decode
                 .resultOrPartial(PokeCraft.LOGGER::error)
-                .orElseThrow()
+                .orElseThrow(() -> new RuntimeException("Failed to read datapack json. " + decode.error().orElseThrow().message()))
                 .getFirst();
     }
 

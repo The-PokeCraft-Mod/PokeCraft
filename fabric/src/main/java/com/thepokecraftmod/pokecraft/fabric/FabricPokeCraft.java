@@ -25,33 +25,18 @@ import com.thepokecraftmod.unimon.fabric.network.FabricUniMonNetworking;
 import com.thepokecraftmod.unimon.network.UniMonNetworking;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.impl.datagen.FabricDataGenHelper;
+import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPokeCraft extends PokeCraft implements ModInitializer {
 
     public FabricPokeCraft() {
+        FabricUniMon.onInitialize(FabricLoader.getInstance().isDevelopmentEnvironment());
         PokeCraft.onInitialize(this);
-        if(FabricDataGenHelper.ENABLED) this.fixDataGen();
     }
 
     @Override
     public void onInitialize() {
         initializeNetworking();
         initializeRegistries();
-    }
-
-    /**
-     * Fabric ends up in this weird state when doing DataGen. This seems to fix it. why...
-     */
-    private void fixDataGen() {
-        try {
-            UniMon.getInstance();
-        } catch (RuntimeException e) {
-            UniMon.onInitialize(new FabricUniMon(), true);
-        }
-        try {
-            UniMonNetworking.getInstance();
-        } catch (RuntimeException e) {
-            UniMonNetworking.onInitialize(new FabricUniMonNetworking());
-        }
     }
 }
