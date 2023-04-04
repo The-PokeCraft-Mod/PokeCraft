@@ -18,12 +18,61 @@
 
 package com.thepokecraftmod.pokecraft.forge.client;
 
+import com.thepokecraftmod.pokecraft.api.event.client.ClientEvents;
 import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
+import com.thepokecraftmod.pokecraft.client.input.KeyBind;
+import com.thepokecraftmod.pokecraft.client.render.ScreenLikeInfo;
+import net.minecraft.client.Minecraft;
+import net.minecraftforge.client.event.EntityRenderersEvent;
+import net.minecraftforge.client.event.InputEvent;
+import net.minecraftforge.client.event.RenderGuiOverlayEvent;
+import net.minecraftforge.client.gui.overlay.VanillaGuiOverlay;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import org.apache.commons.lang3.ArrayUtils;
+import org.lwjgl.glfw.GLFW;
 
 public class ForgePokeCraftClient extends PokeCraftClient {
 
     public ForgePokeCraftClient(IEventBus eventBus) {
         PokeCraftClient.onInitialize(this);
+
+        eventBus.addListener(this::registerEntityRenderers);
+        eventBus.addListener(this::onClientSetup);
+        MinecraftForge.EVENT_BUS.addListener(this::renderOverlays);
+        MinecraftForge.EVENT_BUS.addListener(this::onKeyPress);
+    }
+
+    private void onClientSetup(FMLClientSetupEvent event) {
+        registerKeyBindings();
+    }
+
+    private void onKeyPress(InputEvent.Key event) {
+        if (event.getAction() == GLFW.GLFW_RELEASE) ClientEvents.KEY_PRESSED.getInvoker().accept(event.getKey());
+    }
+
+    private void renderOverlays(RenderGuiOverlayEvent.Post event) {
+        if (event.getOverlay().id() == VanillaGuiOverlay.CHAT_PANEL.id()) {
+            var client = Minecraft.getInstance();
+            var window = client.getWindow();
+            var info = new ScreenLikeInfo(
+                    event.getPoseStack(),
+                    window.getGuiScaledWidth(),
+                    window.getGuiScaledHeight(),
+                    client.getDeltaFrameTime()
+            );
+            ClientEvents.RENDER_OVERLAY.getInvoker().accept(info);
+        }
+    }
+
+    private void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
+        initializeEntityRenderers(event::registerEntityRenderer);
+    }
+
+    @Override
+    public void registerKey(KeyBind keyBind) {
+        keyBinds.add(keyBind);
+        Minecraft.getInstance().options.keyMappings = ArrayUtils.add(Minecraft.getInstance().options.keyMappings, keyBind);
     }
 }

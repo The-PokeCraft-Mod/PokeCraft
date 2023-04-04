@@ -2,7 +2,7 @@ package com.thepokecraftmod.pokecraft.api.species.egg;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
-import com.thepokecraftmod.unimon.api.ExtraCodecs;
+import com.thepokecraftmod.pokecraft.api.ExtraCodecs;
 
 import java.util.List;
 

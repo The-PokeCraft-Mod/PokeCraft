@@ -8,9 +8,9 @@ import com.thepokecraftmod.pokecraft.api.species.egg.EggInfo;
 import com.thepokecraftmod.pokecraft.api.species.evolution.EvolutionTarget;
 import com.thepokecraftmod.pokecraft.api.species.riding.RideInfo;
 import com.thepokecraftmod.pokecraft.api.species.xp.XpInfo;
-import com.thepokecraftmod.unimon.api.ExtraCodecs;
-import com.thepokecraftmod.unimon.api.mon.Species;
-import com.thepokecraftmod.unimon.api.mon.StatStorage;
+import com.thepokecraftmod.pokecraft.api.ExtraCodecs;
+import com.thepokecraftmod.pokecraft.api.mon.Species;
+import com.thepokecraftmod.pokecraft.api.mon.StatStorage;
 
 import java.util.List;
 

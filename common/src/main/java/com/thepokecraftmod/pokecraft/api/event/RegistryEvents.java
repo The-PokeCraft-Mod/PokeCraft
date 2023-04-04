@@ -1,7 +1,7 @@
 package com.thepokecraftmod.pokecraft.api.event;
 
 import com.thepokecraftmod.pokecraft.api.registry.DynamicLazySyncingRegistry;
-import com.thepokecraftmod.unimon.api.event.Event;
+import com.thepokecraftmod.pokecraft.api.event.Event;
 import net.minecraft.server.packs.resources.PreparableReloadListener;
 
 import java.util.List;

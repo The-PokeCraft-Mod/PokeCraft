@@ -1,7 +1,7 @@
 package com.thepokecraftmod.pokecraft.api.species.egg;
 
 public enum EggGroup {
-    MONSTER,
+    pokemonSTER,
     HUMAN_LIKE,
     WATER1, WATER2, WATER3,
     BUG,

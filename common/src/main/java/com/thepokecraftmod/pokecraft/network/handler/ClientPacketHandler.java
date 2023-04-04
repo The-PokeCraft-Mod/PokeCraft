@@ -3,8 +3,11 @@ package com.thepokecraftmod.pokecraft.network.handler;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.mojang.datafixers.util.Pair;
+import com.thepokecraftmod.pokecraft.api.mon.PokemonParty;
 import com.thepokecraftmod.pokecraft.api.registry.DynamicLazySyncingRegistry;
+import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
 import net.minecraft.client.Minecraft;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
 import net.minecraft.server.packs.resources.MultiPackResourceManager;
@@ -15,6 +18,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class ClientPacketHandler {
+
+    public static void handleSyncParty(CompoundTag partyTag) {
+        PokeCraftClient.getInstance().party = PokemonParty.readAdditionalData(partyTag, Minecraft.getInstance().player);
+    }
 
     public static <T> void handleSyncRegistry(Map<ResourceLocation, T> syncingEntries, DynamicLazySyncingRegistry<T> registry) {
         if (Minecraft.getInstance().getSingleplayerServer() == null) {

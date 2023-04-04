@@ -198,6 +198,7 @@
     "paldean": {
       "category": "pokecraft:region",
       "type": "replaceInfo",
+      "typing": ["poison", "ground"],
       "moveSet": {
         "levelMoves": {
           "1": [

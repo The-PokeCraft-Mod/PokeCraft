@@ -19,15 +19,27 @@
 package com.thepokecraftmod.pokecraft.fabric.client;
 
 import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
+import com.thepokecraftmod.pokecraft.client.input.KeyBind;
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
+import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 
 public class FabricPokeCraftClient extends PokeCraftClient implements ClientModInitializer {
 
     public FabricPokeCraftClient() {
         PokeCraftClient.onInitialize(this);
+        registerKeyBindings();
     }
 
     @Override
     public void onInitializeClient() {
+        initializeEntityRenderers(EntityRendererRegistry::register);
+    }
+
+    @Override
+    public void registerKey(KeyBind keyBind) {
+        keyBinds.add(keyBind);
+        KeyBindingHelper.registerKeyBinding(keyBind);
     }
 }

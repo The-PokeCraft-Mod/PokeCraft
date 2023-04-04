@@ -18,43 +18,87 @@
 
 package com.thepokecraftmod.pokecraft;
 
+import com.mojang.brigadier.CommandDispatcher;
+import com.thepokecraftmod.mimikyu.Mimikyu;
+import com.thepokecraftmod.pokecraft.api.event.SetupEvents;
+import com.thepokecraftmod.pokecraft.api.registry.MojangRegistry;
 import com.thepokecraftmod.pokecraft.api.registry.builtin.PokeCraftRegistries;
+import com.thepokecraftmod.pokecraft.command.GivePokemonCommand;
+import com.thepokecraftmod.pokecraft.command.SummonPokemonCommand;
 import com.thepokecraftmod.pokecraft.level.block.PokeCraftBlocks;
+import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntities;
+import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntityDataSerializers;
 import com.thepokecraftmod.pokecraft.level.item.PokeCraftItems;
-import com.thepokecraftmod.pokecraft.network.PokeCraftNetworking;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.core.Registry;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class PokeCraft {
+import java.util.Random;
+import java.util.function.BiConsumer;
+
+public abstract class PokeCraft {
     public static final Logger LOGGER = LogManager.getLogger("PokeCraft");
+    public static final Random RANDOM = new Random();
     public static final String MOD_ID = "pokecraft";
     private static PokeCraft INSTANCE;
+    private static boolean isDevEnv;
 
     private void onInitialize() {
+        Mimikyu.onInitialize();
+        PokeCraftEntityDataSerializers.onInitialize();
+        SetupEvents.REGISTER_COMMANDS.listen(INSTANCE::registerCommands);
         PokeCraftRegistries.onInitialize();
     }
 
-    protected void initializeNetworking() {
-        PokeCraftNetworking.onInitialize();
+    protected void initializeRegistries() {
+        PokeCraftEntities.onInitialize();
+        PokeCraftItems.onInitialize();
+        PokeCraftBlocks.onInitialize();
     }
 
-    protected void initializeRegistries() {
-        PokeCraftBlocks.onInitialize();
-        PokeCraftItems.onInitialize();
+    protected void initializeEntityAttribs(BiConsumer<EntityType<? extends LivingEntity>, AttributeSupplier.Builder> consumer) {
+        PokeCraftEntities.onInitializeConsumers(consumer);
     }
+
+    private void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher) {
+        dispatcher.register(SummonPokemonCommand.command());
+        dispatcher.register(GivePokemonCommand.command());
+    }
+
+    /**
+     * Creates a new abstracted registry.
+     *
+     * @param registryKey the key for the registry you are using
+     */
+    public abstract <T> MojangRegistry<T, Registry<T>> newRegistry(ResourceKey<Registry<T>> registryKey);
 
     public static PokeCraft getInstance() {
         if (INSTANCE == null)
-            throw new RuntimeException("Platform has not defined UniMon instance. Maybe you are too early?");
+            throw new RuntimeException("Platform has not defined PokeCraft instance. Maybe you are too early?");
 
         return INSTANCE;
     }
 
-    public static void onInitialize(PokeCraft platformUniMon) {
+    public static void onInitialize(PokeCraft platformPokeCraft, boolean isDevEnv) {
+        PokeCraft.isDevEnv = isDevEnv;
         if (INSTANCE != null) throw new RuntimeException("Another platform has already been defined");
-        INSTANCE = platformUniMon;
+        INSTANCE = platformPokeCraft;
         INSTANCE.onInitialize();
+    }
+
+    public static String translate(Component component) {
+        return component.getString();
+    }
+
+    public static boolean isDevelopmentEnvironment() {
+        return isDevEnv;
     }
 
     public static ResourceLocation id(String path) {

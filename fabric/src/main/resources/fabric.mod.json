@@ -30,7 +30,6 @@
     "pokecraft-common.mixins.json"
   ],
   "depends": {
-    "unimon": "*",
     "fabric": "*",
     "minecraft": "1.19.4"
   }

@@ -19,24 +19,34 @@
 package com.thepokecraftmod.pokecraft.fabric;
 
 import com.thepokecraftmod.pokecraft.PokeCraft;
-import com.thepokecraftmod.unimon.UniMon;
-import com.thepokecraftmod.unimon.fabric.FabricUniMon;
-import com.thepokecraftmod.unimon.fabric.network.FabricUniMonNetworking;
-import com.thepokecraftmod.unimon.network.UniMonNetworking;
+import com.thepokecraftmod.pokecraft.api.event.SetupEvents;
+import com.thepokecraftmod.pokecraft.api.registry.MojangRegistry;
+import com.thepokecraftmod.pokecraft.fabric.network.FabricPokeCraftNetworking;
+import com.thepokecraftmod.pokecraft.fabric.registry.FabricMojangRegistry;
+import com.thepokecraftmod.pokecraft.network.PokeCraftNetworking;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.impl.datagen.FabricDataGenHelper;
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.core.Registry;
+import net.minecraft.resources.ResourceKey;
 
 public class FabricPokeCraft extends PokeCraft implements ModInitializer {
 
     public FabricPokeCraft() {
-        FabricUniMon.onInitialize(FabricLoader.getInstance().isDevelopmentEnvironment());
-        PokeCraft.onInitialize(this);
+        PokeCraft.onInitialize(this, FabricLoader.getInstance().isDevelopmentEnvironment());
+        PokeCraftNetworking.onInitialize(new FabricPokeCraftNetworking());
     }
 
     @Override
     public void onInitialize() {
-        initializeNetworking();
         initializeRegistries();
+        initializeEntityAttribs(FabricDefaultAttributeRegistry::register);
+        CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> SetupEvents.REGISTER_COMMANDS.getInvoker().accept(dispatcher));
+    }
+
+    @Override
+    public <T> MojangRegistry<T, Registry<T>> newRegistry(ResourceKey<Registry<T>> registryKey) {
+        return new FabricMojangRegistry<>(registryKey);
     }
 }
