@@ -15,6 +15,7 @@ public class PokeCraftItems {
     // Available Properties
     private static final Item.Properties BALL_PROPERTIES = new Item.Properties().stacksTo(16);
 
+    // PokeBalls
     public static final Item BEAST_BALL = register("beast_ball", new Item(BALL_PROPERTIES));
     public static final Item CHERISH_BALL = register("cherish_ball", new Item(BALL_PROPERTIES));
     public static final Item DIVE_BALL = register("dive_ball", new Item(BALL_PROPERTIES));
@@ -49,6 +50,8 @@ public class PokeCraftItems {
     public static final Item ULTRA_BALL = register("ultra_ball", new Item(BALL_PROPERTIES));
     public static final Item ANCIENT_ULTRA_BALL = register("ancient_ultra_ball", new Item(BALL_PROPERTIES));
     public static final Item WING_BALL = register("wing_ball", new Item(BALL_PROPERTIES));
+
+    // Restoration
     public static final Item ANTIDOTE = register("antidote", new Item(BALL_PROPERTIES));
     public static final Item AWAKENING = register("awakening", new Item(BALL_PROPERTIES));
     public static final Item BERRY_JUICE = register("berry_juice", new Item(BALL_PROPERTIES));
@@ -85,6 +88,8 @@ public class PokeCraftItems {
     public static final Item SODA_POP = register("soda_pop", new Item(BALL_PROPERTIES));
     public static final Item SUPER_POTION = register("super_potion", new Item(BALL_PROPERTIES));
     public static final Item SWEET_HEART = register("sweet_heart", new Item(BALL_PROPERTIES));
+
+    // Berries
     public static final Item AGUAV_BERRY = register("aguav_berry", new Item(BALL_PROPERTIES));
     public static final Item APICOT_BERRY = register("apicot_berry", new Item(BALL_PROPERTIES));
     public static final Item ASPEAR_BERRY = register("aspear_berry", new Item(BALL_PROPERTIES));
@@ -152,6 +157,8 @@ public class PokeCraftItems {
     public static final Item WEPEAR_BERRY = register("wepear_berry", new Item(BALL_PROPERTIES));
     public static final Item WIKI_BERRY = register("wiki_berry", new Item(BALL_PROPERTIES));
     public static final Item YACHE_BERRY = register("yache_berry", new Item(BALL_PROPERTIES));
+
+    // Held Items
     public static final Item ABILITY_SHIELD = register("ability_shield", new Item(BALL_PROPERTIES));
     public static final Item ABSORB_BULB = register("absorb_bulb", new Item(BALL_PROPERTIES));
     public static final Item AIR_BALLOON = register("air_balloon", new Item(BALL_PROPERTIES));
@@ -302,6 +309,8 @@ public class PokeCraftItems {
     public static final Item WIDE_LENS = register("wide_lens", new Item(BALL_PROPERTIES));
     public static final Item WISE_GLASSES = register("wise_glasses", new Item(BALL_PROPERTIES));
     public static final Item ZOOM_LENS = register("zoom_lens", new Item(BALL_PROPERTIES));
+
+    // Legend Items
     public static final Item ADAMANT_CRYSTAL = register("adamant_crystal", new Item(BALL_PROPERTIES));
     public static final Item ADAMANT_ORB = register("adamant_orb", new Item(BALL_PROPERTIES));
     public static final Item AZURE_FLUTE = register("azure_flute", new Item(BALL_PROPERTIES));
@@ -363,6 +372,108 @@ public class PokeCraftItems {
     public static final Item TIME_BALM = register("time_balm", new Item(BALL_PROPERTIES));
     public static final Item VIOLET_BOOK = register("violet_book", new Item(BALL_PROPERTIES));
     public static final Item MAGMA_STONE = register("magma_stone", new Item(BALL_PROPERTIES));
+
+    // Gimmick Items
+    public static final Item ALORAICHIUM_Z = register("aloraichium_z", new Item(BALL_PROPERTIES));
+    public static final Item BUGINIUM_Z = register("buginium_z", new Item(BALL_PROPERTIES));
+    public static final Item DARKINIUM_Z = register("darkinium_z", new Item(BALL_PROPERTIES));
+    public static final Item DECIDIUM_Z = register("decidium_z", new Item(BALL_PROPERTIES));
+    public static final Item DRAGONIUM_Z = register("dragonium_z", new Item(BALL_PROPERTIES));
+    public static final Item EEVIUM_Z = register("eevium_z", new Item(BALL_PROPERTIES));
+    public static final Item ELECTRIUM_Z = register("electrium_z", new Item(BALL_PROPERTIES));
+    public static final Item FAIRIUM_Z = register("fairium_z", new Item(BALL_PROPERTIES));
+    public static final Item FIGHTINIUM_Z = register("fightinium_z", new Item(BALL_PROPERTIES));
+    public static final Item FIRIUM_Z = register("firium_z", new Item(BALL_PROPERTIES));
+    public static final Item FLYINIUM_Z = register("flyinium_z", new Item(BALL_PROPERTIES));
+    public static final Item GHOSTIUM_Z = register("ghostium_z", new Item(BALL_PROPERTIES));
+    public static final Item GRASSIUM_Z = register("grassium_z", new Item(BALL_PROPERTIES));
+    public static final Item GROUNDIUM_Z = register("groundium_z", new Item(BALL_PROPERTIES));
+    public static final Item ICIUM_Z = register("icium_z", new Item(BALL_PROPERTIES));
+    public static final Item INCINIUM_Z = register("incinium_z", new Item(BALL_PROPERTIES));
+    public static final Item KOMMONIUM_Z = register("kommonium_z", new Item(BALL_PROPERTIES));
+    public static final Item LUNALIUM_Z = register("lunalium_z", new Item(BALL_PROPERTIES));
+    public static final Item LYCANIUM_Z = register("lycanium_z", new Item(BALL_PROPERTIES));
+    public static final Item MARSHADIUM_Z = register("marshadium_z", new Item(BALL_PROPERTIES));
+    public static final Item MEWNIUM_Z = register("mewnium_z", new Item(BALL_PROPERTIES));
+    public static final Item MIMIKUIM_Z = register("mimikium_z", new Item(BALL_PROPERTIES));
+    public static final Item NORMALIUM_Z = register("normalium_z", new Item(BALL_PROPERTIES));
+    public static final Item PIKANIUM_Z = register("pikanium_z", new Item(BALL_PROPERTIES));
+    public static final Item PIKASHUNIUM_Z = register("pikashunium_z", new Item(BALL_PROPERTIES));
+    public static final Item POISONIUM_Z = register("poisonium_z", new Item(BALL_PROPERTIES));
+    public static final Item PRIMARIUM_Z = register("primarium_z", new Item(BALL_PROPERTIES));
+    public static final Item PSYCHIUM_Z = register("psychium_z", new Item(BALL_PROPERTIES));
+    public static final Item ROCKIUM_Z = register("rockium_z", new Item(BALL_PROPERTIES));
+    public static final Item SNORLIUM_Z = register("snorlium_z", new Item(BALL_PROPERTIES));
+    public static final Item SOLGANIUM_Z = register("solganium_z", new Item(BALL_PROPERTIES));
+    public static final Item STEELIUM_Z = register("steelium_z", new Item(BALL_PROPERTIES));
+    public static final Item TAPUNIUM_Z = register("tapunium_z", new Item(BALL_PROPERTIES));
+    public static final Item ULTRANECROZIUM_Z = register("ultranecrozium_z", new Item(BALL_PROPERTIES));
+    public static final Item WATERIUM_Z = register("waterium_z", new Item(BALL_PROPERTIES));
+    public static final Item BUG_TERA_SHARD = register("bug_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item DARK_TERA_SHARD = register("dark_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item DRAGON_TERA_SHARD = register("dragon_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item ELECTRIC_TERA_SHARD = register("electric_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item FAIRY_TERA_SHARD = register("fairy_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item FIGHTING_TERA_SHARD = register("fighting_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item FIRE_TERA_SHARD = register("fire_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item FLYING_TERA_SHARD = register("flying_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item GHOST_TERA_SHARD = register("ghost_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item GRASS_TERA_SHARD = register("grass_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item GROUND_TERA_SHARD = register("ground_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item ICE_TERA_SHARD = register("ice_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item NORMAL_TERA_SHARD = register("normal_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item POISON_TERA_SHARD = register("poison_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item PSYCHIC_TERA_SHARD = register("psychic_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item ROCK_TERA_SHARD = register("rock_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item STEEL_TERA_SHARD = register("steel_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item WATER_TERA_SHARD = register("water_tera_shard", new Item(BALL_PROPERTIES));
+    public static final Item ABOMASITE = register("abomasite", new Item(BALL_PROPERTIES));
+    public static final Item ABSOLITE = register("absolite", new Item(BALL_PROPERTIES));
+    public static final Item AERODACTYLITE = register("aerodactylite", new Item(BALL_PROPERTIES));
+    public static final Item AGGRONITE = register("aggronite", new Item(BALL_PROPERTIES));
+    public static final Item ALAKAZITE = register("alakazite", new Item(BALL_PROPERTIES));
+    public static final Item ALTARIANITE = register("altarianite", new Item(BALL_PROPERTIES));
+    public static final Item AMPHAROSITE = register("ampharosite", new Item(BALL_PROPERTIES));
+    public static final Item AUDINITE = register("audinite", new Item(BALL_PROPERTIES));
+    public static final Item BANETTITE = register("banettite", new Item(BALL_PROPERTIES));
+    public static final Item BEEDRILLITE = register("beedrillite", new Item(BALL_PROPERTIES));
+    public static final Item BLASTOISINITE = register("blastoiseinite", new Item(BALL_PROPERTIES));
+    public static final Item BLAZIKENITE = register("blazikenite", new Item(BALL_PROPERTIES));
+    public static final Item CAMERUPTITE = register("cameruptite", new Item(BALL_PROPERTIES));
+    public static final Item CHARIZARDITE_X = register("charizardite_x", new Item(BALL_PROPERTIES));
+    public static final Item CHARIZARDITE_Y = register("charizardite_y", new Item(BALL_PROPERTIES));
+    public static final Item DIANCITE = register("diancite", new Item(BALL_PROPERTIES));
+    public static final Item GALLADITE = register("galladite", new Item(BALL_PROPERTIES));
+    public static final Item GARCHOMPITE = register("garchompite", new Item(BALL_PROPERTIES));
+    public static final Item GARDEVOIRITE = register("gardevoirite", new Item(BALL_PROPERTIES));
+    public static final Item GENGARITE = register("gengarite", new Item(BALL_PROPERTIES));
+    public static final Item GLALITITE = register("glalitite", new Item(BALL_PROPERTIES));
+    public static final Item GYARADOSITE = register("gyaradosite", new Item(BALL_PROPERTIES));
+    public static final Item HERACRONITE = register("heracronite", new Item(BALL_PROPERTIES));
+    public static final Item HOUNDOOMINITE = register("houndoominite", new Item(BALL_PROPERTIES));
+    public static final Item KANGASKHANITE = register("kangaskhanite", new Item(BALL_PROPERTIES));
+    public static final Item LATIASITE = register("latiasite", new Item(BALL_PROPERTIES));
+    public static final Item LATIOSITE = register("latiosite", new Item(BALL_PROPERTIES));
+    public static final Item LOPUNNITE = register("lopunnite", new Item(BALL_PROPERTIES));
+    public static final Item LUCARIONITE = register("lucarionite", new Item(BALL_PROPERTIES));
+    public static final Item MANECTITE = register("manectite", new Item(BALL_PROPERTIES));
+    public static final Item MAWILITE = register("mawilite", new Item(BALL_PROPERTIES));
+    public static final Item MEDICHAMITE = register("medichamite", new Item(BALL_PROPERTIES));
+    public static final Item METAGROSSITE = register("metagrossite", new Item(BALL_PROPERTIES));
+    public static final Item MEWTWONITE_X = register("mewtwonite_x", new Item(BALL_PROPERTIES));
+    public static final Item MEWTWONITE_Y = register("mewtwonite_y", new Item(BALL_PROPERTIES));
+    public static final Item PIDGEOTITE = register("pidgeotite", new Item(BALL_PROPERTIES));
+    public static final Item PINSIRITE = register("pinsirite", new Item(BALL_PROPERTIES));
+    public static final Item SABLENITE = register("sablenite", new Item(BALL_PROPERTIES));
+    public static final Item SALAMENCITE = register("salamencite", new Item(BALL_PROPERTIES));
+    public static final Item SCEPTILITE = register("sceptilite", new Item(BALL_PROPERTIES));
+    public static final Item SCIZORITE = register("scizorite", new Item(BALL_PROPERTIES));
+    public static final Item SHARPEDONITE = register("sharpedonite", new Item(BALL_PROPERTIES));
+    public static final Item SLOWBRONITE = register("slowbronite", new Item(BALL_PROPERTIES));
+    public static final Item STEELIXITE = register("steelixite", new Item(BALL_PROPERTIES));
+    public static final Item SWAMPERTITE = register("swampertite", new Item(BALL_PROPERTIES));
+    public static final Item TYRANITARITE = register("tyranitarite", new Item(BALL_PROPERTIES));
+    public static final Item VENUSAURITE = register("venusaurite", new Item(BALL_PROPERTIES));
 
     public static void onInitialize() {
     }

@@ -114,6 +114,7 @@ public class BlockItemModels extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerators generator) {
+        // PokeBalls
         generator.generateFlatItem(PokeCraftItems.BEAST_BALL, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.CHERISH_BALL, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.DIVE_BALL, ModelTemplates.FLAT_ITEM);
@@ -148,6 +149,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.ULTRA_BALL, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.ANCIENT_ULTRA_BALL, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.WING_BALL, ModelTemplates.FLAT_ITEM);
+        // Restoration
         generator.generateFlatItem(PokeCraftItems.ANTIDOTE, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.AWAKENING, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.BERRY_JUICE, ModelTemplates.FLAT_ITEM);
@@ -184,6 +186,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.SODA_POP, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.SUPER_POTION, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.SWEET_HEART, ModelTemplates.FLAT_ITEM);
+        // Berries
         generator.generateFlatItem(PokeCraftItems.AGUAV_BERRY, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.APICOT_BERRY, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.ASPEAR_BERRY, ModelTemplates.FLAT_ITEM);
@@ -251,6 +254,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.WEPEAR_BERRY, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.WIKI_BERRY, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.YACHE_BERRY, ModelTemplates.FLAT_ITEM);
+        // Held Items
         generator.generateFlatItem(PokeCraftItems.ABILITY_SHIELD, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.ABSORB_BULB, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.AIR_BALLOON, ModelTemplates.FLAT_ITEM);
@@ -401,6 +405,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.WIDE_LENS, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.WISE_GLASSES, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.ZOOM_LENS, ModelTemplates.FLAT_ITEM);
+        // Legend Items
         generator.generateFlatItem(PokeCraftItems.ADAMANT_CRYSTAL, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.ADAMANT_ORB, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.AZURE_FLUTE, ModelTemplates.FLAT_ITEM);
@@ -462,5 +467,106 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.TIME_BALM, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.VIOLET_BOOK, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.MAGMA_STONE, ModelTemplates.FLAT_ITEM);
+        // Gimmick Items
+        generator.generateFlatItem(PokeCraftItems.ALORAICHIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BUGINIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DARKINIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DECIDIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DRAGONIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.EEVIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ELECTRIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.FAIRIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.FIGHTINIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.FIRIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.FLYINIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GHOSTIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GRASSIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GROUNDIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ICIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.INCINIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.KOMMONIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.LUNALIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.LYCANIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.MARSHADIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.MEWNIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.MIMIKUIM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.NORMALIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.PIKANIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.PIKASHUNIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.POISONIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.PRIMARIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.PSYCHIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ROCKIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SNORLIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SOLGANIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.STEELIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.TAPUNIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ULTRANECROZIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.WATERIUM_Z, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BUG_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DARK_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DRAGON_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ELECTRIC_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.FAIRY_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.FIGHTING_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.FIRE_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.FLYING_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GHOST_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GRASS_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GROUND_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ICE_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.NORMAL_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.POISON_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.PSYCHIC_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ROCK_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.STEEL_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.WATER_TERA_SHARD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ABOMASITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ABSOLITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.AERODACTYLITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.AGGRONITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ALAKAZITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.ALTARIANITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.AMPHAROSITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.AUDINITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BANETTITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BEEDRILLITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BLASTOISINITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BLAZIKENITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.CAMERUPTITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.CHARIZARDITE_X, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.CHARIZARDITE_Y, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DIANCITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GALLADITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GARCHOMPITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GARDEVOIRITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GENGARITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GLALITITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.GYARADOSITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.HERACRONITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.HOUNDOOMINITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.KANGASKHANITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.LATIASITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.LATIOSITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.LOPUNNITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.LUCARIONITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.MANECTITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.MAWILITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.MEDICHAMITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.METAGROSSITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.MEWTWONITE_X, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.MEWTWONITE_Y, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.PIDGEOTITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.PINSIRITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SABLENITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SALAMENCITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SCEPTILITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SCIZORITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SHARPEDONITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SLOWBRONITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.STEELIXITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SWAMPERTITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.TYRANITARITE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.VENUSAURITE, ModelTemplates.FLAT_ITEM);
     }
 }
