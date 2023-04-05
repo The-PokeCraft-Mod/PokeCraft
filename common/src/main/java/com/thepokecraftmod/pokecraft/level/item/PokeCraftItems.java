@@ -9,6 +9,15 @@ import net.minecraft.world.item.Item;
 public class PokeCraftItems {
     public static final MojangRegistry<Item, Registry<Item>> REGISTRY = PokeCraft.getInstance().newRegistry(Registries.ITEM);
 
+    // Available Properties
+    private static final Item.Properties BALL_PROPERTIES = new Item.Properties().stacksTo(16);
+
+    public static final Item POKE_BALL = register("poke_ball", new Item(BALL_PROPERTIES));
+
     public static void onInitialize() {
+    }
+
+    public static Item register(String name, Item item) {
+        return REGISTRY.register(name, item);
     }
 }

@@ -1,4 +1,5 @@
-// 1.19.4	2023-04-03T19:42:21.6698611	PokeCraft/Model Definitions
+// 1.19.4	2023-04-05T12:12:08.526557	PokeCraft/Model Definitions
 e591889308fd63710d02dd4b22ff649998220233 assets\pokecraft\blockstates\greganacl.json
 4f97d7c0f9c2200881699e734370145bec743acb assets\pokecraft\models\item\greganacl.json
-c4ee6aa8d5e3b4b089a37cb0934c819855e60ad9 assets\pokecraft\models\block\greganacl.json
+7b3caee49f8efb20a218867eb2e12773291669df assets\pokecraft\models\block\greganacl.json
+2f957e915538f180660da10c8c09f86e805fefaa assets\pokecraft\models\item\poke_ball.json
