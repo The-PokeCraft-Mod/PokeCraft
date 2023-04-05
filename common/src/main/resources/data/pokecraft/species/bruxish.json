@@ -1,0 +1,148 @@
+{
+  "stats": {
+    "hp": 68,
+    "speed": 92,
+    "attack": 105,
+    "defense": 70,
+    "specialAttack": 70,
+    "specialDefense": 70
+  },
+  "typing": [
+    "water",
+    "psychic"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 80,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 166,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 70,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:dazzling",
+      "pokecraft:strong_jaw"
+    ],
+    "regular": [
+      "pokecraft:wonder_skin"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_2"
+    ],
+    "steps": 3825
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:attract",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:bulkup",
+      "pokecraft:bulkup",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:chillingwater",
+      "pokecraft:confide",
+      "pokecraft:crunch",
+      "pokecraft:doubleteam",
+      "pokecraft:dreameater",
+      "pokecraft:embargo",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:fling",
+      "pokecraft:frostbreath",
+      "pokecraft:frustration",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:hiddenpower",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:icefang",
+      "pokecraft:icywind",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:liquidation",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychicfangs",
+      "pokecraft:psychicterrain",
+      "pokecraft:psyshock",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:scald",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swagger",
+      "pokecraft:swordsdance",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:torment",
+      "pokecraft:toxic",
+      "pokecraft:trickroom",
+      "pokecraft:trickroom",
+      "pokecraft:venoshock",
+      "pokecraft:venoshock",
+      "pokecraft:waterfall",
+      "pokecraft:waterfall",
+      "pokecraft:waterpulse"
+    ],
+    "eggMoves": [
+      "pokecraft:icefang",
+      "pokecraft:icefang",
+      "pokecraft:poisonfang",
+      "pokecraft:poisonfang",
+      "pokecraft:rage",
+      "pokecraft:superfang",
+      "pokecraft:waterpulse",
+      "pokecraft:waterpulse"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

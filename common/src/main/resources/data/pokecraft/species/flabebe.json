@@ -1,0 +1,175 @@
+{
+  "stats": {
+    "hp": 44,
+    "speed": 42,
+    "attack": 38,
+    "defense": 39,
+    "specialAttack": 61,
+    "specialDefense": 79
+  },
+  "typing": [
+    "fairy"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1
+  },
+  "catchRate": 225,
+  "genderRatio": 0,
+  "xpInfo": {
+    "baseAmount": 61,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 70,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:flower_veil"
+    ],
+    "regular": [
+      "pokecraft:symbiosis"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "fairy"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:floette"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "19"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:batonpass",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:charm",
+      "pokecraft:chillingwater",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:disarmingvoice",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:drainingkiss",
+      "pokecraft:echoedvoice",
+      "pokecraft:echoedvoice",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:flash",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:gigadrain",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:grassyterrain",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:lightscreen",
+      "pokecraft:magicalleaf",
+      "pokecraft:mistyterrain",
+      "pokecraft:naturepower",
+      "pokecraft:naturepower",
+      "pokecraft:pollenpuff",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:secretpower",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swift",
+      "pokecraft:terablast",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:trailblaze"
+    ],
+    "eggMoves": [
+      "pokecraft:camouflage",
+      "pokecraft:camouflage",
+      "pokecraft:captivate",
+      "pokecraft:captivate",
+      "pokecraft:copycat",
+      "pokecraft:copycat",
+      "pokecraft:copycat",
+      "pokecraft:endeavor",
+      "pokecraft:tearfullook",
+      "pokecraft:tearfullook"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

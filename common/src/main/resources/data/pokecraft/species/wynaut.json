@@ -1,0 +1,87 @@
+{
+  "stats": {
+    "hp": 95,
+    "speed": 23,
+    "attack": 23,
+    "defense": 48,
+    "specialAttack": 23,
+    "specialDefense": 48
+  },
+  "typing": [
+    "psychic"
+  ],
+  "evYields": {
+    "hp": 1,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 125,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 52,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:shadow_tag"
+    ],
+    "regular": [
+      "pokecraft:telepathy"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:wobbuffet"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:amnesia",
+      "pokecraft:charm",
+      "pokecraft:encore",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

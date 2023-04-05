@@ -1,0 +1,149 @@
+{
+  "stats": {
+    "hp": 110,
+    "speed": 30,
+    "attack": 80,
+    "defense": 120,
+    "specialAttack": 80,
+    "specialDefense": 90
+  },
+  "typing": [
+    "rock",
+    "fire"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 3,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 255,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:steam_engine",
+      "pokecraft:flame_body"
+    ],
+    "regular": [
+      "pokecraft:flash_fire"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "mineral"
+    ],
+    "steps": 3825
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:bodypress",
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:bulldoze",
+      "pokecraft:dig",
+      "pokecraft:dig",
+      "pokecraft:earthpower",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:fireblast",
+      "pokecraft:firepunch",
+      "pokecraft:firepunch",
+      "pokecraft:firespin",
+      "pokecraft:firespin",
+      "pokecraft:flamecharge",
+      "pokecraft:flamethrower",
+      "pokecraft:flamethrower",
+      "pokecraft:flareblitz",
+      "pokecraft:flareblitz",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:gyroball",
+      "pokecraft:heatcrash",
+      "pokecraft:heatwave",
+      "pokecraft:heatwave",
+      "pokecraft:heavyslam",
+      "pokecraft:heavyslam",
+      "pokecraft:highhorsepower",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:irondefense",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:ironhead",
+      "pokecraft:megakick",
+      "pokecraft:megapunch",
+      "pokecraft:overheat",
+      "pokecraft:overheat",
+      "pokecraft:powergem",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rockblast",
+      "pokecraft:rockblast",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:sandstorm",
+      "pokecraft:sandstorm",
+      "pokecraft:sandtomb",
+      "pokecraft:scald",
+      "pokecraft:selfdestruct",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:spikes",
+      "pokecraft:spikes",
+      "pokecraft:stealthrock",
+      "pokecraft:stealthrock",
+      "pokecraft:stoneedge",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:willowisp",
+      "pokecraft:willowisp"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

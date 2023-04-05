@@ -1,0 +1,202 @@
+{
+  "stats": {
+    "hp": 48,
+    "speed": 77,
+    "attack": 44,
+    "defense": 40,
+    "specialAttack": 71,
+    "specialDefense": 40
+  },
+  "typing": [
+    "poison",
+    "fire"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 120,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 64,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:corrosion"
+    ],
+    "regular": [
+      "pokecraft:oblivious"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "monster",
+      "dragon"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:salazzle"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "33"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:agility",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:beatup",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:dragonclaw",
+      "pokecraft:dragonclaw",
+      "pokecraft:dragonclaw",
+      "pokecraft:dragonpulse",
+      "pokecraft:dragonpulse",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:fireblast",
+      "pokecraft:fireblast",
+      "pokecraft:firefang",
+      "pokecraft:flamecharge",
+      "pokecraft:flamethrower",
+      "pokecraft:flamethrower",
+      "pokecraft:flamethrower",
+      "pokecraft:flareblitz",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:foulplay",
+      "pokecraft:foulplay",
+      "pokecraft:frustration",
+      "pokecraft:gunkshot",
+      "pokecraft:gunkshot",
+      "pokecraft:heatwave",
+      "pokecraft:heatwave",
+      "pokecraft:helpinghand",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:irontail",
+      "pokecraft:leechlife",
+      "pokecraft:leechlife",
+      "pokecraft:leechlife",
+      "pokecraft:mudslap",
+      "pokecraft:nastyplot",
+      "pokecraft:nastyplot",
+      "pokecraft:overheat",
+      "pokecraft:overheat",
+      "pokecraft:overheat",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:poisontail",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:scaryface",
+      "pokecraft:shadowclaw",
+      "pokecraft:shadowclaw",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgewave",
+      "pokecraft:sludgewave",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:swift",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:torment",
+      "pokecraft:toxic",
+      "pokecraft:toxicspikes",
+      "pokecraft:trailblaze",
+      "pokecraft:venomdrench",
+      "pokecraft:venoshock",
+      "pokecraft:venoshock",
+      "pokecraft:venoshock",
+      "pokecraft:willowisp",
+      "pokecraft:willowisp",
+      "pokecraft:willowisp"
+    ],
+    "eggMoves": [
+      "pokecraft:belch",
+      "pokecraft:belch",
+      "pokecraft:belch",
+      "pokecraft:fakeout",
+      "pokecraft:fakeout",
+      "pokecraft:fakeout",
+      "pokecraft:knockoff",
+      "pokecraft:mudslap",
+      "pokecraft:mudslap",
+      "pokecraft:sandattack",
+      "pokecraft:sandattack",
+      "pokecraft:sandattack",
+      "pokecraft:snatch"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

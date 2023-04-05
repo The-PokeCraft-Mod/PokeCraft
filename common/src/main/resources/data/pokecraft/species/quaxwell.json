@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 65,
+    "attack": 85,
+    "defense": 65,
+    "specialAttack": 65,
+    "specialDefense": 60
+  },
+  "typing": [
+    "water"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:torrent"
+    ],
+    "regular": [
+      "pokecraft:moxie"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying",
+      "water_1"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:quaquaval"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "36"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:batonpass",
+      "pokecraft:bravebird",
+      "pokecraft:chillingwater",
+      "pokecraft:disarmingvoice",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:helpinghand",
+      "pokecraft:hydropump",
+      "pokecraft:liquidation",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:mistyterrain",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:surf",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:waterpledge",
+      "pokecraft:waterpulse"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

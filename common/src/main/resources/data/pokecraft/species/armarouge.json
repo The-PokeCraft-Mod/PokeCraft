@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "hp": 85,
+    "speed": 75,
+    "attack": 60,
+    "defense": 100,
+    "specialAttack": 125,
+    "specialDefense": 80
+  },
+  "typing": [
+    "fire",
+    "psychic"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0
+  },
+  "catchRate": 120,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:flash_fire"
+    ],
+    "regular": [
+      "pokecraft:weak_armor"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "human_like"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:aurasphere",
+      "pokecraft:calmmind",
+      "pokecraft:confuseray",
+      "pokecraft:darkpulse",
+      "pokecraft:dragonpulse",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:firespin",
+      "pokecraft:flamecharge",
+      "pokecraft:flamethrower",
+      "pokecraft:flareblitz",
+      "pokecraft:flashcannon",
+      "pokecraft:fling",
+      "pokecraft:focusblast",
+      "pokecraft:heatwave",
+      "pokecraft:helpinghand",
+      "pokecraft:irondefense",
+      "pokecraft:lightscreen",
+      "pokecraft:nightshade",
+      "pokecraft:overheat",
+      "pokecraft:protect",
+      "pokecraft:psybeam",
+      "pokecraft:psychic",
+      "pokecraft:psychicterrain",
+      "pokecraft:psyshock",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:solarbeam",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:trick",
+      "pokecraft:trickroom",
+      "pokecraft:willowisp"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

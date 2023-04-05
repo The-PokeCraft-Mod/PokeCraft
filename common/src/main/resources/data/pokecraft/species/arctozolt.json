@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "hp": 90,
+    "speed": 55,
+    "attack": 100,
+    "defense": 90,
+    "specialAttack": 90,
+    "specialDefense": 80
+  },
+  "typing": [
+    "electric",
+    "ice"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 177,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:volt_absorb",
+      "pokecraft:static"
+    ],
+    "regular": [
+      "pokecraft:slush_rush"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 8925
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:avalanche",
+      "pokecraft:blizzard",
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:electroball",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:gigaimpact",
+      "pokecraft:hail",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:icebeam",
+      "pokecraft:icefang",
+      "pokecraft:iciclespear",
+      "pokecraft:icywind",
+      "pokecraft:irontail",
+      "pokecraft:lowkick",
+      "pokecraft:megakick",
+      "pokecraft:megapunch",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rockblast",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:taunt",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderfang",
+      "pokecraft:thunderpunch",
+      "pokecraft:thunderwave",
+      "pokecraft:wildcharge"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

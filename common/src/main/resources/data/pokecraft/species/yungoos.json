@@ -1,0 +1,154 @@
+{
+  "stats": {
+    "hp": 48,
+    "speed": 45,
+    "attack": 70,
+    "defense": 30,
+    "specialAttack": 30,
+    "specialDefense": 30
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 51,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 70,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:stakeout",
+      "pokecraft:strong_jaw"
+    ],
+    "regular": [
+      "pokecraft:adaptability"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 3825
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:gumshoos"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "type": "pokecraft:time",
+          "time": "day"
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:bulldoze",
+      "pokecraft:chillingwater",
+      "pokecraft:confide",
+      "pokecraft:crunch",
+      "pokecraft:dig",
+      "pokecraft:doubleteam",
+      "pokecraft:earthquake",
+      "pokecraft:echoedvoice",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:firefang",
+      "pokecraft:frustration",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:icefang",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:reversal",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:sandstorm",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thunderfang",
+      "pokecraft:torment",
+      "pokecraft:toxic",
+      "pokecraft:trailblaze",
+      "pokecraft:uturn",
+      "pokecraft:uturn",
+      "pokecraft:wildcharge",
+      "pokecraft:workup",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:endeavor",
+      "pokecraft:firefang",
+      "pokecraft:firefang",
+      "pokecraft:icefang",
+      "pokecraft:icefang",
+      "pokecraft:lastresort",
+      "pokecraft:lastresort",
+      "pokecraft:revenge",
+      "pokecraft:thunderfang",
+      "pokecraft:thunderfang"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

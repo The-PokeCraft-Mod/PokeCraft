@@ -1,0 +1,172 @@
+{
+  "stats": {
+    "hp": 42,
+    "speed": 32,
+    "attack": 30,
+    "defense": 38,
+    "specialAttack": 30,
+    "specialDefense": 38
+  },
+  "typing": [
+    "grass"
+  ],
+  "evYields": {
+    "hp": 1,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 235,
+  "genderRatio": 0,
+  "xpInfo": {
+    "baseAmount": 42,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:leaf_guard",
+      "pokecraft:oblivious"
+    ],
+    "regular": [
+      "pokecraft:sweet_veil"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "grass"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:steenee"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:bounce",
+      "pokecraft:bulletseed",
+      "pokecraft:charm",
+      "pokecraft:charm",
+      "pokecraft:confide",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:doubleteam",
+      "pokecraft:drainingkiss",
+      "pokecraft:drainingkiss",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:frustration",
+      "pokecraft:gigadrain",
+      "pokecraft:gigadrain",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:grassyterrain",
+      "pokecraft:helpinghand",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:leafstorm",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:magicalleaf",
+      "pokecraft:magicalleaf",
+      "pokecraft:naturepower",
+      "pokecraft:playrough",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:seedbomb",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:toxic",
+      "pokecraft:trailblaze",
+      "pokecraft:zenheadbutt",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:acupressure",
+      "pokecraft:acupressure",
+      "pokecraft:acupressure",
+      "pokecraft:charm",
+      "pokecraft:endeavor",
+      "pokecraft:endeavor",
+      "pokecraft:feint",
+      "pokecraft:grasswhistle",
+      "pokecraft:playrough",
+      "pokecraft:synthesis",
+      "pokecraft:synthesis",
+      "pokecraft:synthesis"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

@@ -1,0 +1,129 @@
+{
+  "stats": {
+    "hp": 93,
+    "speed": 95,
+    "attack": 90,
+    "defense": 101,
+    "specialAttack": 60,
+    "specialDefense": 81
+  },
+  "typing": [
+    "dark",
+    "normal"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 3,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 260,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:reckless",
+      "pokecraft:guts"
+    ],
+    "regular": [
+      "pokecraft:defiant"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 3825
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:assurance",
+      "pokecraft:attract",
+      "pokecraft:blizzard",
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:brickbreak",
+      "pokecraft:bulkup",
+      "pokecraft:closecombat",
+      "pokecraft:crosspoison",
+      "pokecraft:dig",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:firepunch",
+      "pokecraft:fling",
+      "pokecraft:focusenergy",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:gunkshot",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:icebeam",
+      "pokecraft:icepunch",
+      "pokecraft:icywind",
+      "pokecraft:irondefense",
+      "pokecraft:irontail",
+      "pokecraft:lowkick",
+      "pokecraft:megakick",
+      "pokecraft:megapunch",
+      "pokecraft:mudshot",
+      "pokecraft:payback",
+      "pokecraft:pinmissile",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:revenge",
+      "pokecraft:reversal",
+      "pokecraft:round",
+      "pokecraft:scaryface",
+      "pokecraft:screech",
+      "pokecraft:seedbomb",
+      "pokecraft:shadowball",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:snore",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:surf",
+      "pokecraft:swift",
+      "pokecraft:taunt",
+      "pokecraft:thief",
+      "pokecraft:throatchop",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderpunch",
+      "pokecraft:thunderwave",
+      "pokecraft:trick",
+      "pokecraft:whirlpool",
+      "pokecraft:workup",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

@@ -1,0 +1,115 @@
+{
+  "stats": {
+    "hp": 60,
+    "speed": 51,
+    "attack": 78,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 51
+  },
+  "typing": [
+    "dark"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:intimidate",
+      "pokecraft:run_away"
+    ],
+    "regular": [
+      "pokecraft:stakeout"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:mabosstiff"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "30"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodyslam",
+      "pokecraft:charm",
+      "pokecraft:crunch",
+      "pokecraft:darkpulse",
+      "pokecraft:dig",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:firefang",
+      "pokecraft:helpinghand",
+      "pokecraft:icefang",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderfang",
+      "pokecraft:trailblaze"
+    ],
+    "eggMoves": [
+      "pokecraft:destinybond",
+      "pokecraft:endeavor",
+      "pokecraft:playrough",
+      "pokecraft:retaliate"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

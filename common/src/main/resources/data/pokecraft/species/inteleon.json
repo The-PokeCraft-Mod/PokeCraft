@@ -1,0 +1,147 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 120,
+    "attack": 85,
+    "defense": 65,
+    "specialAttack": 125,
+    "specialDefense": 65
+  },
+  "typing": [
+    "water"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 3,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 265,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:torrent"
+    ],
+    "regular": [
+      "pokecraft:sniper"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1",
+      "field"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:agility",
+      "pokecraft:agility",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:airslash",
+      "pokecraft:attract",
+      "pokecraft:batonpass",
+      "pokecraft:batonpass",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:bounce",
+      "pokecraft:breakingswipe",
+      "pokecraft:chillingwater",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:dive",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:focusenergy",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:hydrocannon",
+      "pokecraft:hydropump",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:iciclespear",
+      "pokecraft:icywind",
+      "pokecraft:icywind",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:liquidation",
+      "pokecraft:liquidation",
+      "pokecraft:metronome",
+      "pokecraft:metronome",
+      "pokecraft:muddywater",
+      "pokecraft:mudshot",
+      "pokecraft:mudshot",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:scald",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:snowscape",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swift",
+      "pokecraft:swift",
+      "pokecraft:swordsdance",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:uturn",
+      "pokecraft:uturn",
+      "pokecraft:waterfall",
+      "pokecraft:waterfall",
+      "pokecraft:waterpledge",
+      "pokecraft:waterpulse",
+      "pokecraft:weatherball",
+      "pokecraft:whirlpool",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

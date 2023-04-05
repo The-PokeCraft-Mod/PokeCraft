@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "hp": 40,
+    "speed": 35,
+    "attack": 50,
+    "defense": 40,
+    "specialAttack": 50,
+    "specialDefense": 40
+  },
+  "typing": [
+    "fire"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:flash_fire"
+    ],
+    "regular": [
+      "pokecraft:flame_body"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "human_like"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:armarouge"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:holding_item",
+          "item": "pokecraft:auspicious_armor",
+          "consume": true
+        }
+      ]
+    },
+    {
+      "target": {
+        "species": "pokecraft:ceruledge"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:holding_item",
+          "item": "pokecraft:malicious_armor",
+          "consume": true
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:confuseray",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:firespin",
+      "pokecraft:flamecharge",
+      "pokecraft:flamethrower",
+      "pokecraft:flareblitz",
+      "pokecraft:heatwave",
+      "pokecraft:helpinghand",
+      "pokecraft:nightshade",
+      "pokecraft:overheat",
+      "pokecraft:protect",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:willowisp"
+    ],
+    "eggMoves": [
+      "pokecraft:destinybond",
+      "pokecraft:disable",
+      "pokecraft:spite"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

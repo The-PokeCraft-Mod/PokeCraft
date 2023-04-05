@@ -1,0 +1,148 @@
+{
+  "stats": {
+    "hp": 88,
+    "speed": 143,
+    "attack": 112,
+    "defense": 75,
+    "specialAttack": 102,
+    "specialDefense": 80
+  },
+  "typing": [
+    "electric"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 3,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 3,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 300,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:volt_absorb"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 30600
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:assurance",
+      "pokecraft:aurasphere",
+      "pokecraft:blazekick",
+      "pokecraft:bounce",
+      "pokecraft:brickbreak",
+      "pokecraft:brickbreak",
+      "pokecraft:brutalswing",
+      "pokecraft:brutalswing",
+      "pokecraft:bulkup",
+      "pokecraft:bulkup",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:closecombat",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:drainpunch",
+      "pokecraft:echoedvoice",
+      "pokecraft:electricterrain",
+      "pokecraft:electroball",
+      "pokecraft:electroweb",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:falseswipe",
+      "pokecraft:falseswipe",
+      "pokecraft:firepunch",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:focusblast",
+      "pokecraft:focusblast",
+      "pokecraft:frustration",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:hyperbeam",
+      "pokecraft:irontail",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:lowsweep",
+      "pokecraft:megakick",
+      "pokecraft:megapunch",
+      "pokecraft:outrage",
+      "pokecraft:payday",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:revenge",
+      "pokecraft:reversal",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:snarl",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:superpower",
+      "pokecraft:swift",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:throatchop",
+      "pokecraft:thunder",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderpunch",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:toxic",
+      "pokecraft:voltswitch",
+      "pokecraft:voltswitch",
+      "pokecraft:wildcharge",
+      "pokecraft:wildcharge",
+      "pokecraft:workup",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

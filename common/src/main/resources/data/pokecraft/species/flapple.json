@@ -1,0 +1,130 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 70,
+    "attack": 110,
+    "defense": 80,
+    "specialAttack": 95,
+    "specialDefense": 60
+  },
+  "typing": [
+    "grass",
+    "dragon"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 170,
+    "gainSpeed": "erratic"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:ripen",
+      "pokecraft:gluttony"
+    ],
+    "regular": [
+      "pokecraft:hustle"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "grass",
+      "dragon"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:airslash",
+      "pokecraft:airslash",
+      "pokecraft:attract",
+      "pokecraft:bulletseed",
+      "pokecraft:bulletseed",
+      "pokecraft:dracometeor",
+      "pokecraft:dragondance",
+      "pokecraft:dragondance",
+      "pokecraft:dragonpulse",
+      "pokecraft:dragonpulse",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:fly",
+      "pokecraft:fly",
+      "pokecraft:focusenergy",
+      "pokecraft:gigadrain",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:grassyterrain",
+      "pokecraft:heavyslam",
+      "pokecraft:heavyslam",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:irondefense",
+      "pokecraft:irondefense",
+      "pokecraft:leafstorm",
+      "pokecraft:magicalleaf",
+      "pokecraft:outrage",
+      "pokecraft:outrage",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:scaryface",
+      "pokecraft:scaryface",
+      "pokecraft:seedbomb",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:trailblaze",
+      "pokecraft:uturn",
+      "pokecraft:uturn"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

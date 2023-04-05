@@ -1,0 +1,238 @@
+{
+  "stats": {
+    "hp": 67,
+    "speed": 43,
+    "attack": 82,
+    "defense": 62,
+    "specialAttack": 46,
+    "specialDefense": 48
+  },
+  "typing": [
+    "fighting"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 220,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 70,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:iron_fist",
+      "pokecraft:mold_breaker"
+    ],
+    "regular": [
+      "pokecraft:scrappy"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field",
+      "human_like"
+    ],
+    "steps": 6375
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:pangoro"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "32"
+            }
+          ]
+        },
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:typing",
+              "comparison": "contains",
+              "value": "dark"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:aerialace",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:bodyslam",
+      "pokecraft:brickbreak",
+      "pokecraft:brickbreak",
+      "pokecraft:brickbreak",
+      "pokecraft:bulkup",
+      "pokecraft:bulkup",
+      "pokecraft:bulkup",
+      "pokecraft:bulldoze",
+      "pokecraft:bulldoze",
+      "pokecraft:bulldoze",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:crunch",
+      "pokecraft:cut",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:dig",
+      "pokecraft:dig",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:drainpunch",
+      "pokecraft:echoedvoice",
+      "pokecraft:echoedvoice",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:falseswipe",
+      "pokecraft:falseswipe",
+      "pokecraft:falseswipe",
+      "pokecraft:firepunch",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:foulplay",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:gunkshot",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:hypervoice",
+      "pokecraft:icepunch",
+      "pokecraft:ironhead",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:lowsweep",
+      "pokecraft:lowsweep",
+      "pokecraft:megakick",
+      "pokecraft:megapunch",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:poweruppunch",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:retaliate",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:roar",
+      "pokecraft:roar",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:rocksmash",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:secretpower",
+      "pokecraft:shadowclaw",
+      "pokecraft:shadowclaw",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgebomb",
+      "pokecraft:snore",
+      "pokecraft:stoneedge",
+      "pokecraft:stoneedge",
+      "pokecraft:stoneedge",
+      "pokecraft:strength",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:superpower",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swordsdance",
+      "pokecraft:swordsdance",
+      "pokecraft:swordsdance",
+      "pokecraft:taunt",
+      "pokecraft:thunderpunch",
+      "pokecraft:torment",
+      "pokecraft:torment",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:uproar",
+      "pokecraft:workup",
+      "pokecraft:workup",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:foulplay",
+      "pokecraft:foulplay",
+      "pokecraft:mefirst",
+      "pokecraft:mefirst",
+      "pokecraft:powertrip",
+      "pokecraft:powertrip",
+      "pokecraft:quash",
+      "pokecraft:quash",
+      "pokecraft:quash",
+      "pokecraft:quickguard",
+      "pokecraft:quickguard",
+      "pokecraft:quickguard",
+      "pokecraft:seismictoss",
+      "pokecraft:stormthrow",
+      "pokecraft:stormthrow",
+      "pokecraft:stormthrow"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

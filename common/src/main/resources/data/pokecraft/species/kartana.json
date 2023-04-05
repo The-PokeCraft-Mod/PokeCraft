@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "hp": 59,
+    "speed": 109,
+    "attack": 181,
+    "defense": 131,
+    "specialAttack": 59,
+    "specialDefense": 31
+  },
+  "typing": [
+    "grass",
+    "steel"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 285,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:beast_boost"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 30600
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:airslash",
+      "pokecraft:brickbreak",
+      "pokecraft:brickbreak",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:endure",
+      "pokecraft:falseswipe",
+      "pokecraft:falseswipe",
+      "pokecraft:frustration",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:hiddenpower",
+      "pokecraft:irondefense",
+      "pokecraft:leafblade",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychocut",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:screech",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:smartstrike",
+      "pokecraft:smartstrike",
+      "pokecraft:snore",
+      "pokecraft:solarblade",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swagger",
+      "pokecraft:swordsdance",
+      "pokecraft:swordsdance",
+      "pokecraft:toxic",
+      "pokecraft:xscissor",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

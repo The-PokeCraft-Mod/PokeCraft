@@ -1,0 +1,99 @@
+{
+  "stats": {
+    "hp": 150,
+    "speed": 35,
+    "attack": 100,
+    "defense": 115,
+    "specialAttack": 65,
+    "specialDefense": 65
+  },
+  "typing": [
+    "water"
+  ],
+  "evYields": {
+    "hp": 3,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:unaware",
+      "pokecraft:oblivious"
+    ],
+    "regular": [
+      "pokecraft:water_veil"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_2"
+    ],
+    "steps": 12750
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:avalanche",
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:chillingwater",
+      "pokecraft:crunch",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:gigaimpact",
+      "pokecraft:heavyslam",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icefang",
+      "pokecraft:liquidation",
+      "pokecraft:outrage",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rockslide",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:waterfall",
+      "pokecraft:waterpulse",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:curse",
+      "pokecraft:fissure",
+      "pokecraft:thrash",
+      "pokecraft:yawn"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

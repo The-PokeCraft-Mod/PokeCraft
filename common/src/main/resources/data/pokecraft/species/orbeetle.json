@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "hp": 60,
+    "speed": 90,
+    "attack": 45,
+    "defense": 110,
+    "specialAttack": 80,
+    "specialDefense": 120
+  },
+  "typing": [
+    "bug",
+    "psychic"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 3
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 253,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:swarm",
+      "pokecraft:frisk"
+    ],
+    "regular": [
+      "pokecraft:telepathy"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 3825
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:allyswitch",
+      "pokecraft:attract",
+      "pokecraft:batonpass",
+      "pokecraft:bodypress",
+      "pokecraft:bugbuzz",
+      "pokecraft:calmmind",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:futuresight",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:guardswap",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:imprison",
+      "pokecraft:irondefense",
+      "pokecraft:leechlife",
+      "pokecraft:lightscreen",
+      "pokecraft:magicroom",
+      "pokecraft:payback",
+      "pokecraft:powerswap",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychicterrain",
+      "pokecraft:psychocut",
+      "pokecraft:psyshock",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:shadowball",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:trick",
+      "pokecraft:trickroom",
+      "pokecraft:uturn",
+      "pokecraft:wonderroom",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

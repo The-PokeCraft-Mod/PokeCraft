@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 121,
+    "attack": 95,
+    "defense": 65,
+    "specialAttack": 85,
+    "specialDefense": 65
+  },
+  "typing": [
+    "dragon",
+    "normal"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 25,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:shed_skin"
+    ],
+    "regular": [
+      "pokecraft:regenerator"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 7650
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:bodyslam",
+      "pokecraft:crunch",
+      "pokecraft:dracometeor",
+      "pokecraft:dragonclaw",
+      "pokecraft:dragonpulse",
+      "pokecraft:dragontail",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:firefang",
+      "pokecraft:gigaimpact",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:icespinner",
+      "pokecraft:ironhead",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:outrage",
+      "pokecraft:overheat",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderfang",
+      "pokecraft:trailblaze",
+      "pokecraft:uturn",
+      "pokecraft:wildcharge"
+    ],
+    "eggMoves": [
+      "pokecraft:aquatail",
+      "pokecraft:irontail",
+      "pokecraft:knockoff",
+      "pokecraft:powerwhip"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

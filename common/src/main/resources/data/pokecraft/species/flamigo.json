@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "hp": 82,
+    "speed": 90,
+    "attack": 115,
+    "defense": 74,
+    "specialAttack": 75,
+    "specialDefense": 64
+  },
+  "typing": [
+    "flying",
+    "fighting"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 75,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:scrappy",
+      "pokecraft:tangled_feet"
+    ],
+    "regular": [
+      "pokecraft:costar"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:bravebird",
+      "pokecraft:bulkup",
+      "pokecraft:chillingwater",
+      "pokecraft:closecombat",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fling",
+      "pokecraft:fly",
+      "pokecraft:gigaimpact",
+      "pokecraft:hurricane",
+      "pokecraft:hyperbeam",
+      "pokecraft:liquidation",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:swordsdance",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:uturn",
+      "pokecraft:waterpulse"
+    ],
+    "eggMoves": [
+      "pokecraft:doubleteam",
+      "pokecraft:quickguard",
+      "pokecraft:skyattack"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

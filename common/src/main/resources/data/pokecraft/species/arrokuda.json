@@ -1,0 +1,141 @@
+{
+  "stats": {
+    "hp": 41,
+    "speed": 66,
+    "attack": 63,
+    "defense": 40,
+    "specialAttack": 40,
+    "specialDefense": 30
+  },
+  "typing": [
+    "water"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 56,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:swift_swim"
+    ],
+    "regular": [
+      "pokecraft:propeller_tail"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_2"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:barraskewda"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "26"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:agility",
+      "pokecraft:assurance",
+      "pokecraft:attract",
+      "pokecraft:bounce",
+      "pokecraft:brickbreak",
+      "pokecraft:brickbreak",
+      "pokecraft:chillingwater",
+      "pokecraft:closecombat",
+      "pokecraft:closecombat",
+      "pokecraft:crunch",
+      "pokecraft:crunch",
+      "pokecraft:dive",
+      "pokecraft:drillrun",
+      "pokecraft:drillrun",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:focusenergy",
+      "pokecraft:hydropump",
+      "pokecraft:icefang",
+      "pokecraft:icefang",
+      "pokecraft:liquidation",
+      "pokecraft:liquidation",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:scald",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:swift",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:throatchop",
+      "pokecraft:waterfall",
+      "pokecraft:waterfall",
+      "pokecraft:waterpulse",
+      "pokecraft:whirlpool"
+    ],
+    "eggMoves": [
+      "pokecraft:acupressure",
+      "pokecraft:acupressure",
+      "pokecraft:nightslash",
+      "pokecraft:nightslash",
+      "pokecraft:slash",
+      "pokecraft:slash",
+      "pokecraft:thrash",
+      "pokecraft:thrash"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

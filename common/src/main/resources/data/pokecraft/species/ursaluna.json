@@ -1,0 +1,116 @@
+{
+  "stats": {
+    "hp": 130,
+    "speed": 50,
+    "attack": 140,
+    "defense": 105,
+    "specialAttack": 45,
+    "specialDefense": 80
+  },
+  "typing": [
+    "ground",
+    "normal"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 75,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:guts",
+      "pokecraft:bulletproof"
+    ],
+    "regular": [
+      "pokecraft:unnerve"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 0
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:avalanche",
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:brickbreak",
+      "pokecraft:bulkup",
+      "pokecraft:bulldoze",
+      "pokecraft:charm",
+      "pokecraft:closecombat",
+      "pokecraft:crunch",
+      "pokecraft:dig",
+      "pokecraft:drainpunch",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:firepunch",
+      "pokecraft:fling",
+      "pokecraft:gigaimpact",
+      "pokecraft:gunkshot",
+      "pokecraft:heavyslam",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:icepunch",
+      "pokecraft:lowkick",
+      "pokecraft:metalclaw",
+      "pokecraft:metronome",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:scaryface",
+      "pokecraft:seedbomb",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderpunch",
+      "pokecraft:trailblaze"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

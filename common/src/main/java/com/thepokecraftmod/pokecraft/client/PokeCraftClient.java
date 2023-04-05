@@ -20,7 +20,7 @@ package com.thepokecraftmod.pokecraft.client;
 
 import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.api.event.client.ClientEvents;
-import com.thepokecraftmod.pokecraft.api.mon.PokemonParty;
+import com.thepokecraftmod.pokecraft.api.pokemon.PokemonParty;
 import com.thepokecraftmod.pokecraft.client.input.KeyBind;
 import com.thepokecraftmod.pokecraft.client.render.PokemonRenderer;
 import com.thepokecraftmod.pokecraft.client.render.RenderProvider;

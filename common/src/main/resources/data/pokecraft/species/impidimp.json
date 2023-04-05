@@ -1,0 +1,146 @@
+{
+  "stats": {
+    "hp": 45,
+    "speed": 50,
+    "attack": 45,
+    "defense": 30,
+    "specialAttack": 55,
+    "specialDefense": 40
+  },
+  "typing": [
+    "dark",
+    "fairy"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 1,
+  "xpInfo": {
+    "baseAmount": 53,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:prankster",
+      "pokecraft:frisk"
+    ],
+    "regular": [
+      "pokecraft:pickpocket"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "fairy",
+      "human_like"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:morgrem"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "32"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:assurance",
+      "pokecraft:attract",
+      "pokecraft:chillingwater",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:drainingkiss",
+      "pokecraft:drainingkiss",
+      "pokecraft:drainpunch",
+      "pokecraft:drainpunch",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:faketears",
+      "pokecraft:fling",
+      "pokecraft:foulplay",
+      "pokecraft:foulplay",
+      "pokecraft:leechlife",
+      "pokecraft:leechlife",
+      "pokecraft:lightscreen",
+      "pokecraft:lowkick",
+      "pokecraft:lowkick",
+      "pokecraft:megakick",
+      "pokecraft:megapunch",
+      "pokecraft:metronome",
+      "pokecraft:metronome",
+      "pokecraft:mistyterrain",
+      "pokecraft:nastyplot",
+      "pokecraft:nastyplot",
+      "pokecraft:playrough",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:revenge",
+      "pokecraft:round",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:trailblaze",
+      "pokecraft:trick",
+      "pokecraft:trick",
+      "pokecraft:uproar"
+    ],
+    "eggMoves": [
+      "pokecraft:partingshot"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

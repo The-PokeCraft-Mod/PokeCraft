@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "hp": 80,
+    "speed": 60,
+    "attack": 74,
+    "defense": 74,
+    "specialAttack": 126,
+    "specialDefense": 116
+  },
+  "typing": [
+    "water",
+    "fairy"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 265,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:torrent"
+    ],
+    "regular": [
+      "pokecraft:liquid_voice"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1",
+      "field"
+    ],
+    "steps": 3825
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:amnesia",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:brine",
+      "pokecraft:calmmind",
+      "pokecraft:charm",
+      "pokecraft:confide",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dive",
+      "pokecraft:doubleteam",
+      "pokecraft:drainingkiss",
+      "pokecraft:echoedvoice",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:frustration",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:hail",
+      "pokecraft:hail",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:icywind",
+      "pokecraft:irontail",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:liquidation",
+      "pokecraft:mistyterrain",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychup",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:scald",
+      "pokecraft:scald",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swagger",
+      "pokecraft:toxic",
+      "pokecraft:uproar",
+      "pokecraft:waterfall",
+      "pokecraft:waterfall",
+      "pokecraft:weatherball",
+      "pokecraft:whirlpool",
+      "pokecraft:wonderroom",
+      "pokecraft:workup",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

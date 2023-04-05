@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "hp": 85,
+    "speed": 94,
+    "attack": 75,
+    "defense": 77,
+    "specialAttack": 70,
+    "specialDefense": 105
+  },
+  "typing": [
+    "fairy",
+    "steel"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 3
+  },
+  "catchRate": 25,
+  "genderRatio": 0,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:mold_breaker",
+      "pokecraft:own_tempo"
+    ],
+    "regular": [
+      "pokecraft:pickpocket"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "fairy"
+    ],
+    "steps": 8925
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:brickbreak",
+      "pokecraft:bulldoze",
+      "pokecraft:drainingkiss",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:flashcannon",
+      "pokecraft:fling",
+      "pokecraft:foulplay",
+      "pokecraft:heavyslam",
+      "pokecraft:helpinghand",
+      "pokecraft:lightscreen",
+      "pokecraft:metalclaw",
+      "pokecraft:metronome",
+      "pokecraft:playrough",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:stealthrock",
+      "pokecraft:steelbeam",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:swordsdance",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderwave"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

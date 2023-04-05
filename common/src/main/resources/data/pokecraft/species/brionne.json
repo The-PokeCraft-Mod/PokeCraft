@@ -1,0 +1,140 @@
+{
+  "stats": {
+    "hp": 60,
+    "speed": 50,
+    "attack": 69,
+    "defense": 69,
+    "specialAttack": 91,
+    "specialDefense": 81
+  },
+  "typing": [
+    "water"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 147,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:torrent"
+    ],
+    "regular": [
+      "pokecraft:liquid_voice"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1",
+      "field"
+    ],
+    "steps": 3825
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:primarina"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "34"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:amnesia",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:brine",
+      "pokecraft:charm",
+      "pokecraft:confide",
+      "pokecraft:dive",
+      "pokecraft:doubleteam",
+      "pokecraft:drainingkiss",
+      "pokecraft:echoedvoice",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:frustration",
+      "pokecraft:hail",
+      "pokecraft:hail",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:hydropump",
+      "pokecraft:hypervoice",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:icywind",
+      "pokecraft:irontail",
+      "pokecraft:mistyterrain",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:scald",
+      "pokecraft:scald",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swagger",
+      "pokecraft:toxic",
+      "pokecraft:uproar",
+      "pokecraft:waterfall",
+      "pokecraft:waterfall",
+      "pokecraft:whirlpool",
+      "pokecraft:wonderroom",
+      "pokecraft:workup",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

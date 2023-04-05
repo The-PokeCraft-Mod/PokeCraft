@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "hp": 120,
+    "speed": 78,
+    "attack": 112,
+    "defense": 65,
+    "specialAttack": 80,
+    "specialDefense": 75
+  },
+  "typing": [
+    "water",
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 2,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 135,
+  "genderRatio": 1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:swift_swim",
+      "pokecraft:adaptability"
+    ],
+    "regular": [
+      "pokecraft:mold_breaker"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_2"
+    ],
+    "steps": 0
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:blizzard",
+      "pokecraft:chillingwater",
+      "pokecraft:confuseray",
+      "pokecraft:crunch",
+      "pokecraft:facade",
+      "pokecraft:gigaimpact",
+      "pokecraft:hex",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icebeam",
+      "pokecraft:icefang",
+      "pokecraft:icywind",
+      "pokecraft:liquidation",
+      "pokecraft:mudshot",
+      "pokecraft:nightshade",
+      "pokecraft:outrage",
+      "pokecraft:phantomforce",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:scaryface",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:snowscape",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:waterfall",
+      "pokecraft:waterpulse"
+    ],
+    "eggMoves": [
+      "pokecraft:endeavor",
+      "pokecraft:lastrespects"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

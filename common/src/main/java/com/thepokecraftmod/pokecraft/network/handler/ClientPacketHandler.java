@@ -3,7 +3,7 @@ package com.thepokecraftmod.pokecraft.network.handler;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.mojang.datafixers.util.Pair;
-import com.thepokecraftmod.pokecraft.api.mon.PokemonParty;
+import com.thepokecraftmod.pokecraft.api.pokemon.PokemonParty;
 import com.thepokecraftmod.pokecraft.api.registry.DynamicLazySyncingRegistry;
 import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
 import net.minecraft.client.Minecraft;

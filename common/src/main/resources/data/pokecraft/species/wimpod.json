@@ -1,0 +1,135 @@
+{
+  "stats": {
+    "hp": 25,
+    "speed": 80,
+    "attack": 35,
+    "defense": 40,
+    "specialAttack": 20,
+    "specialDefense": 30
+  },
+  "typing": [
+    "bug",
+    "water"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 90,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 46,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:wimp_out"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "bug",
+      "water_3"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:golisopod"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "30"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:assurance",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:bugbuzz",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:frustration",
+      "pokecraft:hail",
+      "pokecraft:hail",
+      "pokecraft:hiddenpower",
+      "pokecraft:leechlife",
+      "pokecraft:leechlife",
+      "pokecraft:mudshot",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:scald",
+      "pokecraft:scald",
+      "pokecraft:screech",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:spikes",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swagger",
+      "pokecraft:swift",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:toxic",
+      "pokecraft:waterfall",
+      "pokecraft:waterfall"
+    ],
+    "eggMoves": [
+      "pokecraft:aquajet",
+      "pokecraft:aquajet",
+      "pokecraft:harden",
+      "pokecraft:harden",
+      "pokecraft:metalclaw",
+      "pokecraft:metalclaw",
+      "pokecraft:rollout",
+      "pokecraft:spikes",
+      "pokecraft:wideguard",
+      "pokecraft:wideguard"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

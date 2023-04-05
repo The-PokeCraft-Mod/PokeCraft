@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 125,
+    "attack": 70,
+    "defense": 60,
+    "specialAttack": 105,
+    "specialDefense": 60
+  },
+  "typing": [
+    "electric",
+    "flying"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 50,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:wind_power",
+      "pokecraft:volt_absorb"
+    ],
+    "regular": [
+      "pokecraft:competitive"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1",
+      "flying"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:bravebird",
+      "pokecraft:chargebeam",
+      "pokecraft:eerieimpulse",
+      "pokecraft:electricterrain",
+      "pokecraft:electroball",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fly",
+      "pokecraft:gigaimpact",
+      "pokecraft:hurricane",
+      "pokecraft:hyperbeam",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:swift",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderwave",
+      "pokecraft:uturn",
+      "pokecraft:voltswitch",
+      "pokecraft:wildcharge"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

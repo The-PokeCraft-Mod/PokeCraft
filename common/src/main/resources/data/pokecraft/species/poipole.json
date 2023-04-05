@@ -1,0 +1,115 @@
+{
+  "stats": {
+    "hp": 67,
+    "speed": 73,
+    "attack": 73,
+    "defense": 67,
+    "specialAttack": 73,
+    "specialDefense": 67
+  },
+  "typing": [
+    "poison"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 210,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:beast_boost"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 30600
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:naganadel"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:trade"
+        },
+        {
+          "type": "pokecraft:used_move",
+          "move": "pokecraft:dragon_pulse",
+          "uses": 1
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:charm",
+      "pokecraft:confide",
+      "pokecraft:dragonpulse",
+      "pokecraft:echoedvoice",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:frustration",
+      "pokecraft:gunkshot",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:irontail",
+      "pokecraft:nastyplot",
+      "pokecraft:pinmissile",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgewave",
+      "pokecraft:sludgewave",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:toxic",
+      "pokecraft:toxicspikes",
+      "pokecraft:uproar",
+      "pokecraft:venomdrench",
+      "pokecraft:venoshock",
+      "pokecraft:venoshock"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

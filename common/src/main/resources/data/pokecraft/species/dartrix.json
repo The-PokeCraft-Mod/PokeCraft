@@ -1,0 +1,187 @@
+{
+  "stats": {
+    "hp": 78,
+    "speed": 52,
+    "attack": 75,
+    "defense": 75,
+    "specialAttack": 70,
+    "specialDefense": 70
+  },
+  "typing": [
+    "grass",
+    "flying"
+  ],
+  "evYields": {
+    "hp": 2,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 147,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:overgrow"
+    ],
+    "regular": [
+      "pokecraft:long_reach"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying"
+    ],
+    "steps": 3825
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:decidueye"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "species": "pokecraft:decidueye"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "36"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:batonpass",
+      "pokecraft:batonpass",
+      "pokecraft:bravebird",
+      "pokecraft:bravebird",
+      "pokecraft:bulletseed",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:echoedvoice",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:falseswipe",
+      "pokecraft:falseswipe",
+      "pokecraft:falseswipe",
+      "pokecraft:frustration",
+      "pokecraft:gigadrain",
+      "pokecraft:gigadrain",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:grasspledge",
+      "pokecraft:grassyterrain",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:leafblade",
+      "pokecraft:leafstorm",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:magicalleaf",
+      "pokecraft:nastyplot",
+      "pokecraft:nastyplot",
+      "pokecraft:naturepower",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:roost",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:seedbomb",
+      "pokecraft:seedbomb",
+      "pokecraft:shadowclaw",
+      "pokecraft:shadowclaw",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:steelwing",
+      "pokecraft:steelwing",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:swift",
+      "pokecraft:swift",
+      "pokecraft:swordsdance",
+      "pokecraft:swordsdance",
+      "pokecraft:swordsdance",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:toxic",
+      "pokecraft:trailblaze",
+      "pokecraft:workup",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

@@ -1,0 +1,99 @@
+{
+  "stats": {
+    "hp": 90,
+    "speed": 106,
+    "attack": 112,
+    "defense": 120,
+    "specialAttack": 72,
+    "specialDefense": 70
+  },
+  "typing": [
+    "ground",
+    "steel"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 3,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 30,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:quark_drive"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 12750
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:electricterrain",
+      "pokecraft:electroball",
+      "pokecraft:facade",
+      "pokecraft:flashcannon",
+      "pokecraft:gigaimpact",
+      "pokecraft:heavyslam",
+      "pokecraft:hyperbeam",
+      "pokecraft:icefang",
+      "pokecraft:icespinner",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:smartstrike",
+      "pokecraft:stealthrock",
+      "pokecraft:steelbeam",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thunder",
+      "pokecraft:thunderfang",
+      "pokecraft:voltswitch",
+      "pokecraft:wildcharge",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

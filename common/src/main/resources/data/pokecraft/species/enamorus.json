@@ -1,0 +1,99 @@
+{
+  "stats": {
+    "hp": 74,
+    "speed": 106,
+    "attack": 115,
+    "defense": 70,
+    "specialAttack": 135,
+    "specialDefense": 80
+  },
+  "typing": [
+    "fairy",
+    "flying"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0
+  },
+  "catchRate": 3,
+  "genderRatio": 0,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:cute_charm"
+    ],
+    "regular": [
+      "pokecraft:contrary"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 0
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:bodyslam",
+      "pokecraft:calmmind",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:disarmingvoice",
+      "pokecraft:drainingkiss",
+      "pokecraft:earthpower",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fly",
+      "pokecraft:focusblast",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:grassyterrain",
+      "pokecraft:hyperbeam",
+      "pokecraft:imprison",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:mistyterrain",
+      "pokecraft:outrage",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

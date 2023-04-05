@@ -1,8 +1,8 @@
 package com.thepokecraftmod.pokecraft.command;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import com.thepokecraftmod.pokecraft.api.mon.PokemonInstance;
-import com.thepokecraftmod.pokecraft.api.mon.PokemonParty;
+import com.thepokecraftmod.pokecraft.api.pokemon.PokemonInstance;
+import com.thepokecraftmod.pokecraft.api.pokemon.PokemonParty;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.commands.arguments.EntityArgument;

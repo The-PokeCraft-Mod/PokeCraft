@@ -1,0 +1,98 @@
+{
+  "stats": {
+    "hp": 65,
+    "speed": 75,
+    "attack": 108,
+    "defense": 65,
+    "specialAttack": 108,
+    "specialDefense": 65
+  },
+  "typing": [
+    "grass",
+    "fire"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 100,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:chlorophyll",
+      "pokecraft:insomnia"
+    ],
+    "regular": [
+      "pokecraft:moody"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "grass"
+    ],
+    "steps": 8925
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bulletseed",
+      "pokecraft:crunch",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:firefang",
+      "pokecraft:flamethrower",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:grassyterrain",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:leafstorm",
+      "pokecraft:magicalleaf",
+      "pokecraft:overheat",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:solarbeam",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trailblaze",
+      "pokecraft:willowisp",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

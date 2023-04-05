@@ -1,0 +1,114 @@
+{
+  "stats": {
+    "hp": 45,
+    "speed": 47,
+    "attack": 70,
+    "defense": 63,
+    "specialAttack": 30,
+    "specialDefense": 45
+  },
+  "typing": [
+    "steel",
+    "poison"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:overcoat"
+    ],
+    "regular": [
+      "pokecraft:slow_start"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "mineral"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:revavroom"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "40"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:flashcannon",
+      "pokecraft:gunkshot",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:steelbeam",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:toxicspikes",
+      "pokecraft:venoshock",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:haze",
+      "pokecraft:partingshot",
+      "pokecraft:selfdestruct",
+      "pokecraft:torment",
+      "pokecraft:toxic"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

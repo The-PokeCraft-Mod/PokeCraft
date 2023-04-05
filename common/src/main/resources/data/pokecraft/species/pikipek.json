@@ -1,0 +1,115 @@
+{
+  "stats": {
+    "hp": 35,
+    "speed": 65,
+    "attack": 75,
+    "defense": 30,
+    "specialAttack": 30,
+    "specialDefense": 30
+  },
+  "typing": [
+    "normal",
+    "flying"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 53,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 70,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:keen_eye",
+      "pokecraft:skill_link"
+    ],
+    "regular": [
+      "pokecraft:pickup"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying"
+    ],
+    "steps": 3825
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:trumbeak"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "14"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:attract",
+      "pokecraft:brickbreak",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:echoedvoice",
+      "pokecraft:flamecharge",
+      "pokecraft:fly",
+      "pokecraft:frustration",
+      "pokecraft:hiddenpower",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:roost",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:smackdown",
+      "pokecraft:steelwing",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:swordsdance",
+      "pokecraft:thief",
+      "pokecraft:toxic",
+      "pokecraft:uturn",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [
+      "pokecraft:boomburst",
+      "pokecraft:bravebird",
+      "pokecraft:mirrormove",
+      "pokecraft:tailwind",
+      "pokecraft:uproar"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

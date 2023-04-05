@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "hp": 100,
+    "speed": 65,
+    "attack": 115,
+    "defense": 65,
+    "specialAttack": 90,
+    "specialDefense": 90
+  },
+  "typing": [
+    "fire",
+    "bug"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 75,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 184,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:flash_fire",
+      "pokecraft:white_smoke"
+    ],
+    "regular": [
+      "pokecraft:flame_body"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:brutalswing",
+      "pokecraft:bugbuzz",
+      "pokecraft:crunch",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:firefang",
+      "pokecraft:firespin",
+      "pokecraft:flamethrower",
+      "pokecraft:flareblitz",
+      "pokecraft:gigaimpact",
+      "pokecraft:heatcrash",
+      "pokecraft:heatwave",
+      "pokecraft:hyperbeam",
+      "pokecraft:leechlife",
+      "pokecraft:mysticalfire",
+      "pokecraft:overheat",
+      "pokecraft:powerwhip",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:scald",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:thunderfang",
+      "pokecraft:venoshock",
+      "pokecraft:willowisp",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

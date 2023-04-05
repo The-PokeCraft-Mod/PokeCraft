@@ -1,0 +1,91 @@
+{
+  "stats": {
+    "hp": 80,
+    "speed": 135,
+    "attack": 120,
+    "defense": 80,
+    "specialAttack": 90,
+    "specialDefense": 65
+  },
+  "typing": [
+    "dark",
+    "ice"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 3,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:sword_of ruin"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:avalanche",
+      "pokecraft:blizzard",
+      "pokecraft:brickbreak",
+      "pokecraft:crunch",
+      "pokecraft:darkpulse",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:falseswipe",
+      "pokecraft:gigaimpact",
+      "pokecraft:hex",
+      "pokecraft:hyperbeam",
+      "pokecraft:icefang",
+      "pokecraft:icespinner",
+      "pokecraft:icywind",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:snowscape",
+      "pokecraft:substitute",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

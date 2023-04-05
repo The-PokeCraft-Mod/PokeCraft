@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "hp": 28,
+    "speed": 82,
+    "attack": 60,
+    "defense": 30,
+    "specialAttack": 40,
+    "specialDefense": 30
+  },
+  "typing": [
+    "dragon",
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 54,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:clear_body",
+      "pokecraft:infiltrator"
+    ],
+    "regular": [
+      "pokecraft:cursed_body"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "amorphous",
+      "dragon"
+    ],
+    "steps": 10200
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:drakloak"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "50"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:batonpass",
+      "pokecraft:batonpass",
+      "pokecraft:confuseray",
+      "pokecraft:dracometeor",
+      "pokecraft:dragontail",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:helpinghand",
+      "pokecraft:helpinghand",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swift",
+      "pokecraft:swift",
+      "pokecraft:terablast",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave"
+    ],
+    "eggMoves": [
+      "pokecraft:confuseray",
+      "pokecraft:confuseray",
+      "pokecraft:curse",
+      "pokecraft:curse",
+      "pokecraft:disable",
+      "pokecraft:disable",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:dragontail",
+      "pokecraft:dragontail",
+      "pokecraft:grudge",
+      "pokecraft:suckerpunch",
+      "pokecraft:suckerpunch"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

@@ -1,0 +1,214 @@
+{
+  "stats": {
+    "hp": 55,
+    "speed": 15,
+    "attack": 75,
+    "defense": 85,
+    "specialAttack": 25,
+    "specialDefense": 25
+  },
+  "typing": [
+    "rock"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 56,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:sturdy",
+      "pokecraft:weak_armor"
+    ],
+    "regular": [
+      "pokecraft:sand_force"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "mineral"
+    ],
+    "steps": 3825
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:boldore"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:bodypress",
+      "pokecraft:bulldoze",
+      "pokecraft:bulldoze",
+      "pokecraft:bulldoze",
+      "pokecraft:bulldoze",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:earthquake",
+      "pokecraft:earthquake",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:explosion",
+      "pokecraft:explosion",
+      "pokecraft:explosion",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:flashcannon",
+      "pokecraft:flashcannon",
+      "pokecraft:flashcannon",
+      "pokecraft:flashcannon",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:heavyslam",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:irondefense",
+      "pokecraft:naturepower",
+      "pokecraft:naturepower",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:rockblast",
+      "pokecraft:rockpolish",
+      "pokecraft:rockpolish",
+      "pokecraft:rockpolish",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:rocksmash",
+      "pokecraft:rocksmash",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:sandstorm",
+      "pokecraft:sandstorm",
+      "pokecraft:sandstorm",
+      "pokecraft:sandstorm",
+      "pokecraft:sandtomb",
+      "pokecraft:secretpower",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:smackdown",
+      "pokecraft:smackdown",
+      "pokecraft:smackdown",
+      "pokecraft:snore",
+      "pokecraft:stealthrock",
+      "pokecraft:stoneedge",
+      "pokecraft:stoneedge",
+      "pokecraft:stoneedge",
+      "pokecraft:stoneedge",
+      "pokecraft:strength",
+      "pokecraft:strength",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:toxic"
+    ],
+    "eggMoves": [
+      "pokecraft:autotomize",
+      "pokecraft:autotomize",
+      "pokecraft:autotomize",
+      "pokecraft:autotomize",
+      "pokecraft:curse",
+      "pokecraft:curse",
+      "pokecraft:curse",
+      "pokecraft:curse",
+      "pokecraft:gravity",
+      "pokecraft:gravity",
+      "pokecraft:gravity",
+      "pokecraft:gravity",
+      "pokecraft:heavyslam",
+      "pokecraft:heavyslam",
+      "pokecraft:heavyslam",
+      "pokecraft:lockon",
+      "pokecraft:lockon",
+      "pokecraft:lockon",
+      "pokecraft:magnitude",
+      "pokecraft:magnitude",
+      "pokecraft:magnitude",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:takedown",
+      "pokecraft:takedown",
+      "pokecraft:takedown",
+      "pokecraft:takedown",
+      "pokecraft:wideguard",
+      "pokecraft:wideguard",
+      "pokecraft:wideguard"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

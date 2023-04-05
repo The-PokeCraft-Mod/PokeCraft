@@ -22,9 +22,7 @@ import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
-import com.mojang.datafixers.util.Pair;
 import com.mojang.serialization.Codec;
-import com.mojang.serialization.DataResult;
 import com.mojang.serialization.JsonOps;
 import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.api.event.RegistryEvents;
@@ -242,11 +240,11 @@ public class DynamicLazySyncingRegistry<T> extends SimpleJsonResourceReloadListe
     }
 
     @ApiStatus.Internal
-    protected T readJson(JsonElement json) {
+    protected T readJson(ResourceLocation key, JsonElement json) {
         var decode = codec().decode(JsonOps.INSTANCE, json);
         return decode
                 .resultOrPartial(PokeCraft.LOGGER::error)
-                .orElseThrow(() -> new RuntimeException("Failed to read datapack json. " + decode.error().orElseThrow().message()))
+                .orElseThrow(() -> new RuntimeException("Errors exist in " + key + ".json \"" + decode.error().orElseThrow().message() + "\""))
                 .getFirst();
     }
 
@@ -256,7 +254,7 @@ public class DynamicLazySyncingRegistry<T> extends SimpleJsonResourceReloadListe
             var json = entry.getValue().getAsJsonObject();
             var originalHash = json.has("hash") ? json.get("hash").getAsString() : "";
             var fileHash = ignoreHashes ? "" : new String(HASH_DIGEST.digest(GSON.toJson(json).getBytes()), StandardCharsets.UTF_8);
-            register(entry.getKey(), readJson(json), !ignoreHashes && !originalHash.equals(fileHash));
+            register(entry.getKey(), readJson(entry.getKey(), json), !ignoreHashes && !originalHash.equals(fileHash));
         }
     }
 

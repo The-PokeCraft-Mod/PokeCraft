@@ -1,0 +1,112 @@
+{
+  "stats": {
+    "hp": 40,
+    "speed": 10,
+    "attack": 40,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 60
+  },
+  "typing": [
+    "grass"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1
+  },
+  "catchRate": 190,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 50,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:cotton_down",
+      "pokecraft:regenerator"
+    ],
+    "regular": [
+      "pokecraft:effect_spore"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "grass"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:eldegoss"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:bulletseed",
+      "pokecraft:charm",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:gigadrain",
+      "pokecraft:grassknot",
+      "pokecraft:grassyterrain",
+      "pokecraft:helpinghand",
+      "pokecraft:hypervoice",
+      "pokecraft:leafstorm",
+      "pokecraft:lightscreen",
+      "pokecraft:magicalleaf",
+      "pokecraft:pollenpuff",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday"
+    ],
+    "eggMoves": [
+      "pokecraft:growth",
+      "pokecraft:leechseed",
+      "pokecraft:poisonpowder",
+      "pokecraft:sleeppowder",
+      "pokecraft:stunspore",
+      "pokecraft:worryseed"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

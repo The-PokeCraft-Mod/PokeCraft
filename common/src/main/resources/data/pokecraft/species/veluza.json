@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "hp": 90,
+    "speed": 70,
+    "attack": 102,
+    "defense": 73,
+    "specialAttack": 78,
+    "specialDefense": 65
+  },
+  "typing": [
+    "water",
+    "psychic"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:mold_breaker"
+    ],
+    "regular": [
+      "pokecraft:sharpness"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_2"
+    ],
+    "steps": 12750
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:blizzard",
+      "pokecraft:bodyslam",
+      "pokecraft:chillingwater",
+      "pokecraft:crunch",
+      "pokecraft:drillrun",
+      "pokecraft:endure",
+      "pokecraft:gigaimpact",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icebeam",
+      "pokecraft:icefang",
+      "pokecraft:icywind",
+      "pokecraft:liquidation",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychicfangs",
+      "pokecraft:psychicterrain",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:sleeptalk",
+      "pokecraft:snowscape",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:waterfall",
+      "pokecraft:waterpulse",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:recover",
+      "pokecraft:thrash"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

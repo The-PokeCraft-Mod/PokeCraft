@@ -1,0 +1,92 @@
+{
+  "stats": {
+    "hp": 109,
+    "speed": 45,
+    "attack": 64,
+    "defense": 91,
+    "specialAttack": 103,
+    "specialDefense": 83
+  },
+  "typing": [
+    "electric"
+  ],
+  "evYields": {
+    "hp": 2,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 75,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:electromorphosis",
+      "pokecraft:static"
+    ],
+    "regular": [
+      "pokecraft:damp"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:chargebeam",
+      "pokecraft:chillingwater",
+      "pokecraft:confuseray",
+      "pokecraft:eerieimpulse",
+      "pokecraft:electricterrain",
+      "pokecraft:electroball",
+      "pokecraft:endure",
+      "pokecraft:gigaimpact",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:lightscreen",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:swift",
+      "pokecraft:terablast",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderwave",
+      "pokecraft:voltswitch",
+      "pokecraft:waterpulse",
+      "pokecraft:wildcharge"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

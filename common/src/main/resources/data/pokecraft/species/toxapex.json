@@ -1,0 +1,161 @@
+{
+  "stats": {
+    "hp": 50,
+    "speed": 35,
+    "attack": 63,
+    "defense": 152,
+    "specialAttack": 53,
+    "specialDefense": 142
+  },
+  "typing": [
+    "poison",
+    "water"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 75,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 173,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:merciless",
+      "pokecraft:limber"
+    ],
+    "regular": [
+      "pokecraft:regenerator"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:bodyslam",
+      "pokecraft:brine",
+      "pokecraft:chillingwater",
+      "pokecraft:confide",
+      "pokecraft:crosspoison",
+      "pokecraft:doubleteam",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:frostbreath",
+      "pokecraft:frustration",
+      "pokecraft:gigaimpact",
+      "pokecraft:gunkshot",
+      "pokecraft:gunkshot",
+      "pokecraft:hail",
+      "pokecraft:hail",
+      "pokecraft:hex",
+      "pokecraft:hex",
+      "pokecraft:hiddenpower",
+      "pokecraft:hydropump",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:icespinner",
+      "pokecraft:icywind",
+      "pokecraft:icywind",
+      "pokecraft:infestation",
+      "pokecraft:irondefense",
+      "pokecraft:irondefense",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:liquidation",
+      "pokecraft:liquidation",
+      "pokecraft:muddywater",
+      "pokecraft:mudshot",
+      "pokecraft:mudshot",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:pinmissile",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:scald",
+      "pokecraft:scald",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgewave",
+      "pokecraft:sludgewave",
+      "pokecraft:smackdown",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swagger",
+      "pokecraft:terablast",
+      "pokecraft:toxic",
+      "pokecraft:toxicspikes",
+      "pokecraft:toxicspikes",
+      "pokecraft:venomdrench",
+      "pokecraft:venoshock",
+      "pokecraft:venoshock",
+      "pokecraft:venoshock",
+      "pokecraft:waterpulse"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "hp": 85,
+    "speed": 85,
+    "attack": 120,
+    "defense": 80,
+    "specialAttack": 85,
+    "specialDefense": 75
+  },
+  "typing": [
+    "water",
+    "fighting"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:torrent"
+    ],
+    "regular": [
+      "pokecraft:moxie"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying",
+      "water_1"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:batonpass",
+      "pokecraft:bravebird",
+      "pokecraft:brickbreak",
+      "pokecraft:bulkup",
+      "pokecraft:chillingwater",
+      "pokecraft:closecombat",
+      "pokecraft:disarmingvoice",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fling",
+      "pokecraft:gigaimpact",
+      "pokecraft:helpinghand",
+      "pokecraft:hurricane",
+      "pokecraft:hydrocannon",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icespinner",
+      "pokecraft:icywind",
+      "pokecraft:liquidation",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:mistyterrain",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:swift",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:uturn",
+      "pokecraft:waterpledge",
+      "pokecraft:waterpulse"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

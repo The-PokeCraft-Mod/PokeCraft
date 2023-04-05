@@ -1,7 +1,7 @@
 package com.thepokecraftmod.pokecraft.network.packets.c2s;
 
 import com.thepokecraftmod.pokecraft.api.event.DataEvents;
-import com.thepokecraftmod.pokecraft.api.mon.PokemonParty;
+import com.thepokecraftmod.pokecraft.api.pokemon.PokemonParty;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.server.level.ServerPlayer;
 

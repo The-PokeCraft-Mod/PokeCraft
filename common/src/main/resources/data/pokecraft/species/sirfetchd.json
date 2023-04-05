@@ -1,0 +1,93 @@
+{
+  "stats": {
+    "hp": 62,
+    "speed": 65,
+    "attack": 135,
+    "defense": 95,
+    "specialAttack": 68,
+    "specialDefense": 82
+  },
+  "typing": [
+    "fighting"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 177,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:steadfast"
+    ],
+    "regular": [
+      "pokecraft:scrappy"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying",
+      "field"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:assurance",
+      "pokecraft:attract",
+      "pokecraft:bodyslam",
+      "pokecraft:bravebird",
+      "pokecraft:brickbreak",
+      "pokecraft:brutalswing",
+      "pokecraft:closecombat",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:focusenergy",
+      "pokecraft:helpinghand",
+      "pokecraft:irondefense",
+      "pokecraft:leafblade",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:revenge",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:solarblade",
+      "pokecraft:steelwing",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:superpower",
+      "pokecraft:swordsdance",
+      "pokecraft:throatchop",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

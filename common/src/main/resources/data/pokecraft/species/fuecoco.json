@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "hp": 67,
+    "speed": 36,
+    "attack": 45,
+    "defense": 59,
+    "specialAttack": 63,
+    "specialDefense": 40
+  },
+  "typing": [
+    "fire"
+  ],
+  "evYields": {
+    "hp": 1,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:blaze"
+    ],
+    "regular": [
+      "pokecraft:unaware"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:crocalor"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodyslam",
+      "pokecraft:crunch",
+      "pokecraft:dig",
+      "pokecraft:disarmingvoice",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:firefang",
+      "pokecraft:firepledge",
+      "pokecraft:firespin",
+      "pokecraft:flamecharge",
+      "pokecraft:flamethrower",
+      "pokecraft:flareblitz",
+      "pokecraft:heatwave",
+      "pokecraft:helpinghand",
+      "pokecraft:hypervoice",
+      "pokecraft:mudslap",
+      "pokecraft:outrage",
+      "pokecraft:overheat",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thunderfang",
+      "pokecraft:willowisp",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:belch",
+      "pokecraft:curse",
+      "pokecraft:encore",
+      "pokecraft:slackoff"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

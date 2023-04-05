@@ -1,0 +1,62 @@
+{
+  "stats": {
+    "hp": 48,
+    "speed": 48,
+    "attack": 48,
+    "defense": 48,
+    "specialAttack": 48,
+    "specialDefense": 48
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 1,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 35,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 101,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:limber"
+    ],
+    "regular": [
+      "pokecraft:imposter"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "ditto"
+    ],
+    "steps": 5100
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}

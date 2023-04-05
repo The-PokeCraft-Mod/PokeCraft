@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "hp": 52,
+    "speed": 50,
+    "attack": 62,
+    "defense": 40,
+    "specialAttack": 62,
+    "specialDefense": 40
+  },
+  "typing": [
+    "grass"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 10,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:chlorophyll",
+      "pokecraft:insomnia"
+    ],
+    "regular": [
+      "pokecraft:klutz"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "grass"
+    ],
+    "steps": 10200
+  },
+    "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:scovillain"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:holding_item",
+          "item": "pokecraft:fire_stone",
+          "consume": true
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bulletseed",
+      "pokecraft:crunch",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:gigadrain",
+      "pokecraft:grassknot",
+      "pokecraft:grassyterrain",
+      "pokecraft:helpinghand",
+      "pokecraft:leafstorm",
+      "pokecraft:magicalleaf",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:sandstorm",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:solarbeam",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trailblaze",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:ingrain",
+      "pokecraft:leechseed",
+      "pokecraft:ragepowder",
+      "pokecraft:rollout",
+      "pokecraft:worryseed"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {}
+}
