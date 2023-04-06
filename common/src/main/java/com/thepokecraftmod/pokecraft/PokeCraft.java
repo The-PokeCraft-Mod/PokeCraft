@@ -25,6 +25,7 @@ import com.thepokecraftmod.pokecraft.api.registry.MojangRegistry;
 import com.thepokecraftmod.pokecraft.api.registry.builtin.PokeCraftRegistries;
 import com.thepokecraftmod.pokecraft.command.GivePokemonCommand;
 import com.thepokecraftmod.pokecraft.command.SummonPokemonCommand;
+import com.thepokecraftmod.pokecraft.command.argument.PokeCraftArguments;
 import com.thepokecraftmod.pokecraft.level.block.PokeCraftBlocks;
 import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntities;
 import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntityDataSerializers;
@@ -64,6 +65,7 @@ public abstract class PokeCraft {
         PokeCraftEntities.onInitialize();
         PokeCraftItems.onInitialize();
         PokeCraftBlocks.onInitialize();
+        PokeCraftArguments.onInitialize();
     }
 
     protected void initializeEntityAttribs(BiConsumer<EntityType<? extends LivingEntity>, AttributeSupplier.Builder> consumer) {
