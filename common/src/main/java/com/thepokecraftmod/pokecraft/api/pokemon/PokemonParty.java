@@ -42,7 +42,7 @@ public class PokemonParty {
     }
 
     /**
-     * Returns the party of pokemons that the owner has. This party can be greater or less than 6 depending on the implementation. <b>DO NOT ADD pokemonS DIRECTLY TO THIS LIST. USE {@link PokemonParty#addPokemon(PokemonInstance)}</b>
+     * Returns the party of pokemon that the owner has. This party can be greater or less than 6 depending on the implementation. <b>DO NOT ADD POKEMON DIRECTLY TO THIS LIST. USE {@link PokemonParty#addPokemon(PokemonInstance)}</b> however, if you break this rule make sure to call {@link PokemonParty#sync()} afterward
      */
     public List<PokemonInstance> getParty() {
         return pokemons;

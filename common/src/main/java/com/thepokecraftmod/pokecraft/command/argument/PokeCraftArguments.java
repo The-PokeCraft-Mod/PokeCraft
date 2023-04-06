@@ -13,7 +13,7 @@ public class PokeCraftArguments {
     private static final MojangRegistry<ArgumentTypeInfo<?, ?>, Registry<ArgumentTypeInfo<?, ?>>> REGISTRY = PokeCraft.getInstance().newRegistry(Registries.COMMAND_ARGUMENT_TYPE);
 
     public static void onInitialize() {
-        register("spawn_builder", SpawnBuilderArgumentType.class, new SingletonArgumentInfo<>(ctx -> SpawnBuilderArgumentType.spawnBuilder()));
+        register("instance_builder", InstanceBuilderArgumentType.class, new SingletonArgumentInfo<>(ctx -> InstanceBuilderArgumentType.instanceBuilder()));
     }
 
     private static <A extends ArgumentType<?>, T extends ArgumentTypeInfo.Template<A>> void register(String name, Class<? extends A> argumentClass, ArgumentTypeInfo<A, T> info) {
