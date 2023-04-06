@@ -108,12 +108,7 @@ public class PokemonInstance implements PokemonBattleData {
      */
     public Component getDisplayName() {
         if (nickname != null) return Component.literal(nickname);
-        else return Component.translatable(species.getNamespace() + "." + species.getPath() + ".name");
-    }
-
-    @Override
-    public String getName() {
-        return PokeCraft.translate(getDisplayName());
+        else return Component.translatable(species.getNamespace() + ".species." + species.getPath() + ".name");
     }
 
     @Override

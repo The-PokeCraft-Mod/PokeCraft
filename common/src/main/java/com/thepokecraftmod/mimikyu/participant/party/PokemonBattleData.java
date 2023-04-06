@@ -7,6 +7,7 @@ import com.thepokecraftmod.mimikyu.util.FullNetworkable;
 import com.thepokecraftmod.mimikyu.util.ReferenceNetworkable;
 import com.thepokecraftmod.mimikyu.util.StatusCondition;
 import net.minecraft.FieldsAreNonnullByDefault;
+import net.minecraft.network.chat.Component;
 
 import java.util.*;
 
@@ -37,7 +38,7 @@ public interface PokemonBattleData extends FullNetworkable, ReferenceNetworkable
     /**
      * Gets the display id of the pokemon
      */
-    String getName();
+    Component getDisplayName();
 
     /**
      * Gets the UUID associated with this {@link PokemonBattleData}
