@@ -1,5 +1,6 @@
 package com.thepokecraftmod.pokecraft.fabric.datagen.resources;
 
+import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.level.block.PokeCraftBlocks;
 import com.thepokecraftmod.pokecraft.level.item.PokeCraftItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -110,6 +111,8 @@ public class BlockItemModels extends FabricModelProvider {
         generator.createTrivialCube(PokeCraftBlocks.GRAY_SAND);
         generator.createTrivialCube(PokeCraftBlocks.BLACK_SAND);
         generator.createTrivialCube(PokeCraftBlocks.BROWN_SAND);
+
+        generator.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(PokeCraftBlocks.BERRY_BUSH, PokeCraft.id("models/block/berry_bush_stage3.json")));
     }
 
     @Override

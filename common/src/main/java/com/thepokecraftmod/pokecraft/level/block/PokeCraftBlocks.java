@@ -108,6 +108,8 @@ public class PokeCraftBlocks {
     public static final Block RED_CRACKED_SANDSTONE = blockItem("red_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)));
     public static final Block CRACKED_SANDSTONE = blockItem("cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)));
 
+    public static final Block BERRY_BUSH = blockItem("berry_bush", new Block(BlockBehaviour.Properties.of(Material.GRASS)));
+
     private static Block blockItem(String name, Block block) {
         REGISTRY.register(name, block);
         PokeCraftItems.REGISTRY.register(name, new BlockItem(block, new Item.Properties()));

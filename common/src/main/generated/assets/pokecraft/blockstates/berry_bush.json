@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pokecraft:models/block/berry_bush_stage3.json"
+    }
+  }
+}
