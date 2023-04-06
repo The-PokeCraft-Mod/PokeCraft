@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "hp": 80,
+    "speed": 42,
+    "attack": 118,
+    "defense": 90,
+    "specialAttack": 70,
+    "specialDefense": 80
+  },
+  "typing": [
+    "fighting"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 168,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:limber"
+    ],
+    "regular": [
+      "pokecraft:technician"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1",
+      "human_like"
+    ],
+    "steps": 6375
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:bodyslam",
+      "pokecraft:brickbreak",
+      "pokecraft:brine",
+      "pokecraft:brutalswing",
+      "pokecraft:bulkup",
+      "pokecraft:closecombat",
+      "pokecraft:dig",
+      "pokecraft:dive",
+      "pokecraft:drainpunch",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:focusblast",
+      "pokecraft:gigaimpact",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icepunch",
+      "pokecraft:liquidation",
+      "pokecraft:megapunch",
+      "pokecraft:muddywater",
+      "pokecraft:mudshot",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:revenge",
+      "pokecraft:reversal",
+      "pokecraft:round",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:superpower",
+      "pokecraft:surf",
+      "pokecraft:taunt",
+      "pokecraft:waterfall",
+      "pokecraft:whirlpool",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u0005�K\u0000�KXq��ן\u0016�\u003c��\u0000\u0002\u0003)AJ@P �\u0027�:�H"
+}

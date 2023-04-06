@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 85,
+    "attack": 130,
+    "defense": 95,
+    "specialAttack": 45,
+    "specialDefense": 75
+  },
+  "typing": [
+    "bug",
+    "rock"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 115,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:swarm",
+      "pokecraft:sheer_force"
+    ],
+    "regular": [
+      "pokecraft:sharpness"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 0
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:batonpass",
+      "pokecraft:brickbreak",
+      "pokecraft:bugbuzz",
+      "pokecraft:closecombat",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:falseswipe",
+      "pokecraft:gigaimpact",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:lightscreen",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:rockblast",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:stealthrock",
+      "pokecraft:stoneedge",
+      "pokecraft:strugglebug",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:swordsdance",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trailblaze",
+      "pokecraft:uturn",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "V^ڇ�E�u��\u0001n�w\u001d?��h\n}x\u0005\u0018\u0014t����q�"
+}

@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "hp": 50,
+    "speed": 34,
+    "attack": 61,
+    "defense": 60,
+    "specialAttack": 30,
+    "specialDefense": 55
+  },
+  "typing": [
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 90,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:pickup"
+    ],
+    "regular": [
+      "pokecraft:fluffy"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:houndstone"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "30"
+            }
+          ]
+        },
+        {
+          "type": "pokecraft:time",
+          "time": "night"
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bulldoze",
+      "pokecraft:charm",
+      "pokecraft:confuseray",
+      "pokecraft:crunch",
+      "pokecraft:dig",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:firefang",
+      "pokecraft:helpinghand",
+      "pokecraft:hex",
+      "pokecraft:icefang",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:nightshade",
+      "pokecraft:phantomforce",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderfang",
+      "pokecraft:trick"
+    ],
+    "eggMoves": [
+      "pokecraft:allyswitch",
+      "pokecraft:destinybond",
+      "pokecraft:disable",
+      "pokecraft:howl",
+      "pokecraft:memento",
+      "pokecraft:shadowsneak",
+      "pokecraft:yawn"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�\u003cB^��s\b�j\b\u001f\u0002T�~00��Sj��JM2L�u�"
+}

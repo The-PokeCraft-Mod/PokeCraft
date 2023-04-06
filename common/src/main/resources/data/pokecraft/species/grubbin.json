@@ -1,0 +1,134 @@
+{
+  "stats": {
+    "hp": 47,
+    "speed": 46,
+    "attack": 62,
+    "defense": 45,
+    "specialAttack": 55,
+    "specialDefense": 45
+  },
+  "typing": [
+    "bug"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 60,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:swarm"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:charjabug"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:chargebeam",
+      "pokecraft:confide",
+      "pokecraft:crunch",
+      "pokecraft:dig",
+      "pokecraft:doubleteam",
+      "pokecraft:electroweb",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:frustration",
+      "pokecraft:hiddenpower",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:mudshot",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:screech",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swagger",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:toxic",
+      "pokecraft:voltswitch",
+      "pokecraft:voltswitch",
+      "pokecraft:wildcharge",
+      "pokecraft:wildcharge",
+      "pokecraft:xscissor",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [
+      "pokecraft:discharge",
+      "pokecraft:electroweb",
+      "pokecraft:endure",
+      "pokecraft:harden",
+      "pokecraft:harden",
+      "pokecraft:mudshot"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "n51�**(CR�w\u0027�m�@��k��dOqf�Nґ��"
+}

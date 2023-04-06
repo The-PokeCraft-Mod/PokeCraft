@@ -1,0 +1,132 @@
+{
+  "stats": {
+    "hp": 54,
+    "speed": 35,
+    "attack": 45,
+    "defense": 40,
+    "specialAttack": 35,
+    "specialDefense": 45
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 1,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:aroma_veil",
+      "pokecraft:gluttony"
+    ],
+    "regular": [
+      "pokecraft:thick_fat"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:oinkologne"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "species": "pokecraft:oinkologne"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:bulletseed",
+      "pokecraft:chillingwater",
+      "pokecraft:dig",
+      "pokecraft:disarmingvoice",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:helpinghand",
+      "pokecraft:hypervoice",
+      "pokecraft:ironhead",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trailblaze",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:endeavor",
+      "pokecraft:spitup",
+      "pokecraft:stockpile",
+      "pokecraft:stuffcheeks",
+      "pokecraft:swallow"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "c\u001en�~(w\u0000�B]]Mx�hN\u003e�-k\u001f�\u003c\u0026@Jƃ�:%"
+}

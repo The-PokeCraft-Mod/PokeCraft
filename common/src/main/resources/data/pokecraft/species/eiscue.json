@@ -1,0 +1,139 @@
+{
+  "stats": {
+    "hp": 75,
+    "speed": 50,
+    "attack": 80,
+    "defense": 110,
+    "specialAttack": 65,
+    "specialDefense": 90
+  },
+  "typing": [
+    "ice"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 60,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 165,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:ice_face"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1",
+      "field"
+    ],
+    "steps": 6375
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:agility",
+      "pokecraft:amnesia",
+      "pokecraft:amnesia",
+      "pokecraft:attract",
+      "pokecraft:avalanche",
+      "pokecraft:avalanche",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:bodyslam",
+      "pokecraft:brine",
+      "pokecraft:chillingwater",
+      "pokecraft:dive",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:gigaimpact",
+      "pokecraft:hail",
+      "pokecraft:hydropump",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:icepunch",
+      "pokecraft:icepunch",
+      "pokecraft:icespinner",
+      "pokecraft:iciclespear",
+      "pokecraft:icywind",
+      "pokecraft:icywind",
+      "pokecraft:irondefense",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:ironhead",
+      "pokecraft:liquidation",
+      "pokecraft:liquidation",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:reversal",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:snowscape",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:waterfall",
+      "pokecraft:waterfall",
+      "pokecraft:waterpulse",
+      "pokecraft:weatherball",
+      "pokecraft:whirlpool",
+      "pokecraft:zenheadbutt",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:aquaring",
+      "pokecraft:aquaring",
+      "pokecraft:bellydrum",
+      "pokecraft:bellydrum",
+      "pokecraft:doubleedge",
+      "pokecraft:doubleedge",
+      "pokecraft:headsmash",
+      "pokecraft:headsmash",
+      "pokecraft:iciclecrash",
+      "pokecraft:iciclecrash",
+      "pokecraft:soak",
+      "pokecraft:soak"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�\u0005\u0003�k;�\\q\u001a��躷-\u0003�X��mXY��z�\u000b���"
+}

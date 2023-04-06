@@ -1,0 +1,99 @@
+{
+  "stats": {
+    "hp": 57,
+    "speed": 95,
+    "attack": 80,
+    "defense": 115,
+    "specialAttack": 50,
+    "specialDefense": 80
+  },
+  "typing": [
+    "fairy"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 60,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:well-baked_body"
+    ],
+    "regular": [
+      "pokecraft:aroma_veil"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field",
+      "mineral"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:batonpass",
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:charm",
+      "pokecraft:crunch",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dig",
+      "pokecraft:drainingkiss",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:firefang",
+      "pokecraft:gigaimpact",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:icefang",
+      "pokecraft:mistyterrain",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thunderfang",
+      "pokecraft:trailblaze"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "d�\u001cx��]\f\u001a\u001d�z]\u0011\u0004�\u001c��];/ϕC��\u000f7u�$"
+}

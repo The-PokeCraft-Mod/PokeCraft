@@ -1,0 +1,137 @@
+{
+  "stats": {
+    "hp": 40,
+    "speed": 36,
+    "attack": 29,
+    "defense": 45,
+    "specialAttack": 29,
+    "specialDefense": 45
+  },
+  "typing": [
+    "bug"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 1
+  },
+  "catchRate": 120,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 45,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 70,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:shed_skin"
+    ],
+    "regular": [
+      "pokecraft:overcoat"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:wormadam"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "species": "pokecraft:wormadam"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "species": "pokecraft:wormadam"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "species": "pokecraft:mothim"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:protect",
+      "pokecraft:protect"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "4?��\u000e�\u001dP����\u0014��C��d�NYv��7m ͆"
+}

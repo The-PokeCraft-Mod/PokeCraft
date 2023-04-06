@@ -15,7 +15,7 @@ public class DataEvents {
     public static final Event<Consumer<ServerPlayer>> SYNC_PLAYER = new Event<Consumer<ServerPlayer>>(Event::consumerCallback, Consumer[]::new);
 
     /**
-     * Called when a {@link com.thepokecraftmod.pokecraft.api.mon.PokemonInstance} is going to be added to a {@link com.thepokecraftmod.pokecraft.api.mon.PokemonParty}. The result can be configured through the event's context
+     * Called when a {@link com.thepokecraftmod.pokecraft.api.pokemon.PokemonInstance} is going to be added to a {@link com.thepokecraftmod.pokecraft.api.pokemon.PokemonParty}. The result can be configured through the event's context
      */
     public static final Event<Consumer<MovePokemonContext>> MOVE_MON_TO_PARTY = new Event<Consumer<MovePokemonContext>>(Event::consumerCallback, Consumer[]::new);
 }

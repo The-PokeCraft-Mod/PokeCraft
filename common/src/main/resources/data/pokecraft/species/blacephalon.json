@@ -1,0 +1,136 @@
+{
+  "stats": {
+    "hp": 53,
+    "speed": 107,
+    "attack": 127,
+    "defense": 53,
+    "specialAttack": 151,
+    "specialDefense": 79
+  },
+  "typing": [
+    "fire",
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0
+  },
+  "catchRate": 30,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 285,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:beast_boost"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 30600
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:confide",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:doubleteam",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:explosion",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:fireblast",
+      "pokecraft:firepunch",
+      "pokecraft:firespin",
+      "pokecraft:flamecharge",
+      "pokecraft:flamethrower",
+      "pokecraft:flamethrower",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:foulplay",
+      "pokecraft:frustration",
+      "pokecraft:heatwave",
+      "pokecraft:hiddenpower",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:mysticalfire",
+      "pokecraft:overheat",
+      "pokecraft:overheat",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psyshock",
+      "pokecraft:psyshock",
+      "pokecraft:quash",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:rockblast",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:selfdestruct",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:shadowclaw",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:smackdown",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:torment",
+      "pokecraft:toxic",
+      "pokecraft:trick",
+      "pokecraft:uproar",
+      "pokecraft:willowisp",
+      "pokecraft:willowisp",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�\u0012\u0026\u0011\u003e\r�\u0011\u003cr�xk��l�a�~�G��\u0003Dy$���p"
+}

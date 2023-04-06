@@ -1,0 +1,177 @@
+{
+  "stats": {
+    "hp": 45,
+    "speed": 42,
+    "attack": 55,
+    "defense": 39,
+    "specialAttack": 35,
+    "specialDefense": 39
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 51,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 70,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:run_away",
+      "pokecraft:keen_eye"
+    ],
+    "regular": [
+      "pokecraft:analytic"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:watchog"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:cut",
+      "pokecraft:cut",
+      "pokecraft:dig",
+      "pokecraft:dig",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:retaliate",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:secretpower",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swordsdance",
+      "pokecraft:swordsdance",
+      "pokecraft:swordsdance",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:workup",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [
+      "pokecraft:assurance",
+      "pokecraft:assurance",
+      "pokecraft:assurance",
+      "pokecraft:bulletseed",
+      "pokecraft:flail",
+      "pokecraft:flail",
+      "pokecraft:flail",
+      "pokecraft:foresight",
+      "pokecraft:foresight",
+      "pokecraft:foresight",
+      "pokecraft:irontail",
+      "pokecraft:irontail",
+      "pokecraft:irontail",
+      "pokecraft:pursuit",
+      "pokecraft:pursuit",
+      "pokecraft:pursuit",
+      "pokecraft:revenge",
+      "pokecraft:revenge",
+      "pokecraft:revenge",
+      "pokecraft:screech",
+      "pokecraft:screech",
+      "pokecraft:screech",
+      "pokecraft:tearfullook"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u003ch���K��;\u003de�z[��\u0010\u0010\u000f�˪�Uf�9\rY�\t�"
+}

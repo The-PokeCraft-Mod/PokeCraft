@@ -1,0 +1,85 @@
+{
+  "stats": {
+    "hp": 20,
+    "speed": 80,
+    "attack": 10,
+    "defense": 55,
+    "specialAttack": 15,
+    "specialDefense": 20
+  },
+  "typing": [
+    "water"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 40,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:swift_swim"
+    ],
+    "regular": [
+      "pokecraft:rattled"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_2",
+      "dragon"
+    ],
+    "steps": 1275
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:gyarados"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "20"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bounce",
+      "pokecraft:hydropump"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�oTBqߴ\u001f���\u0016\u001dΩ\u003eO�RT�.hX��\u001c\u0006jEq�"
+}

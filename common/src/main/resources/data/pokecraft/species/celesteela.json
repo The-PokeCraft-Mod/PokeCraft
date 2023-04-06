@@ -1,0 +1,133 @@
+{
+  "stats": {
+    "hp": 97,
+    "speed": 61,
+    "attack": 101,
+    "defense": 103,
+    "specialAttack": 107,
+    "specialDefense": 101
+  },
+  "typing": [
+    "steel",
+    "flying"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 1,
+    "specialAttack": 1,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 285,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:beast_boost"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 30600
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:airslash",
+      "pokecraft:bodyslam",
+      "pokecraft:brutalswing",
+      "pokecraft:brutalswing",
+      "pokecraft:bulldoze",
+      "pokecraft:bulldoze",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:earthquake",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:explosion",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:fireblast",
+      "pokecraft:flamecharge",
+      "pokecraft:flamethrower",
+      "pokecraft:flamethrower",
+      "pokecraft:flashcannon",
+      "pokecraft:flashcannon",
+      "pokecraft:fly",
+      "pokecraft:fly",
+      "pokecraft:frustration",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:gyroball",
+      "pokecraft:gyroball",
+      "pokecraft:heavyslam",
+      "pokecraft:hiddenpower",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:megahorn",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:seedbomb",
+      "pokecraft:selfdestruct",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:smackdown",
+      "pokecraft:smartstrike",
+      "pokecraft:smartstrike",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stoneedge",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:superpower",
+      "pokecraft:swagger",
+      "pokecraft:toxic",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u001ds#3�1�(��#�`��mY��ܥ\"\u0014\u003e�\u0026\u001b@�5��"
+}

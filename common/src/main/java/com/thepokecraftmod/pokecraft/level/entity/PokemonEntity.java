@@ -1,6 +1,6 @@
 package com.thepokecraftmod.pokecraft.level.entity;
 
-import com.thepokecraftmod.pokecraft.api.mon.PokemonInstance;
+import com.thepokecraftmod.pokecraft.api.pokemon.PokemonInstance;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.NbtOps;
 import net.minecraft.network.syncher.EntityDataAccessor;

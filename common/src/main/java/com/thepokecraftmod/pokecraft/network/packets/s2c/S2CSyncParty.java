@@ -1,6 +1,6 @@
 package com.thepokecraftmod.pokecraft.network.packets.s2c;
 
-import com.thepokecraftmod.pokecraft.api.mon.PokemonParty;
+import com.thepokecraftmod.pokecraft.api.pokemon.PokemonParty;
 import com.thepokecraftmod.pokecraft.network.handler.ClientPacketHandler;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.FriendlyByteBuf;

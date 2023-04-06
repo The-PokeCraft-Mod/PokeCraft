@@ -18,15 +18,15 @@ public class HashUpdater {
     private static final Gson OUTPUT_GSON = new GsonBuilder().setPrettyPrinting().create();
 
     public static void main(String[] args) throws IOException {
-        try (var files = Files.list(Paths.get("src/main/resources/data/pokecraft/species"))) {
+        try (var files = Files.list(Paths.get("common/src/main/resources/data/pokecraft/species"))) {
             files.filter(Files::isRegularFile)
                     .forEach(path -> {
                         try {
                             var jsonObject = HASH_CHECK_GSON.fromJson(Files.readString(path), JsonObject.class);
                             jsonObject.remove("hash");
 
-                            var hash = HASH_DIGEST.digest(HASH_CHECK_GSON.toJson(jsonObject).getBytes()); // Done to make sure the formatting is always the same. Plus Mojang gives us a JsonElement not a file
-                            jsonObject.add("hash", new JsonPrimitive(new String(hash, StandardCharsets.UTF_8)));
+                            var hash = new String(HASH_DIGEST.digest(HASH_CHECK_GSON.toJson(jsonObject).getBytes()), StandardCharsets.UTF_8); // Done to make sure the formatting is always the same. Plus Mojang gives us a JsonElement not a file
+                            jsonObject.add("hash", new JsonPrimitive(hash));
                             Files.delete(path);
                             Files.writeString(path, OUTPUT_GSON.toJson(jsonObject));
                         } catch (IOException e) {

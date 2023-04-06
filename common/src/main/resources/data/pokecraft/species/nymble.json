@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "hp": 33,
+    "speed": 45,
+    "attack": 46,
+    "defense": 40,
+    "specialAttack": 21,
+    "specialDefense": 25
+  },
+  "typing": [
+    "bug"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 120,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:swarm"
+    ],
+    "regular": [
+      "pokecraft:tinted_lens"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:lokix"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "24"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:bugbuzz",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:leechlife",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:sleeptalk",
+      "pokecraft:strugglebug",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trailblaze",
+      "pokecraft:uturn",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [
+      "pokecraft:counter",
+      "pokecraft:skittersmack"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "A^jT9�~�E\u0000I믹P��.@\"\u00001,\u0012䇢�+Ss�"
+}

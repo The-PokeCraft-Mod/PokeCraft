@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "hp": 115,
+    "speed": 87,
+    "attack": 131,
+    "defense": 131,
+    "specialAttack": 53,
+    "specialDefense": 53
+  },
+  "typing": [
+    "ground",
+    "fighting"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 30,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:protosynthesis"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 12750
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:brickbreak",
+      "pokecraft:bulkup",
+      "pokecraft:bulldoze",
+      "pokecraft:closecombat",
+      "pokecraft:dig",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:firefang",
+      "pokecraft:flashcannon",
+      "pokecraft:gigaimpact",
+      "pokecraft:heavyslam",
+      "pokecraft:hyperbeam",
+      "pokecraft:icefang",
+      "pokecraft:icespinner",
+      "pokecraft:ironhead",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:psyshock",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:smartstrike",
+      "pokecraft:stealthrock",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thunderfang",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�`.\u0004,\u001c��Y�\u0001bn�n#�����wy�K?�/`�Z8"
+}

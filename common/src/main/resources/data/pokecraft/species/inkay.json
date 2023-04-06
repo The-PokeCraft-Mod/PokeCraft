@@ -1,0 +1,206 @@
+{
+  "stats": {
+    "hp": 53,
+    "speed": 45,
+    "attack": 54,
+    "defense": 53,
+    "specialAttack": 37,
+    "specialDefense": 46
+  },
+  "typing": [
+    "dark",
+    "psychic"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 58,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:contrary",
+      "pokecraft:suction_cups"
+    ],
+    "regular": [
+      "pokecraft:infiltrator"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1",
+      "water_2"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:malamar"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "30"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:aerialace",
+      "pokecraft:allyswitch",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:batonpass",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:cut",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:embargo",
+      "pokecraft:embargo",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:flamethrower",
+      "pokecraft:flamethrower",
+      "pokecraft:flamethrower",
+      "pokecraft:flash",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:foulplay",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:futuresight",
+      "pokecraft:guardswap",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:liquidation",
+      "pokecraft:nastyplot",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychocut",
+      "pokecraft:psychup",
+      "pokecraft:psychup",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:retaliate",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:secretpower",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:superpower",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:torment",
+      "pokecraft:torment",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:trickroom",
+      "pokecraft:trickroom",
+      "pokecraft:trickroom"
+    ],
+    "eggMoves": [
+      "pokecraft:acupressure",
+      "pokecraft:camouflage",
+      "pokecraft:camouflage",
+      "pokecraft:destinybond",
+      "pokecraft:destinybond",
+      "pokecraft:destinybond",
+      "pokecraft:disable",
+      "pokecraft:flatter",
+      "pokecraft:flatter",
+      "pokecraft:guardswap",
+      "pokecraft:powersplit",
+      "pokecraft:powersplit",
+      "pokecraft:simplebeam",
+      "pokecraft:simplebeam"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "���r��T\u0001�\u001f?^��W�\u0002��T�Lh_4��$��"
+}

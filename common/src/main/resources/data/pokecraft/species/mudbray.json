@@ -1,0 +1,175 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 45,
+    "attack": 100,
+    "defense": 70,
+    "specialAttack": 45,
+    "specialDefense": 55
+  },
+  "typing": [
+    "ground"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 77,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:own_tempo",
+      "pokecraft:stamina"
+    ],
+    "regular": [
+      "pokecraft:inner_focus"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:mudsdale"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "30"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:bodyslam",
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:bulldoze",
+      "pokecraft:bulldoze",
+      "pokecraft:closecombat",
+      "pokecraft:closecombat",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:earthpower",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:earthquake",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:frustration",
+      "pokecraft:heavyslam",
+      "pokecraft:heavyslam",
+      "pokecraft:hiddenpower",
+      "pokecraft:highhorsepower",
+      "pokecraft:irondefense",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:ironhead",
+      "pokecraft:lowkick",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:lowsweep",
+      "pokecraft:lowsweep",
+      "pokecraft:megakick",
+      "pokecraft:mudslap",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:roar",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:sandstorm",
+      "pokecraft:sandstorm",
+      "pokecraft:sandstorm",
+      "pokecraft:sandtomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:stealthrock",
+      "pokecraft:stealthrock",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:superpower",
+      "pokecraft:swagger",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:toxic"
+    ],
+    "eggMoves": [
+      "pokecraft:bodyslam",
+      "pokecraft:closecombat",
+      "pokecraft:doubleedge",
+      "pokecraft:doubleedge",
+      "pokecraft:doubleedge",
+      "pokecraft:endeavor",
+      "pokecraft:fissure",
+      "pokecraft:fissure",
+      "pokecraft:magnitude",
+      "pokecraft:mudbomb",
+      "pokecraft:roar",
+      "pokecraft:roar",
+      "pokecraft:smackdown",
+      "pokecraft:smackdown"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\t�\u0007\u000e��\u0026zȴN���U(@|����Eu���S�\u0014v�"
+}

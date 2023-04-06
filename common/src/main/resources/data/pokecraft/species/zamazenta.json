@@ -1,0 +1,153 @@
+{
+  "stats": {
+    "hp": 92,
+    "speed": 138,
+    "attack": 120,
+    "defense": 115,
+    "specialAttack": 80,
+    "specialDefense": 115
+  },
+  "typing": [
+    "fighting"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 3,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 10,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 335,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:dauntless_shield"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 30600
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:agility",
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:brickbreak",
+      "pokecraft:closecombat",
+      "pokecraft:closecombat",
+      "pokecraft:crunch",
+      "pokecraft:crunch",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dig",
+      "pokecraft:dig",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:firefang",
+      "pokecraft:firefang",
+      "pokecraft:flashcannon",
+      "pokecraft:flashcannon",
+      "pokecraft:focusblast",
+      "pokecraft:focusblast",
+      "pokecraft:focusenergy",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:guardswap",
+      "pokecraft:heavyslam",
+      "pokecraft:helpinghand",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:hypervoice",
+      "pokecraft:icefang",
+      "pokecraft:icefang",
+      "pokecraft:imprison",
+      "pokecraft:imprison",
+      "pokecraft:irondefense",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:ironhead",
+      "pokecraft:irontail",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:metalclaw",
+      "pokecraft:payback",
+      "pokecraft:playrough",
+      "pokecraft:playrough",
+      "pokecraft:powerswap",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:revenge",
+      "pokecraft:reversal",
+      "pokecraft:reversal",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:snarl",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:steelbeam",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:swift",
+      "pokecraft:tailslap",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thunderfang",
+      "pokecraft:thunderfang",
+      "pokecraft:trailblaze",
+      "pokecraft:wildcharge",
+      "pokecraft:wildcharge",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\t(}��܋�\u0004\u000f�\u0010[\u001e˹�N�0f2�UǍ�����K"
+}

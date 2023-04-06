@@ -1,0 +1,113 @@
+{
+  "stats": {
+    "hp": 95,
+    "speed": 105,
+    "attack": 60,
+    "defense": 60,
+    "specialAttack": 101,
+    "specialDefense": 60
+  },
+  "typing": [
+    "psychic"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:opportunist",
+      "pokecraft:frisk"
+    ],
+    "regular": [
+      "pokecraft:speed_boost"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:batonpass",
+      "pokecraft:bodyslam",
+      "pokecraft:bravebird",
+      "pokecraft:calmmind",
+      "pokecraft:confuseray",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:disarmingvoice",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:flashcannon",
+      "pokecraft:foulplay",
+      "pokecraft:gigaimpact",
+      "pokecraft:helpinghand",
+      "pokecraft:hex",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:lightscreen",
+      "pokecraft:lowkick",
+      "pokecraft:mudslap",
+      "pokecraft:nightshade",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:psybeam",
+      "pokecraft:psychic",
+      "pokecraft:psychicterrain",
+      "pokecraft:psyshock",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:sandstorm",
+      "pokecraft:seedbomb",
+      "pokecraft:shadowball",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trick",
+      "pokecraft:trickroom",
+      "pokecraft:uturn",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "2!vʇ\u0002�\u0019��\u0004}�.yO��Ǔ�B\u0017��7K\u0006����"
+}

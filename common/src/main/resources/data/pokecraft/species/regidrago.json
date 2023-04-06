@@ -1,0 +1,112 @@
+{
+  "stats": {
+    "hp": 200,
+    "speed": 80,
+    "attack": 100,
+    "defense": 50,
+    "specialAttack": 100,
+    "specialDefense": 50
+  },
+  "typing": [
+    "dragon"
+  ],
+  "evYields": {
+    "hp": 3,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 3,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 290,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 35,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:dragon\u0027s_maw"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 30600
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodyslam",
+      "pokecraft:bodyslam",
+      "pokecraft:breakingswipe",
+      "pokecraft:crunch",
+      "pokecraft:crunch",
+      "pokecraft:dracometeor",
+      "pokecraft:dragonclaw",
+      "pokecraft:dragonclaw",
+      "pokecraft:dragondance",
+      "pokecraft:dragondance",
+      "pokecraft:dragonpulse",
+      "pokecraft:dragonpulse",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:firefang",
+      "pokecraft:firefang",
+      "pokecraft:focusenergy",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:icefang",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:outrage",
+      "pokecraft:outrage",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:reversal",
+      "pokecraft:round",
+      "pokecraft:selfdestruct",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thunderfang",
+      "pokecraft:thunderfang"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�\u0003\u0014�1�\u001f�|VCԟ\u0015W�{T���\u0004��/�s\u00121�v"
+}

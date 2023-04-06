@@ -1,0 +1,114 @@
+{
+  "stats": {
+    "hp": 65,
+    "speed": 78,
+    "attack": 55,
+    "defense": 55,
+    "specialAttack": 45,
+    "specialDefense": 82
+  },
+  "typing": [
+    "fairy",
+    "steel"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2
+  },
+  "catchRate": 90,
+  "genderRatio": 0,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:mold_breaker",
+      "pokecraft:own_tempo"
+    ],
+    "regular": [
+      "pokecraft:pickpocket"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "fairy"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:tinkaton"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "38"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:brickbreak",
+      "pokecraft:drainingkiss",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:flashcannon",
+      "pokecraft:fling",
+      "pokecraft:foulplay",
+      "pokecraft:helpinghand",
+      "pokecraft:lightscreen",
+      "pokecraft:metalclaw",
+      "pokecraft:metronome",
+      "pokecraft:playrough",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:stealthrock",
+      "pokecraft:steelbeam",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:swordsdance",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderwave"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "ȧ�Y�E�?^�i�d�U�e�_\u0026_��Z\b�gA i�\u0018"
+}

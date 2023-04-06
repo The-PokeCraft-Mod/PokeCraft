@@ -1,0 +1,228 @@
+{
+  "stats": {
+    "hp": 50,
+    "speed": 65,
+    "attack": 47,
+    "defense": 50,
+    "specialAttack": 57,
+    "specialDefense": 50
+  },
+  "typing": [
+    "bug",
+    "electric"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 64,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:compound_eyes",
+      "pokecraft:unnerve"
+    ],
+    "regular": [
+      "pokecraft:swarm"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:galvantula"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "36"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:bounce",
+      "pokecraft:bugbuzz",
+      "pokecraft:chargebeam",
+      "pokecraft:chargebeam",
+      "pokecraft:chargebeam",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:crosspoison",
+      "pokecraft:cut",
+      "pokecraft:cut",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:electroball",
+      "pokecraft:electroweb",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:flash",
+      "pokecraft:flash",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:gigadrain",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:infestation",
+      "pokecraft:infestation",
+      "pokecraft:leechlife",
+      "pokecraft:leechlife",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:pinmissile",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:screech",
+      "pokecraft:secretpower",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:speedswap",
+      "pokecraft:strugglebug",
+      "pokecraft:strugglebug",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swift",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:voltswitch",
+      "pokecraft:voltswitch",
+      "pokecraft:voltswitch",
+      "pokecraft:voltswitch",
+      "pokecraft:wildcharge",
+      "pokecraft:wildcharge",
+      "pokecraft:wildcharge",
+      "pokecraft:wildcharge",
+      "pokecraft:xscissor",
+      "pokecraft:xscissor",
+      "pokecraft:xscissor",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [
+      "pokecraft:camouflage",
+      "pokecraft:camouflage",
+      "pokecraft:crosspoison",
+      "pokecraft:crosspoison",
+      "pokecraft:crosspoison",
+      "pokecraft:disable",
+      "pokecraft:disable",
+      "pokecraft:disable",
+      "pokecraft:doubleteam",
+      "pokecraft:feintattack",
+      "pokecraft:feintattack",
+      "pokecraft:feintattack",
+      "pokecraft:infestation",
+      "pokecraft:lunge",
+      "pokecraft:lunge",
+      "pokecraft:pinmissile",
+      "pokecraft:pinmissile",
+      "pokecraft:pinmissile",
+      "pokecraft:poisonsting",
+      "pokecraft:poisonsting",
+      "pokecraft:poisonsting",
+      "pokecraft:poisonsting",
+      "pokecraft:pursuit",
+      "pokecraft:pursuit",
+      "pokecraft:pursuit",
+      "pokecraft:rockclimb",
+      "pokecraft:rockclimb",
+      "pokecraft:rockclimb",
+      "pokecraft:strugglebug"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�\\\u001f���3\u001dIʔ�e_xz\u001fB�x�k�?a�\u0012b�I/�"
+}

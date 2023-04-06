@@ -1,0 +1,118 @@
+{
+  "stats": {
+    "hp": 37,
+    "speed": 65,
+    "attack": 55,
+    "defense": 70,
+    "specialAttack": 30,
+    "specialDefense": 55
+  },
+  "typing": [
+    "fairy"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 120,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:own_tempo"
+    ],
+    "regular": [
+      "pokecraft:klutz"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field",
+      "mineral"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:dachsbun"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "26"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:batonpass",
+      "pokecraft:bodyslam",
+      "pokecraft:charm",
+      "pokecraft:crunch",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dig",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:firefang",
+      "pokecraft:helpinghand",
+      "pokecraft:icefang",
+      "pokecraft:mistyterrain",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thunderfang",
+      "pokecraft:trailblaze"
+    ],
+    "eggMoves": [
+      "pokecraft:copycat",
+      "pokecraft:howl",
+      "pokecraft:sweetscent",
+      "pokecraft:wish",
+      "pokecraft:yawn"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�\u0015�k\u0010BV�wwE;�\u0026�\u0026��)+./v��|c�A���"
+}

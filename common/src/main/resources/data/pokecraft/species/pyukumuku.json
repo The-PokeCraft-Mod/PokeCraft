@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "hp": 55,
+    "speed": 5,
+    "attack": 60,
+    "defense": 130,
+    "specialAttack": 30,
+    "specialDefense": 130
+  },
+  "typing": [
+    "water"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2
+  },
+  "catchRate": 60,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 144,
+    "gainSpeed": "fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:innards_out"
+    ],
+    "regular": [
+      "pokecraft:unaware"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:batonpass",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:endure",
+      "pokecraft:hail",
+      "pokecraft:hail",
+      "pokecraft:helpinghand",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychup",
+      "pokecraft:quash",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:screech",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swagger",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:toxic",
+      "pokecraft:venomdrench"
+    ],
+    "eggMoves": [
+      "pokecraft:bestow",
+      "pokecraft:endure",
+      "pokecraft:mirrorcoat",
+      "pokecraft:spite",
+      "pokecraft:spite",
+      "pokecraft:swagger",
+      "pokecraft:tickle",
+      "pokecraft:tickle",
+      "pokecraft:venomdrench"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u0018��.�,��\u0006≱H���\u001e���\f\u0026��\\p\u000f(�\u0005y"
+}

@@ -1,0 +1,175 @@
+{
+  "stats": {
+    "hp": 62,
+    "speed": 65,
+    "attack": 77,
+    "defense": 62,
+    "specialAttack": 50,
+    "specialDefense": 42
+  },
+  "typing": [
+    "normal",
+    "flying"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 120,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 125,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:big_pecks",
+      "pokecraft:super_luck"
+    ],
+    "regular": [
+      "pokecraft:rivalry"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:unfezant"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "32"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:aerialace",
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:airslash",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:echoedvoice",
+      "pokecraft:echoedvoice",
+      "pokecraft:echoedvoice",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:fly",
+      "pokecraft:fly",
+      "pokecraft:fly",
+      "pokecraft:fly",
+      "pokecraft:focusenergy",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:heatwave",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:pluck",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:roost",
+      "pokecraft:roost",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:secretpower",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:steelwing",
+      "pokecraft:steelwing",
+      "pokecraft:steelwing",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swift",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:uproar",
+      "pokecraft:uturn",
+      "pokecraft:uturn",
+      "pokecraft:uturn",
+      "pokecraft:uturn",
+      "pokecraft:workup",
+      "pokecraft:workup",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": " rh�F�A,]p�\u0017X�ˏ?��W\u0026J���r\t�nɕ"
+}

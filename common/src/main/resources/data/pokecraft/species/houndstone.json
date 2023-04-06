@@ -1,0 +1,101 @@
+{
+  "stats": {
+    "hp": 72,
+    "speed": 68,
+    "attack": 101,
+    "defense": 100,
+    "specialAttack": 50,
+    "specialDefense": 97
+  },
+  "typing": [
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 150,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:sand_rush"
+    ],
+    "regular": [
+      "pokecraft:fluffy"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodypress",
+      "pokecraft:bulldoze",
+      "pokecraft:charm",
+      "pokecraft:confuseray",
+      "pokecraft:crunch",
+      "pokecraft:dig",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:firefang",
+      "pokecraft:gigaimpact",
+      "pokecraft:helpinghand",
+      "pokecraft:hex",
+      "pokecraft:hyperbeam",
+      "pokecraft:icefang",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:nightshade",
+      "pokecraft:phantomforce",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderfang",
+      "pokecraft:trick",
+      "pokecraft:willowisp"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "ڢ�j��3\u0016(�F�Χ\u0017\u000b?E��ʤ0\u0026vM�c\u003d\u0007\u0017�"
+}

@@ -1,0 +1,99 @@
+{
+  "stats": {
+    "hp": 60,
+    "speed": 120,
+    "attack": 100,
+    "defense": 60,
+    "specialAttack": 100,
+    "specialDefense": 60
+  },
+  "typing": [
+    "rock",
+    "flying"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0
+  },
+  "catchRate": 30,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 175,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 70,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:shields_down"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "mineral"
+    ],
+    "steps": 6375
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:attract",
+      "pokecraft:bulldoze",
+      "pokecraft:calmmind",
+      "pokecraft:chargebeam",
+      "pokecraft:confide",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:doubleteam",
+      "pokecraft:earthquake",
+      "pokecraft:explosion",
+      "pokecraft:facade",
+      "pokecraft:frustration",
+      "pokecraft:gigaimpact",
+      "pokecraft:gyroball",
+      "pokecraft:hiddenpower",
+      "pokecraft:hyperbeam",
+      "pokecraft:lightscreen",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychup",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:rockpolish",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:sandstorm",
+      "pokecraft:sleeptalk",
+      "pokecraft:solarbeam",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:swagger",
+      "pokecraft:toxic",
+      "pokecraft:uturn"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "o��ˁl3b��|����@$\rH�F GW\u001d�\f_R\u0013�{"
+}

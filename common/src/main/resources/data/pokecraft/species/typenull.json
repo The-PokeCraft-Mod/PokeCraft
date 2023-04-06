@@ -1,0 +1,141 @@
+{
+  "stats": {
+    "hp": 95,
+    "speed": 59,
+    "attack": 95,
+    "defense": 95,
+    "specialAttack": 95,
+    "specialDefense": 95
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 2,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 3,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 107,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:battle_armor"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 30600
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:silvally"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:friendship",
+              "comparison": "greater_than",
+              "value": "159"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:airslash",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:dragonclaw",
+      "pokecraft:dragonclaw",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:flamecharge",
+      "pokecraft:frustration",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:hail",
+      "pokecraft:hail",
+      "pokecraft:hiddenpower",
+      "pokecraft:hyperbeam",
+      "pokecraft:icywind",
+      "pokecraft:imprison",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:roar",
+      "pokecraft:rockslide",
+      "pokecraft:rockslide",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:sandstorm",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:shadowclaw",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:swift",
+      "pokecraft:swordsdance",
+      "pokecraft:swordsdance",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:toxic",
+      "pokecraft:triattack",
+      "pokecraft:uturn",
+      "pokecraft:uturn",
+      "pokecraft:workup",
+      "pokecraft:workup",
+      "pokecraft:xscissor",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "��\u0003�rm��5(�i�Zɚ1��\u001b�O�+ByM\u0002��\u0019e"
+}

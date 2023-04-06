@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "hp": 61,
+    "speed": 45,
+    "attack": 31,
+    "defense": 41,
+    "specialAttack": 59,
+    "specialDefense": 35
+  },
+  "typing": [
+    "electric"
+  ],
+  "evYields": {
+    "hp": 1,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:own_tempo",
+      "pokecraft:static"
+    ],
+    "regular": [
+      "pokecraft:damp"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:bellibolt"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:holding_item",
+          "item": "pokecraft:thunder_stone",
+          "consume": true
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:chargebeam",
+      "pokecraft:chillingwater",
+      "pokecraft:confuseray",
+      "pokecraft:eerieimpulse",
+      "pokecraft:electricterrain",
+      "pokecraft:electroball",
+      "pokecraft:endure",
+      "pokecraft:hypervoice",
+      "pokecraft:lightscreen",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:swift",
+      "pokecraft:terablast",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderwave",
+      "pokecraft:voltswitch",
+      "pokecraft:waterpulse",
+      "pokecraft:wildcharge"
+    ],
+    "eggMoves": [
+      "pokecraft:muddywater",
+      "pokecraft:paraboliccharge",
+      "pokecraft:soak"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "��\n��\b�\u0019qx�۴\u001d\u0012yﲔ\\\rv.�C�j�\t�ֻ"
+}

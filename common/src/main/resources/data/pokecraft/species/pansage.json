@@ -1,0 +1,205 @@
+{
+  "stats": {
+    "hp": 50,
+    "speed": 64,
+    "attack": 53,
+    "defense": 48,
+    "specialAttack": 53,
+    "specialDefense": 48
+  },
+  "typing": [
+    "grass"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 63,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 70,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:gluttony"
+    ],
+    "regular": [
+      "pokecraft:overgrow"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:simisage"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:holding_item",
+          "item": "pokecraft:leaf_stone",
+          "consume": true
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:cut",
+      "pokecraft:cut",
+      "pokecraft:dig",
+      "pokecraft:dig",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:flash",
+      "pokecraft:flash",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:honeclaws",
+      "pokecraft:honeclaws",
+      "pokecraft:lowsweep",
+      "pokecraft:lowsweep",
+      "pokecraft:lowsweep",
+      "pokecraft:naturepower",
+      "pokecraft:naturepower",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:rocksmash",
+      "pokecraft:rocksmash",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:secretpower",
+      "pokecraft:shadowclaw",
+      "pokecraft:shadowclaw",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:torment",
+      "pokecraft:torment",
+      "pokecraft:torment",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:workup",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [
+      "pokecraft:astonish",
+      "pokecraft:astonish",
+      "pokecraft:astonish",
+      "pokecraft:bulletseed",
+      "pokecraft:bulletseed",
+      "pokecraft:bulletseed",
+      "pokecraft:covet",
+      "pokecraft:covet",
+      "pokecraft:covet",
+      "pokecraft:disarmingvoice",
+      "pokecraft:disarmingvoice",
+      "pokecraft:grasswhistle",
+      "pokecraft:grasswhistle",
+      "pokecraft:grasswhistle",
+      "pokecraft:leafstorm",
+      "pokecraft:leafstorm",
+      "pokecraft:leafstorm",
+      "pokecraft:lowkick",
+      "pokecraft:lowkick",
+      "pokecraft:lowkick",
+      "pokecraft:magicalleaf",
+      "pokecraft:magicalleaf",
+      "pokecraft:magicalleaf",
+      "pokecraft:nastyplot",
+      "pokecraft:nastyplot",
+      "pokecraft:nastyplot",
+      "pokecraft:roleplay",
+      "pokecraft:roleplay",
+      "pokecraft:roleplay",
+      "pokecraft:spikyshield",
+      "pokecraft:tickle",
+      "pokecraft:tickle",
+      "pokecraft:tickle"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�H;�x\b���b��\t ��ϲ���0\u0007\u0007~�ֵ���"
+}

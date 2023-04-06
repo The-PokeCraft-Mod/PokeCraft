@@ -1,6 +1,6 @@
 package com.thepokecraftmod.pokecraft.api.event.ctx;
 
-import com.thepokecraftmod.pokecraft.api.mon.PokemonInstance;
+import com.thepokecraftmod.pokecraft.api.pokemon.PokemonInstance;
 import org.jetbrains.annotations.ApiStatus;
 
 public class MovePokemonContext {

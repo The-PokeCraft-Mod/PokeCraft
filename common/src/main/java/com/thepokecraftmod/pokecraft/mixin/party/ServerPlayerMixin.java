@@ -1,6 +1,6 @@
 package com.thepokecraftmod.pokecraft.mixin.party;
 
-import com.thepokecraftmod.pokecraft.api.mon.PokemonParty;
+import com.thepokecraftmod.pokecraft.api.pokemon.PokemonParty;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerPlayer;
 import org.spongepowered.asm.mixin.Mixin;

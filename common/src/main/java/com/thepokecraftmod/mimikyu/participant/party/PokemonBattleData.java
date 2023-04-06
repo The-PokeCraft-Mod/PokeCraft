@@ -55,7 +55,7 @@ public interface PokemonBattleData extends FullNetworkable, ReferenceNetworkable
     List<Ability> getAbilities();
 
     /**
-     * Gets the item the pokemon is currently holding. It may not always be present
+     * Gets the move the pokemon is currently holding. It may not always be present
      */
     Optional<HeldItem> getItem();
 

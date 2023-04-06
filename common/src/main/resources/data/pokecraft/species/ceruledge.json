@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "hp": 75,
+    "speed": 85,
+    "attack": 125,
+    "defense": 80,
+    "specialAttack": 60,
+    "specialDefense": 100
+  },
+  "typing": [
+    "fire",
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:flash_fire"
+    ],
+    "regular": [
+      "pokecraft:weak_armor"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "human_like"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:brickbreak",
+      "pokecraft:bulkup",
+      "pokecraft:closecombat",
+      "pokecraft:confuseray",
+      "pokecraft:dragonclaw",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:falseswipe",
+      "pokecraft:fireblast",
+      "pokecraft:firespin",
+      "pokecraft:flamecharge",
+      "pokecraft:flamethrower",
+      "pokecraft:flareblitz",
+      "pokecraft:fling",
+      "pokecraft:heatwave",
+      "pokecraft:helpinghand",
+      "pokecraft:hex",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:lightscreen",
+      "pokecraft:nightshade",
+      "pokecraft:overheat",
+      "pokecraft:phantomforce",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:shadowball",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:willowisp",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u001b���K3m\u001fA�]�r�z��8\u0013e\u001f��K�ݠ��\u0015"
+}

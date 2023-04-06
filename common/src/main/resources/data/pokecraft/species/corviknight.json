@@ -1,0 +1,146 @@
+{
+  "stats": {
+    "hp": 98,
+    "speed": 67,
+    "attack": 87,
+    "defense": 105,
+    "specialAttack": 53,
+    "specialDefense": 85
+  },
+  "typing": [
+    "flying",
+    "steel"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 3,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 248,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:pressure",
+      "pokecraft:unnerve"
+    ],
+    "regular": [
+      "pokecraft:mirror_armor"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:agility",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:airslash",
+      "pokecraft:assurance",
+      "pokecraft:attract",
+      "pokecraft:bodypress",
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:bodyslam",
+      "pokecraft:bravebird",
+      "pokecraft:bravebird",
+      "pokecraft:bulkup",
+      "pokecraft:bulkup",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:faketears",
+      "pokecraft:flashcannon",
+      "pokecraft:flashcannon",
+      "pokecraft:fly",
+      "pokecraft:fly",
+      "pokecraft:focusenergy",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:heavyslam",
+      "pokecraft:heavyslam",
+      "pokecraft:hurricane",
+      "pokecraft:hurricane",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:irondefense",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:ironhead",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:metalclaw",
+      "pokecraft:nastyplot",
+      "pokecraft:nastyplot",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:revenge",
+      "pokecraft:reversal",
+      "pokecraft:reversal",
+      "pokecraft:round",
+      "pokecraft:scaryface",
+      "pokecraft:scaryface",
+      "pokecraft:screech",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:steelbeam",
+      "pokecraft:steelwing",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:swift",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:uturn",
+      "pokecraft:uturn",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u003cK�|\u0005jO)1�*�\u000fj\r�m�\u003cL�T���\n6�n\u0018\u0016"
+}

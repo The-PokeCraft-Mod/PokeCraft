@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "hp": 40,
+    "speed": 20,
+    "attack": 40,
+    "defense": 80,
+    "specialAttack": 40,
+    "specialDefense": 40
+  },
+  "typing": [
+    "grass",
+    "dragon"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 52,
+    "gainSpeed": "erratic"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:ripen",
+      "pokecraft:gluttony"
+    ],
+    "regular": [
+      "pokecraft:bulletproof"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "grass",
+      "dragon"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:flapple"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:holding_item",
+          "item": "pokecraft:tart_apple",
+          "consume": true
+        }
+      ]
+    },
+    {
+      "target": {
+        "species": "pokecraft:appletun"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:holding_item",
+          "item": "pokecraft:sweet_apple",
+          "consume": true
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:pounce",
+      "pokecraft:terablast"
+    ],
+    "eggMoves": [
+      "pokecraft:defensecurl",
+      "pokecraft:defensecurl",
+      "pokecraft:recycle",
+      "pokecraft:recycle",
+      "pokecraft:rollout",
+      "pokecraft:rollout",
+      "pokecraft:suckerpunch",
+      "pokecraft:suckerpunch"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "r��ໍ5�\u003d_�gO:.��g`�k����/��\u0006wW "
+}

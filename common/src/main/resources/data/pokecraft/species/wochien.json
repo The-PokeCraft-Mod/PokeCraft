@@ -1,0 +1,99 @@
+{
+  "stats": {
+    "hp": 85,
+    "speed": 70,
+    "attack": 85,
+    "defense": 100,
+    "specialAttack": 95,
+    "specialDefense": 135
+  },
+  "typing": [
+    "dark",
+    "grass"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 3
+  },
+  "catchRate": 90,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:tablets_of ruin"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:bulletseed",
+      "pokecraft:darkpulse",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:foulplay",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:grassyterrain",
+      "pokecraft:hex",
+      "pokecraft:hyperbeam",
+      "pokecraft:leafstorm",
+      "pokecraft:lightscreen",
+      "pokecraft:magicalleaf",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:pollenpuff",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:scaryface",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:solarbeam",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:trailblaze",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "n��z/xʉ�7\u001ev[a\u0002OLp~�u�y�\fjB\u001f�P8\u001b"
+}

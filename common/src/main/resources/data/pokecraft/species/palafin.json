@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "hp": 100,
+    "speed": 100,
+    "attack": 70,
+    "defense": 72,
+    "specialAttack": 53,
+    "specialDefense": 62
+  },
+  "typing": [
+    "water"
+  ],
+  "evYields": {
+    "hp": 2,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 120,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:zero_to hero"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "field",
+      "water_2"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:agility",
+      "pokecraft:aurasphere",
+      "pokecraft:blizzard",
+      "pokecraft:bodyslam",
+      "pokecraft:bulkup",
+      "pokecraft:charm",
+      "pokecraft:chillingwater",
+      "pokecraft:closecombat",
+      "pokecraft:disarmingvoice",
+      "pokecraft:drainingkiss",
+      "pokecraft:drainpunch",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fling",
+      "pokecraft:focusblast",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:helpinghand",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:icebeam",
+      "pokecraft:icepunch",
+      "pokecraft:icywind",
+      "pokecraft:ironhead",
+      "pokecraft:liquidation",
+      "pokecraft:outrage",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:waterfall",
+      "pokecraft:waterpulse",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "mÈ���:J�ga���k���GW�֦\u0001�G�R\u001dS�"
+}

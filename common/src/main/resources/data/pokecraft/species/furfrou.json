@@ -1,0 +1,133 @@
+{
+  "stats": {
+    "hp": 75,
+    "speed": 102,
+    "attack": 80,
+    "defense": 60,
+    "specialAttack": 65,
+    "specialDefense": 90
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 160,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 165,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 70,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:fur_coat"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:chargebeam",
+      "pokecraft:chargebeam",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:dig",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:echoedvoice",
+      "pokecraft:echoedvoice",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:flash",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:roar",
+      "pokecraft:roar",
+      "pokecraft:rocksmash",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:secretpower",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:snarl",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:uturn",
+      "pokecraft:uturn",
+      "pokecraft:wildcharge",
+      "pokecraft:wildcharge",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [
+      "pokecraft:captivate",
+      "pokecraft:captivate",
+      "pokecraft:mimic",
+      "pokecraft:mimic",
+      "pokecraft:refresh",
+      "pokecraft:refresh",
+      "pokecraft:roleplay",
+      "pokecraft:roleplay",
+      "pokecraft:workup",
+      "pokecraft:workup"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "��\u00013�nh5�np`t��53)���\u000bx`\u0002��1\u0014�\u003e#"
+}

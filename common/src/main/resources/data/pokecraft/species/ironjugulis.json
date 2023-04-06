@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "hp": 94,
+    "speed": 108,
+    "attack": 80,
+    "defense": 86,
+    "specialAttack": 122,
+    "specialDefense": 80
+  },
+  "typing": [
+    "dark",
+    "flying"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0
+  },
+  "catchRate": 10,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:quark_drive"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 12750
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:bodyslam",
+      "pokecraft:chargebeam",
+      "pokecraft:crunch",
+      "pokecraft:darkpulse",
+      "pokecraft:dragonpulse",
+      "pokecraft:dragontail",
+      "pokecraft:earthpower",
+      "pokecraft:electricterrain",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:firefang",
+      "pokecraft:flamethrower",
+      "pokecraft:flashcannon",
+      "pokecraft:fly",
+      "pokecraft:focusblast",
+      "pokecraft:gigaimpact",
+      "pokecraft:heatwave",
+      "pokecraft:hurricane",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:ironhead",
+      "pokecraft:outrage",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rocktomb",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:uturn",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�\u001b���1���k�E4��\u001b��߻�\u0017\u0012���\u000ea�Px\u0001"
+}

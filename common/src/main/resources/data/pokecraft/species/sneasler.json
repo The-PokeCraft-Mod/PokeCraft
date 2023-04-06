@@ -1,0 +1,114 @@
+{
+  "stats": {
+    "hp": 80,
+    "speed": 120,
+    "attack": 130,
+    "defense": 60,
+    "specialAttack": 40,
+    "specialDefense": 80
+  },
+  "typing": [
+    "fighting",
+    "poison"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 135,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:pressure",
+      "pokecraft:unburden"
+    ],
+    "regular": [
+      "pokecraft:poison_touch"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 0
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:brickbreak",
+      "pokecraft:bulkup",
+      "pokecraft:calmmind",
+      "pokecraft:closecombat",
+      "pokecraft:dig",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:falseswipe",
+      "pokecraft:firepunch",
+      "pokecraft:fling",
+      "pokecraft:focusblast",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:gunkshot",
+      "pokecraft:hyperbeam",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:metalclaw",
+      "pokecraft:nastyplot",
+      "pokecraft:poisonjab",
+      "pokecraft:poisontail",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:shadowball",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:toxicspikes",
+      "pokecraft:trailblaze",
+      "pokecraft:uturn",
+      "pokecraft:venoshock",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "d�E��\u0011��\u0010�6),b|�9��e�\u0010��iQ�!#\u0003��"
+}

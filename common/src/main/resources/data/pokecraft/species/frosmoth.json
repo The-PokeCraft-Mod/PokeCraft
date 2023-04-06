@@ -1,0 +1,132 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 65,
+    "attack": 65,
+    "defense": 60,
+    "specialAttack": 125,
+    "specialDefense": 90
+  },
+  "typing": [
+    "ice",
+    "bug"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0
+  },
+  "catchRate": 75,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 166,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:shield_dust"
+    ],
+    "regular": [
+      "pokecraft:ice_scales"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:airslash",
+      "pokecraft:airslash",
+      "pokecraft:attract",
+      "pokecraft:avalanche",
+      "pokecraft:avalanche",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:bugbuzz",
+      "pokecraft:bugbuzz",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:gigadrain",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:hail",
+      "pokecraft:helpinghand",
+      "pokecraft:helpinghand",
+      "pokecraft:hurricane",
+      "pokecraft:hurricane",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:icespinner",
+      "pokecraft:iciclespear",
+      "pokecraft:icywind",
+      "pokecraft:icywind",
+      "pokecraft:imprison",
+      "pokecraft:imprison",
+      "pokecraft:leechlife",
+      "pokecraft:leechlife",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:playrough",
+      "pokecraft:playrough",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:snowscape",
+      "pokecraft:strugglebug",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swift",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:uturn",
+      "pokecraft:uturn",
+      "pokecraft:weatherball"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "R��PB�\u0012\t�W\u003dQ��\u0004Ʊ\b\u000797�R��a�\u0006��\u0004"
+}

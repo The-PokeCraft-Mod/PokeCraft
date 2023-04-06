@@ -1,0 +1,70 @@
+{
+  "stats": {
+    "hp": 190,
+    "speed": 33,
+    "attack": 33,
+    "defense": 58,
+    "specialAttack": 33,
+    "specialDefense": 58
+  },
+  "typing": [
+    "psychic"
+  ],
+  "evYields": {
+    "hp": 2,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 142,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:shadow_tag"
+    ],
+    "regular": [
+      "pokecraft:telepathy"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "amorphous"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:amnesia",
+      "pokecraft:charm",
+      "pokecraft:encore",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "X��ύ�\\eK\u0027�\u0010��s������}\u0000fE\\\u0000�h/"
+}

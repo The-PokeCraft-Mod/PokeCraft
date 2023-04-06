@@ -1,0 +1,123 @@
+{
+  "stats": {
+    "hp": 68,
+    "speed": 42,
+    "attack": 70,
+    "defense": 92,
+    "specialAttack": 50,
+    "specialDefense": 132
+  },
+  "typing": [
+    "water",
+    "bug"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2
+  },
+  "catchRate": 100,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 159,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:water_bubble"
+    ],
+    "regular": [
+      "pokecraft:water_absorb"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1",
+      "bug"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:bugbuzz",
+      "pokecraft:confide",
+      "pokecraft:crunch",
+      "pokecraft:dive",
+      "pokecraft:doubleteam",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:frostbreath",
+      "pokecraft:frustration",
+      "pokecraft:gigadrain",
+      "pokecraft:hiddenpower",
+      "pokecraft:hydropump",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:icywind",
+      "pokecraft:infestation",
+      "pokecraft:irondefense",
+      "pokecraft:leechlife",
+      "pokecraft:leechlife",
+      "pokecraft:liquidation",
+      "pokecraft:magicroom",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:scald",
+      "pokecraft:scald",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swagger",
+      "pokecraft:toxic",
+      "pokecraft:waterfall",
+      "pokecraft:waterfall",
+      "pokecraft:wonderroom",
+      "pokecraft:xscissor",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�q�Qc��\u001c1�\u0003\u0007�2��d\u0012�n��|��TE��_(�"
+}

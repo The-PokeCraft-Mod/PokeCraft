@@ -1,0 +1,115 @@
+{
+  "stats": {
+    "hp": 48,
+    "speed": 60,
+    "attack": 35,
+    "defense": 42,
+    "specialAttack": 105,
+    "specialDefense": 60
+  },
+  "typing": [
+    "rock",
+    "poison"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0
+  },
+  "catchRate": 90,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:toxic_debris"
+    ],
+    "regular": [
+      "pokecraft:corrosion"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "mineral"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:glimmora"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "35"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:confuseray",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:gunkshot",
+      "pokecraft:irondefense",
+      "pokecraft:lightscreen",
+      "pokecraft:mudshot",
+      "pokecraft:powergem",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rockblast",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:sandstorm",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:spikes",
+      "pokecraft:stealthrock",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:terablast",
+      "pokecraft:toxicspikes",
+      "pokecraft:venoshock"
+    ],
+    "eggMoves": [
+      "pokecraft:explosion",
+      "pokecraft:memento",
+      "pokecraft:toxic"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "Q�ˍ:\u003cO_\u0019\f�Bsx�P�s�!ժg��o]l\u0019\u000f��"
+}

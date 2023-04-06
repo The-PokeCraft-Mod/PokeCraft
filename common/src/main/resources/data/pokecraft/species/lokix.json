@@ -1,0 +1,95 @@
+{
+  "stats": {
+    "hp": 71,
+    "speed": 92,
+    "attack": 102,
+    "defense": 78,
+    "specialAttack": 52,
+    "specialDefense": 55
+  },
+  "typing": [
+    "bug",
+    "dark"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 20,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:swarm"
+    ],
+    "regular": [
+      "pokecraft:tinted_lens"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:brickbreak",
+      "pokecraft:bugbuzz",
+      "pokecraft:darkpulse",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fling",
+      "pokecraft:gigaimpact",
+      "pokecraft:leechlife",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:strugglebug",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trailblaze",
+      "pokecraft:uturn",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\b\u0018�d���\u0019\nm�L[�Y\u0003ҿ\u0001h\u003c��[�\u001e�~�6��"
+}

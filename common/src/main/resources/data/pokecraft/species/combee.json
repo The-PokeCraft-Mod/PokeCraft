@@ -1,0 +1,89 @@
+{
+  "stats": {
+    "hp": 30,
+    "speed": 70,
+    "attack": 30,
+    "defense": 42,
+    "specialAttack": 30,
+    "specialDefense": 42
+  },
+  "typing": [
+    "bug",
+    "flying"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 120,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 49,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:honey_gather"
+    ],
+    "regular": [
+      "pokecraft:hustle"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:vespiquen"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bugbuzz",
+      "pokecraft:bugbuzz",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:strugglebug",
+      "pokecraft:terablast"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�K\u0005�\u001c{\u0018\f�zJ��gg�\u0006io(t�\u0001�5�\u001e.k1\u0017�"
+}

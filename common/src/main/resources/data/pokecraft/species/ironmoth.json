@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "hp": 80,
+    "speed": 110,
+    "attack": 70,
+    "defense": 60,
+    "specialAttack": 140,
+    "specialDefense": 110
+  },
+  "typing": [
+    "fire",
+    "poison"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0
+  },
+  "catchRate": 6,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:quark_drive"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 12750
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:acrobatics",
+      "pokecraft:agility",
+      "pokecraft:airslash",
+      "pokecraft:bugbuzz",
+      "pokecraft:chargebeam",
+      "pokecraft:confuseray",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:electricterrain",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:firespin",
+      "pokecraft:flamecharge",
+      "pokecraft:flamethrower",
+      "pokecraft:flareblitz",
+      "pokecraft:flashcannon",
+      "pokecraft:gigaimpact",
+      "pokecraft:heatwave",
+      "pokecraft:helpinghand",
+      "pokecraft:hurricane",
+      "pokecraft:hyperbeam",
+      "pokecraft:lightscreen",
+      "pokecraft:overheat",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:rest",
+      "pokecraft:sleeptalk",
+      "pokecraft:solarbeam",
+      "pokecraft:strugglebug",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:toxicspikes",
+      "pokecraft:uturn",
+      "pokecraft:venoshock"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�qQ�\u0012���f@�����\u00030��\r\u000eZ��\u003e\u001beLeR�"
+}

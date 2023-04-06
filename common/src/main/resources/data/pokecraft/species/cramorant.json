@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 85,
+    "attack": 85,
+    "defense": 55,
+    "specialAttack": 85,
+    "specialDefense": 95
+  },
+  "typing": [
+    "flying",
+    "water"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 166,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:gulp_missile"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1",
+      "flying"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:airslash",
+      "pokecraft:amnesia",
+      "pokecraft:assurance",
+      "pokecraft:attract",
+      "pokecraft:blizzard",
+      "pokecraft:bravebird",
+      "pokecraft:dive",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fly",
+      "pokecraft:gigaimpact",
+      "pokecraft:hurricane",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icebeam",
+      "pokecraft:icywind",
+      "pokecraft:liquidation",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:round",
+      "pokecraft:scald",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:steelwing",
+      "pokecraft:substitute",
+      "pokecraft:superpower",
+      "pokecraft:surf",
+      "pokecraft:thief",
+      "pokecraft:throatchop",
+      "pokecraft:uproar",
+      "pokecraft:weatherball",
+      "pokecraft:whirlpool"
+    ],
+    "eggMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:aquaring",
+      "pokecraft:defog",
+      "pokecraft:featherdance",
+      "pokecraft:roost"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "8\u003c���[�HdLI�`q�iJ���R�T�\u000e��\\ް�"
+}

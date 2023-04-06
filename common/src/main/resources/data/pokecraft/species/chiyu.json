@@ -1,0 +1,94 @@
+{
+  "stats": {
+    "hp": 55,
+    "speed": 100,
+    "attack": 80,
+    "defense": 80,
+    "specialAttack": 135,
+    "specialDefense": 120
+  },
+  "typing": [
+    "dark",
+    "fire"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0
+  },
+  "catchRate": 25,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 20,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:beads_of ruin"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 8925
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:confuseray",
+      "pokecraft:crunch",
+      "pokecraft:darkpulse",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:firespin",
+      "pokecraft:flamecharge",
+      "pokecraft:flamethrower",
+      "pokecraft:flareblitz",
+      "pokecraft:gigaimpact",
+      "pokecraft:heatwave",
+      "pokecraft:hex",
+      "pokecraft:hyperbeam",
+      "pokecraft:lightscreen",
+      "pokecraft:nastyplot",
+      "pokecraft:overheat",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:willowisp",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u0004K\u0014Tu���RR�\u0027�\n��~G\t�,\u0026$�\f0b�"
+}

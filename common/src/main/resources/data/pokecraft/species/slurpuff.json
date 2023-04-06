@@ -1,0 +1,158 @@
+{
+  "stats": {
+    "hp": 82,
+    "speed": 72,
+    "attack": 80,
+    "defense": 86,
+    "specialAttack": 85,
+    "specialDefense": 75
+  },
+  "typing": [
+    "fairy"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 140,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 168,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:sweet_veil"
+    ],
+    "regular": [
+      "pokecraft:unburden"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "fairy"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:amnesia",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:charm",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:drainingkiss",
+      "pokecraft:drainpunch",
+      "pokecraft:dreameater",
+      "pokecraft:dreameater",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:flamethrower",
+      "pokecraft:flamethrower",
+      "pokecraft:flamethrower",
+      "pokecraft:flash",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:helpinghand",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:metronome",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychup",
+      "pokecraft:psychup",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:secretpower",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:sunnyday",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:toxic",
+      "pokecraft:toxic"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "ͺ��Dс�}��+���%E഑��mTi\fO$�"
+}

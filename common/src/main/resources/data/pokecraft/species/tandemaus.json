@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "hp": 50,
+    "speed": 75,
+    "attack": 50,
+    "defense": 45,
+    "specialAttack": 40,
+    "specialDefense": 45
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 120,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:run_away",
+      "pokecraft:pickup"
+    ],
+    "regular": [
+      "pokecraft:own_tempo"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field",
+      "fairy"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:maushold"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "species": "pokecraft:maushold"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:batonpass",
+      "pokecraft:bulletseed",
+      "pokecraft:charm",
+      "pokecraft:crunch",
+      "pokecraft:dig",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:grassknot",
+      "pokecraft:helpinghand",
+      "pokecraft:hypervoice",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:seedbomb",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderwave",
+      "pokecraft:uturn",
+      "pokecraft:waterpulse"
+    ],
+    "eggMoves": [
+      "pokecraft:afteryou",
+      "pokecraft:batonpass",
+      "pokecraft:bite",
+      "pokecraft:feint",
+      "pokecraft:switcheroo",
+      "pokecraft:tickle"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "g�}��E�[�*b캁�v\u0005�����\u0004�f�V\u001dz8"
+}

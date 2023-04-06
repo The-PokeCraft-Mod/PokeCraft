@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "hp": 74,
+    "speed": 111,
+    "attack": 75,
+    "defense": 70,
+    "specialAttack": 65,
+    "specialDefense": 75
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 2,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 60,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:friend_guard",
+      "pokecraft:cheek_pouch"
+    ],
+    "regular": [
+      "pokecraft:technician"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field",
+      "fairy"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:bulletseed",
+      "pokecraft:charm",
+      "pokecraft:chillingwater",
+      "pokecraft:crunch",
+      "pokecraft:dig",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:seedbomb",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderwave",
+      "pokecraft:trailblaze",
+      "pokecraft:uturn",
+      "pokecraft:waterpulse"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "*3��q�׈��\u0019\u0016� V}�\u0026� \u001dlxv_���\u0003�"
+}

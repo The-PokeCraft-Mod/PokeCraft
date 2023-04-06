@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "hp": 110,
+    "speed": 65,
+    "attack": 100,
+    "defense": 75,
+    "specialAttack": 59,
+    "specialDefense": 80
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 2,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 100,
+  "genderRatio": 1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:lingering_aroma",
+      "pokecraft:gluttony"
+    ],
+    "regular": [
+      "pokecraft:thick_fat"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:bulletseed",
+      "pokecraft:chillingwater",
+      "pokecraft:dig",
+      "pokecraft:disarmingvoice",
+      "pokecraft:earthpower",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:gigaimpact",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:ironhead",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trailblaze",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "2\u001aqYAs��g����?}�jQ4��f\\d\u003e��(c5\u0011�"
+}

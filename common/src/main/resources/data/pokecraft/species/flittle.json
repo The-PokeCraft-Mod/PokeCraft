@@ -1,0 +1,122 @@
+{
+  "stats": {
+    "hp": 30,
+    "speed": 75,
+    "attack": 35,
+    "defense": 30,
+    "specialAttack": 55,
+    "specialDefense": 30
+  },
+  "typing": [
+    "psychic"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 1,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 80,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:anticipation",
+      "pokecraft:frisk"
+    ],
+    "regular": [
+      "pokecraft:speed_boost"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:espathra"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "35"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:batonpass",
+      "pokecraft:calmmind",
+      "pokecraft:confuseray",
+      "pokecraft:disarmingvoice",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:foulplay",
+      "pokecraft:helpinghand",
+      "pokecraft:lightscreen",
+      "pokecraft:mudslap",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:psybeam",
+      "pokecraft:psychic",
+      "pokecraft:psychicterrain",
+      "pokecraft:psyshock",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:sandstorm",
+      "pokecraft:seedbomb",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trick",
+      "pokecraft:trickroom",
+      "pokecraft:uturn",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:allyswitch",
+      "pokecraft:hypnosis",
+      "pokecraft:roost"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "���S\u0005f\u003c�H��nLs���V�C��`#�#\u0002J\\���"
+}

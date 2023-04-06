@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "hp": 100,
+    "speed": 50,
+    "attack": 135,
+    "defense": 120,
+    "specialAttack": 60,
+    "specialDefense": 85
+  },
+  "typing": [
+    "dark",
+    "steel"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 30,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:defiant",
+      "pokecraft:supreme_overlord"
+    ],
+    "regular": [
+      "pokecraft:pressure"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "human_like"
+    ],
+    "steps": 12750
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:airslash",
+      "pokecraft:brickbreak",
+      "pokecraft:darkpulse",
+      "pokecraft:dig",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:falseswipe",
+      "pokecraft:flashcannon",
+      "pokecraft:fling",
+      "pokecraft:focusblast",
+      "pokecraft:foulplay",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:hyperbeam",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:metalclaw",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:rocktomb",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:stealthrock",
+      "pokecraft:steelbeam",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderwave",
+      "pokecraft:xscissor",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�\n��!���\u0014\u0019��5W�f��� �-\u0013\u0010�\u0005S�\u0018]��"
+}

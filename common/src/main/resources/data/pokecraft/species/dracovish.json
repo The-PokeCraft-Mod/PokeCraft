@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "hp": 90,
+    "speed": 75,
+    "attack": 90,
+    "defense": 100,
+    "specialAttack": 70,
+    "specialDefense": 80
+  },
+  "typing": [
+    "water",
+    "dragon"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 177,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:water_absorb",
+      "pokecraft:strong_jaw"
+    ],
+    "regular": [
+      "pokecraft:sand_rush"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 8925
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodyslam",
+      "pokecraft:brine",
+      "pokecraft:brutalswing",
+      "pokecraft:bulldoze",
+      "pokecraft:crunch",
+      "pokecraft:dive",
+      "pokecraft:dragonpulse",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:gigaimpact",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icefang",
+      "pokecraft:ironhead",
+      "pokecraft:leechlife",
+      "pokecraft:liquidation",
+      "pokecraft:lowkick",
+      "pokecraft:megakick",
+      "pokecraft:outrage",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rockblast",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:scald",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:waterfall",
+      "pokecraft:whirlpool",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": " ?�\u0014�\"�|\b\u0027{3�n�\u000f_��b����P\u003c��\u0013�)"
+}

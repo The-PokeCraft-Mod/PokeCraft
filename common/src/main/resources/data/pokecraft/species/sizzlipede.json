@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "hp": 50,
+    "speed": 45,
+    "attack": 65,
+    "defense": 45,
+    "specialAttack": 50,
+    "specialDefense": 50
+  },
+  "typing": [
+    "fire",
+    "bug"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 61,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:flash_fire",
+      "pokecraft:white_smoke"
+    ],
+    "regular": [
+      "pokecraft:flame_body"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:centiskorch"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "28"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:brutalswing",
+      "pokecraft:bugbuzz",
+      "pokecraft:crunch",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:firespin",
+      "pokecraft:heatcrash",
+      "pokecraft:heatwave",
+      "pokecraft:leechlife",
+      "pokecraft:powerwhip",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:scald",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:venoshock"
+    ],
+    "eggMoves": [
+      "pokecraft:defensecurl",
+      "pokecraft:knockoff",
+      "pokecraft:rollout",
+      "pokecraft:strugglebug"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "!\u001d�ǒ���\u0017ƒc�郷�\u0017P8�5�6n��\u0004��!�"
+}

@@ -5,14 +5,13 @@ import com.mojang.serialization.codecs.RecordCodecBuilder;
 import com.thepokecraftmod.mimikyu.util.ElementType;
 import com.thepokecraftmod.pokecraft.api.species.behaviour.Behaviour;
 import com.thepokecraftmod.pokecraft.api.species.egg.EggInfo;
-import com.thepokecraftmod.pokecraft.api.species.evolution.EvolutionTarget;
+import com.thepokecraftmod.pokecraft.api.species.evolution.Evolution;
 import com.thepokecraftmod.pokecraft.api.species.riding.RideInfo;
 import com.thepokecraftmod.pokecraft.api.species.transform.ModifySpeciesTransform;
 import com.thepokecraftmod.pokecraft.api.species.transform.SpeciesTransform;
 import com.thepokecraftmod.pokecraft.api.species.xp.XpInfo;
 import com.thepokecraftmod.pokecraft.api.ExtraCodecs;
-import com.thepokecraftmod.pokecraft.api.mon.StatStorage;
-import org.jetbrains.annotations.Nullable;
+import com.thepokecraftmod.pokecraft.api.pokemon.StatStorage;
 
 import java.util.List;
 import java.util.Map;
@@ -29,15 +28,15 @@ public class PokemonSpecies {
             AbilityPool.CODEC.fieldOf("abilityPool").forGetter(PokemonSpecies::getAbilityPool),
             EggInfo.CODEC.fieldOf("eggInfo").forGetter(PokemonSpecies::getEggInfo),
             BoundingBoxSize.CODEC.fieldOf("boundingBox").forGetter(PokemonSpecies::getBoundingBox),
-            EvolutionTarget.CODEC.listOf().fieldOf("evoTargets").forGetter(PokemonSpecies::getEvoTargets),
+            Evolution.CODEC.listOf().fieldOf("evolutions").forGetter(PokemonSpecies::getEvoTargets),
             MovePool.CODEC.fieldOf("movePool").forGetter(PokemonSpecies::getMovePool),
             Codec.unboundedMap(Codec.STRING, SpeciesTransform.TYPE_BASED_CODEC).fieldOf("transforms").forGetter(PokemonSpecies::getTransforms)
     ).apply(instance, PokemonSpecies::new));
-    private final FragmentedSpeciesInfo info;
+    private final PartialSpeciesInfo info;
     private final Map<String, SpeciesTransform> transforms;
 
-    public PokemonSpecies(StatStorage stats, List<ElementType> typing, int catchRate, int genderRatio, XpInfo xpInfo, RideInfo rideInfo, Behaviour behaviour, AbilityPool abilityPool, EggInfo eggInfo, BoundingBoxSize boundingBox, List<EvolutionTarget> evoTargets, MovePool movePool, Map<String, SpeciesTransform> transforms) {
-        this.info = new FragmentedSpeciesInfo(
+    public PokemonSpecies(StatStorage stats, List<ElementType> typing, int catchRate, int genderRatio, XpInfo xpInfo, RideInfo rideInfo, Behaviour behaviour, AbilityPool abilityPool, EggInfo eggInfo, BoundingBoxSize boundingBox, List<Evolution> evoTargets, MovePool movePool, Map<String, SpeciesTransform> transforms) {
+        this.info = new PartialSpeciesInfo(
                 stats,
                 typing,
                 catchRate,
@@ -103,7 +102,7 @@ public class PokemonSpecies {
         return info.boundingBox().orElseThrow();
     }
 
-    public List<EvolutionTarget> getEvoTargets() {
+    public List<Evolution> getEvoTargets() {
         return info.evoTargets().orElseThrow();
     }
 

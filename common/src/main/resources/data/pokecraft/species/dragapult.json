@@ -1,0 +1,158 @@
+{
+  "stats": {
+    "hp": 88,
+    "speed": 142,
+    "attack": 120,
+    "defense": 75,
+    "specialAttack": 100,
+    "specialDefense": 75
+  },
+  "typing": [
+    "dragon",
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 3,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 300,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:clear_body",
+      "pokecraft:infiltrator"
+    ],
+    "regular": [
+      "pokecraft:cursed_body"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "amorphous",
+      "dragon"
+    ],
+    "steps": 10200
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:acrobatics",
+      "pokecraft:agility",
+      "pokecraft:agility",
+      "pokecraft:allyswitch",
+      "pokecraft:assurance",
+      "pokecraft:attract",
+      "pokecraft:batonpass",
+      "pokecraft:batonpass",
+      "pokecraft:beatup",
+      "pokecraft:bodyslam",
+      "pokecraft:bodyslam",
+      "pokecraft:breakingswipe",
+      "pokecraft:brine",
+      "pokecraft:dive",
+      "pokecraft:dracometeor",
+      "pokecraft:dragonclaw",
+      "pokecraft:dragonclaw",
+      "pokecraft:dragondance",
+      "pokecraft:dragondance",
+      "pokecraft:dragonpulse",
+      "pokecraft:dragonpulse",
+      "pokecraft:dragontail",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:fireblast",
+      "pokecraft:flamethrower",
+      "pokecraft:flamethrower",
+      "pokecraft:fly",
+      "pokecraft:fly",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:helpinghand",
+      "pokecraft:helpinghand",
+      "pokecraft:hex",
+      "pokecraft:hex",
+      "pokecraft:hydropump",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:nightshade",
+      "pokecraft:outrage",
+      "pokecraft:outrage",
+      "pokecraft:phantomforce",
+      "pokecraft:phantomforce",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:psychicfangs",
+      "pokecraft:reflect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:scald",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:solarbeam",
+      "pokecraft:solarbeam",
+      "pokecraft:steelwing",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:surf",
+      "pokecraft:surf",
+      "pokecraft:swift",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thunder",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:triattack",
+      "pokecraft:uturn",
+      "pokecraft:uturn",
+      "pokecraft:willowisp",
+      "pokecraft:willowisp"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "6�\u001d�\u0027\u001dg\u0017u\u003e\u000bH\ta)L��n�a���\u0012\u0010\u0001K\","
+}

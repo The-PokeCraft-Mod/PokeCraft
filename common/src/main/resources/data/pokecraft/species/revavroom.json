@@ -1,0 +1,96 @@
+{
+  "stats": {
+    "hp": 80,
+    "speed": 90,
+    "attack": 119,
+    "defense": 90,
+    "specialAttack": 54,
+    "specialDefense": 67
+  },
+  "typing": [
+    "steel",
+    "poison"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 70,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:overcoat"
+    ],
+    "regular": [
+      "pokecraft:filter"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "mineral"
+    ],
+    "steps": 7650
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:flashcannon",
+      "pokecraft:gigaimpact",
+      "pokecraft:gunkshot",
+      "pokecraft:heavyslam",
+      "pokecraft:hyperbeam",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:overheat",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:steelbeam",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:toxicspikes",
+      "pokecraft:venoshock",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�G�;,�u��w#�Aj՗R��Q\u00127\u0006�qŌ\u003d\u001b���"
+}

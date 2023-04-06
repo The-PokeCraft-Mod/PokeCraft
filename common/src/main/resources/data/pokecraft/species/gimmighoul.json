@@ -1,0 +1,96 @@
+{
+  "stats": {
+    "hp": 45,
+    "speed": 10,
+    "attack": 30,
+    "defense": 70,
+    "specialAttack": 75,
+    "specialDefense": 70
+  },
+  "typing": [
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0
+  },
+  "catchRate": 3,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:rattled"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 12750
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:gholdengo"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:confuseray",
+      "pokecraft:endure",
+      "pokecraft:hex",
+      "pokecraft:lightscreen",
+      "pokecraft:nastyplot",
+      "pokecraft:nightshade",
+      "pokecraft:powergem",
+      "pokecraft:protect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�)\u0003S3�!�P��u-@��E���/����$\n���S"
+}

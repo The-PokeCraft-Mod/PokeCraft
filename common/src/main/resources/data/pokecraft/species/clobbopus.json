@@ -1,0 +1,117 @@
+{
+  "stats": {
+    "hp": 50,
+    "speed": 32,
+    "attack": 68,
+    "defense": 60,
+    "specialAttack": 50,
+    "specialDefense": 50
+  },
+  "typing": [
+    "fighting"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 180,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 62,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:limber"
+    ],
+    "regular": [
+      "pokecraft:technician"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_1",
+      "human_like"
+    ],
+    "steps": 6375
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:grapploct"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:trade"
+        },
+        {
+          "type": "pokecraft:used_move",
+          "move": "pokecraft:taunt",
+          "uses": 1
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:attract",
+      "pokecraft:bodyslam",
+      "pokecraft:brickbreak",
+      "pokecraft:brine",
+      "pokecraft:bulkup",
+      "pokecraft:closecombat",
+      "pokecraft:dive",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:focusblast",
+      "pokecraft:icepunch",
+      "pokecraft:liquidation",
+      "pokecraft:megapunch",
+      "pokecraft:muddywater",
+      "pokecraft:mudshot",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:revenge",
+      "pokecraft:reversal",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:superpower",
+      "pokecraft:taunt",
+      "pokecraft:waterfall",
+      "pokecraft:workup"
+    ],
+    "eggMoves": [
+      "pokecraft:circlethrow",
+      "pokecraft:painsplit",
+      "pokecraft:poweruppunch",
+      "pokecraft:seismictoss",
+      "pokecraft:soak",
+      "pokecraft:suckerpunch"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "Ӆ��b�?}�O����:J�r����؇�FL��_�"
+}

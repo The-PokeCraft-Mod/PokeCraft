@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "hp": 58,
+    "speed": 30,
+    "attack": 95,
+    "defense": 145,
+    "specialAttack": 50,
+    "specialDefense": 105
+  },
+  "typing": [
+    "ground",
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 90,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 169,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:wandering_spirit"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "mineral",
+      "amorphous"
+    ],
+    "steps": 6375
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:allyswitch",
+      "pokecraft:amnesia",
+      "pokecraft:attract",
+      "pokecraft:bodypress",
+      "pokecraft:brutalswing",
+      "pokecraft:bulldoze",
+      "pokecraft:calmmind",
+      "pokecraft:darkpulse",
+      "pokecraft:dragonpulse",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:guardswap",
+      "pokecraft:hex",
+      "pokecraft:hyperbeam",
+      "pokecraft:imprison",
+      "pokecraft:irondefense",
+      "pokecraft:nastyplot",
+      "pokecraft:payback",
+      "pokecraft:phantomforce",
+      "pokecraft:powerswap",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:revenge",
+      "pokecraft:rockblast",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:sandstorm",
+      "pokecraft:sandtomb",
+      "pokecraft:scaryface",
+      "pokecraft:shadowball",
+      "pokecraft:shadowclaw",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:stealthrock",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:taunt",
+      "pokecraft:thief",
+      "pokecraft:toxicspikes",
+      "pokecraft:trick",
+      "pokecraft:trickroom",
+      "pokecraft:willowisp",
+      "pokecraft:wonderroom",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "����D��d}Kt@ð�8��E��:\n���i���\u001d"
+}

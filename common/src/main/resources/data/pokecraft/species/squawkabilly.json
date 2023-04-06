@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "hp": 82,
+    "speed": 92,
+    "attack": 96,
+    "defense": 51,
+    "specialAttack": 45,
+    "specialDefense": 51
+  },
+  "typing": [
+    "normal",
+    "flying"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 25,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:intimidate",
+      "pokecraft:hustle"
+    ],
+    "regular": [
+      "pokecraft:guts"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying"
+    ],
+    "steps": 10200
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:bravebird",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:fly",
+      "pokecraft:foulplay",
+      "pokecraft:gigaimpact",
+      "pokecraft:heatwave",
+      "pokecraft:helpinghand",
+      "pokecraft:hurricane",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:uturn"
+    ],
+    "eggMoves": [
+      "pokecraft:doubleedge",
+      "pokecraft:finalgambit",
+      "pokecraft:flatter",
+      "pokecraft:partingshot"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "{e�\u0004?���oy@�f- ^9�Ie5�d�LEE?�y$"
+}

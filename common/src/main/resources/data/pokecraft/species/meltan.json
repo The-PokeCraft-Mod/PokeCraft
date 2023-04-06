@@ -1,0 +1,83 @@
+{
+  "stats": {
+    "hp": 46,
+    "speed": 34,
+    "attack": 65,
+    "defense": 65,
+    "specialAttack": 55,
+    "specialDefense": 35
+  },
+  "typing": [
+    "steel"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 1,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 3,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 150,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:magnet_pull"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 30600
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:flashcannon",
+      "pokecraft:flashcannon",
+      "pokecraft:gyroball",
+      "pokecraft:headbutt",
+      "pokecraft:irondefense",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:toxic"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "��\u0004�:5�\u0003��^a��N\u0001����������gu�T\u0002G"
+}

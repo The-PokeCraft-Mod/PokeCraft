@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "hp": 154,
+    "speed": 50,
+    "attack": 140,
+    "defense": 108,
+    "specialAttack": 50,
+    "specialDefense": 68
+  },
+  "typing": [
+    "fighting",
+    "electric"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 50,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:quark_drive"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 12750
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:brickbreak",
+      "pokecraft:bulldoze",
+      "pokecraft:closecombat",
+      "pokecraft:drainpunch",
+      "pokecraft:earthquake",
+      "pokecraft:electricterrain",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:firepunch",
+      "pokecraft:fling",
+      "pokecraft:focusblast",
+      "pokecraft:gigaimpact",
+      "pokecraft:heavyslam",
+      "pokecraft:hyperbeam",
+      "pokecraft:icepunch",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:metronome",
+      "pokecraft:playrough",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderpunch",
+      "pokecraft:voltswitch",
+      "pokecraft:wildcharge"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "���޵��\u00135�� j�de��5�]m�wxp�g���"
+}

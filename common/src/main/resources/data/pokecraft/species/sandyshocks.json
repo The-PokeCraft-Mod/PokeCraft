@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "hp": 85,
+    "speed": 101,
+    "attack": 81,
+    "defense": 97,
+    "specialAttack": 121,
+    "specialDefense": 85
+  },
+  "typing": [
+    "electric",
+    "ground"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 3,
+    "specialDefense": 0
+  },
+  "catchRate": 50,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:protosynthesis"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 12750
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:chargebeam",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:eerieimpulse",
+      "pokecraft:electricterrain",
+      "pokecraft:electroball",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:flashcannon",
+      "pokecraft:gigaimpact",
+      "pokecraft:heavyslam",
+      "pokecraft:hyperbeam",
+      "pokecraft:irondefense",
+      "pokecraft:lightscreen",
+      "pokecraft:mudshot",
+      "pokecraft:powergem",
+      "pokecraft:protect",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:sandstorm",
+      "pokecraft:sleeptalk",
+      "pokecraft:spikes",
+      "pokecraft:stealthrock",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderwave",
+      "pokecraft:voltswitch",
+      "pokecraft:wildcharge"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "ΛA��4U��,|:�w�.�[�\u0026x7����k�7"
+}

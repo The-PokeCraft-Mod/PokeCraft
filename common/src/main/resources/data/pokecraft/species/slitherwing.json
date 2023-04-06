@@ -1,0 +1,101 @@
+{
+  "stats": {
+    "hp": 85,
+    "speed": 81,
+    "attack": 135,
+    "defense": 79,
+    "specialAttack": 85,
+    "specialDefense": 105
+  },
+  "typing": [
+    "bug",
+    "fighting"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 30,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:protosynthesis"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 12750
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:brickbreak",
+      "pokecraft:bugbuzz",
+      "pokecraft:bulkup",
+      "pokecraft:closecombat",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:flamecharge",
+      "pokecraft:flareblitz",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:heatwave",
+      "pokecraft:heavyslam",
+      "pokecraft:hurricane",
+      "pokecraft:hyperbeam",
+      "pokecraft:leechlife",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:sandstorm",
+      "pokecraft:sleeptalk",
+      "pokecraft:stompingtantrum",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:trailblaze",
+      "pokecraft:uturn",
+      "pokecraft:wildcharge",
+      "pokecraft:willowisp",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": " ���T\u0011l۠\u0013\u0013�3��\u001b�XX�\r\u0017��Q3�$��*"
+}

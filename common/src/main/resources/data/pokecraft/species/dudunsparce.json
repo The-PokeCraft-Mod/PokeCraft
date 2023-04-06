@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "hp": 125,
+    "speed": 55,
+    "attack": 100,
+    "defense": 80,
+    "specialAttack": 85,
+    "specialDefense": 75
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 2,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 50,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:serene_grace",
+      "pokecraft:run_away"
+    ],
+    "regular": [
+      "pokecraft:rattled"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 12750
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:airslash",
+      "pokecraft:amnesia",
+      "pokecraft:batonpass",
+      "pokecraft:blizzard",
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:bulldoze",
+      "pokecraft:calmmind",
+      "pokecraft:chillingwater",
+      "pokecraft:dig",
+      "pokecraft:dragontail",
+      "pokecraft:drillrun",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:flamethrower",
+      "pokecraft:gigaimpact",
+      "pokecraft:heavyslam",
+      "pokecraft:helpinghand",
+      "pokecraft:hex",
+      "pokecraft:hurricane",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:icebeam",
+      "pokecraft:icespinner",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:outrage",
+      "pokecraft:poisonjab",
+      "pokecraft:poisontail",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:smartstrike",
+      "pokecraft:solarbeam",
+      "pokecraft:stealthrock",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stoneedge",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:wildcharge",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "߷�kq��\u003c\u0026\u0000d���cv�S��/���[0Y��cy�"
+}

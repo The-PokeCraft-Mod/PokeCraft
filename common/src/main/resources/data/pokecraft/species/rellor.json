@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "hp": 41,
+    "speed": 30,
+    "attack": 50,
+    "defense": 60,
+    "specialAttack": 31,
+    "specialDefense": 58
+  },
+  "typing": [
+    "bug"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:compound_eyes"
+    ],
+    "regular": [
+      "pokecraft:shed_skin"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "bug"
+    ],
+    "steps": 7650
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:rabsca"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bugbuzz",
+      "pokecraft:dig",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fling",
+      "pokecraft:gunkshot",
+      "pokecraft:irondefense",
+      "pokecraft:leechlife",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:rocktomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:strugglebug",
+      "pokecraft:substitute",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [
+      "pokecraft:cosmicpower",
+      "pokecraft:memento",
+      "pokecraft:recover",
+      "pokecraft:weatherball"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "O\u0004z ��_�6�ZA�D\b���\u001a����\u0003 M���"
+}

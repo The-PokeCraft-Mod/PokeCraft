@@ -1,0 +1,230 @@
+{
+  "stats": {
+    "hp": 38,
+    "speed": 30,
+    "attack": 30,
+    "defense": 85,
+    "specialAttack": 55,
+    "specialDefense": 65
+  },
+  "typing": [
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 1,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 61,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:mummy"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "mineral",
+      "amorphous"
+    ],
+    "steps": 6375
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:cofagrigus"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "34"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:allyswitch",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:dreameater",
+      "pokecraft:dreameater",
+      "pokecraft:dreameater",
+      "pokecraft:embargo",
+      "pokecraft:embargo",
+      "pokecraft:embargo",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:flash",
+      "pokecraft:flash",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:hex",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:imprison",
+      "pokecraft:infestation",
+      "pokecraft:infestation",
+      "pokecraft:irondefense",
+      "pokecraft:nastyplot",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychup",
+      "pokecraft:psychup",
+      "pokecraft:psychup",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:secretpower",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:telekinesis",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:thief",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:toxicspikes",
+      "pokecraft:trick",
+      "pokecraft:trickroom",
+      "pokecraft:trickroom",
+      "pokecraft:trickroom",
+      "pokecraft:trickroom",
+      "pokecraft:willowisp",
+      "pokecraft:willowisp",
+      "pokecraft:willowisp",
+      "pokecraft:willowisp",
+      "pokecraft:wonderroom",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:allyswitch",
+      "pokecraft:allyswitch",
+      "pokecraft:craftyshield",
+      "pokecraft:disable",
+      "pokecraft:disable",
+      "pokecraft:disable",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:faketears",
+      "pokecraft:faketears",
+      "pokecraft:faketears",
+      "pokecraft:healblock",
+      "pokecraft:healblock",
+      "pokecraft:healblock",
+      "pokecraft:imprison",
+      "pokecraft:imprison",
+      "pokecraft:imprison",
+      "pokecraft:memento",
+      "pokecraft:memento",
+      "pokecraft:memento",
+      "pokecraft:memento",
+      "pokecraft:nastyplot",
+      "pokecraft:nastyplot",
+      "pokecraft:nastyplot",
+      "pokecraft:nightmare",
+      "pokecraft:nightmare",
+      "pokecraft:nightmare",
+      "pokecraft:toxicspikes",
+      "pokecraft:toxicspikes"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": ")\b\u0006����g��Z\u0003\u0012�Ñ�\u0026�:�rm�|�+j�i��"
+}

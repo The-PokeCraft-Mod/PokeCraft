@@ -21,7 +21,6 @@ public class FreezingSetRegistry<T> implements RegistryLike<T> {
     @NotNull
     @Override
     public T get(ResourceLocation id) {
-        System.out.println(objects);
         if(!objects.containsKey(id)) throw new RuntimeException("Registry does not contain entry " + id);
         return objects.get(id);
     }

@@ -1,0 +1,207 @@
+{
+  "stats": {
+    "hp": 36,
+    "speed": 44,
+    "attack": 50,
+    "defense": 50,
+    "specialAttack": 65,
+    "specialDefense": 60
+  },
+  "typing": [
+    "ice"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0
+  },
+  "catchRate": 255,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 61,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:ice_body",
+      "pokecraft:snow_cloak"
+    ],
+    "regular": [
+      "pokecraft:weak_armor"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "mineral"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:vanillish"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:requires_properties",
+          "properties": [
+            {
+              "property": "pokecraft:level",
+              "comparison": "greater_than",
+              "value": "35"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:allyswitch",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:attract",
+      "pokecraft:avalanche",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:blizzard",
+      "pokecraft:confide",
+      "pokecraft:confide",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:doubleteam",
+      "pokecraft:endure",
+      "pokecraft:explosion",
+      "pokecraft:explosion",
+      "pokecraft:explosion",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:flashcannon",
+      "pokecraft:flashcannon",
+      "pokecraft:flashcannon",
+      "pokecraft:flashcannon",
+      "pokecraft:frostbreath",
+      "pokecraft:frostbreath",
+      "pokecraft:frostbreath",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:frustration",
+      "pokecraft:hail",
+      "pokecraft:hail",
+      "pokecraft:hail",
+      "pokecraft:hail",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:hiddenpower",
+      "pokecraft:hypervoice",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:icebeam",
+      "pokecraft:iciclespear",
+      "pokecraft:icywind",
+      "pokecraft:imprison",
+      "pokecraft:irondefense",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:return",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:secretpower",
+      "pokecraft:selfdestruct",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:swagger",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:toxic",
+      "pokecraft:uproar"
+    ],
+    "eggMoves": [
+      "pokecraft:auroraveil",
+      "pokecraft:autotomize",
+      "pokecraft:autotomize",
+      "pokecraft:autotomize",
+      "pokecraft:autotomize",
+      "pokecraft:explosion",
+      "pokecraft:iceshard",
+      "pokecraft:iceshard",
+      "pokecraft:iceshard",
+      "pokecraft:iceshard",
+      "pokecraft:iciclecrash",
+      "pokecraft:imprison",
+      "pokecraft:imprison",
+      "pokecraft:imprison",
+      "pokecraft:irondefense",
+      "pokecraft:irondefense",
+      "pokecraft:irondefense",
+      "pokecraft:magnetrise",
+      "pokecraft:magnetrise",
+      "pokecraft:magnetrise",
+      "pokecraft:magnetrise",
+      "pokecraft:naturalgift",
+      "pokecraft:naturalgift",
+      "pokecraft:naturalgift",
+      "pokecraft:powdersnow",
+      "pokecraft:powdersnow",
+      "pokecraft:powdersnow",
+      "pokecraft:waterpulse",
+      "pokecraft:waterpulse",
+      "pokecraft:waterpulse"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�@��\u0019M�k[�\u0005Ɗ9�\u0003J�7s�?�f\tK4���"
+}

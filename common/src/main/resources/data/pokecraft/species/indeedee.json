@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "hp": 60,
+    "speed": 95,
+    "attack": 65,
+    "defense": 55,
+    "specialAttack": 105,
+    "specialDefense": 95
+  },
+  "typing": [
+    "psychic",
+    "normal"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0
+  },
+  "catchRate": 30,
+  "genderRatio": 1,
+  "xpInfo": {
+    "baseAmount": 166,
+    "gainSpeed": "fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 140,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:inner_focus",
+      "pokecraft:synchronize"
+    ],
+    "regular": [
+      "pokecraft:psychic_surge"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "fairy"
+    ],
+    "steps": 10200
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:allyswitch",
+      "pokecraft:attract",
+      "pokecraft:bodyslam",
+      "pokecraft:calmmind",
+      "pokecraft:calmmind",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:disarmingvoice",
+      "pokecraft:drainingkiss",
+      "pokecraft:drainingkiss",
+      "pokecraft:drainpunch",
+      "pokecraft:drainpunch",
+      "pokecraft:encore",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:futuresight",
+      "pokecraft:helpinghand",
+      "pokecraft:helpinghand",
+      "pokecraft:hypervoice",
+      "pokecraft:hypervoice",
+      "pokecraft:imprison",
+      "pokecraft:imprison",
+      "pokecraft:magicalleaf",
+      "pokecraft:magicalleaf",
+      "pokecraft:magicroom",
+      "pokecraft:metronome",
+      "pokecraft:metronome",
+      "pokecraft:mysticalfire",
+      "pokecraft:payday",
+      "pokecraft:playrough",
+      "pokecraft:playrough",
+      "pokecraft:powerswap",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psybeam",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psychicterrain",
+      "pokecraft:psychicterrain",
+      "pokecraft:psyshock",
+      "pokecraft:psyshock",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:storedpower",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swift",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:triattack",
+      "pokecraft:trick",
+      "pokecraft:trick",
+      "pokecraft:trickroom",
+      "pokecraft:trickroom",
+      "pokecraft:wonderroom",
+      "pokecraft:zenheadbutt",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [
+      "pokecraft:extrasensory",
+      "pokecraft:extrasensory",
+      "pokecraft:fakeout",
+      "pokecraft:fakeout",
+      "pokecraft:psychup",
+      "pokecraft:psychup"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "ݒ\r�\u0026dR?�����a��r�i`g�I\u0002�\fq\"%\\:;"
+}

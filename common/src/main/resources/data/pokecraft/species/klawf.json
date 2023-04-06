@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 75,
+    "attack": 100,
+    "defense": 115,
+    "specialAttack": 35,
+    "specialDefense": 55
+  },
+  "typing": [
+    "rock"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 25,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:anger_shell",
+      "pokecraft:shell_armor"
+    ],
+    "regular": [
+      "pokecraft:regenerator"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "water_3"
+    ],
+    "steps": 10200
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodyslam",
+      "pokecraft:brickbreak",
+      "pokecraft:bulldoze",
+      "pokecraft:dig",
+      "pokecraft:earthpower",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fling",
+      "pokecraft:gigaimpact",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:irondefense",
+      "pokecraft:metalclaw",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:powergem",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:rockblast",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:shadowclaw",
+      "pokecraft:sleeptalk",
+      "pokecraft:stealthrock",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swordsdance",
+      "pokecraft:takedown",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trailblaze",
+      "pokecraft:xscissor"
+    ],
+    "eggMoves": [
+      "pokecraft:ancientpower",
+      "pokecraft:crabhammer",
+      "pokecraft:endeavor",
+      "pokecraft:knockoff"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u0010Fֿ�k\u0011�C�M�I��.��N\t��6�q}\f��I#"
+}

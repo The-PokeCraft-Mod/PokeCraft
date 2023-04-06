@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "hp": 70,
+    "speed": 82,
+    "attack": 103,
+    "defense": 85,
+    "specialAttack": 60,
+    "specialDefense": 85
+  },
+  "typing": [
+    "flying",
+    "dark"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 120,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:big_pecks",
+      "pokecraft:keen_eye"
+    ],
+    "regular": [
+      "pokecraft:rocky_payload"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "flying"
+    ],
+    "steps": 8925
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:aircutter",
+      "pokecraft:airslash",
+      "pokecraft:bravebird",
+      "pokecraft:darkpulse",
+      "pokecraft:drillrun",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fly",
+      "pokecraft:foulplay",
+      "pokecraft:gigaimpact",
+      "pokecraft:heatwave",
+      "pokecraft:hurricane",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:icywind",
+      "pokecraft:nastyplot",
+      "pokecraft:powergem",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rockblast",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:sandstorm",
+      "pokecraft:scaryface",
+      "pokecraft:sleeptalk",
+      "pokecraft:snarl",
+      "pokecraft:stealthrock",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:tailwind",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:uturn"
+    ],
+    "eggMoves": [
+      "pokecraft:featherdance",
+      "pokecraft:powertrip",
+      "pokecraft:roost",
+      "pokecraft:skyattack",
+      "pokecraft:suckerpunch"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "��\u0007�\u000bH\u0019�\u0007�\r�$����jX\u0019\u003c�PQ���|͗̕"
+}

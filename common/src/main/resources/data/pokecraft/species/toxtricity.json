@@ -1,0 +1,154 @@
+{
+  "stats": {
+    "hp": 75,
+    "speed": 75,
+    "attack": 98,
+    "defense": 70,
+    "specialAttack": 114,
+    "specialDefense": 70
+  },
+  "typing": [
+    "electric",
+    "poison"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 2,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 176,
+    "gainSpeed": "medium_slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:punk_rock",
+      "pokecraft:plus"
+    ],
+    "regular": [
+      "pokecraft:technician"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "human_like"
+    ],
+    "steps": 6375
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:attract",
+      "pokecraft:brickbreak",
+      "pokecraft:chargebeam",
+      "pokecraft:charm",
+      "pokecraft:drainpunch",
+      "pokecraft:drainpunch",
+      "pokecraft:eerieimpulse",
+      "pokecraft:eerieimpulse",
+      "pokecraft:electricterrain",
+      "pokecraft:electroball",
+      "pokecraft:electroball",
+      "pokecraft:encore",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:firepunch",
+      "pokecraft:firepunch",
+      "pokecraft:fling",
+      "pokecraft:fling",
+      "pokecraft:gigaimpact",
+      "pokecraft:gigaimpact",
+      "pokecraft:gunkshot",
+      "pokecraft:gunkshot",
+      "pokecraft:helpinghand",
+      "pokecraft:hex",
+      "pokecraft:hex",
+      "pokecraft:hyperbeam",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:hypervoice",
+      "pokecraft:megakick",
+      "pokecraft:megapunch",
+      "pokecraft:metronome",
+      "pokecraft:payback",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:poisontail",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:scaryface",
+      "pokecraft:scaryface",
+      "pokecraft:screech",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgewave",
+      "pokecraft:snarl",
+      "pokecraft:snarl",
+      "pokecraft:snore",
+      "pokecraft:storedpower",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:swift",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:throatchop",
+      "pokecraft:thunder",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderfang",
+      "pokecraft:thunderpunch",
+      "pokecraft:thunderpunch",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:toxicspikes",
+      "pokecraft:trailblaze",
+      "pokecraft:uproar",
+      "pokecraft:venoshock",
+      "pokecraft:venoshock",
+      "pokecraft:voltswitch",
+      "pokecraft:voltswitch",
+      "pokecraft:wildcharge",
+      "pokecraft:wildcharge"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�GE�f�\u0016\u0015�U�Ηѵ��X�i��iFQX\u0003�%�4"
+}

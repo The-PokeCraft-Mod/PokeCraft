@@ -1,0 +1,101 @@
+{
+  "stats": {
+    "hp": 80,
+    "speed": 100,
+    "attack": 70,
+    "defense": 65,
+    "specialAttack": 80,
+    "specialDefense": 120
+  },
+  "typing": [
+    "ground",
+    "grass"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 2
+  },
+  "catchRate": 45,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:mycelium_might"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 10200
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acidspray",
+      "pokecraft:bulletseed",
+      "pokecraft:confuseray",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:earthpower",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:flashcannon",
+      "pokecraft:foulplay",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:grassyterrain",
+      "pokecraft:hex",
+      "pokecraft:hyperbeam",
+      "pokecraft:leafstorm",
+      "pokecraft:lightscreen",
+      "pokecraft:magicalleaf",
+      "pokecraft:mudshot",
+      "pokecraft:mudslap",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:scaryface",
+      "pokecraft:seedbomb",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:solarbeam",
+      "pokecraft:spikes",
+      "pokecraft:substitute",
+      "pokecraft:swift",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:toxicspikes",
+      "pokecraft:trailblaze",
+      "pokecraft:trickroom",
+      "pokecraft:venoshock"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�߬�\u003d[���l\u0000�`�ì�����)��0�D�\u0007\u0018�\n"
+}

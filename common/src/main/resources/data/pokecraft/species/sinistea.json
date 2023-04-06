@@ -1,0 +1,135 @@
+{
+  "stats": {
+    "hp": 40,
+    "speed": 50,
+    "attack": 45,
+    "defense": 45,
+    "specialAttack": 74,
+    "specialDefense": 54
+  },
+  "typing": [
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 1,
+    "specialDefense": 0
+  },
+  "catchRate": 120,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 62,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:weak_armor"
+    ],
+    "regular": [
+      "pokecraft:cursed_body"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "mineral",
+      "amorphous"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [
+    {
+      "target": {
+        "species": "pokecraft:polteageist"
+      },
+      "conditions": [
+        {
+          "type": "pokecraft:holding_item",
+          "item": "pokecraft:cracked_pot",
+          "consume": true
+        }
+      ]
+    }
+  ],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:allyswitch",
+      "pokecraft:batonpass",
+      "pokecraft:batonpass",
+      "pokecraft:calmmind",
+      "pokecraft:confuseray",
+      "pokecraft:darkpulse",
+      "pokecraft:darkpulse",
+      "pokecraft:endure",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:foulplay",
+      "pokecraft:foulplay",
+      "pokecraft:gigadrain",
+      "pokecraft:gigadrain",
+      "pokecraft:hex",
+      "pokecraft:hex",
+      "pokecraft:imprison",
+      "pokecraft:imprison",
+      "pokecraft:magicalleaf",
+      "pokecraft:metronome",
+      "pokecraft:metronome",
+      "pokecraft:nastyplot",
+      "pokecraft:nastyplot",
+      "pokecraft:nightshade",
+      "pokecraft:payback",
+      "pokecraft:phantomforce",
+      "pokecraft:phantomforce",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psybeam",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psyshock",
+      "pokecraft:psyshock",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:round",
+      "pokecraft:shadowball",
+      "pokecraft:shadowball",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:storedpower",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:terablast",
+      "pokecraft:trick",
+      "pokecraft:trick",
+      "pokecraft:trickroom",
+      "pokecraft:willowisp",
+      "pokecraft:willowisp",
+      "pokecraft:wonderroom"
+    ],
+    "eggMoves": [
+      "pokecraft:allyswitch"
+    ],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u000e\u001f��\u001aS��M ��, �X\u0015�\u0013\u001e\bp�v��V\u0010A���"
+}

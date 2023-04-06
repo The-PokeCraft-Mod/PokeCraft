@@ -1,0 +1,91 @@
+{
+  "stats": {
+    "hp": 72,
+    "speed": 88,
+    "attack": 80,
+    "defense": 100,
+    "specialAttack": 60,
+    "specialDefense": 90
+  },
+  "typing": [
+    "normal"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 127,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 172,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:fluffy",
+      "pokecraft:steadfast"
+    ],
+    "regular": [
+      "pokecraft:bulletproof"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field"
+    ],
+    "steps": 3825
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:agility",
+      "pokecraft:attract",
+      "pokecraft:batonpass",
+      "pokecraft:bodypress",
+      "pokecraft:bodyslam",
+      "pokecraft:bounce",
+      "pokecraft:electroball",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:gigaimpact",
+      "pokecraft:guardswap",
+      "pokecraft:hyperbeam",
+      "pokecraft:megakick",
+      "pokecraft:payback",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:retaliate",
+      "pokecraft:reversal",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:substitute",
+      "pokecraft:swordsdance",
+      "pokecraft:thunderwave",
+      "pokecraft:wildcharge",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u003d�Ś�:��\nl���P��������dZ�~\t�c!\u0000"
+}

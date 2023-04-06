@@ -1,7 +1,7 @@
 package com.thepokecraftmod.pokecraft.client.render;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.thepokecraftmod.pokecraft.api.mon.PokemonInstance;
+import com.thepokecraftmod.pokecraft.api.pokemon.PokemonInstance;
 import com.thepokecraftmod.pokecraft.level.entity.BallEntity;
 import com.thepokecraftmod.pokecraft.level.entity.PokemonEntity;
 import net.minecraft.client.renderer.MultiBufferSource;

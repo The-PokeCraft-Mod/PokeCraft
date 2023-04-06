@@ -1,0 +1,122 @@
+{
+  "stats": {
+    "hp": 74,
+    "speed": 116,
+    "attack": 130,
+    "defense": 90,
+    "specialAttack": 120,
+    "specialDefense": 60
+  },
+  "typing": [
+    "fairy",
+    "fighting"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 3,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 190,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:quark_drive"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:aurasphere",
+      "pokecraft:brickbreak",
+      "pokecraft:calmmind",
+      "pokecraft:chargebeam",
+      "pokecraft:closecombat",
+      "pokecraft:confuseray",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:drainpunch",
+      "pokecraft:electricterrain",
+      "pokecraft:encore",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:falseswipe",
+      "pokecraft:firepunch",
+      "pokecraft:fling",
+      "pokecraft:focusblast",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:helpinghand",
+      "pokecraft:hex",
+      "pokecraft:hyperbeam",
+      "pokecraft:hypervoice",
+      "pokecraft:icepunch",
+      "pokecraft:icywind",
+      "pokecraft:imprison",
+      "pokecraft:lightscreen",
+      "pokecraft:liquidation",
+      "pokecraft:lowkick",
+      "pokecraft:magicalleaf",
+      "pokecraft:metronome",
+      "pokecraft:mistyterrain",
+      "pokecraft:poisonjab",
+      "pokecraft:protect",
+      "pokecraft:psybeam",
+      "pokecraft:psychic",
+      "pokecraft:psychicterrain",
+      "pokecraft:psyshock",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:reversal",
+      "pokecraft:shadowball",
+      "pokecraft:shadowclaw",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:storedpower",
+      "pokecraft:substitute",
+      "pokecraft:swift",
+      "pokecraft:swordsdance",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderpunch",
+      "pokecraft:thunderwave",
+      "pokecraft:trick",
+      "pokecraft:trickroom",
+      "pokecraft:xscissor",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "]�)�*u0����sC-g9�V�U�!\t�OPq�}\u0005\u003e"
+}

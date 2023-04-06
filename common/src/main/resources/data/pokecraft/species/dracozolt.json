@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "hp": 90,
+    "speed": 75,
+    "attack": 100,
+    "defense": 90,
+    "specialAttack": 80,
+    "specialDefense": 70
+  },
+  "typing": [
+    "electric",
+    "dragon"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 177,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:volt_absorb",
+      "pokecraft:hustle"
+    ],
+    "regular": [
+      "pokecraft:sand_rush"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 8925
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bodyslam",
+      "pokecraft:breakingswipe",
+      "pokecraft:brutalswing",
+      "pokecraft:bulldoze",
+      "pokecraft:dragonclaw",
+      "pokecraft:dragonpulse",
+      "pokecraft:earthpower",
+      "pokecraft:earthquake",
+      "pokecraft:electroball",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:fireblast",
+      "pokecraft:firefang",
+      "pokecraft:firespin",
+      "pokecraft:flamethrower",
+      "pokecraft:gigaimpact",
+      "pokecraft:highhorsepower",
+      "pokecraft:hyperbeam",
+      "pokecraft:irontail",
+      "pokecraft:lowkick",
+      "pokecraft:megakick",
+      "pokecraft:megapunch",
+      "pokecraft:outrage",
+      "pokecraft:protect",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rockblast",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:stompingtantrum",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:sunnyday",
+      "pokecraft:taunt",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderfang",
+      "pokecraft:thunderpunch",
+      "pokecraft:thunderwave",
+      "pokecraft:wildcharge"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "\u0018\r\u000bVh�\u0003⫾�@~\u0010���\u0001�\u0006�ӕ\u0004s���mڭ�"
+}

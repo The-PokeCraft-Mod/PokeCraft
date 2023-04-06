@@ -1,0 +1,121 @@
+{
+  "stats": {
+    "hp": 76,
+    "speed": 123,
+    "attack": 110,
+    "defense": 70,
+    "specialAttack": 81,
+    "specialDefense": 70
+  },
+  "typing": [
+    "grass",
+    "dark"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 3,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": 0.875,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:overgrow"
+    ],
+    "regular": [
+      "pokecraft:protean"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "field",
+      "grass"
+    ],
+    "steps": 5100
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:acrobatics",
+      "pokecraft:aerialace",
+      "pokecraft:agility",
+      "pokecraft:aurasphere",
+      "pokecraft:brickbreak",
+      "pokecraft:bulletseed",
+      "pokecraft:charm",
+      "pokecraft:chillingwater",
+      "pokecraft:darkpulse",
+      "pokecraft:disarmingvoice",
+      "pokecraft:doubleteam",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:faketears",
+      "pokecraft:fling",
+      "pokecraft:foulplay",
+      "pokecraft:frenzyplant",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:grasspledge",
+      "pokecraft:grassyterrain",
+      "pokecraft:helpinghand",
+      "pokecraft:hyperbeam",
+      "pokecraft:leafstorm",
+      "pokecraft:lowkick",
+      "pokecraft:lowsweep",
+      "pokecraft:magicalleaf",
+      "pokecraft:mudslap",
+      "pokecraft:nastyplot",
+      "pokecraft:playrough",
+      "pokecraft:pollenpuff",
+      "pokecraft:powergem",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:seedbomb",
+      "pokecraft:shadowball",
+      "pokecraft:shadowclaw",
+      "pokecraft:skillswap",
+      "pokecraft:sleeptalk",
+      "pokecraft:solarbeam",
+      "pokecraft:spikes",
+      "pokecraft:substitute",
+      "pokecraft:swift",
+      "pokecraft:takedown",
+      "pokecraft:taunt",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:thunderpunch",
+      "pokecraft:toxicspikes",
+      "pokecraft:trailblaze",
+      "pokecraft:trick",
+      "pokecraft:trickroom",
+      "pokecraft:uturn"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "H��{�\u0017j!���O\u001dA��\u001a��pT\u0011�{��̾�\\\u0000�"
+}

@@ -1,0 +1,134 @@
+{
+  "stats": {
+    "hp": 109,
+    "speed": 103,
+    "attack": 53,
+    "defense": 47,
+    "specialAttack": 127,
+    "specialDefense": 131
+  },
+  "typing": [
+    "rock",
+    "poison"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 3
+  },
+  "catchRate": 45,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 285,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 0,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:beast_boost"
+    ],
+    "regular": []
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 30600
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:allyswitch",
+      "pokecraft:bodyslam",
+      "pokecraft:brutalswing",
+      "pokecraft:brutalswing",
+      "pokecraft:chargebeam",
+      "pokecraft:confide",
+      "pokecraft:crosspoison",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:dazzlinggleam",
+      "pokecraft:doubleteam",
+      "pokecraft:echoedvoice",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:facade",
+      "pokecraft:foulplay",
+      "pokecraft:frustration",
+      "pokecraft:grassknot",
+      "pokecraft:grassknot",
+      "pokecraft:gunkshot",
+      "pokecraft:hex",
+      "pokecraft:hiddenpower",
+      "pokecraft:ironhead",
+      "pokecraft:lightscreen",
+      "pokecraft:lightscreen",
+      "pokecraft:poisonjab",
+      "pokecraft:poisonjab",
+      "pokecraft:powergem",
+      "pokecraft:protect",
+      "pokecraft:protect",
+      "pokecraft:psychic",
+      "pokecraft:psychic",
+      "pokecraft:psyshock",
+      "pokecraft:psyshock",
+      "pokecraft:reflect",
+      "pokecraft:rest",
+      "pokecraft:rest",
+      "pokecraft:return",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:round",
+      "pokecraft:safeguard",
+      "pokecraft:safeguard",
+      "pokecraft:sandstorm",
+      "pokecraft:sandstorm",
+      "pokecraft:sleeptalk",
+      "pokecraft:sleeptalk",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgebomb",
+      "pokecraft:sludgewave",
+      "pokecraft:sludgewave",
+      "pokecraft:snore",
+      "pokecraft:stealthrock",
+      "pokecraft:substitute",
+      "pokecraft:substitute",
+      "pokecraft:swagger",
+      "pokecraft:thunder",
+      "pokecraft:thunder",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderbolt",
+      "pokecraft:thunderwave",
+      "pokecraft:thunderwave",
+      "pokecraft:toxic",
+      "pokecraft:toxicspikes",
+      "pokecraft:trickroom",
+      "pokecraft:trickroom",
+      "pokecraft:venomdrench",
+      "pokecraft:venoshock",
+      "pokecraft:venoshock",
+      "pokecraft:wonderroom",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "�\u001aM}}.��A\u0006J$D��z�\u0018F���\t��\u001c[�W�\u0016"
+}

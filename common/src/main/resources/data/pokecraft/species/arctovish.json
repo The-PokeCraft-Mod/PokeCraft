@@ -1,0 +1,101 @@
+{
+  "stats": {
+    "hp": 90,
+    "speed": 55,
+    "attack": 90,
+    "defense": 100,
+    "specialAttack": 80,
+    "specialDefense": 90
+  },
+  "typing": [
+    "water",
+    "ice"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 0,
+    "defense": 2,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 45,
+  "genderRatio": -1,
+  "xpInfo": {
+    "baseAmount": 177,
+    "gainSpeed": "slow"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:water_absorb",
+      "pokecraft:ice_body"
+    ],
+    "regular": [
+      "pokecraft:slush_rush"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "undiscovered"
+    ],
+    "steps": 8925
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:avalanche",
+      "pokecraft:blizzard",
+      "pokecraft:bodyslam",
+      "pokecraft:brine",
+      "pokecraft:crunch",
+      "pokecraft:dive",
+      "pokecraft:endure",
+      "pokecraft:facade",
+      "pokecraft:gigaimpact",
+      "pokecraft:hail",
+      "pokecraft:hydropump",
+      "pokecraft:hyperbeam",
+      "pokecraft:icebeam",
+      "pokecraft:icefang",
+      "pokecraft:iciclespear",
+      "pokecraft:icywind",
+      "pokecraft:irondefense",
+      "pokecraft:ironhead",
+      "pokecraft:liquidation",
+      "pokecraft:protect",
+      "pokecraft:psychicfangs",
+      "pokecraft:raindance",
+      "pokecraft:rest",
+      "pokecraft:rockblast",
+      "pokecraft:rockslide",
+      "pokecraft:rocktomb",
+      "pokecraft:round",
+      "pokecraft:sleeptalk",
+      "pokecraft:snore",
+      "pokecraft:stoneedge",
+      "pokecraft:substitute",
+      "pokecraft:surf",
+      "pokecraft:waterfall",
+      "pokecraft:whirlpool",
+      "pokecraft:zenheadbutt"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "r��5^�P\u0012n\u00190���\u0000E��.�zy�l�\u0005#���"
+}

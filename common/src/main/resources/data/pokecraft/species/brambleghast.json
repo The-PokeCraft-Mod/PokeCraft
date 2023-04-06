@@ -1,0 +1,92 @@
+{
+  "stats": {
+    "hp": 55,
+    "speed": 90,
+    "attack": 115,
+    "defense": 70,
+    "specialAttack": 80,
+    "specialDefense": 70
+  },
+  "typing": [
+    "grass",
+    "ghost"
+  ],
+  "evYields": {
+    "hp": 0,
+    "speed": 0,
+    "attack": 2,
+    "defense": 0,
+    "specialAttack": 0,
+    "specialDefense": 0
+  },
+  "catchRate": 150,
+  "genderRatio": 0.5,
+  "xpInfo": {
+    "baseAmount": 0,
+    "gainSpeed": "medium_fast"
+  },
+  "rideInfo": {
+    "type": "pokecraft:none"
+  },
+  "behaviour": {
+    "aggression": "timid",
+    "baseFriendship": 50,
+    "canSwim": true,
+    "isSocial": true
+  },
+  "abilityPool": {
+    "hidden": [
+      "pokecraft:wind_rider"
+    ],
+    "regular": [
+      "pokecraft:infiltrator"
+    ]
+  },
+  "eggInfo": {
+    "groups": [
+      "grass"
+    ],
+    "steps": 6375
+  },
+  "boundingBox": {
+    "width": 2,
+    "height": 3
+  },
+  "evolutions": [],
+  "movePool": {
+    "levelMoves": {},
+    "discMoves": [
+      "pokecraft:bulletseed",
+      "pokecraft:confuseray",
+      "pokecraft:endure",
+      "pokecraft:energyball",
+      "pokecraft:facade",
+      "pokecraft:gigadrain",
+      "pokecraft:gigaimpact",
+      "pokecraft:grassknot",
+      "pokecraft:grassyterrain",
+      "pokecraft:hex",
+      "pokecraft:hyperbeam",
+      "pokecraft:leafstorm",
+      "pokecraft:nightshade",
+      "pokecraft:phantomforce",
+      "pokecraft:pounce",
+      "pokecraft:protect",
+      "pokecraft:rest",
+      "pokecraft:scaryface",
+      "pokecraft:seedbomb",
+      "pokecraft:shadowball",
+      "pokecraft:sleeptalk",
+      "pokecraft:solarbeam",
+      "pokecraft:spikes",
+      "pokecraft:substitute",
+      "pokecraft:terablast",
+      "pokecraft:thief",
+      "pokecraft:trailblaze"
+    ],
+    "eggMoves": [],
+    "npcMoves": {}
+  },
+  "transforms": {},
+  "hash": "6��\u0007�����\u0016�U���\u001fb�����]Qk�\u001es�s�"
+}
