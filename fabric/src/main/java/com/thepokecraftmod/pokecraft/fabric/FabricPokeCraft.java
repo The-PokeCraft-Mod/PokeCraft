@@ -23,6 +23,8 @@ import com.thepokecraftmod.pokecraft.api.event.SetupEvents;
 import com.thepokecraftmod.pokecraft.api.registry.MojangRegistry;
 import com.thepokecraftmod.pokecraft.fabric.network.FabricPokeCraftNetworking;
 import com.thepokecraftmod.pokecraft.fabric.registry.FabricMojangRegistry;
+import com.thepokecraftmod.pokecraft.fabric.world.item.tab.FabricCreativeTab;
+import com.thepokecraftmod.pokecraft.level.item.tab.CreativeTab;
 import com.thepokecraftmod.pokecraft.network.PokeCraftNetworking;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
@@ -30,6 +32,9 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.Item;
+
+import java.util.function.Supplier;
 
 public class FabricPokeCraft extends PokeCraft implements ModInitializer {
 
@@ -48,5 +53,10 @@ public class FabricPokeCraft extends PokeCraft implements ModInitializer {
     @Override
     public <T> MojangRegistry<T, Registry<T>> newRegistry(ResourceKey<Registry<T>> registryKey) {
         return new FabricMojangRegistry<>(registryKey);
+    }
+
+    @Override
+    public CreativeTab newCreativeTab(String name, Supplier<Item> icon) {
+        return new FabricCreativeTab(name, icon);
     }
 }

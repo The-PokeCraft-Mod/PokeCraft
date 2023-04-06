@@ -22,10 +22,13 @@ import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.api.event.SetupEvents;
 import com.thepokecraftmod.pokecraft.api.registry.MojangRegistry;
 import com.thepokecraftmod.pokecraft.forge.client.ForgePokeCraftClient;
+import com.thepokecraftmod.pokecraft.forge.level.item.tab.ForgeTabHandler;
 import com.thepokecraftmod.pokecraft.forge.network.ForgePokeCraftNetworking;
+import com.thepokecraftmod.pokecraft.level.item.tab.CreativeTab;
 import com.thepokecraftmod.pokecraft.network.PokeCraftNetworking;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.ForgeMod;
 import net.minecraftforge.common.MinecraftForge;
@@ -36,6 +39,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import net.minecraftforge.registries.RegisterEvent;
+
+import java.util.function.Supplier;
 
 @Mod(PokeCraft.MOD_ID)
 public class ForgePokeCraft extends PokeCraft {
@@ -48,6 +53,7 @@ public class ForgePokeCraft extends PokeCraft {
 
         eventBus.addListener(this::registerRegistries);
         eventBus.addListener(this::registerEntityAttribs);
+        ForgeTabHandler.onInitialize(eventBus);
         MinecraftForge.EVENT_BUS.addListener(this::registerCommands);
     }
 
@@ -75,5 +81,12 @@ public class ForgePokeCraft extends PokeCraft {
     @Override
     public <T> MojangRegistry<T, Registry<T>> newRegistry(ResourceKey<Registry<T>> registryKey) {
         return new MojangRegistry<>(registryKey);
+    }
+
+    @Override
+    public CreativeTab newCreativeTab(String name, Supplier<Item> icon) {
+        var tab = new CreativeTab(name, icon);
+        ForgeTabHandler.register(tab);
+        return tab;
     }
 }

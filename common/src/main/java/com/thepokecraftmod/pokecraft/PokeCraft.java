@@ -29,6 +29,7 @@ import com.thepokecraftmod.pokecraft.level.block.PokeCraftBlocks;
 import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntities;
 import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntityDataSerializers;
 import com.thepokecraftmod.pokecraft.level.item.PokeCraftItems;
+import com.thepokecraftmod.pokecraft.level.item.tab.CreativeTab;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
@@ -37,11 +38,13 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.item.Item;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Random;
 import java.util.function.BiConsumer;
+import java.util.function.Supplier;
 
 public abstract class PokeCraft {
     public static final Logger LOGGER = LogManager.getLogger("PokeCraft");
@@ -78,6 +81,13 @@ public abstract class PokeCraft {
      * @param registryKey the key for the registry you are using
      */
     public abstract <T> MojangRegistry<T, Registry<T>> newRegistry(ResourceKey<Registry<T>> registryKey);
+
+    /**
+     * Creates a new abstracted creative tab
+     * @param name the name used in the lang key
+     * @param icon the supplied icon of the tab
+     */
+    public abstract CreativeTab newCreativeTab(String name, Supplier<Item> icon);
 
     public static PokeCraft getInstance() {
         if (INSTANCE == null)
