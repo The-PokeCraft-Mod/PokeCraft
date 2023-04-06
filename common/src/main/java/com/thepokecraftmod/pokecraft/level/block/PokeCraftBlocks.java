@@ -5,9 +5,12 @@ import com.thepokecraftmod.pokecraft.api.registry.MojangRegistry;
 import com.thepokecraftmod.pokecraft.level.item.PokeCraftItems;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 
@@ -108,7 +111,12 @@ public class PokeCraftBlocks {
     public static final Block RED_CRACKED_SANDSTONE = blockItem("red_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)));
     public static final Block CRACKED_SANDSTONE = blockItem("cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)));
 
-    public static final Block BERRY_BUSH = blockItem("berry_bush", new Block(BlockBehaviour.Properties.of(Material.GRASS)));
+    public static final Block BERRY_BUSH = blockItem("berry_bush", new FlowerBlock(MobEffects.WEAKNESS, 0, BlockBehaviour.Properties.of(Material.PLANT)
+            .noCollission()
+            .instabreak()
+            .sound(SoundType.GRASS)
+            .offsetType(BlockBehaviour.OffsetType.XZ)
+    ));
 
     private static Block blockItem(String name, Block block) {
         REGISTRY.register(name, block);

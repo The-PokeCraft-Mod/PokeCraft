@@ -1,7 +1,6 @@
 {
-	"parent": "minecraft:block",
 	"textures": {
-		"tex": "pokecraft:block/berry_bush.png"
+		"all": "pokecraft:block/berry_bush"
 	},
 	"elements": [
 		{

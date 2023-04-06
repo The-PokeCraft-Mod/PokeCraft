@@ -112,7 +112,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.createTrivialCube(PokeCraftBlocks.BLACK_SAND);
         generator.createTrivialCube(PokeCraftBlocks.BROWN_SAND);
 
-        generator.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(PokeCraftBlocks.BERRY_BUSH, PokeCraft.id("models/block/berry_bush_stage3.json")));
+        generator.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(PokeCraftBlocks.BERRY_BUSH, PokeCraft.id("block/berry_bush_stage3")));
     }
 
     @Override
