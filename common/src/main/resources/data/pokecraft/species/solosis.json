@@ -48,7 +48,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -251,5 +251,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "���T-k�ToEƱӌ����\u001a�b��\b~8��{�"
 }

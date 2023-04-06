@@ -46,7 +46,7 @@
     ],
     "steps": 30600
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -129,5 +129,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\u001aM}}.��A\u0006J$D��z�\u0018F���\t��\u001c[�W�\u0016"
 }

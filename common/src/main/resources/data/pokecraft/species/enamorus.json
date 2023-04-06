@@ -48,7 +48,7 @@
     ],
     "steps": 0
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -95,5 +95,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "Cꬣ(\u0004\u0010%\u001f|Y�8�Ǫ�p�����}|�����z"
 }

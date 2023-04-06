@@ -48,7 +48,7 @@
     ],
     "steps": 10200
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -492,5 +492,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "��A�G�r}�\u0002�EB�Sip\u001d\u000f��\u0010�n��ǲb\u0012A"
 }

@@ -49,7 +49,7 @@
     ],
     "steps": 6375
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -426,5 +426,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "@�F\u0012���Ö6�Y�\t\u003d�\u001fz\u000e\u0004���U��h�\u0017Q2"
 }

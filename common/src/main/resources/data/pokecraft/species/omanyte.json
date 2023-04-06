@@ -50,7 +50,7 @@
     ],
     "steps": 7650
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -327,5 +327,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "\u0005.\u0005��z�\u001b{Sj\u001f �2\u0017�\u001c��(�G\n�;��L�a"
 }

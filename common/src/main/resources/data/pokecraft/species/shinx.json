@@ -48,7 +48,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -311,5 +311,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�W2�,\u000fbRTu�\u0026Qw\u000es6\u0004\u0014����よ�#ɺ2M"
 }

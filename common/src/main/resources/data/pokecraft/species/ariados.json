@@ -49,7 +49,7 @@
     ],
     "steps": 3825
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -191,5 +191,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "i\bS\u000f�\fT/d���g\u000f\u000f�$�O��M\u0001(/�U�+�\u0015"
 }

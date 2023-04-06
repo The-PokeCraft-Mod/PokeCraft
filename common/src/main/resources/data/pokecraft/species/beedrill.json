@@ -48,7 +48,7 @@
     ],
     "steps": 3825
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -219,5 +219,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "��\u003cQ٬0$\fa��!��U���m��/\u003dID{\u0004�\u0001�"
 }

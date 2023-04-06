@@ -50,7 +50,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -212,5 +212,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "%�\b�a�����\bl\n��[\u0012���f\u0015�̺�{dْ"
 }

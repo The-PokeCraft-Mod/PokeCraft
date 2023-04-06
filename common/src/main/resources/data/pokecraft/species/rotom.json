@@ -46,7 +46,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -241,5 +241,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "��yTZ\u000b~\u0019��\u0018K�9R�s���(�\fs%(K5����"
 }

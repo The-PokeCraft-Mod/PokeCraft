@@ -48,7 +48,7 @@
     ],
     "steps": 10200
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -197,5 +197,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "d��vߢ�0Q�4_\u0016���l\b��IAc�RJQ9�Ū"
 }

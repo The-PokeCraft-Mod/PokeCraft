@@ -49,7 +49,7 @@
     ],
     "steps": 2550
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -403,5 +403,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "Th��\u003e�\u001b���-q\u001a���;�eN��R+�g�}�\\�"
 }

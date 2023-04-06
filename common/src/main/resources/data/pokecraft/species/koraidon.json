@@ -46,7 +46,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -114,5 +114,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "\u0002Z\f\u0026\u0001�\u0002��+y\t(���\u0027�)�r��y�!%\u0016��6\u003e"
 }

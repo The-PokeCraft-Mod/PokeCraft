@@ -46,7 +46,7 @@
     ],
     "steps": 30600
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -154,5 +154,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\b�\u003dx�Y���\u003d��$O�d% z-\u001f\"_����\u001a.�"
 }

@@ -50,7 +50,7 @@
     ],
     "steps": 10200
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -329,5 +329,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\u0014���{��:\u0013���)�6�#�Bf���L�x��\u000e�\u0007"
 }

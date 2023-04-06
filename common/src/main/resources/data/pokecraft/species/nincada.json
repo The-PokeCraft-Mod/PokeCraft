@@ -48,7 +48,7 @@
     ],
     "steps": 3825
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -267,5 +267,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\t/K\u001cqn\u001c\"�|/p��睦\u0005\u0003�\u003e�R:�fvo��,"
 }

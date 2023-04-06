@@ -45,7 +45,7 @@
     ],
     "steps": 6375
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -126,5 +126,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�K�;f@:zh \u0001�Lv\r�i\"D�O`�˥\u0017M\u001a�.��"
 }

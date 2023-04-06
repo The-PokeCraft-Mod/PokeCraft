@@ -48,7 +48,7 @@
     ],
     "steps": 12750
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -95,5 +95,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "\u0013\u0019@�Ep�9h���\\��2�r+Gr\u001b�E�KI��B\u0005"
 }

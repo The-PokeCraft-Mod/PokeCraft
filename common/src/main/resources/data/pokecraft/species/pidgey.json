@@ -49,7 +49,7 @@
     ],
     "steps": 3825
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -228,5 +228,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "\u003c�M�\u003d�$%��ӄ\"�\u0006�V�T\t_\u0003\u0019�\u0019!(�\b#\u0010�"
 }

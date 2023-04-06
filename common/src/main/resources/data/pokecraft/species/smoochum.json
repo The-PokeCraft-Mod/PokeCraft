@@ -49,7 +49,7 @@
     ],
     "steps": 6375
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -324,5 +324,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�9K�m�\u0012$�\u00046�8��\u001cj���L�Kے��\u0016�"
 }

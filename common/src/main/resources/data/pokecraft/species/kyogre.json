@@ -45,7 +45,7 @@
     ],
     "steps": 30600
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -308,5 +308,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "H\u0017�|I�^M�}��*?�Aٖ�����/G�\\�W��\t"
 }

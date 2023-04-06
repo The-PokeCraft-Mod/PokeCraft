@@ -49,7 +49,7 @@
     ],
     "steps": 3825
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -184,5 +184,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�`�f6�۽x�\u001a\u0002���8\u003cas][j�dϢY�H\u0017�"
 }

@@ -48,7 +48,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -295,5 +295,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�S�\u0017��[\n�?�6�݀\u0016�\u001dUY\u000fQ�ZPI\u001f\u0016�"
 }

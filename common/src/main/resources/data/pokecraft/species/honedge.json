@@ -46,7 +46,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -166,5 +166,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "ב�9���\u0019\"���^���\u0000�\u001d*\u0014���\u0014�\u0019��9"
 }

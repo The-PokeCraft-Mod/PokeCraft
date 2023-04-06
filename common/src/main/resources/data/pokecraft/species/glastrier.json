@@ -45,7 +45,7 @@
     ],
     "steps": 30600
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -127,5 +127,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "m���+B�\u0015��/pg\u0010�gog�u��D!�s�6H�%"
 }

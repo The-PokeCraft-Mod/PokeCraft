@@ -48,7 +48,7 @@
     ],
     "steps": 10200
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -158,5 +158,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "k��\u000f\u001d�-��\u001c���-\u0005��y�f\u0002n\u0011m#V���{��"
 }

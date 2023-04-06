@@ -46,7 +46,7 @@
     ],
     "steps": 12750
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -96,5 +96,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": " ���T\u0011l۠\u0013\u0013�3��\u001b�XX�\r\u0017��Q3�$��*"
 }

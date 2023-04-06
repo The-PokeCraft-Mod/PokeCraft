@@ -46,7 +46,7 @@
     ],
     "steps": 0
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -97,5 +97,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "��(����\u001a\u0005�����#rK)m��p\u0015�\b�^�Յ�"
 }

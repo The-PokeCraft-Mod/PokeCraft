@@ -49,7 +49,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -305,5 +305,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\u0014���J�C\u0027[i\u0012�1\u0013�\u0027!�\u0011`��\u0016\b�v�\u0006��a"
 }

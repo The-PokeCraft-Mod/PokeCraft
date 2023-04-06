@@ -46,7 +46,7 @@
     ],
     "steps": 8925
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -91,5 +91,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "���\u000b-�y��\u0018\u0015:�4\u003e}B\u001apc��Ή��\u0001�9"
 }

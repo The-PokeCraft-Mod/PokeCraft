@@ -48,7 +48,7 @@
     ],
     "steps": 6375
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -436,5 +436,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "B\u0018�Q8Q�\u0027�%�9ua\u0002�B:EF�48 ����\u0019�\u0019\u003d"
 }

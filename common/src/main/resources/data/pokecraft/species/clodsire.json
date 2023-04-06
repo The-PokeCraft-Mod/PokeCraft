@@ -50,7 +50,7 @@
     ],
     "steps": 0
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -108,5 +108,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": ")_�C\u0001�\u000fyH\u001cn�5.��\u0000���V\u0011.팥�\u0007\u000b�\u0004\b"
 }

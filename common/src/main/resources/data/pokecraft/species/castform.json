@@ -46,7 +46,7 @@
     ],
     "steps": 6375
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -256,5 +256,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\u0013*�.�wS�1�b�4np�\u0004%\bi�~�\u0003�\f\u0010\tv\u003dZ"
 }

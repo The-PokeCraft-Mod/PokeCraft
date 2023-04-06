@@ -49,7 +49,7 @@
     ],
     "steps": 2550
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -311,5 +311,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\u0003�u5;�V\u0007��\u003d�!\u0007�Oĕ���\n8���\u0003�\r�\r"
 }

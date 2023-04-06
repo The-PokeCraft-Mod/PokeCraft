@@ -50,7 +50,7 @@
     ],
     "steps": 6375
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -236,5 +236,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "ǁ��織o�)�\"ϙm�o|s����a\t�,\u0013��g�"
 }

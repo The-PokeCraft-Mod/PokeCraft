@@ -47,7 +47,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -302,5 +302,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "\u0017\u000b�f�n��AI�V\"�/�%d�\u003eX\u000fZ�噼\u0001�\u003c�"
 }

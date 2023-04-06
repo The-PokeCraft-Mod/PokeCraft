@@ -49,7 +49,7 @@
     ],
     "steps": 7650
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -281,5 +281,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "\r�6�%c�\n��}W�Qp�c���\u0010\u001d/��.�\u003d��_\u0013"
 }

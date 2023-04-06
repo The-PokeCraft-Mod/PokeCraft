@@ -46,7 +46,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -195,5 +195,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "0J�c�\u0012�(-�!\u0016!z�(�A\u0004S�w\u0017\u0004�\f�/p��\u0000"
 }

@@ -35,7 +35,7 @@
   },
   "abilityPool": {
     "hidden": [
-      "pokecraft:dragon's_maw"
+      "pokecraft:dragon\u0027s_maw"
     ],
     "regular": []
   },
@@ -45,7 +45,7 @@
     ],
     "steps": 30600
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -107,5 +107,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\u0003\u0014�1�\u001f�|VCԟ\u0015W�{T���\u0004��/�s\u00121�v"
 }

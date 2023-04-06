@@ -49,7 +49,7 @@
     ],
     "steps": 0
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -112,5 +112,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\u003d�`gO����\tW����M�ȑ\u0007�[�`��bY�\u0002�"
 }

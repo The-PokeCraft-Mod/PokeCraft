@@ -47,7 +47,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -185,5 +185,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�;�KJ�ۂ�2Ԓj�\u003e�\u0018\u0011\u001a(b��#�Hi+\f�"
 }

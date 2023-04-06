@@ -48,7 +48,7 @@
     ],
     "steps": 12750
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -93,5 +93,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "\f(��J��g\"��\u000bp+\u0018ON\u003eb�y���{U�X�X�"
 }

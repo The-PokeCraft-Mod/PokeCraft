@@ -50,7 +50,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -359,5 +359,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "NTO\u003e9|d\u0013A \t�v�\u0014\u000b�\u0027�S�d2#�\u001b���}�g"
 }

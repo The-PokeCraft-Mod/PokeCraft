@@ -48,7 +48,7 @@
     ],
     "steps": 3825
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -316,5 +316,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "d�Uk�\u0007�Mqո�\u0027f\u001aOG\u0015Kn,\u0019�Rɰ�p��@N"
 }

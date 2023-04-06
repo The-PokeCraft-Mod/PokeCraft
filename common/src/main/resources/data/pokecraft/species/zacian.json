@@ -45,7 +45,7 @@
     ],
     "steps": 30600
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -142,5 +142,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "9[�\u001b66ٌ\u0007��\u0007�\u001c+a�A\u001f\u003d?\t�J�ɇ��2�"
 }

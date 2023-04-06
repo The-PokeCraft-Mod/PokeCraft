@@ -48,7 +48,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -319,5 +319,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\tt�\u0005�\u0001/M2��+�\u001bͨ��tM\u003e%z\u0017�\u0015rP\u0006�y"
 }

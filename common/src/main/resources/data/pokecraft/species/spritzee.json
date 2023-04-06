@@ -47,7 +47,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -182,5 +182,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "J�S[�%}J�{P�r\u003d\u000b��!\u001e\u0017��4�z\u0014\u001f~���n"
 }

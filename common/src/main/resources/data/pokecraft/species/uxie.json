@@ -45,7 +45,7 @@
     ],
     "steps": 20400
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -335,5 +335,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "gA\u0003�8\\�����\r,�k�4\u003d�\u001d�\u0006�Vw���6�\u0001Q"
 }

@@ -49,7 +49,7 @@
     ],
     "steps": 6375
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -130,5 +130,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "%ŅZ,Z��\u0001\t\u000fFP\u0027�x�k��\u003eg�\"��FbVX��"
 }

@@ -49,7 +49,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -202,5 +202,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\u001b(Cˌ~o 0}�T��\u003cs�\u0002�\u0026�\u003c_\u0027~�|[\u0016\u001c\u001c"
 }

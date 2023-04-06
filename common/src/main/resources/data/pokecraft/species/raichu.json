@@ -48,7 +48,7 @@
     ],
     "steps": 2550
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -308,5 +308,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "��)\u003e�K�(\u003e� ��\u0018�X�;�T� \u0014\u001aV�3/\t"
 }

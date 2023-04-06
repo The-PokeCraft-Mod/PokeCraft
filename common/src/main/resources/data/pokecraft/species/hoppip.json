@@ -50,7 +50,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -293,5 +293,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": ".\u0011R\u0007�:�P当,��\u0000�\u0019I��G��\u0014�c�\u000e\u000fK��"
 }

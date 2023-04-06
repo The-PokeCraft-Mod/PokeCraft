@@ -49,7 +49,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -198,5 +198,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�D�ih�t!Ng\u003dq\u0018�g�!��\u0015�Z\u0000��\u0007�~r�\u0007:"
 }

@@ -253,6 +253,7 @@ public class DynamicLazySyncingRegistry<T> extends SimpleJsonResourceReloadListe
         for (var entry : map.entrySet()) {
             var json = entry.getValue().getAsJsonObject();
             var originalHash = json.has("hash") ? json.get("hash").getAsString() : "";
+            json.remove("hash");
             var fileHash = ignoreHashes ? "" : new String(HASH_DIGEST.digest(GSON.toJson(json).getBytes()), StandardCharsets.UTF_8);
             register(entry.getKey(), readJson(entry.getKey(), json), !ignoreHashes && !originalHash.equals(fileHash));
         }

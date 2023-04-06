@@ -48,7 +48,7 @@
     ],
     "steps": 7650
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -218,5 +218,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�9�\u0000���o�\u0010\u0017�\f���بw���[�owF�$l W"
 }

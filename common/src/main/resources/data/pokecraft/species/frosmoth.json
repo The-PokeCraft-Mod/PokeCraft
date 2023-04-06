@@ -48,7 +48,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -127,5 +127,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "R��PB�\u0012\t�W\u003dQ��\u0004Ʊ\b\u000797�R��a�\u0006��\u0004"
 }

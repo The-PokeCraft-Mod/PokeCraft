@@ -47,7 +47,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -205,5 +205,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "pD�ì\u0018n�\u000e�\u001ea���y�A��JY�\u0014\u0014\u001b�ZOɵ�"
 }

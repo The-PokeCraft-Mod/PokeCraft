@@ -47,7 +47,7 @@
     ],
     "steps": 7650
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -104,5 +104,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "O\u0004z ��_�6�ZA�D\b���\u001a����\u0003 M���"
 }

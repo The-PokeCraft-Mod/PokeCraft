@@ -49,7 +49,7 @@
     ],
     "steps": 2550
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -381,5 +381,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "���m\u0011�J�\u000b�BQ m�\u0000�vk�[�ThI60��8\f"
 }

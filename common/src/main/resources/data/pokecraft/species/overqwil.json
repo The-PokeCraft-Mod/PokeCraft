@@ -49,7 +49,7 @@
     ],
     "steps": 0
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -97,5 +97,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "\n�\u001dV�\u001b\u0019S[\u0004S�S�D�k32�\u0019�q���c���\u0018�"
 }

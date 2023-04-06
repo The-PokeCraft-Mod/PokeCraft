@@ -47,7 +47,7 @@
     ],
     "steps": 2550
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -346,5 +346,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�ˢb��j�\u0019pכ�\u001b�SY��(q]\u001bp��\u0015ckWk�"
 }

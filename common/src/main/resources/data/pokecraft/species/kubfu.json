@@ -47,7 +47,7 @@
     ],
     "steps": 30600
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -156,5 +156,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�N�7\t�m1\u0013�|f9��Xց\u0010#\"_�BDF��v@�"
 }

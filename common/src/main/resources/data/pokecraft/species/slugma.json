@@ -48,7 +48,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -246,5 +246,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "$K�Y\u001d�#[e\u0005L�/nSF`\u0016�\u0027\"3����\u000b�2�\u0019\u0012"
 }

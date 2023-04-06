@@ -45,7 +45,7 @@
     ],
     "steps": 6375
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -294,5 +294,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "\u001c�BG��\u0015��\u0010��y��\u0026�_�1\u0012ɷ1\u0015��-�\u0027\u003c"
 }

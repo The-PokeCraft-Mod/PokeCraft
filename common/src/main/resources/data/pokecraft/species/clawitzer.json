@@ -46,7 +46,7 @@
     ],
     "steps": 3825
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -198,5 +198,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "W�m\u0016�K�5\u0011f��ww*�\u00022��\u0017_��\u003d,����\u0011"
 }

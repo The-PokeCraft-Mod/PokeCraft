@@ -47,7 +47,7 @@
     ],
     "steps": 7650
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -276,5 +276,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "j�sW$�H9Cn\u0005{E��\u000f�Zl\"�\u0010��\u003e\u003d�\u0015�q"
 }

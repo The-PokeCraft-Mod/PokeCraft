@@ -45,7 +45,7 @@
     ],
     "steps": 3825
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -74,5 +74,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "CR���\u0013�!��3��w\u0006��\u001e\u000e�\u0016\r0L\bx?V�R��"
 }

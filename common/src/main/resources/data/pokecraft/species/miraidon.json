@@ -46,7 +46,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -103,5 +103,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�\u0007z\b\u001c���{\u001b\"�ŝ/E�\u0027\u003d\r)\u0000�N�\u0003{�Od�+"
 }

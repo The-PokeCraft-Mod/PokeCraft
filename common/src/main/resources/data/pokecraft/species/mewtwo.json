@@ -47,7 +47,7 @@
     ],
     "steps": 30600
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -510,5 +510,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "��鐐�\u003c��4�{PE+����|K\u001e\u0017B�Q�)e\u0011��"
 }

@@ -47,7 +47,7 @@
     ],
     "steps": 8925
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -285,5 +285,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "L\u0005��\u00061�M\u0026X��B�,�E\u00142\\0r\u0015\u0002�f�휘�\u0003"
 }

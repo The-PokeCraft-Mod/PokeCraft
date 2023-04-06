@@ -49,7 +49,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -292,5 +292,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "\u0019\u001e��];��\u0014�p9\u000baVb7(�%Q\u0017�\u001c\u0014��ڇNd\u0003"
 }

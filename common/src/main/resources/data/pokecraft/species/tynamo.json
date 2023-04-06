@@ -45,7 +45,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -82,5 +82,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "A��\"H�(R����5�T(�߮NY,�U��\u0016g�\u0012�h"
 }

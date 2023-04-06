@@ -49,7 +49,7 @@
     ],
     "steps": 6375
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -121,5 +121,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "Dƚr��\u0000Oܾ]�\u0016p�\u000fF\u003c�\"!ߪ���u5t�VV"
 }

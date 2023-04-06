@@ -48,7 +48,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -360,5 +360,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "j5\u0013\u0016?�#\u001c��qg�6%�4�\u001bk��\u001f�Z���Dٓ�"
 }

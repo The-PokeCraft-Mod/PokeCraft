@@ -48,7 +48,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -322,5 +322,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "s{ϑt\u0027�\u0026�7�\u001f\u0018��7��]\u0002�*Ɤ���yi\u001d�"
 }

@@ -48,7 +48,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -221,5 +221,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "}¹��\t�k\u003c|GX2��K#J�\u0000\u0017t#�Tѿ\u0018B�!\u0001"
 }

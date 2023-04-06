@@ -47,7 +47,7 @@
     ],
     "steps": 7650
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -244,5 +244,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�s���Sx\u0017�EZ6i+��)��ʐ\u0011�aނ�A�,��"
 }

@@ -48,7 +48,7 @@
     ],
     "steps": 5100
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -256,5 +256,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "5t�mc���7��(N\u0007\u0005^��\u0001\u0011�\u0026�;�N�{�O\b�"
 }

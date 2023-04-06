@@ -48,7 +48,7 @@
     ],
     "steps": 3825
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -84,5 +84,6 @@
     "eggMoves": [],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "�K\u0005�\u001c{\u0018\f�zJ��gg�\u0006io(t�\u0001�5�\u001e.k1\u0017�"
 }

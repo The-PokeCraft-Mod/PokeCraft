@@ -49,7 +49,7 @@
     ],
     "steps": 0
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -96,5 +96,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "��G��T��jP��\u0027hG�{o%�\u0027�+�\"��\u0026Y-"
 }

@@ -45,7 +45,7 @@
     ],
     "steps": 3825
   },
-    "boundingBox": {
+  "boundingBox": {
     "width": 2,
     "height": 3
   },
@@ -118,5 +118,6 @@
     ],
     "npcMoves": {}
   },
-  "transforms": {}
+  "transforms": {},
+  "hash": "���_~��\u001d^���َJz�\t_\u0027�\u001f^\u003d�(�eB�3"
 }
