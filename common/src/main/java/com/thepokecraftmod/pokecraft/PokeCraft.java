@@ -23,6 +23,7 @@ import com.thepokecraftmod.mimikyu.Mimikyu;
 import com.thepokecraftmod.pokecraft.api.event.SetupEvents;
 import com.thepokecraftmod.pokecraft.api.registry.MojangRegistry;
 import com.thepokecraftmod.pokecraft.api.registry.builtin.PokeCraftRegistries;
+import com.thepokecraftmod.pokecraft.command.ClearPokemonCommand;
 import com.thepokecraftmod.pokecraft.command.GivePokemonCommand;
 import com.thepokecraftmod.pokecraft.command.SummonPokemonCommand;
 import com.thepokecraftmod.pokecraft.command.argument.PokeCraftArguments;
@@ -31,6 +32,7 @@ import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntities;
 import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntityDataSerializers;
 import com.thepokecraftmod.pokecraft.level.item.PokeCraftItems;
 import com.thepokecraftmod.pokecraft.level.item.tab.CreativeTab;
+import net.minecraft.SharedConstants;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
@@ -75,6 +77,7 @@ public abstract class PokeCraft {
     private void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher) {
         dispatcher.register(SummonPokemonCommand.command());
         dispatcher.register(GivePokemonCommand.command());
+        dispatcher.register(ClearPokemonCommand.command());
     }
 
     /**

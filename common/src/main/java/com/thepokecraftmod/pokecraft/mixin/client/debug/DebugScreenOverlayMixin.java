@@ -1,7 +1,9 @@
 package com.thepokecraftmod.pokecraft.mixin.client.debug;
 
 import com.google.common.collect.Lists;
+import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
+import net.minecraft.SharedConstants;
 import net.minecraft.client.gui.components.DebugScreenOverlay;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -14,6 +16,7 @@ public class DebugScreenOverlayMixin {
 
     @Redirect(method = "getSystemInformation", at = @At(value = "INVOKE", target = "Lcom/google/common/collect/Lists;newArrayList([Ljava/lang/Object;)Ljava/util/ArrayList;"))
     private ArrayList<String> unimod$printSyncDebugInfo(Object[] elements) {
+        if (PokeCraft.isDevelopmentEnvironment()) SharedConstants.IS_RUNNING_IN_IDE = true;
         var list = Lists.newArrayList((String[]) elements);
         list.add("");
         PokeCraftClient.populateDebugData(list);
