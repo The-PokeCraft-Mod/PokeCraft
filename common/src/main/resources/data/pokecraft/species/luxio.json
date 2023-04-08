@@ -28,7 +28,7 @@
     "type": "pokecraft:none"
   },
   "behaviour": {
-    "aggression": "timid",
+    "aggression": "passive",
     "baseFriendship": 100,
     "canSwim": true,
     "isSocial": true
@@ -36,7 +36,7 @@
   "abilityPool": {
     "regular": [
       "pokecraft:rivalry",
-      "pokecraft:intimidate"
+      "pokecraft:inpassiveate"
     ],
     "hidden": [
       "pokecraft:guts"
