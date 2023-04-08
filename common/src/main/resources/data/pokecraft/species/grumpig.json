@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:thick_fat",
       "pokecraft:own_tempo"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:gluttony"
     ]
   },

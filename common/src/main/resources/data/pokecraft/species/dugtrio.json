@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:sand_veil",
       "pokecraft:arena_trap"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sand_force"
     ]
   },

@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:punk_rock",
       "pokecraft:plus"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:technician"
     ]
   },

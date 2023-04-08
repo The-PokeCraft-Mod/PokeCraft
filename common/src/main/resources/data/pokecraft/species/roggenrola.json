@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:sturdy",
       "pokecraft:weak_armor"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sand_force"
     ]
   },

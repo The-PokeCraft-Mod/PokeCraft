@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:shield_dust",
       "pokecraft:compound_eyes"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:friend_guard"
     ]
   },

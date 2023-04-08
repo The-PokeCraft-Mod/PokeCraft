@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:rough_skin"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:speed_boost"
     ]
   },

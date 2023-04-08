@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:limber",
       "pokecraft:reckless"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:unburden"
     ]
   },

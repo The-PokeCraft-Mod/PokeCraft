@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:swarm",
       "pokecraft:early_bird"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:iron_fist"
     ]
   },

@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:dauntless_shield"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

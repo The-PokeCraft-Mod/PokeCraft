@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:illuminate",
       "pokecraft:effect_spore"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:rain_dish"
     ]
   },

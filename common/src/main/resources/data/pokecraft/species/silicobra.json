@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:sand_spit",
       "pokecraft:shed_skin"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sand_veil"
     ]
   },

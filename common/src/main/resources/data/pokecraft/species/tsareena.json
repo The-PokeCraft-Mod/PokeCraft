@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:leaf_guard",
       "pokecraft:queenly_majesty"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sweet_veil"
     ]
   },

@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:truant"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

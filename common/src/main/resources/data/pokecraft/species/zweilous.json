@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:hustle"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

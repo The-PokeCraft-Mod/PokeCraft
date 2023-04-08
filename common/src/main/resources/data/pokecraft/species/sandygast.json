@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:water_compaction"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sand_veil"
     ]
   },

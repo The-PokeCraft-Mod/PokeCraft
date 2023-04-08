@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:speed_boost",
       "pokecraft:tinted_lens"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:frisk"
     ]
   },

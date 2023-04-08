@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:steelworker"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

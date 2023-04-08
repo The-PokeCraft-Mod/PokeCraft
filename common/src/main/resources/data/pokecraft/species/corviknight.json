@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:pressure",
       "pokecraft:unnerve"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:mirror_armor"
     ]
   },

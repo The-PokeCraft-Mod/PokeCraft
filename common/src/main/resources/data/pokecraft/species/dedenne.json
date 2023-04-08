@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:cheek_pouch",
       "pokecraft:pickup"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:plus"
     ]
   },

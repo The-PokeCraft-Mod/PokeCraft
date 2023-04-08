@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:protosynthesis"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

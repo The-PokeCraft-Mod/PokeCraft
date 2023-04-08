@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:guts"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:scrappy"
     ]
   },

@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:innards_out"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:unaware"
     ]
   },

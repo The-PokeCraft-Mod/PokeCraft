@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:victory_star"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

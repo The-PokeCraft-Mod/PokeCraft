@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:natural_cure",
       "pokecraft:frisk"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:harvest"
     ]
   },

@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:run_away",
       "pokecraft:pickup"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:skill_link"
     ]
   },

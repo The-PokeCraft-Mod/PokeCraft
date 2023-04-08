@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:commander"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:storm_drain"
     ]
   },

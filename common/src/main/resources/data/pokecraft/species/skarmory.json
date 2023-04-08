@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:keen_eye",
       "pokecraft:sturdy"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:weak_armor"
     ]
   },

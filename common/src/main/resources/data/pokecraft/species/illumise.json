@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:oblivious",
       "pokecraft:tinted_lens"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:prankster"
     ]
   },

@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:thermal_exchange"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:ice_body"
     ]
   },

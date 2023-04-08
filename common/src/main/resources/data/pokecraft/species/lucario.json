@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:steadfast",
       "pokecraft:inner_focus"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:justified"
     ]
   },

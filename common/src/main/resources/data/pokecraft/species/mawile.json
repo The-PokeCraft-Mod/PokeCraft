@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:hyper_cutter",
       "pokecraft:intimidate"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sheer_force"
     ]
   },

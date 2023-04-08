@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:oblivious",
       "pokecraft:snow_cloak"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:thick_fat"
     ]
   },

@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:poison_point",
       "pokecraft:water_absorb"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:unaware"
     ]
   },

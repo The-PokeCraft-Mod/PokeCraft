@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:fluffy",
       "pokecraft:klutz"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:unnerve"
     ]
   },

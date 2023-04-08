@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:corrosion"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:oblivious"
     ]
   },

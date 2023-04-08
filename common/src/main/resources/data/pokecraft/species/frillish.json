@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:water_absorb",
       "pokecraft:cursed_body"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:damp"
     ]
   },

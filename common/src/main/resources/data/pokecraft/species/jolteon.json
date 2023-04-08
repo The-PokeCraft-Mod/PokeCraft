@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:volt_absorb"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:quick_feet"
     ]
   },

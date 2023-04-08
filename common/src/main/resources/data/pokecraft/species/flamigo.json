@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:scrappy",
       "pokecraft:tangled_feet"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:costar"
     ]
   },

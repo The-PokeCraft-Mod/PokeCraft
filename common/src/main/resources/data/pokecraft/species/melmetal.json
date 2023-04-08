@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:iron_fist"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

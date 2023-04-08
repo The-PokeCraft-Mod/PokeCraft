@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:pressure",
       "pokecraft:super_luck"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:justified"
     ]
   },

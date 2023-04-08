@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:swift_swim",
       "pokecraft:battle_armor"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:weak_armor"
     ]
   },

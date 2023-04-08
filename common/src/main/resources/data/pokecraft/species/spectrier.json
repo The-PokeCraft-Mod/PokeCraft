@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:grim_neigh"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

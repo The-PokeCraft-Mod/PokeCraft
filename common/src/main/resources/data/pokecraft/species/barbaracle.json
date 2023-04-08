@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:tough_claws",
       "pokecraft:sniper"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:pickpocket"
     ]
   },

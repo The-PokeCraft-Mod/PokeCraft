@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:quark_drive"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

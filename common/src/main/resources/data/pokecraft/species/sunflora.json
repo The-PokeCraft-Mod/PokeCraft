@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:chlorophyll",
       "pokecraft:solar_power"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:early_bird"
     ]
   },

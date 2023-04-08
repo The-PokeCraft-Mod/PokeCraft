@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:intimidate",
       "pokecraft:moxie"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:anger_point"
     ]
   },

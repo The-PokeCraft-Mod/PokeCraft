@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:flash_fire"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:weak_armor"
     ]
   },

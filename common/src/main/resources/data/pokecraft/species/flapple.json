@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:ripen",
       "pokecraft:gluttony"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:hustle"
     ]
   },

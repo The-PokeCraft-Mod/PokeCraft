@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:effect_spore"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:regenerator"
     ]
   },

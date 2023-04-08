@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:swift_swim",
       "pokecraft:water_absorb"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:water_veil"
     ]
   },

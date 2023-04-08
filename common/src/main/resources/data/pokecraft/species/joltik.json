@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:compound_eyes",
       "pokecraft:unnerve"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:swarm"
     ]
   },

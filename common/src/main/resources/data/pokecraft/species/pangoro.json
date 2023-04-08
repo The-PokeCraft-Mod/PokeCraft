@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:iron_fist",
       "pokecraft:mold_breaker"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:scrappy"
     ]
   },

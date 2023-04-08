@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:reckless",
       "pokecraft:guts"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:defiant"
     ]
   },

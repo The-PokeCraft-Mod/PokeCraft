@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:vital_spirit"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

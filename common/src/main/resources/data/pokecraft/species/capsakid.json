@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:chlorophyll",
       "pokecraft:insomnia"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:klutz"
     ]
   },

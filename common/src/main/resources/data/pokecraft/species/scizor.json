@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:swarm",
       "pokecraft:technician"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:light_metal"
     ]
   },

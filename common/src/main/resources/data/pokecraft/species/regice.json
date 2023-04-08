@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:clear_body"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:ice_body"
     ]
   },

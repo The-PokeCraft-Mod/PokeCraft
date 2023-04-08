@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:early_bird"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:harvest"
     ]
   },

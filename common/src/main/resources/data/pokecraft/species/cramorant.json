@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:gulp_missile"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

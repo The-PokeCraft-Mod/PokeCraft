@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:sand_rush",
       "pokecraft:sand_force"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:mold_breaker"
     ]
   },

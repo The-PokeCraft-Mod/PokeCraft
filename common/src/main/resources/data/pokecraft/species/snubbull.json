@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:intimidate",
       "pokecraft:run_away"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:rattled"
     ]
   },

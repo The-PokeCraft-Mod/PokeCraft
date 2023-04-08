@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:sword_of ruin"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

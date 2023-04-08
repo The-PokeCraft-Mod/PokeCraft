@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:aroma_veil",
       "pokecraft:gluttony"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:thick_fat"
     ]
   },

@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:orichalcum_pulse"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

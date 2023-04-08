@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:overgrow"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:protean"
     ]
   },

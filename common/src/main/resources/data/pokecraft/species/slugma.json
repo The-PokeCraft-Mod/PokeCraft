@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:magma_armor",
       "pokecraft:flame_body"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:weak_armor"
     ]
   },

@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:vital_spirit",
       "pokecraft:hustle"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:insomnia"
     ]
   },

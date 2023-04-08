@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:slow_start"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

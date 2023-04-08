@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:aftermath",
       "pokecraft:unburden"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:flare_boost"
     ]
   },

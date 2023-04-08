@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:contrary",
       "pokecraft:suction_cups"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:infiltrator"
     ]
   },

@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:defeatist"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

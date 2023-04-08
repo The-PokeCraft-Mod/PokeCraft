@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:receiver"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:defiant"
     ]
   },

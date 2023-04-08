@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:ice_body",
       "pokecraft:snow_cloak"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:weak_armor"
     ]
   },

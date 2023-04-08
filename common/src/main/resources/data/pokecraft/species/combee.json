@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:honey_gather"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:hustle"
     ]
   },

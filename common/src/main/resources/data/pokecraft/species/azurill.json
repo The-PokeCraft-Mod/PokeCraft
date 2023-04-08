@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:thick_fat",
       "pokecraft:huge_power"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sap_sipper"
     ]
   },

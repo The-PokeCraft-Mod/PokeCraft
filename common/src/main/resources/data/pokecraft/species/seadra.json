@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:poison_point",
       "pokecraft:sniper"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:damp"
     ]
   },

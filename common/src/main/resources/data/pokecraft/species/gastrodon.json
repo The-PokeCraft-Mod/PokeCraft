@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:sticky_hold",
       "pokecraft:storm_drain"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sand_force"
     ]
   },

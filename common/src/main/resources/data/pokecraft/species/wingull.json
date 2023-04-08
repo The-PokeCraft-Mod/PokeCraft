@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:keen_eye",
       "pokecraft:hydration"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:rain_dish"
     ]
   },

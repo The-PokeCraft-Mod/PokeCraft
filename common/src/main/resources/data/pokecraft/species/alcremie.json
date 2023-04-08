@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:sweet_veil"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:aroma_veil"
     ]
   },

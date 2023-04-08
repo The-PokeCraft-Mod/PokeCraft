@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:gluttony"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:overgrow"
     ]
   },

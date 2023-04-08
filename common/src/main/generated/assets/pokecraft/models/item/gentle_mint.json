@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "pokecraft:item/gently_mint"
+    "layer0": "pokecraft:item/gentle_mint"
   }
 }

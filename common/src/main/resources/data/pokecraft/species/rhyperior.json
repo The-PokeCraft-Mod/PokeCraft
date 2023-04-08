@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:lightning_rod",
       "pokecraft:solid_rock"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:reckless"
     ]
   },

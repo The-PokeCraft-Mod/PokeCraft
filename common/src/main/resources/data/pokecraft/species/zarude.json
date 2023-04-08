@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:leaf_guard"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

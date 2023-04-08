@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:magnet_pull"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

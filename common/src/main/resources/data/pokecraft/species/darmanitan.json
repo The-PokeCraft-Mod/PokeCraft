@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:sheer_force"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:zen_mode"
     ]
   },

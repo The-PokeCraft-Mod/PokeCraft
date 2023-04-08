@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:dancer"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:shell_armor"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

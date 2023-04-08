@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:illuminate",
       "pokecraft:natural_cure"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:analytic"
     ]
   },

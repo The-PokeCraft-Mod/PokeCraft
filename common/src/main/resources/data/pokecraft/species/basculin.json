@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:reckless",
       "pokecraft:adaptability"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:mold_breaker"
     ]
   },

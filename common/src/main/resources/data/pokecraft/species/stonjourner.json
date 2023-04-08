@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:power_spot"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

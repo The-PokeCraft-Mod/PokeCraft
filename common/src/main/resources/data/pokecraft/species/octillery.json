@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:suction_cups",
       "pokecraft:sniper"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:moody"
     ]
   },

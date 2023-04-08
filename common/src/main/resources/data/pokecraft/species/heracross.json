@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:swarm",
       "pokecraft:guts"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:moxie"
     ]
   },

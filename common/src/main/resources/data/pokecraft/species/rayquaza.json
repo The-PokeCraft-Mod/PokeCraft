@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:air_lock"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

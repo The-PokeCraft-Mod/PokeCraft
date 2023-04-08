@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:hyper_cutter",
       "pokecraft:iron_fist"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:anger_point"
     ]
   },

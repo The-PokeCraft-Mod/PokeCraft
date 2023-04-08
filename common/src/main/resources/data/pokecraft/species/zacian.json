@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:intrepid_sword"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

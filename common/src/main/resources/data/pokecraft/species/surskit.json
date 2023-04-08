@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:swift_swim"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:rain_dish"
     ]
   },

@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:weak_armor"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:cursed_body"
     ]
   },

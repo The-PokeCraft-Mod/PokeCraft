@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:ice_face"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

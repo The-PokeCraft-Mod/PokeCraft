@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:run_away",
       "pokecraft:early_bird"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:tangled_feet"
     ]
   },

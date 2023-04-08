@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:swift_swim",
       "pokecraft:rock_head"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sturdy"
     ]
   },

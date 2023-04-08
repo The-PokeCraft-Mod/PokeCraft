@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:shell_armor",
       "pokecraft:skill_link"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:overcoat"
     ]
   },

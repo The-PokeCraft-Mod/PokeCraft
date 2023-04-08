@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:stench",
       "pokecraft:aftermath"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:keen_eye"
     ]
   },

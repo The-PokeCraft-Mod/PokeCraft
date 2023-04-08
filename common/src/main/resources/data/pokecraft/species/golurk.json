@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:iron_fist",
       "pokecraft:klutz"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:no_guard"
     ]
   },

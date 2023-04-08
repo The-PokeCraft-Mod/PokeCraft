@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:pickup",
       "pokecraft:quick_feet"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:honey_gather"
     ]
   },

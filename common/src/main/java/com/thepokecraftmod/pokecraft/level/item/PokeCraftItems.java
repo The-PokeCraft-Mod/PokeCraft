@@ -168,38 +168,38 @@ public class PokeCraftItems {
 
     // Battle/Stat
     //Bottle
-    public static final Item HP_UP = register("hp_up", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item PROTEIN = register("protein", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item IRON = register("iron", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item CARBOS = register("carbos", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item CALCIUM = register("calcium", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item ZINC = register("zinc", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item PP_UP = register("pp_up", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item PP_MAX = register("pp_max", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item HP_UP = register("hp_up", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item PROTEIN = register("protein", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item IRON = register("iron", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item CARBOS = register("carbos", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item CALCIUM = register("calcium", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item ZINC = register("zinc", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item PP_UP = register("pp_up", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item PP_MAX = register("pp_max", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
     // X Things
-    public static final Item X_ATTACK = register("x_attack", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item X_DEFENSE = register("x_defense", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item X_SP_ATK = register("x_sp_atk", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item X_SP_DEF = register("x_sp_def", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item X_SPEED = register("x_speed", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item X_ACCURACY = register("x_accuracy", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item GUARD_SPEC = register("guard_spec", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item DIRE_HIT = register("dire_hit", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item X_ATTACK = register("x_attack", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item X_DEFENSE = register("x_defense", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item X_SP_ATK = register("x_sp_atk", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item X_SP_DEF = register("x_sp_def", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item X_SPEED = register("x_speed", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item X_ACCURACY = register("x_accuracy", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item GUARD_SPEC = register("guard_spec", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item DIRE_HIT = register("dire_hit", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
     // Feather
-    public static final Item HEALTH_FEATHER = register("health_feather", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item MUSCLE_FEATHER = register("muscle_feather", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item RESIST_FEATHER = register("resist_feather", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item GENIUS_FEATHER = register("genius_feather", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item CLEVER_FEATHER = register("clever_feather", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item SWIFT_FEATHER = register("swift_feather", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item HEALTH_FEATHER = register("health_feather", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item MUSCLE_FEATHER = register("muscle_feather", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item RESIST_FEATHER = register("resist_feather", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item GENIUS_FEATHER = register("genius_feather", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item CLEVER_FEATHER = register("clever_feather", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item SWIFT_FEATHER = register("swift_feather", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
     // Candy
-    public static final Item EXP_CANDY_XS = register("exp_candy_xs", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item EXP_CANDY_S = register("exp_candy_s", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item EXP_CANDY_M = register("exp_candy_m", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item EXP_CANDY_L = register("exp_candy_l", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item EXP_CANDY_XL = register("exp_candy_xl", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item RARE_CANDY = register("rare_candy", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item DYNAMAX_CANDY = register("dynamax_candy", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item EXP_CANDY_XS = register("exp_candy_xs", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item EXP_CANDY_S = register("exp_candy_s", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item EXP_CANDY_M = register("exp_candy_m", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item EXP_CANDY_L = register("exp_candy_l", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item EXP_CANDY_XL = register("exp_candy_xl", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item RARE_CANDY = register("rare_candy", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item DYNAMAX_CANDY = register("dynamax_candy", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
     // Ability/Stats
     public static final Item BOTTLE_CAP = register("bottle_cap", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
     public static final Item GOLD_BOTTLE_CAP = register("gold_bottle_cap", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
@@ -228,9 +228,9 @@ public class PokeCraftItems {
     public static final Item NAIVE_MINT = register("naive_mint", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
     public static final Item SERIOUS_MINT = register("serious_mint", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
     // Use Items
-    public static final Item POKE_DOLL = register("poke_doll", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item FLUFFY_TAIL = register("fluffy_tail", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
-    public static final Item ADRENALINE_ORB = register("adrenaline_orb", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item POKE_DOLL = register("poke_doll", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item FLUFFY_TAIL = register("fluffy_tail", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
+    public static final Item ADRENALINE_ORB = register("adrenaline_orb", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
     // TMs
     public static final Item GRASS_TM = register("grass_tm", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
     public static final Item FIRE_TM = register("fire_tm", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STATS);
@@ -526,24 +526,24 @@ public class PokeCraftItems {
     public static final Item ULTRANECROZIUM_Z = register("ultranecrozium_z", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
     public static final Item MARSHADIUM_Z = register("marshadium_z", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
     //Tera Shard
-    public static final Item GRASS_TERA_SHARD = register("grass_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item FIRE_TERA_SHARD = register("fire_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item WATER_TERA_SHARD = register("water_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item NORMAL_TERA_SHARD = register("normal_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item FLYING_TERA_SHARD = register("flying_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item BUG_TERA_SHARD = register("bug_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item ROCK_TERA_SHARD = register("rock_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item GROUND_TERA_SHARD = register("ground_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item POISON_TERA_SHARD = register("poison_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item ELECTRIC_TERA_SHARD = register("electric_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item FAIRY_TERA_SHARD = register("fairy_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item PSYCHIC_TERA_SHARD = register("psychic_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item DARK_TERA_SHARD = register("dark_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item GHOST_TERA_SHARD = register("ghost_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item FIGHTING_TERA_SHARD = register("fighting_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item ICE_TERA_SHARD = register("ice_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item STEEL_TERA_SHARD = register("steel_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
-    public static final Item DRAGON_TERA_SHARD = register("dragon_tera_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item GRASS_TERA_SHARD = register("grass_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item FIRE_TERA_SHARD = register("fire_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item WATER_TERA_SHARD = register("water_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item NORMAL_TERA_SHARD = register("normal_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item FLYING_TERA_SHARD = register("flying_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item BUG_TERA_SHARD = register("bug_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item ROCK_TERA_SHARD = register("rock_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item GROUND_TERA_SHARD = register("ground_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item POISON_TERA_SHARD = register("poison_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item ELECTRIC_TERA_SHARD = register("electric_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item FAIRY_TERA_SHARD = register("fairy_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item PSYCHIC_TERA_SHARD = register("psychic_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item DARK_TERA_SHARD = register("dark_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item GHOST_TERA_SHARD = register("ghost_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item FIGHTING_TERA_SHARD = register("fighting_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item ICE_TERA_SHARD = register("ice_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item STEEL_TERA_SHARD = register("steel_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
+    public static final Item DRAGON_TERA_SHARD = register("dragon_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK);
 
     // Natural
     //Apricorns
@@ -563,7 +563,7 @@ public class PokeCraftItems {
     //Ore
     public static final Item WISHING_CHIP = register("wishing_chip", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item WISHING_PIECE = register("wishing_piece", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item WISHING_STAR = register("wishing_star", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item WISHING_STAR = register("wishing_star", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item ORIGIN_ORE = register("origin_ore", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     //Fossil
     public static final Item HELIX_FOSSIL = register("helix_fossil", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
@@ -587,36 +587,36 @@ public class PokeCraftItems {
     public static final Item GREEN_SHARD = register("green_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item BLUE_SHARD = register("blue_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     //Valuable
-    public static final Item NUGGET = register("nugget", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item NUGGET = register("nugget", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item BIG_NUGGET = register("big_nugget", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item PEARL = register("pearl", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item BIG_PEARL = register("big_pearl", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item PEARL_STRING = register("pearl_string", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item STARDUST = register("stardust", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item STARDUST = register("stardust", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item STAR_PIECE = register("star_piece", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item COMET_SHARD = register("comet_shard", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item TINY_MUSHROOM = register("tiny_mushroom", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item COMET_SHARD = register("comet_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item TINY_MUSHROOM = register("tiny_mushroom", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item BIG_MUSHROOM = register("big_mushroom", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item BALM_MUSHROOM = register("balm_mushroom", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item RARE_BONE = register("rare_bone", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item PRETTY_FEATHER = register("pretty_feather", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item TINY_BAMBOO_SHOOT = register("tiny_bamboo_shoot", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item RARE_BONE = register("rare_bone", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item PRETTY_FEATHER = register("pretty_feather", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item TINY_BAMBOO_SHOOT = register("tiny_bamboo_shoot", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item BIG_BAMBOO_SHOOT = register("big_bamboo_shoot", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item RELIC_COPPER = register("relic_copper", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item RELIC_SILVER = register("relic_silver", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item RELIC_GOLD = register("relic_gold", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item RELIC_GOLD = register("relic_gold", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item RELIC_VASE = register("relic_vase", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item RELIC_BAND = register("relic_band", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item RELIC_BAND = register("relic_band", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item RELIC_STATUE = register("relic_statue", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item RELIC_CROWN = register("relic_crown", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item RELIC_CROWN = register("relic_crown", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item STRANGE_SOUVENIR = register("strange_souvenir", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item HEART_SCALE = register("heart_scale", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     //Souvenir
     public static final Item BEACH_GLASS = register("beach_glass", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item CHALKY_STONE = register("chalky_stone", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item SILVER_LEAF = register("silver_leaf", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item CHALKY_STONE = register("chalky_stone", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item SILVER_LEAF = register("silver_leaf", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item GOLD_LEAF = register("gold_leaf", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
-    public static final Item LEAF_LETTER = register("leaf_letter", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item LEAF_LETTER = register("leaf_letter", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item LONE_EARING = register("lone_earing", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item MARBLE = register("marble", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item POLISHED_MUD_BALL = register("polished_mud_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
@@ -638,12 +638,13 @@ public class PokeCraftItems {
     public static final Item BLUE_ORB = register("blue_orb", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item METEORITE = register("meteorite", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     //Sinnoh
+    public static final Item RED_CHAIN = register("red_chain", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item ADAMANT_ORB = register("adamant_orb", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item ADAMANT_CRYSTAL = register("adamant_crystal", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item TIME_BALM = register("time_balm", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item TIME_BALM = register("time_balm", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item LUSTROUS_ORB = register("lustrous_orb", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item LUSTROUS_GLOBE = register("lustrous_globe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item SPACE_BALM = register("space_balm", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item SPACE_BALM = register("space_balm", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item MAGMA_STONE = register("magma_stone", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item GRISEOUS_ORB = register("griseous_orb", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item GRISEOUS_CORE = register("griseous_core", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
@@ -668,7 +669,7 @@ public class PokeCraftItems {
     public static final Item IRON_PLATE = register("iron_plate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item DRACO_PLATE = register("draco_plate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item LEGEND_PLATE = register("legend_plate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item MYSTERIOUS_BALM = register("mysterious_balm", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item MYSTERIOUS_BALM = register("mysterious_balm", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item AZURE_FLUTE = register("azure_flute", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     //Unova
     public static final Item REVEAL_GLASS = register("reveal_glass", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
@@ -682,30 +683,30 @@ public class PokeCraftItems {
     //Kalos
     public static final Item PRISON_BOTTLE = register("prison_bottle", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     //Alola
-    public static final Item GRASS_MEMORY = register("grass_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item FIRE_MEMORY = register("fire_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item WATER_MEMORY = register("water_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item FLYING_MEMORY = register("flying_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item BUG_MEMORY = register("bug_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item ROCK_MEMORY = register("rock_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item GROUND_MEMORY = register("ground_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item POISON_MEMORY = register("poison_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item ELECTRIC_MEMORY = register("electric_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item FAIRY_MEMORY = register("fairy_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item PSYCHIC_MEMORY = register("psychic_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item DARK_MEMORY = register("dark_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item GHOST_MEMORY = register("ghost_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item FIGHTING_MEMORY = register("fighting_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item ICE_MEMORY = register("ice_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item STEEL_MEMORY = register("steel_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
-    public static final Item DRAGON_MEMORY = register("dragon_memory", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item GRASS_MEMORY = register("grass_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item FIRE_MEMORY = register("fire_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item WATER_MEMORY = register("water_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item FLYING_MEMORY = register("flying_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item BUG_MEMORY = register("bug_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item ROCK_MEMORY = register("rock_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item GROUND_MEMORY = register("ground_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item POISON_MEMORY = register("poison_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item ELECTRIC_MEMORY = register("electric_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item FAIRY_MEMORY = register("fairy_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item PSYCHIC_MEMORY = register("psychic_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item DARK_MEMORY = register("dark_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item GHOST_MEMORY = register("ghost_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item FIGHTING_MEMORY = register("fighting_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item ICE_MEMORY = register("ice_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item STEEL_MEMORY = register("steel_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item DRAGON_MEMORY = register("dragon_memory", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item SPARKLING_STONE = register("sparkling_stone", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item SUN_FLUTE = register("sun_flute", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item N_SOLARIZER = register("n_solarizer", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item MOON_FLUTE = register("moon_flute", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item N_LUNARIZER = register("n_lunarizer", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     //Galar
-    public static final Item RUSTED_SWORD = register("rusted_sword", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
+    public static final Item RUSTED_SWORD = register("rusted_sword", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item RUSTED_SHIELD = register("rusted_shield", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item SCROLL_OF_DARKNESS = register("scroll_of_darkness", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
     public static final Item SCROLL_OF_WATERS = register("scroll_of_waters", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
@@ -718,36 +719,36 @@ public class PokeCraftItems {
     public static final Item VIOLET_BOOK = register("violet_book", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL);
 
     // Player
-    public static final Item REPEL = register("repel", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item REPEL = register("repel", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item SUPER_REPEL = register("super_repel", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item MAX_REPEL = register("max_repel", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item LURE = register("lure", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item SUPER_LURE = register("super_lure", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item MAX_LURE = register("max_lure", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item ESCAPE_ROPE = register("escape_rope", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item POKE_TOY = register("poke_toy", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item MAX_REPEL = register("max_repel", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item LURE = register("lure", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item SUPER_LURE = register("super_lure", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item MAX_LURE = register("max_lure", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item ESCAPE_ROPE = register("escape_rope", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item POKE_TOY = register("poke_toy", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item BLUE_FLUTE = register("blue_flute", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item YELLOW_FLUTE = register("yellow_flute", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item RED_FLUTE = register("red_flute", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item BLACK_FLUTE = register("black_flute", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item YELLOW_FLUTE = register("yellow_flute", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item RED_FLUTE = register("red_flute", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item BLACK_FLUTE = register("black_flute", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item WHITE_FLUTE = register("white_flute", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item SPOILED_APRICORN = register("spoiled_apricorn", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item HOPO_BERRY = register("hopo_berry", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item BALL_OF_MUD = register("ball_of_mud", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item SNOW_BALL = register("snow_ball", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item STICKY_GLOB = register("sticky_glob", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item SCATTER_BANG = register("scatter_bang", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item SNOW_BALL = register("snow_ball", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item STICKY_GLOB = register("sticky_glob", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item SCATTER_BANG = register("scatter_bang", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item SMOKE_BOMB = register("smoke_bomb", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item STEALTH_SPRAY = register("stealth_spray", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item STEALTH_SPRAY = register("stealth_spray", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item SEED_OF_MASTERY = register("seed_of_mastery", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item GROWTH_MULCH = register("growth_mulch", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item DAMP_MULCH = register("damp_mulch", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item STABLE_MULCH = register("stable_mulch", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item GOOEY_MULCH = register("gooey_mulch", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item STABLE_MULCH = register("stable_mulch", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item GOOEY_MULCH = register("gooey_mulch", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item AMAZE_MULCH = register("amaze_mulch", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item BOOST_MULCH = register("boost_mulch", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item RICH_MULCH = register("rich_mulch", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
-    public static final Item SURPRISE_MULCH = register("surprise_mulch", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item RICH_MULCH = register("rich_mulch", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
+    public static final Item SURPRISE_MULCH = register("surprise_mulch", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item SPRAYDUCK = register("sprayduck", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item SPRINKLOTAD = register("sprinklotad", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);
     public static final Item SQUIRTBOTTLE = register("squirtbottle", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.PLAYER_ITEMS);

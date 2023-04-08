@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:swarm",
       "pokecraft:compound_eyes"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:telepathy"
     ]
   },

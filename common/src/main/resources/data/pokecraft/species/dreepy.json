@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:clear_body",
       "pokecraft:infiltrator"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:cursed_body"
     ]
   },

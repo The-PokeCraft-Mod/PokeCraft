@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:sand_veil"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:water_absorb"
     ]
   },

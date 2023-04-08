@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:flower_gift"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

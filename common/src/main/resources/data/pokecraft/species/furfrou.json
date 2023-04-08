@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:fur_coat"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

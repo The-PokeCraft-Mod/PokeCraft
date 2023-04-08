@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:shield_dust",
       "pokecraft:tinted_lens"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:wonder_skin"
     ]
   },

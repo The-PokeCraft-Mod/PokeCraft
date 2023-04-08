@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:magnet_pull",
       "pokecraft:sturdy"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:analytic"
     ]
   },

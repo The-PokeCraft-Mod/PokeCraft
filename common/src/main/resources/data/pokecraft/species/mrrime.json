@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:tangled_feet",
       "pokecraft:screen_cleaner"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:ice_body"
     ]
   },

@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:levitate"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

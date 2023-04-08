@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:cute_charm",
       "pokecraft:technician"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:skill_link"
     ]
   },

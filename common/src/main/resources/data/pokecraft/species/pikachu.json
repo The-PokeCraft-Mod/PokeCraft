@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:static"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:lightning_rod"
     ]
   },

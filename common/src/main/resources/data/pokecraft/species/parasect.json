@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:effect_spore",
       "pokecraft:dry_skin"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:damp"
     ]
   },

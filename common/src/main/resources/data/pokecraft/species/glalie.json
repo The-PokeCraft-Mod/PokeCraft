@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:inner_focus",
       "pokecraft:ice_body"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:moody"
     ]
   },

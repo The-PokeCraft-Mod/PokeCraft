@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:hyper_cutter",
       "pokecraft:sand_veil"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:poison_heal"
     ]
   },

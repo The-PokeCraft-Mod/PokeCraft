@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:healer"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:aroma_veil"
     ]
   },

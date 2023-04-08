@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:intimidate",
       "pokecraft:anger_point"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sheer_force"
     ]
   },

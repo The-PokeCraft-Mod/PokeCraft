@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:stench",
       "pokecraft:weak_armor"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:aftermath"
     ]
   },

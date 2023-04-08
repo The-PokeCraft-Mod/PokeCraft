@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:full_metal body"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

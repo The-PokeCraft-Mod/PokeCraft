@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:serene_grace"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

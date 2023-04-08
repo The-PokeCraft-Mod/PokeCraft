@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:strong_jaw"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sturdy"
     ]
   },

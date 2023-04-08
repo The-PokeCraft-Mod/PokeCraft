@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:telepathy",
       "pokecraft:synchronize"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:analytic"
     ]
   },

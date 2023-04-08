@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:rough_skin",
       "pokecraft:sheer_force"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:mold_breaker"
     ]
   },

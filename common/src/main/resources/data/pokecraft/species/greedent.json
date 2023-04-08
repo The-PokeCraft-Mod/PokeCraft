@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:cheek_pouch"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:gluttony"
     ]
   },

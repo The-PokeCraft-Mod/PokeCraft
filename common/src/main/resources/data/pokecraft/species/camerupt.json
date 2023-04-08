@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:magma_armor",
       "pokecraft:solid_rock"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:anger_point"
     ]
   },

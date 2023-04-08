@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:sand_stream"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:unnerve"
     ]
   },

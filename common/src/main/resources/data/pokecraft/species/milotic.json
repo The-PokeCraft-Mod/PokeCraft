@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:marvel_scale",
       "pokecraft:competitive"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:cute_charm"
     ]
   },

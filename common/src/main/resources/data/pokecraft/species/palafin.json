@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:zero_to hero"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

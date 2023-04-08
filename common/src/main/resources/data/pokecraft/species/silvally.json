@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:rks_system"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

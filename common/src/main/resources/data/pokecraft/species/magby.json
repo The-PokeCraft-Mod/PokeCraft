@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:flame_body"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:vital_spirit"
     ]
   },

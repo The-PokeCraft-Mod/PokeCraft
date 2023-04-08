@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:cute_charm"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:contrary"
     ]
   },

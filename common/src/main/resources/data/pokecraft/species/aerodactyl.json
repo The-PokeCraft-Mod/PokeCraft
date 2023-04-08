@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:rock_head",
       "pokecraft:pressure"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:unnerve"
     ]
   },

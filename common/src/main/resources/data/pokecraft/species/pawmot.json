@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:volt_absorb",
       "pokecraft:natural_cure"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:iron_fist"
     ]
   },

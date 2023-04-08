@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:good_as gold"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

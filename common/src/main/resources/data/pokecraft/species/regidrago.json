@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:dragon\u0027s_maw"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

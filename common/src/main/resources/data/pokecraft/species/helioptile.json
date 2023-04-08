@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:dry_skin",
       "pokecraft:sand_veil"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:solar_power"
     ]
   },

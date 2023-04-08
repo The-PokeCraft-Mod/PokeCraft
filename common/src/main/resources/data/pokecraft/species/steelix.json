@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:rock_head",
       "pokecraft:sturdy"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sheer_force"
     ]
   },

@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:early_bird",
       "pokecraft:flash_fire"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:unnerve"
     ]
   },

@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:merciless",
       "pokecraft:limber"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:regenerator"
     ]
   },

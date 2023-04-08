@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:stakeout",
       "pokecraft:strong_jaw"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:adaptability"
     ]
   },

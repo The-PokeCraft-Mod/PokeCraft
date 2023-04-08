@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:insomnia",
       "pokecraft:keen_eye"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:tinted_lens"
     ]
   },

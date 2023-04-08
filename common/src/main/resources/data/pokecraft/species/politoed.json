@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:water_absorb",
       "pokecraft:damp"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:drizzle"
     ]
   },

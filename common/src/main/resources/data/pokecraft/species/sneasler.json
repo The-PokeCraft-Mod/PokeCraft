@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:pressure",
       "pokecraft:unburden"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:poison_touch"
     ]
   },

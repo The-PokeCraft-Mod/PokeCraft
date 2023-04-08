@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:wonder_guard"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

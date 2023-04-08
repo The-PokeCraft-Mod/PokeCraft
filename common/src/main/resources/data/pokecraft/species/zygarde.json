@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:aura_break"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

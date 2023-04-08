@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:stance_change"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

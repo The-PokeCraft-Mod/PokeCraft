@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:hustle"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:inner_focus"
     ]
   },

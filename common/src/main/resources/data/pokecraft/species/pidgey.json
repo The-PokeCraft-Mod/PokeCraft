@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:keen_eye",
       "pokecraft:tangled_feet"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:big_pecks"
     ]
   },

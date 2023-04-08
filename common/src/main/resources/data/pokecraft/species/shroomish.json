@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:effect_spore",
       "pokecraft:poison_heal"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:quick_feet"
     ]
   },

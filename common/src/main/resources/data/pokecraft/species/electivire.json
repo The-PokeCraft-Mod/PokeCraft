@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:motor_drive"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:vital_spirit"
     ]
   },

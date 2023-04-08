@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:lightning_rod",
       "pokecraft:motor_drive"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sap_sipper"
     ]
   },

@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:chlorophyll",
       "pokecraft:sap_sipper"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:serene_grace"
     ]
   },

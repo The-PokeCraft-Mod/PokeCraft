@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:compound_eyes",
       "pokecraft:tinted_lens"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:run_away"
     ]
   },

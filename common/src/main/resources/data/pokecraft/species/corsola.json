@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:hustle",
       "pokecraft:natural_cure"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:regenerator"
     ]
   },

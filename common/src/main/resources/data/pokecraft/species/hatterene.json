@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:healer",
       "pokecraft:anticipation"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:magic_bounce"
     ]
   },

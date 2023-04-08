@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:hadron_engine"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

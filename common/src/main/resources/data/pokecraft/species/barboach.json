@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:oblivious",
       "pokecraft:anticipation"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:hydration"
     ]
   },

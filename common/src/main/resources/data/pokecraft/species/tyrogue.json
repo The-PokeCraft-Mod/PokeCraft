@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:guts",
       "pokecraft:steadfast"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:vital_spirit"
     ]
   },

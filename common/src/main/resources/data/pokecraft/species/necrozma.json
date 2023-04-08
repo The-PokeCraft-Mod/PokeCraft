@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:prism_armor"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

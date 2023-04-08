@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:limber",
       "pokecraft:unburden"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:mold_breaker"
     ]
   },

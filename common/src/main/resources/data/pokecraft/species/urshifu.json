@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:unseen_fist"
     ],
-    "regular": []
+    "hidden": []
   },
   "eggInfo": {
     "groups": [

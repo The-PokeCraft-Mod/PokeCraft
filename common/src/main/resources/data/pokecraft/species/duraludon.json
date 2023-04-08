@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:light_metal",
       "pokecraft:heavy_metal"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:stalwart"
     ]
   },

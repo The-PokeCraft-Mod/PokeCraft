@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:thick_fat",
       "pokecraft:hydration"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:ice_body"
     ]
   },

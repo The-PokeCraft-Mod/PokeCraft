@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:shield_dust"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:run_away"
     ]
   },

@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:rivalry",
       "pokecraft:intimidate"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:guts"
     ]
   },

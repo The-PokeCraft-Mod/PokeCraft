@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:run_away",
       "pokecraft:keen_eye"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:analytic"
     ]
   },

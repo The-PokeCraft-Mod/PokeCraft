@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:cotton_down",
       "pokecraft:regenerator"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:effect_spore"
     ]
   },

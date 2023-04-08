@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:hydration",
       "pokecraft:shell_armor"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:overcoat"
     ]
   },

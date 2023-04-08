@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:anticipation",
       "pokecraft:frisk"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:speed_boost"
     ]
   },

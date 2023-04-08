@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:battle_armor",
       "pokecraft:tough_claws"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:steely_spirit"
     ]
   },

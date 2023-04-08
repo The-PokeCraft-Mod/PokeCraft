@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:refrigerate"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:snow_warning"
     ]
   },

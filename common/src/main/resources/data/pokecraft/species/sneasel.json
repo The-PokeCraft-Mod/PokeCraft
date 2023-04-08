@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:inner_focus",
       "pokecraft:keen_eye"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:pickpocket"
     ]
   },

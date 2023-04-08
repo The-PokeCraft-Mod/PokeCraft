@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:big_pecks"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:gale_wings"
     ]
   },

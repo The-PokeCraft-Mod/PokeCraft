@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:water_absorb",
       "pokecraft:ice_body"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:slush_rush"
     ]
   },

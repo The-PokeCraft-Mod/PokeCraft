@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:clear_body",
       "pokecraft:liquid_ooze"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:rain_dish"
     ]
   },

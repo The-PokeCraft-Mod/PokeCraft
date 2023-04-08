@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:thick_fat",
       "pokecraft:slush_rush"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sheer_force"
     ]
   },

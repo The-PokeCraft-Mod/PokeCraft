@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:bulletproof",
       "pokecraft:soundproof"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:overcoat"
     ]
   },

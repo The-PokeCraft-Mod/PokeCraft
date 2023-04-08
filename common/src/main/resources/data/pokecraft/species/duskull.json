@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:levitate"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:frisk"
     ]
   },

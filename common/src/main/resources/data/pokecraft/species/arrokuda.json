@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:swift_swim"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:propeller_tail"
     ]
   },

@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:simple",
       "pokecraft:unaware"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:moody"
     ]
   },

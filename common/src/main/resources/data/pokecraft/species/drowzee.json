@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:insomnia",
       "pokecraft:forewarn"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:inner_focus"
     ]
   },

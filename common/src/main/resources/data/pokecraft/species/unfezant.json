@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:big_pecks",
       "pokecraft:super_luck"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:rivalry"
     ]
   },

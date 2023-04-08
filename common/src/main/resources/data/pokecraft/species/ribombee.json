@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:honey_gather",
       "pokecraft:shield_dust"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:sweet_veil"
     ]
   },

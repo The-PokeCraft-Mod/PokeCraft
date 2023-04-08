@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:gluttony",
       "pokecraft:flash_fire"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:white_smoke"
     ]
   },

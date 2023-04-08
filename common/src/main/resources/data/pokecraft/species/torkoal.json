@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:white_smoke",
       "pokecraft:drought"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:shell_armor"
     ]
   },

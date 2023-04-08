@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:limber"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:technician"
     ]
   },

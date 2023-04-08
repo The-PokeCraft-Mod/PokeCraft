@@ -34,10 +34,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:overgrow"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:leaf_guard"
     ]
   },

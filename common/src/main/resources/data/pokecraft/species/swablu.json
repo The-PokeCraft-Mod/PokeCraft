@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:natural_cure"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:cloud_nine"
     ]
   },

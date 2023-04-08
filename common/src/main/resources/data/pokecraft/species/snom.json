@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:shield_dust"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:ice_scales"
     ]
   },

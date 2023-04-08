@@ -34,11 +34,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:strong_jaw",
       "pokecraft:shell_armor"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:swift_swim"
     ]
   },

@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:big_pecks",
       "pokecraft:keen_eye"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:rocky_payload"
     ]
   },

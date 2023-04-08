@@ -35,10 +35,10 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:toxic_debris"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:corrosion"
     ]
   },

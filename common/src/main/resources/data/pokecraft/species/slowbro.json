@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:oblivious",
       "pokecraft:own_tempo"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:regenerator"
     ]
   },

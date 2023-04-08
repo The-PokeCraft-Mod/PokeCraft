@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:levitate",
       "pokecraft:heatproof"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:heavy_metal"
     ]
   },

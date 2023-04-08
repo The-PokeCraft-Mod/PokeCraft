@@ -35,11 +35,11 @@
     "isSocial": true
   },
   "abilityPool": {
-    "hidden": [
+    "regular": [
       "pokecraft:berserk",
       "pokecraft:sap_sipper"
     ],
-    "regular": [
+    "hidden": [
       "pokecraft:cloud_nine"
     ]
   },
