@@ -7,7 +7,6 @@ committed to bringing everyone the most immersive Pokémon Minecraft Mod to date
 
 - [Our Story](#our-story)
 - [Why should you use PokéCraft?](#why-should-you-use-pokécraft)
-- [Building the Mod](#building-the-mod)
 - [Discord](#discord)
 - [Website](#our-website)
 
