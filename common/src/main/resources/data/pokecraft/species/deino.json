@@ -29,7 +29,7 @@
     "type": "pokecraft:none"
   },
   "behaviour": {
-    "aggression": "timid",
+    "aggression": "passive",
     "baseFriendship": 35,
     "canSwim": true,
     "isSocial": true

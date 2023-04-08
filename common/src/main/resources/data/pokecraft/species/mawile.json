@@ -29,7 +29,7 @@
     "type": "pokecraft:none"
   },
   "behaviour": {
-    "aggression": "timid",
+    "aggression": "passive",
     "baseFriendship": 50,
     "canSwim": true,
     "isSocial": true
@@ -37,7 +37,7 @@
   "abilityPool": {
     "hidden": [
       "pokecraft:hyper_cutter",
-      "pokecraft:intimidate"
+      "pokecraft:inpassiveate"
     ],
     "regular": [
       "pokecraft:sheer_force"
