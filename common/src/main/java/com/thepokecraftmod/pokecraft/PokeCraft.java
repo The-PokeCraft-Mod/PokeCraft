@@ -21,6 +21,7 @@ package com.thepokecraftmod.pokecraft;
 import com.mojang.brigadier.CommandDispatcher;
 import com.thepokecraftmod.mimikyu.Mimikyu;
 import com.thepokecraftmod.pokecraft.api.event.SetupEvents;
+import com.thepokecraftmod.pokecraft.api.query.PokeCraftQueryListener;
 import com.thepokecraftmod.pokecraft.api.registry.MojangRegistry;
 import com.thepokecraftmod.pokecraft.api.registry.builtin.PokeCraftRegistries;
 import com.thepokecraftmod.pokecraft.command.ClearPokemonCommand;
@@ -57,6 +58,7 @@ public abstract class PokeCraft {
     private static boolean isDevEnv;
 
     private void onInitialize() {
+        PokeCraftQueryListener.onInitialize();
         Mimikyu.onInitialize();
         PokeCraftEntityDataSerializers.onInitialize();
         SetupEvents.REGISTER_COMMANDS.listen(INSTANCE::registerCommands);
