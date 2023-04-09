@@ -1,4 +1,4 @@
-package com.thepokecraftmod.pokecraft.client.render;
+package com.thepokecraftmod.pokecraft.client.render.screen;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 

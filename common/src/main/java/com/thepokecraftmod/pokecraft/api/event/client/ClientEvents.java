@@ -1,7 +1,7 @@
 package com.thepokecraftmod.pokecraft.api.event.client;
 
 import com.thepokecraftmod.pokecraft.api.event.Event;
-import com.thepokecraftmod.pokecraft.client.render.ScreenLikeInfo;
+import com.thepokecraftmod.pokecraft.client.render.screen.ScreenLikeInfo;
 
 import java.util.function.Consumer;
 

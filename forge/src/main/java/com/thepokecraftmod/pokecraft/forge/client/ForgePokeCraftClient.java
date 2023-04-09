@@ -21,7 +21,7 @@ package com.thepokecraftmod.pokecraft.forge.client;
 import com.thepokecraftmod.pokecraft.api.event.client.ClientEvents;
 import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
 import com.thepokecraftmod.pokecraft.client.input.KeyBind;
-import com.thepokecraftmod.pokecraft.client.render.ScreenLikeInfo;
+import com.thepokecraftmod.pokecraft.client.render.screen.ScreenLikeInfo;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.client.event.InputEvent;

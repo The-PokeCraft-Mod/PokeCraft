@@ -22,7 +22,7 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.client.ScreenUtils;
 import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
-import com.thepokecraftmod.pokecraft.client.render.ScreenLikeInfo;
+import com.thepokecraftmod.pokecraft.client.render.screen.ScreenLikeInfo;
 import com.thepokecraftmod.pokecraft.client.theme.Theme;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;

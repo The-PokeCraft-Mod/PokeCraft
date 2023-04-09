@@ -22,8 +22,7 @@ import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.api.event.client.ClientEvents;
 import com.thepokecraftmod.pokecraft.api.pokemon.PokemonParty;
 import com.thepokecraftmod.pokecraft.client.input.KeyBind;
-import com.thepokecraftmod.pokecraft.client.render.PokemonRenderer;
-import com.thepokecraftmod.pokecraft.client.render.RenderProvider;
+import com.thepokecraftmod.pokecraft.client.render.entity.PokemonRenderer;
 import com.thepokecraftmod.pokecraft.client.theme.ThemeManager;
 import com.thepokecraftmod.pokecraft.client.themes.DefaultTheme;
 import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntities;
@@ -44,7 +43,6 @@ public class PokeCraftClient {
     private static PokeCraftClient INSTANCE;
     public final List<Screen> hidePartyScreens = new ArrayList<>();
     protected final List<KeyBind> keyBinds = new ArrayList<>();
-    public RenderProvider renderProvider;
     public PokemonParty party;
 
     private void onInitialize() {

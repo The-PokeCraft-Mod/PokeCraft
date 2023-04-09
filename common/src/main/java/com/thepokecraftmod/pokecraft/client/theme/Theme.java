@@ -1,6 +1,6 @@
 package com.thepokecraftmod.pokecraft.client.theme;
 
-import com.thepokecraftmod.pokecraft.client.render.ScreenLikeInfo;
+import com.thepokecraftmod.pokecraft.client.render.screen.ScreenLikeInfo;
 import net.minecraft.client.gui.screens.Screen;
 
 import java.util.function.Consumer;

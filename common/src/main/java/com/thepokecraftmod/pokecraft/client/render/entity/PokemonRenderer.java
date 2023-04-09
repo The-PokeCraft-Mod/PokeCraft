@@ -1,4 +1,4 @@
-package com.thepokecraftmod.pokecraft.client.render;
+package com.thepokecraftmod.pokecraft.client.render.entity;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
@@ -18,9 +18,7 @@ public class PokemonRenderer extends EntityRenderer<PokemonEntity> {
 
     @Override
     public void render(@NotNull PokemonEntity pokemon, float entityYaw, float partialTicks, @NotNull PoseStack stack, @NotNull MultiBufferSource source, int light) {
-        var renderProvider = PokeCraftClient.getInstance().renderProvider;
-        if (renderProvider != null) renderProvider.renderMon(pokemon, entityYaw, partialTicks, stack, source, light);
-        else renderNameTag(pokemon, Component.literal("I need to put RKS in lol"), stack, source, light);
+        renderNameTag(pokemon, Component.literal("I need to put RKS in lol"), stack, source, light);
     }
 
     // Mojang annotated this a @NotNull, but it doesn't actually matter. Seriously wtf

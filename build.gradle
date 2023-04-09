@@ -8,21 +8,11 @@ architectury {
     minecraft = rootProject.minecraft_version
 }
 
-subprojects {
+configure(subprojects.findAll {it.name != 'tools'}) {
     apply plugin: "dev.architectury.loom"
-    apply plugin: "org.cadixdev.licenser"
 
     loom {
         silentMojangMappingsLicense()
-    }
-
-    license {
-        header = rootProject.file("HEADER")
-        include("**/*.java")
-    }
-
-    repositories {
-        maven { url = 'https://maven.parchmentmc.org' }
     }
 
     dependencies {
@@ -31,6 +21,23 @@ subprojects {
             officialMojangMappings()
             parchment("org.parchmentmc.data:parchment-$rootProject.parchment_version@zip")
         }
+    }
+}
+
+subprojects {
+    apply plugin: "org.cadixdev.licenser"
+
+    license {
+        header = rootProject.file("HEADER")
+        include("**/*.java")
+    }
+
+    repositories {
+        mavenCentral()
+        maven { url = 'https://maven.parchmentmc.org' }
+        maven { url = "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url 'https://jitpack.io' }
+        mavenLocal()
     }
 }
 
