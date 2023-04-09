@@ -65,7 +65,7 @@
             {
               "property": "pokecraft:friendship",
               "comparison": "greater_than",
-              "value": "159"
+              "value": "219"
             }
           ]
         },
