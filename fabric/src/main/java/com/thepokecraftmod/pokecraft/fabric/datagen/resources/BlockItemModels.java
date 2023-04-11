@@ -8,14 +8,15 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.models.BlockModelGenerators;
 import net.minecraft.data.models.ItemModelGenerators;
 import net.minecraft.data.models.model.ModelTemplates;
+import net.minecraft.data.models.model.TextureMapping;
 import net.minecraft.data.models.model.TexturedModel;
+import net.minecraft.world.level.block.Blocks;
 
 public class BlockItemModels extends FabricModelProvider {
 
     public BlockItemModels(FabricDataOutput output) {
         super(output);
     }
-
     @Override
     public void generateBlockStateModels(BlockModelGenerators generator) {
         generator.createTrivialBlock(PokeCraftBlocks.GREGANACL, TexturedModel.CUBE_TOP_BOTTOM);
@@ -111,12 +112,139 @@ public class BlockItemModels extends FabricModelProvider {
         generator.createTrivialCube(PokeCraftBlocks.GRAY_SAND);
         generator.createTrivialCube(PokeCraftBlocks.BLACK_SAND);
         generator.createTrivialCube(PokeCraftBlocks.BROWN_SAND);
+        generator.createTrivialCube(PokeCraftBlocks.RUBY_ORE);
+        generator.createTrivialCube(PokeCraftBlocks.DEEPSLATE_RUBY_ORE);
+        generator.createTrivialCube(PokeCraftBlocks.SAPPHIRE_ORE);
+        generator.createTrivialCube(PokeCraftBlocks.DEEPSLATE_SAPPHIRE_ORE);
+        generator.createTrivialCube(PokeCraftBlocks.SAPPHIRE_BLOCK);
+        generator.createTrivialCube(PokeCraftBlocks.RUBY_BLOCK);
+        generator.createTrivialCube(PokeCraftBlocks.CHARGESTONE_ORE);
+        generator.createTrivialCube(PokeCraftBlocks.CHARGESTONE_BLOCK);
+        generator.createTrivialCube(PokeCraftBlocks.DEEPSLATE_CHARGESTONE_ORE);
+        generator.createTrivialCube(PokeCraftBlocks.RED_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.RED_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.ORANGE_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.ORANGE_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.YELLOW_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.YELLOW_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.LIME_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.LIME_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.GREEN_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.GREEN_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.LIGHT_BLUE_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.LIGHT_BLUE_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.CYAN_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.CYAN_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.BLUE_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.BLUE_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.PINK_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.PINK_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.MAGENTA_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.MAGENTA_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.PURPLE_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.PURPLE_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.LIGHT_GRAY_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.LIGHT_GRAY_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.GRAY_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.GRAY_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.BLACK_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.BLACK_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.WHITE_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.WHITE_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.BROWN_PRISMARINE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.BROWN_DARK_PRISMARINE);
+        generator.createTrivialCube(PokeCraftBlocks.RED_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.ORANGE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.YELLOW_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.LIME_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.GREEN_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.LIGHT_BLUE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.CYAN_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.BLUE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.PINK_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.MAGENTA_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.PURPLE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.LIGHT_GRAY_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.GRAY_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.BLACK_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.WHITE_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.BROWN_BRICKS);
+        generator.createTrivialCube(PokeCraftBlocks.BROWN_BRICKS);
+        generator.createFurnace(PokeCraftBlocks.DEEPSLATE_FURNACE, TexturedModel.ORIENTABLE_ONLY_TOP);
+        generator.createFurnace(PokeCraftBlocks.BLACKSTONE_FURNACE, TexturedModel.ORIENTABLE_ONLY_TOP);
+        generator.createCraftingTableLike(PokeCraftBlocks.BIRCH_CRAFTING_TABLE, Blocks.BIRCH_PLANKS, TextureMapping::craftingTable);
+        generator.createCraftingTableLike(PokeCraftBlocks.SPRUCE_CRAFTING_TABLE, Blocks.SPRUCE_PLANKS, TextureMapping::craftingTable);
+        generator.createCraftingTableLike(PokeCraftBlocks.JUNGLE_CRAFTING_TABLE, Blocks.JUNGLE_PLANKS, TextureMapping::craftingTable);
+        generator.createCraftingTableLike(PokeCraftBlocks.ACACIA_CRAFTING_TABLE, Blocks.ACACIA_PLANKS, TextureMapping::craftingTable);
+        generator.createCraftingTableLike(PokeCraftBlocks.DARK_OAK_CRAFTING_TABLE, Blocks.DARK_OAK_PLANKS, TextureMapping::craftingTable);
+        generator.createCraftingTableLike(PokeCraftBlocks.MANGROVE_CRAFTING_TABLE, Blocks.MANGROVE_PLANKS, TextureMapping::craftingTable);
+        generator.createCraftingTableLike(PokeCraftBlocks.CHERRY_CRAFTING_TABLE, Blocks.CHERRY_PLANKS, TextureMapping::craftingTable);
+        generator.createCraftingTableLike(PokeCraftBlocks.CRIMSON_CRAFTING_TABLE, Blocks.CRIMSON_PLANKS, TextureMapping::craftingTable);
+        generator.createCraftingTableLike(PokeCraftBlocks.WARPED_CRAFTING_TABLE, Blocks.WARPED_PLANKS, TextureMapping::craftingTable);
+        generator.createTrivialCube(PokeCraftBlocks.WHITE_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.LIGHT_GRAY_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.GRAY_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.BLACK_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.BROWN_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.RED_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.ORANGE_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.YELLOW_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.LIME_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.GREEN_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.CYAN_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.LIGHT_BLUE_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.BLUE_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.PURPLE_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.MAGENTA_SHINGLES);
+        generator.createTrivialCube(PokeCraftBlocks.PINK_SHINGLES);
 
         generator.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(PokeCraftBlocks.BERRY_BUSH, PokeCraft.id("block/berry_bush_stage3")));
     }
 
     @Override
     public void generateItemModels(ItemModelGenerators generator) {
+        // Minecraft
+        generator.generateFlatItem(PokeCraftItems.EMERALD_BOOTS, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.EMERALD_LEGGINGS, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.EMERALD_CHESTPLATE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.EMERALD_HELMET, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.EMERALD_SWORD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.EMERALD_PICKAXE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.EMERALD_AXE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.EMERALD_SHOVEL, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.EMERALD_HOE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RUBY_BOOTS, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RUBY_LEGGINGS, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RUBY_CHESTPLATE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RUBY_HELMET, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RUBY_SWORD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RUBY_PICKAXE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RUBY_AXE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RUBY_SHOVEL, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RUBY_HOE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SAPPHIRE_BOOTS, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SAPPHIRE_LEGGINGS, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SAPPHIRE_CHESTPLATE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SAPPHIRE_HELMET, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SAPPHIRE_SWORD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SAPPHIRE_PICKAXE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SAPPHIRE_AXE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SAPPHIRE_SHOVEL, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SAPPHIRE_HOE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DEEPSLATE_SWORD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DEEPSLATE_PICKAXE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DEEPSLATE_AXE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DEEPSLATE_SHOVEL, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.DEEPSLATE_HOE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BLACKSTONE_SWORD, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BLACKSTONE_PICKAXE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BLACKSTONE_AXE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BLACKSTONE_SHOVEL, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.BLACKSTONE_HOE, ModelTemplates.FLAT_ITEM);
+
+
+
+
         // PokeBalls
         generator.generateFlatItem(PokeCraftItems.BEAST_BALL, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.CHERISH_BALL, ModelTemplates.FLAT_ITEM);
@@ -409,6 +537,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.WISE_GLASSES, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.ZOOM_LENS, ModelTemplates.FLAT_ITEM);
         // Legend Items
+        generator.generateFlatItem(PokeCraftItems.RED_CHAIN, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.ADAMANT_CRYSTAL, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.ADAMANT_ORB, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.AZURE_FLUTE, ModelTemplates.FLAT_ITEM);
@@ -751,6 +880,8 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.RELIC_STATUE, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.RELIC_CROWN, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.STRANGE_SOUVENIR, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.SAPPHIRE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RUBY, ModelTemplates.FLAT_ITEM);
         // Player
         generator.generateFlatItem(PokeCraftItems.BALL_OF_MUD, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.ESCAPE_ROPE, ModelTemplates.FLAT_ITEM);

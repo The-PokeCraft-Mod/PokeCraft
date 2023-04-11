@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pokecraft:block/light_gray_shingles"
+  }
+}

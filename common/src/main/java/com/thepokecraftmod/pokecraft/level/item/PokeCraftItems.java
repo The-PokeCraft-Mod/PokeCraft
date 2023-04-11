@@ -16,6 +16,45 @@ public class PokeCraftItems {
     private static final Item.Properties SIXTEEN_PROPERTIES = new Item.Properties().stacksTo(16);
     private static final Item.Properties SINGLE_PROPERTIES = new Item.Properties().stacksTo(1);
 
+    // Minecraft
+    public static final Item EMERALD_BOOTS = register("emerald_boots", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item EMERALD_LEGGINGS = register("emerald_leggings", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item EMERALD_CHESTPLATE = register("emerald_chestplate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item EMERALD_HELMET = register("emerald_helmet", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item EMERALD_SWORD = register("emerald_sword", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item EMERALD_PICKAXE = register("emerald_pickaxe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item EMERALD_AXE = register("emerald_axe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item EMERALD_SHOVEL = register("emerald_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item EMERALD_HOE = register("emerald_hoe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item RUBY_BOOTS = register("ruby_boots", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item RUBY_LEGGINGS = register("ruby_leggings", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item RUBY_CHESTPLATE = register("ruby_chestplate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item RUBY_HELMET = register("ruby_helmet", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item RUBY_SWORD = register("ruby_sword", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item RUBY_PICKAXE = register("ruby_pickaxe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item RUBY_AXE = register("ruby_axe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item RUBY_SHOVEL = register("ruby_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item RUBY_HOE = register("ruby_hoe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item SAPPHIRE_BOOTS = register("sapphire_boots", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item SAPPHIRE_LEGGINGS = register("sapphire_leggings", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item SAPPHIRE_CHESTPLATE = register("sapphire_chestplate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item SAPPHIRE_HELMET = register("sapphire_helmet", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item SAPPHIRE_SWORD = register("sapphire_sword", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item SAPPHIRE_PICKAXE = register("sapphire_pickaxe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item SAPPHIRE_AXE = register("sapphire_axe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item SAPPHIRE_SHOVEL = register("sapphire_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item SAPPHIRE_HOE = register("sapphire_hoe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item DEEPSLATE_SWORD = register("deepslate_sword", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item DEEPSLATE_PICKAXE = register("deepslate_pickaxe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item DEEPSLATE_AXE = register("deepslate_axe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item DEEPSLATE_SHOVEL = register("deepslate_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item DEEPSLATE_HOE = register("deepslate_hoe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item BLACKSTONE_SWORD = register("blackstone_sword", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item BLACKSTONE_PICKAXE = register("blackstone_pickaxe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item BLACKSTONE_AXE = register("blackstone_axe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item BLACKSTONE_SHOVEL = register("blackstone_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item BLACKSTONE_HOE = register("blackstone_hoe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+
     // PokeBalls
     public static final Item POKE_BALL = register("poke_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
     public static final Item GREAT_BALL = register("great_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
@@ -561,6 +600,8 @@ public class PokeCraftItems {
     public static final Item PURPLE_NECTAR = register("purple_nectar", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item GALARICA_TWIG = register("galarica_twig", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     //Ore
+    public static final Item RUBY = register("ruby", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item SAPPHIRE = register("sapphire", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item WISHING_CHIP = register("wishing_chip", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item WISHING_PIECE = register("wishing_piece", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item WISHING_STAR = register("wishing_star", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
