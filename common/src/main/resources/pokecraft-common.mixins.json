@@ -5,6 +5,7 @@
   "client": [
     "client.debug.DebugScreenOverlayMixin",
     "client.icon.MinecraftMixin",
+    "client.render.LevelRendererMixin",
     "client.sync.ClientPacketListenerMixin"
   ],
   "mixins": [

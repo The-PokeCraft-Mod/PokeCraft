@@ -3,7 +3,7 @@ package com.thepokecraftmod.pokecraft.api.species;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import com.thepokecraftmod.mimikyu.util.ElementType;
-import com.thepokecraftmod.pokecraft.api.species.behaviour.Behaviour;
+import com.thepokecraftmod.pokecraft.api.species.behavior.Behavior;
 import com.thepokecraftmod.pokecraft.api.species.egg.EggInfo;
 import com.thepokecraftmod.pokecraft.api.species.evolution.Evolution;
 import com.thepokecraftmod.pokecraft.api.species.riding.RideInfo;
@@ -24,7 +24,7 @@ public class PokemonSpecies {
             Codec.INT.fieldOf("genderRatio").forGetter(PokemonSpecies::getGenderRatio),
             XpInfo.CODEC.fieldOf("xpInfo").forGetter(PokemonSpecies::getXpInfo),
             RideInfo.TYPE_BASED_CODEC.fieldOf("rideInfo").forGetter(PokemonSpecies::getRideInfo),
-            Behaviour.CODEC.fieldOf("behaviour").forGetter(PokemonSpecies::getBehaviour),
+            Behavior.CODEC.fieldOf("behaviour").forGetter(PokemonSpecies::getBehaviour),
             AbilityPool.CODEC.fieldOf("abilityPool").forGetter(PokemonSpecies::getAbilityPool),
             EggInfo.CODEC.fieldOf("eggInfo").forGetter(PokemonSpecies::getEggInfo),
             BoundingBoxSize.CODEC.fieldOf("boundingBox").forGetter(PokemonSpecies::getBoundingBox),
@@ -35,7 +35,7 @@ public class PokemonSpecies {
     private final PartialSpeciesInfo info;
     private final Map<String, SpeciesTransform> transforms;
 
-    public PokemonSpecies(StatStorage stats, List<ElementType> typing, int catchRate, int genderRatio, XpInfo xpInfo, RideInfo rideInfo, Behaviour behaviour, AbilityPool abilityPool, EggInfo eggInfo, BoundingBoxSize boundingBox, List<Evolution> evoTargets, MovePool movePool, Map<String, SpeciesTransform> transforms) {
+    public PokemonSpecies(StatStorage stats, List<ElementType> typing, int catchRate, int genderRatio, XpInfo xpInfo, RideInfo rideInfo, Behavior behavior, AbilityPool abilityPool, EggInfo eggInfo, BoundingBoxSize boundingBox, List<Evolution> evoTargets, MovePool movePool, Map<String, SpeciesTransform> transforms) {
         this.info = new PartialSpeciesInfo(
                 stats,
                 typing,
@@ -43,7 +43,7 @@ public class PokemonSpecies {
                 genderRatio,
                 xpInfo,
                 rideInfo,
-                behaviour,
+                behavior,
                 abilityPool,
                 eggInfo,
                 boundingBox,
@@ -86,7 +86,7 @@ public class PokemonSpecies {
         return info.rideInfo().orElseThrow();
     }
 
-    public Behaviour getBehaviour() {
+    public Behavior getBehaviour() {
         return info.behaviour().orElseThrow();
     }
 

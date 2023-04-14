@@ -4,7 +4,7 @@ import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import com.thepokecraftmod.mimikyu.util.ElementType;
 import com.thepokecraftmod.pokecraft.api.ExtraCodecs;
-import com.thepokecraftmod.pokecraft.api.species.behaviour.Behaviour;
+import com.thepokecraftmod.pokecraft.api.species.behavior.Behavior;
 import com.thepokecraftmod.pokecraft.api.species.egg.EggInfo;
 import com.thepokecraftmod.pokecraft.api.species.evolution.Evolution;
 import com.thepokecraftmod.pokecraft.api.species.riding.RideInfo;
@@ -24,7 +24,7 @@ public record PartialSpeciesInfo(
         Optional<Integer> genderRatio,
         Optional<XpInfo> xpInfo,
         Optional<RideInfo> rideInfo,
-        Optional<Behaviour> behaviour,
+        Optional<Behavior> behaviour,
         Optional<AbilityPool> abilityPool,
         Optional<EggInfo> eggInfo,
         Optional<BoundingBoxSize> boundingBox,
@@ -38,7 +38,7 @@ public record PartialSpeciesInfo(
             Codec.INT.optionalFieldOf("genderRatio").forGetter(PartialSpeciesInfo::genderRatio),
             XpInfo.CODEC.optionalFieldOf("xpInfo").forGetter(PartialSpeciesInfo::xpInfo),
             RideInfo.TYPE_BASED_CODEC.optionalFieldOf("rideInfo").forGetter(PartialSpeciesInfo::rideInfo),
-            Behaviour.CODEC.optionalFieldOf("behaviour").forGetter(PartialSpeciesInfo::behaviour),
+            Behavior.CODEC.optionalFieldOf("behaviour").forGetter(PartialSpeciesInfo::behaviour),
             AbilityPool.CODEC.optionalFieldOf("abilityPool").forGetter(PartialSpeciesInfo::abilityPool),
             EggInfo.CODEC.optionalFieldOf("eggInfo").forGetter(PartialSpeciesInfo::eggInfo),
             BoundingBoxSize.CODEC.optionalFieldOf("boundingBox").forGetter(PartialSpeciesInfo::boundingBox),
@@ -46,14 +46,14 @@ public record PartialSpeciesInfo(
             MovePool.CODEC.optionalFieldOf("movePool").forGetter(PartialSpeciesInfo::movePool)
     ).apply(instance, PartialSpeciesInfo::new));
 
-    public PartialSpeciesInfo(StatStorage stats, List<ElementType> typing, int catchRate, int genderRatio, XpInfo xpInfo, RideInfo rideInfo, Behaviour behaviour, AbilityPool abilityPool, EggInfo eggInfo, BoundingBoxSize boundingBox, List<Evolution> evoTargets, MovePool movePool) {
+    public PartialSpeciesInfo(StatStorage stats, List<ElementType> typing, int catchRate, int genderRatio, XpInfo xpInfo, RideInfo rideInfo, Behavior behavior, AbilityPool abilityPool, EggInfo eggInfo, BoundingBoxSize boundingBox, List<Evolution> evoTargets, MovePool movePool) {
         this(Optional.ofNullable(stats),
                 Optional.ofNullable(typing),
                 Optional.of(catchRate),
                 Optional.of(genderRatio),
                 Optional.ofNullable(xpInfo),
                 Optional.ofNullable(rideInfo),
-                Optional.ofNullable(behaviour),
+                Optional.ofNullable(behavior),
                 Optional.ofNullable(abilityPool),
                 Optional.ofNullable(eggInfo),
                 Optional.ofNullable(boundingBox),

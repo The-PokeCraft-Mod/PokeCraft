@@ -27,8 +27,8 @@ public class MinecraftMixin {
             var vanillaIcon = strings[1];
 
             switch (vanillaIcon) {
-                case "icon_16x16.png" -> cir.setReturnValue(() -> Objects.requireNonNull(Minecraft.class.getResourceAsStream("/assets/pokecraft/textures/window/icon16.png")));
-                case "icon_32x32.png" -> cir.setReturnValue(() -> Objects.requireNonNull(Minecraft.class.getResourceAsStream("/assets/pokecraft/textures/window/icon32.png")));
+                case "icon_16x16.png" -> cir.setReturnValue(() -> Objects.requireNonNull(PokeCraft.class.getResourceAsStream("/assets/pokecraft/textures/window/icon16.png")));
+                case "icon_32x32.png" -> cir.setReturnValue(() -> Objects.requireNonNull(PokeCraft.class.getResourceAsStream("/assets/pokecraft/textures/window/icon32.png")));
             }
         }
     }

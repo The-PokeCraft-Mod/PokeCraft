@@ -1,11 +1,13 @@
 #version 330 core
 #extension GL_ARB_explicit_uniform_location : enable
 #pragma optionNV(strict on)
+#define NUM_LIGHTS 4
 
 in VS_OUT {
     vec3 pos;
     vec2 uv;
     vec3 normal;
+    vec3 camPos;
 } fsIn;
 
 out vec4 outColor;
@@ -17,11 +19,26 @@ layout (location = 3) uniform sampler2D roughness;
 layout (location = 4) uniform sampler2D ao;
 layout (location = 5) uniform sampler2D emission;
 
-uniform vec3 camPos;
-uniform vec3 lightPositions[4];
-uniform vec3 lightColors[4];
+uniform vec3 lightPositions[NUM_LIGHTS];
+uniform vec3 lightColors[NUM_LIGHTS];
 
 const float PI = 3.14159265359;
+
+vec3 getNormalFromMap(){
+    vec3 tangentNormal = texture(normal, fsIn.uv).xyz * 2.0 - 1.0;
+
+    vec3 Q1  = dFdx(fsIn.pos);
+    vec3 Q2  = dFdy(fsIn.pos);
+    vec2 st1 = dFdx(fsIn.uv);
+    vec2 st2 = dFdy(fsIn.uv);
+
+    vec3 N   = normalize(fsIn.normal);
+    vec3 T  = normalize(Q1*st2.t - Q2*st1.t);
+    vec3 B  = -normalize(cross(N, T));
+    mat3 TBN = mat3(T, B, N);
+
+    return normalize(TBN * tangentNormal);
+}
 
 float DistributionGGX(vec3 N, vec3 H, float roughness) {
     float a = roughness * roughness;
@@ -72,15 +89,15 @@ void main() {
         return;
     }
 
-    vec3 N = normalize(fsIn.normal);
-    vec3 V = normalize(camPos - fsIn.pos);
+    vec3 N = getNormalFromMap();
+    vec3 V = normalize(fsIn.camPos - fsIn.pos);
 
     vec3 F0 = vec3(0.04);
     F0 = mix(F0, albedoColor, metallicValue);
 
     // reflectance equation
     vec3 Lo = vec3(0.0);
-    for (int i = 0; i < 1; ++i) {
+    for (int i = 0; i < NUM_LIGHTS; ++i) {
         // calculate per-light radiance
         vec3 L = normalize(lightPositions[i] - fsIn.pos);
         vec3 H = normalize(V + L);

@@ -22,7 +22,8 @@ import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.api.event.client.ClientEvents;
 import com.thepokecraftmod.pokecraft.api.pokemon.PokemonParty;
 import com.thepokecraftmod.pokecraft.client.input.KeyBind;
-import com.thepokecraftmod.pokecraft.client.render.entity.PokemonRenderer;
+import com.thepokecraftmod.pokecraft.client.render.entity.PokemonEntityRenderer;
+import com.thepokecraftmod.pokecraft.client.render.rks.PokeCraftRKSImpl;
 import com.thepokecraftmod.pokecraft.client.theme.ThemeManager;
 import com.thepokecraftmod.pokecraft.client.themes.DefaultTheme;
 import com.thepokecraftmod.pokecraft.level.entity.PokeCraftEntities;
@@ -61,12 +62,16 @@ public class PokeCraftClient {
         });
     }
 
+    protected List<Runnable> getResourceReloadListeners() {
+        return List.of(PokeCraftRKSImpl.getInstance()::onResourceManagerReload);
+    }
+
     protected void registerKeyBindings() {
         new KeyBind(GLFW.GLFW_KEY_R, "key.unimon.throw_party_member", "key.categories.party", () -> System.out.println("greg"));
     }
 
     protected  <T extends Entity> void initializeEntityRenderers(BiConsumer<EntityType<T>, EntityRendererProvider<T>> consumer) {
-        consumer.accept((EntityType<T>) PokeCraftEntities.POKEMON, context -> (EntityRenderer<T>) new PokemonRenderer(context));
+        consumer.accept((EntityType<T>) PokeCraftEntities.POKEMON, context -> (EntityRenderer<T>) new PokemonEntityRenderer(context));
     }
 
     public void registerKey(KeyBind keyBind) {

@@ -42,6 +42,13 @@ public class PokemonEntity extends PathfinderMob {
         getEntityData().set(INSTANCE, instance);
     }
 
+    /**
+     * gets the {@link PokemonInstance} associated with this entity
+     */
+    public PokemonInstance getInstanceData() {
+        return getEntityData().get(INSTANCE);
+    }
+
     @Override
     protected void defineSynchedData() {
         super.defineSynchedData();

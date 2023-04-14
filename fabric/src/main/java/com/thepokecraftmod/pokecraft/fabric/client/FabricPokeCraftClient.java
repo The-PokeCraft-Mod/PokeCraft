@@ -18,6 +18,7 @@
 
 package com.thepokecraftmod.pokecraft.fabric.client;
 
+import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.client.PokeCraftClient;
 import com.thepokecraftmod.pokecraft.client.input.KeyBind;
 import com.thepokecraftmod.pokecraft.fabric.network.FabricPokeCraftNetworking;
@@ -26,6 +27,19 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.fabricmc.fabric.api.resource.IdentifiableResourceReloadListener;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
+import net.fabricmc.fabric.api.resource.SimpleSynchronousResourceReloadListener;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.PackType;
+import net.minecraft.server.packs.resources.ReloadableResourceManager;
+import net.minecraft.server.packs.resources.ResourceManager;
+import net.minecraft.server.packs.resources.ResourceManagerReloadListener;
+import net.minecraft.util.profiling.ProfilerFiller;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.Executor;
 
 public class FabricPokeCraftClient extends PokeCraftClient implements ClientModInitializer {
 
@@ -38,6 +52,19 @@ public class FabricPokeCraftClient extends PokeCraftClient implements ClientModI
     @Override
     public void onInitializeClient() {
         initializeEntityRenderers(EntityRendererRegistry::register);
+        ResourceManagerHelper.get(PackType.CLIENT_RESOURCES).registerReloadListener(new SimpleSynchronousResourceReloadListener() {
+            @Override
+            public ResourceLocation getFabricId() {
+                return PokeCraft.id("resource_reloaders");
+            }
+
+            @Override
+            public void onResourceManagerReload(@NotNull ResourceManager resourceManager) {
+                for (var onReload : getResourceReloadListeners()) {
+                    onReload.run();
+                }
+            }
+        });
     }
 
     @Override

@@ -8,28 +8,17 @@ architectury {
     minecraft = rootProject.minecraft_version
 }
 
-configure(subprojects.findAll {it.name != 'tools'}) {
-    apply plugin: "dev.architectury.loom"
-
-    loom {
-        silentMojangMappingsLicense()
-    }
-
-    dependencies {
-        minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
-        mappings loom.layered {
-            officialMojangMappings()
-            parchment("org.parchmentmc.data:parchment-$rootProject.parchment_version@zip")
-        }
-    }
-}
-
 subprojects {
     apply plugin: "org.cadixdev.licenser"
+    apply plugin: "dev.architectury.loom"
 
     license {
         header = rootProject.file("HEADER")
         include("**/*.java")
+    }
+
+    loom {
+        silentMojangMappingsLicense()
     }
 
     repositories {
@@ -38,6 +27,19 @@ subprojects {
         maven { url = "https://oss.sonatype.org/content/repositories/snapshots/" }
         maven { url 'https://jitpack.io' }
         mavenLocal()
+    }
+
+    dependencies {
+        minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+        mappings loom.layered {
+            officialMojangMappings()
+            parchment("org.parchmentmc.data:parchment-$rootProject.parchment_version@zip")
+        }
+
+        implementation("com.thepokecraftmod:modelLoader:1.1.0")
+        implementation("com.thepokecraftmod:renderer:1.1.0")
+        implementation("org.tukaani:xz:1.9")
+        implementation("com.thebombzen:jxlatte:1.0.6")
     }
 }
 
