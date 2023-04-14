@@ -3,6 +3,7 @@ package com.thepokecraftmod.pokecraft.level.block;
 import com.thepokecraftmod.pokecraft.PokeCraft;
 import com.thepokecraftmod.pokecraft.api.registry.MojangRegistry;
 import com.thepokecraftmod.pokecraft.level.item.PokeCraftItems;
+import com.thepokecraftmod.pokecraft.level.item.tab.PokeCraftCreativeTabs;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.effect.MobEffects;
@@ -18,6 +19,7 @@ public class PokeCraftBlocks {
     private static final MojangRegistry<Block, Registry<Block>> REGISTRY = PokeCraft.getInstance().newRegistry(Registries.BLOCK);
 
     public static final Block GREGANACL = blockItem("greganacl", new Block(BlockBehaviour.Properties.of(Material.BAMBOO)));
+    //Sandstone
     public static final Block ORANGE_SANDSTONE = blockItem("orange_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)));
     public static final Block ORANGE_CRACKED_SANDSTONE = blockItem("orange_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)));
     public static final Block ORANGE_SMOOTH_SANDSTONE = blockItem("orange_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)));
@@ -110,6 +112,96 @@ public class PokeCraftBlocks {
     public static final Block BROWN_SAND = blockItem("brown_sand", new Block(BlockBehaviour.Properties.of(Material.SAND)));
     public static final Block RED_CRACKED_SANDSTONE = blockItem("red_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)));
     public static final Block CRACKED_SANDSTONE = blockItem("cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    //Ore/Gem
+    public static final Block RUBY_ORE = blockItem("ruby_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block DEEPSLATE_RUBY_ORE = blockItem("deepslate_ruby_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block RUBY_BLOCK = blockItem("ruby_block", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block SAPPHIRE_ORE = blockItem("sapphire_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block DEEPSLATE_SAPPHIRE_ORE = blockItem("deepslate_sapphire_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block SAPPHIRE_BLOCK = blockItem("sapphire_block", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block CHARGESTONE_ORE = blockItem("chargestone_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block DEEPSLATE_CHARGESTONE_ORE = blockItem("deepslate_chargestone_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    //Prismarine
+    public static final Block RED_PRISMARINE_BRICKS = blockItem("red_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block ORANGE_PRISMARINE_BRICKS = blockItem("orange_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block YELLOW_PRISMARINE_BRICKS = blockItem("yellow_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block LIME_PRISMARINE_BRICKS = blockItem("lime_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block GREEN_PRISMARINE_BRICKS = blockItem("green_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block LIGHT_BLUE_PRISMARINE_BRICKS = blockItem("light_blue_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block CYAN_PRISMARINE_BRICKS = blockItem("cyan_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block BLUE_PRISMARINE_BRICKS = blockItem("blue_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block PINK_PRISMARINE_BRICKS = blockItem("pink_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block MAGENTA_PRISMARINE_BRICKS = blockItem("magenta_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block PURPLE_PRISMARINE_BRICKS = blockItem("purple_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block WHITE_PRISMARINE_BRICKS = blockItem("white_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block LIGHT_GRAY_PRISMARINE_BRICKS = blockItem("light_gray_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block GRAY_PRISMARINE_BRICKS = blockItem("gray_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block BLACK_PRISMARINE_BRICKS = blockItem("black_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block BROWN_PRISMARINE_BRICKS = blockItem("brown_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block RED_DARK_PRISMARINE = blockItem("red_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block ORANGE_DARK_PRISMARINE = blockItem("orange_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block YELLOW_DARK_PRISMARINE = blockItem("yellow_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block LIME_DARK_PRISMARINE = blockItem("lime_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block GREEN_DARK_PRISMARINE = blockItem("green_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block LIGHT_BLUE_DARK_PRISMARINE = blockItem("light_blue_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block CYAN_DARK_PRISMARINE = blockItem("cyan_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block BLUE_DARK_PRISMARINE = blockItem("blue_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block PINK_DARK_PRISMARINE = blockItem("pink_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block MAGENTA_DARK_PRISMARINE = blockItem("magenta_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block PURPLE_DARK_PRISMARINE = blockItem("purple_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block WHITE_DARK_PRISMARINE = blockItem("white_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block LIGHT_GRAY_DARK_PRISMARINE = blockItem("light_gray_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block GRAY_DARK_PRISMARINE = blockItem("gray_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block BLACK_DARK_PRISMARINE = blockItem("black_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block BROWN_DARK_PRISMARINE = blockItem("brown_dark_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    //Bricks
+    public static final Block RED_BRICKS = blockItem("red_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block ORANGE_BRICKS = blockItem("orange_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block YELLOW_BRICKS = blockItem("yellow_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block LIME_BRICKS = blockItem("lime_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block GREEN_BRICKS = blockItem("green_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block LIGHT_BLUE_BRICKS = blockItem("light_blue_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block CYAN_BRICKS = blockItem("cyan_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block BLUE_BRICKS = blockItem("blue_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block PINK_BRICKS = blockItem("pink_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block MAGENTA_BRICKS = blockItem("magenta_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block PURPLE_BRICKS = blockItem("purple_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block WHITE_BRICKS = blockItem("white_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block LIGHT_GRAY_BRICKS = blockItem("light_gray_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block GRAY_BRICKS = blockItem("gray_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block BLACK_BRICKS = blockItem("black_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block BROWN_BRICKS = blockItem("brown_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    //CraftingTable
+    public static final Block BIRCH_CRAFTING_TABLE = blockItem("birch_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block SPRUCE_CRAFTING_TABLE = blockItem("spruce_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block JUNGLE_CRAFTING_TABLE = blockItem("jungle_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block ACACIA_CRAFTING_TABLE = blockItem("acacia_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block DARK_OAK_CRAFTING_TABLE = blockItem("dark_oak_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block CRIMSON_CRAFTING_TABLE = blockItem("crimson_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block WARPED_CRAFTING_TABLE = blockItem("warped_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block MANGROVE_CRAFTING_TABLE = blockItem("mangrove_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block CHERRY_CRAFTING_TABLE = blockItem("cherry_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    //Furnace
+    public static final Block DEEPSLATE_FURNACE = blockItem("deepslate_furnace", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block BLACKSTONE_FURNACE = blockItem("blackstone_furnace", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    //Shingles
+    public static final Block WHITE_SHINGLES = blockItem("white_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block LIGHT_GRAY_SHINGLES = blockItem("light_gray_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block GRAY_SHINGLES = blockItem("gray_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block BLACK_SHINGLES = blockItem("black_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block BROWN_SHINGLES = blockItem("brown_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block RED_SHINGLES = blockItem("red_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block ORANGE_SHINGLES = blockItem("orange_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block YELLOW_SHINGLES = blockItem("yellow_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block LIME_SHINGLES = blockItem("lime_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block GREEN_SHINGLES = blockItem("green_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block CYAN_SHINGLES = blockItem("cyan_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block LIGHT_BLUE_SHINGLES = blockItem("light_blue_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block BLUE_SHINGLES = blockItem("blue_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block PURPLE_SHINGLES = blockItem("purple_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block MAGENTA_SHINGLES = blockItem("magenta_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block PINK_SHINGLES = blockItem("pink_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block CHARGESTONE_BLOCK = blockItem("chargestone_block", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
 
     public static final Block BERRY_BUSH = blockItem("berry_bush", new FlowerBlock(MobEffects.WEAKNESS, 0, BlockBehaviour.Properties.of(Material.PLANT)
             .noCollission()

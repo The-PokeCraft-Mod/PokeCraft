@@ -14,4 +14,5 @@ public class PokeCraftCreativeTabs {
     public static final CreativeTab NATURAL = PokeCraft.getInstance().newCreativeTab("natural", () -> PokeCraftItems.RED_APRICORN);
     public static final CreativeTab SPECIAL = PokeCraft.getInstance().newCreativeTab("special", () -> PokeCraftItems.BLUE_ORB);
     public static final CreativeTab PLAYER_ITEMS = PokeCraft.getInstance().newCreativeTab("player_items", () -> PokeCraftItems.MAX_REPEL);
+    public static final CreativeTab BLOCKS = PokeCraft.getInstance().newCreativeTab("blocks", () -> PokeCraftItems.POKE_BALL);
 }
