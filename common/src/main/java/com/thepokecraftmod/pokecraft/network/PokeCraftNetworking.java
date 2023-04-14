@@ -22,7 +22,7 @@ import java.util.function.Function;
 
 public abstract class PokeCraftNetworking {
     protected static final Logger LOGGER = LoggerFactory.getLogger("UniMon Networking");
-    protected static final ResourceLocation ID = PokeCraft.id("packets");
+    public static final ResourceLocation ID = PokeCraft.id("packets");
     private static PokeCraftNetworking INSTANCE;
     protected final Map<String, Function<FriendlyByteBuf, ? extends GenericPacket>> PACKETS = new HashMap<>();
 

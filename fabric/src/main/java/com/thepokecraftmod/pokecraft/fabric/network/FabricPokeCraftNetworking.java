@@ -5,6 +5,8 @@ import com.thepokecraftmod.pokecraft.network.PokeCraftNetworking;
 import com.thepokecraftmod.pokecraft.network.packets.GenericPacket;
 import com.thepokecraftmod.pokecraft.network.packets.c2s.C2SPacket;
 import com.thepokecraftmod.pokecraft.network.packets.s2c.S2CPacket;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.fabricmc.fabric.api.networking.v1.PacketSender;
@@ -21,7 +23,6 @@ import net.minecraft.world.entity.player.Player;
 public class FabricPokeCraftNetworking extends PokeCraftNetworking {
 
     public FabricPokeCraftNetworking() {
-        ClientPlayNetworking.registerGlobalReceiver(ID, this::handleClient);
         ServerPlayNetworking.registerGlobalReceiver(ID, this::handleServer);
     }
 
@@ -50,7 +51,8 @@ public class FabricPokeCraftNetworking extends PokeCraftNetworking {
         }
     }
 
-    private void handleClient(Minecraft client, ClientPacketListener listener, FriendlyByteBuf buf, PacketSender sender) {
+    @Environment(EnvType.CLIENT)
+    public void handleClient(Minecraft client, FriendlyByteBuf buf) {
         var id = buf.readUtf();
         var packetFactory = PACKETS.get(id);
         if (packetFactory == null)
