@@ -18,6 +18,10 @@ subprojects {
         include("**/*.java")
     }
 
+    tasks.checkLicenseMain {
+        dependsOn(updateLicenses)
+    }
+
     loom {
         silentMojangMappingsLicense()
     }
