@@ -5,8 +5,9 @@ import com.mojang.blaze3d.platform.ScreenManager;
 import com.mojang.blaze3d.platform.Window;
 import com.mojang.blaze3d.platform.WindowEventHandler;
 import com.thepokecraftmod.pokecraft.PokeCraft;
-import org.lwjgl.opengl.*;
-import org.lwjgl.system.MemoryUtil;
+import org.lwjgl.opengl.GL11C;
+import org.lwjgl.opengl.GLUtil;
+import org.lwjgl.opengl.KHRDebug;
 import org.slf4j.Logger;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -24,8 +25,17 @@ public class WindowMixin {
 
     @ModifyConstant(method = "<init>", constant = @Constant(intValue = 3))
     private int pokecraft$changeGlMajor(int constant) {
-        LOGGER.warn("OpenGL 4.6 and OpenGL Debugging will be enabled.");
-        if (PokeCraft.isDevelopmentEnvironment()) return 4;
+        if (PokeCraft.isDevelopmentEnvironment()) {
+            LOGGER.warn("OpenGL 4.6, OpenGL Debugging, and RenderDoc will be enabled.");
+
+            try {
+                System.loadLibrary("renderdoc");
+            } catch (Exception e) {
+                LOGGER.error("Unable to load RenderDoc");
+            }
+
+            return 4;
+        }
         return constant;
     }
 

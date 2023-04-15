@@ -10,9 +10,8 @@ import com.thepokecraftmod.rks.draw.MeshDrawCommand;
 import com.thepokecraftmod.rks.model.Mesh;
 import com.thepokecraftmod.rks.model.Model;
 import com.thepokecraftmod.rks.model.animation.Skeleton;
-import com.thepokecraftmod.rks.scene.AnimatedMeshObject;
+import com.thepokecraftmod.rks.scene.FullMesh;
 import com.thepokecraftmod.rks.scene.MeshObject;
-import com.thepokecraftmod.rks.scene.MultiRenderObject;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import org.joml.Vector4f;
@@ -27,13 +26,13 @@ import java.util.*;
 import java.util.function.Supplier;
 
 public class ModelLoader {
-    private static final Map<ResourceLocation, FullModel<? extends MeshObject>> MODEL_CACHE = Maps.newConcurrentMap();
+    private static final Map<ResourceLocation, ModelContext> MODEL_CACHE = Maps.newConcurrentMap();
     private static final List<ResourceLocation> LOADING_MODELS = new ArrayList<>();
 
-    public static Optional<FullModel<AnimatedMeshObject>> getPokemon(ResourceLocation species) {
+    public static Optional<ModelContext> getPokemon(ResourceLocation species) {
         if (MODEL_CACHE.containsKey(species)) {
             LOADING_MODELS.remove(species);
-            return Optional.of((FullModel<AnimatedMeshObject>) MODEL_CACHE.get(species));
+            return Optional.of(MODEL_CACHE.get(species));
         } else {
             if (!LOADING_MODELS.contains(species)) loadPokemon(species);
             return Optional.empty();
@@ -61,20 +60,12 @@ public class ModelLoader {
             var material = new MaterialUploader(model, this, shaderFunction);
 
             Minecraft.getInstance().tell(() -> {
-                var start = System.currentTimeMillis();
                 RenderSystem.assertOnRenderThread();
                 var resolvedObject = object.get();
-                System.out.println("Time Taken to \"Get Object\": " + (System.currentTimeMillis() - start));
-                start = System.currentTimeMillis();
-
-                for (var meshObject : resolvedObject.objects)
-                    meshObject.setup(shaderFunction.apply("unimplemented"), Map.of());
-                System.out.println("Time Taken to \"Setup Objects\": " + (System.currentTimeMillis() - start));
-                start = System.currentTimeMillis();
+                for (var meshObject : resolvedObject.objects) meshObject.setup(shaderFunction.apply("unimplemented"));
 
                 material.upload();
-                System.out.println("Time Taken to \"Upload material\": " + (System.currentTimeMillis() - start));
-                MODEL_CACHE.put(modelLoc, new FullModel<>(
+                MODEL_CACHE.put(modelLoc, new ModelContext(
                         resolvedObject,
                         model,
                         shaderFunction,
@@ -84,7 +75,7 @@ public class ModelLoader {
             });
         }
 
-        public static Supplier<MultiRenderObject<AnimatedMeshObject>> loadAnimatedMeshes(Model model) {
+        public static Supplier<FullMesh> loadAnimatedMeshes(Model model) {
             var indexBuffers = new ArrayList<ByteBuffer>();
             var vertexBuffers = new ArrayList<FloatBuffer>();
             var uvBuffers = new ArrayList<FloatBuffer>();
@@ -154,17 +145,17 @@ public class ModelLoader {
             }
 
             return () -> {
-                var mro = new MultiRenderObject<AnimatedMeshObject>();
+                var mro = new FullMesh();
                 for (int i = 0; i < vertexBuffers.size(); i++) {
                     var mesh = model.meshes()[i];
-                    var indexBuffer = indexBuffers.get(0);
-                    var vertexBuffer = vertexBuffers.get(0);
-                    var uvBuffer = uvBuffers.get(0);
-                    var normalBuffer = normalBuffers.get(0);
-                    var jointBuffer = jointBuffers.get(0);
-                    var weightBuffer = weightBuffers.get(0);
+                    var indexBuffer = indexBuffers.get(i);
+                    var vertexBuffer = vertexBuffers.get(i);
+                    var uvBuffer = uvBuffers.get(i);
+                    var normalBuffer = normalBuffers.get(i);
+                    var jointBuffer = jointBuffers.get(i);
+                    var weightBuffer = weightBuffers.get(i);
                     var useShort = mesh.indices().size() < Short.MAX_VALUE;
-                    var meshObject = new AnimatedMeshObject(model.materialReferences()[mesh.material()]);
+                    var meshObject = new MeshObject(model.materialReferences()[mesh.material()]);
                     var vao = GL30.glGenVertexArrays();
                     GL30.glBindVertexArray(vao);
 

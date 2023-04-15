@@ -3,7 +3,6 @@ package com.thepokecraftmod.pokecraft.client.render.entity;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.thepokecraftmod.pokecraft.client.render.rks.*;
 import com.thepokecraftmod.pokecraft.level.entity.PokemonEntity;
-import com.thepokecraftmod.rks.scene.AnimatedMeshObject;
 import com.thepokecraftmod.rks.storage.AnimatedObjectInstance;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
@@ -20,7 +19,6 @@ import java.util.Map;
 
 public class PokemonEntityRenderer extends EntityRenderer<PokemonEntity> {
     private static final Map<PokemonEntity, AnimatedObjectInstance> INSTANCE_DATA = new HashMap<>();
-    private static final Map<FullModel<AnimatedMeshObject>, MaterialUploader> MATERIAL_DATA = new HashMap<>();
 
     public PokemonEntityRenderer(EntityRendererProvider.Context context) {
         super(context);
@@ -29,18 +27,22 @@ public class PokemonEntityRenderer extends EntityRenderer<PokemonEntity> {
     @Override
     public void render(@NotNull PokemonEntity pokemon, float entityYaw, float partialTicks, @NotNull PoseStack stack, @NotNull MultiBufferSource source, int light) {
         var optionalModel = ModelLoader.getPokemon(pokemon.getInstanceData().species);
-        optionalModel.ifPresent(model -> {
+
+        if (optionalModel.isPresent()) {
+            var model = optionalModel.get();
+
             renderNameTag(pokemon, Component.literal("Lv. " + pokemon.getInstanceData().getLevel()), stack, source, light);
             var instance = INSTANCE_DATA.computeIfAbsent(pokemon, pokemonEntity -> {
                 var uniformUploader = new PokemonUniformUploader(model.uploader());
                 var newInstance = new AnimatedObjectInstance(220, new Matrix4f(), uniformUploader::upload);
-                PokeCraftRKSImpl.getInstance().link(model.renderObject(), newInstance);
+                newInstance.link(model.renderObject());
                 uniformUploader.setInstance(newInstance);
                 return newInstance;
             });
 
             instance.transformationMatrix.set(stack.last().pose());
-        });
+            PokeCraftRKSImpl.getInstance().addToFrame(instance);
+        }
     }
 
     protected void renderNameTag(@NotNull PokemonEntity entity, @NotNull Component displayName, @NotNull PoseStack pose, @NotNull MultiBufferSource buffer, int packedLight) {
@@ -54,12 +56,11 @@ public class PokemonEntityRenderer extends EntityRenderer<PokemonEntity> {
         pose.scale(-0.025f, -0.025f, 0.025f);
         var stack = pose.last().pose();
         var opacity = Minecraft.getInstance().options.getBackgroundOpacity(0.25f);
-        var bgColor = (int)(opacity * 255.0f) << 24;
+        var bgColor = (int) (opacity * 255.0f) << 24;
         var font = this.getFont();
         var halfWidth = (float) -font.width(displayName) / 2;
         font.drawInBatch(displayName, halfWidth, 0, 0x20FFFFFF, false, stack, buffer, Font.DisplayMode.NORMAL, bgColor, packedLight);
         font.drawInBatch(displayName, halfWidth, 0, -1, false, stack, buffer, Font.DisplayMode.NORMAL, 0, packedLight);
-
         pose.popPose();
     }
 
