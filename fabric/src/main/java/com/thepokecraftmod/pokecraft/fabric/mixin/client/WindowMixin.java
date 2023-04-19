@@ -48,7 +48,7 @@ public class WindowMixin {
 
             try {
                 System.loadLibrary("renderdoc");
-            } catch (Exception e) {
+            } catch (Throwable t) {
                 LOGGER.error("Unable to load RenderDoc");
             }
 
