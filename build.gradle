@@ -41,8 +41,8 @@ subprojects {
             parchment("org.parchmentmc.data:parchment-$rootProject.parchment_version@zip")
         }
 
-        implementation("com.thepokecraftmod:modelLoader:1.2.2")
-        implementation("com.thepokecraftmod:renderer:1.2.2")
+        implementation("com.thepokecraftmod:modelLoader:1.2.3")
+        implementation("com.thepokecraftmod:renderer:1.2.3")
         implementation("org.tukaani:xz:1.9")
         implementation("com.thebombzen:jxlatte:1.1.0")
     }

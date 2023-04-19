@@ -32,10 +32,6 @@ dependencies {
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
-
-    include(forgeRuntimeLibrary(implementation("com.thepokecraftmod:modelLoader:1.2.2")))
-    include(forgeRuntimeLibrary(implementation("com.thepokecraftmod:renderer:1.2.2")))
-    include(forgeRuntimeLibrary(implementation("org.tukaani:xz:1.9")))
 }
 
 processResources {

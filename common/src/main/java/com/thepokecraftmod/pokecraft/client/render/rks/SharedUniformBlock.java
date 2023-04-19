@@ -19,7 +19,7 @@
 package com.thepokecraftmod.pokecraft.client.render.rks;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.thepokecraftmod.rks.pipeline.UniformBlockUploader;
+import com.thepokecraftmod.rks.ubo.UniformBlockUploader;
 import org.lwjgl.system.MemoryStack;
 
 public class SharedUniformBlock extends UniformBlockUploader {

@@ -18,15 +18,12 @@
 
 package com.thepokecraftmod.pokecraft.client.render.rks;
 
-import com.mojang.blaze3d.systems.RenderSystem;
 import com.thepokecraftmod.pokecraft.PokeCraft;
-import com.thepokecraftmod.rks.RKS;
 import com.thepokecraftmod.rks.model.texture.TextureType;
 import com.thepokecraftmod.rks.pipeline.Shader;
 import com.thepokecraftmod.rks.pipeline.UniformBlockReference;
-import com.thepokecraftmod.rks.scene.FullMesh;
 import com.thepokecraftmod.rks.storage.AnimatedObjectInstance;
-import com.thepokecraftmod.rks.storage.ObjectInstance;
+import com.thepokecraftmod.rks.storage.RksRenderer;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
 import org.apache.commons.compress.archivers.tar.TarFile;
@@ -35,9 +32,7 @@ import org.tukaani.xz.XZInputStream;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -47,8 +42,7 @@ public class PokeCraftRKSImpl {
     private static final PokeCraftRKSImpl INSTANCE = new PokeCraftRKSImpl();
     public static final ResourceLocation MODEL_REPOSITORY = PokeCraft.id("repositories/pokemon/models.fsrepo");
     public static final ResourceLocation ANIMATION_REPOSITORY = PokeCraft.id("repositories/pokemon/animations.fsrepo");
-    private static final List<String> ERRORS = new ArrayList<>(); // TODO: popup menu
-    private final RKS rks = new RKS(RenderSystem::assertOnRenderThread);
+    private final RksRenderer rks = new RksRenderer();
     private final SharedUniformBlock sharedUniforms = new SharedUniformBlock();
     public final ThreadPoolExecutor modelLoadingThreads = (ThreadPoolExecutor) Executors.newCachedThreadPool();
     public final Map<String, Shader> shaders = new HashMap<>();
@@ -58,12 +52,13 @@ public class PokeCraftRKSImpl {
 
     public void render() {
         sharedUniforms.update();
-        rks.render((System.currentTimeMillis() - globalAnimationTimer) / 1000d);
-        rks.objectManager.reset();
+        rks.update((System.currentTimeMillis() - globalAnimationTimer) / 1000d);
+        rks.render();
+        rks.reset();
     }
 
     public void addToFrame(AnimatedObjectInstance instance) {
-        rks.objectManager.add(instance.object, instance);
+        rks.add(instance.object, instance);
     }
 
     public void onInitialize() {
@@ -85,7 +80,7 @@ public class PokeCraftRKSImpl {
 
         try {
             if (resourceManager.getResource(MODEL_REPOSITORY).isEmpty())
-                PokeCraftRKSImpl.ERRORS.add("Missing Model Repo");
+                throw new RuntimeException("Missing Model Repo");
             else
                 openRepositories.put(MODEL_REPOSITORY, new RepoFs(PokeCraft.MOD_ID, new TarFile(new XZInputStream(resourceManager.open(MODEL_REPOSITORY)).readAllBytes()))); // FIXME: this means the entire archive is in memory. There has to be something we can do...
         } catch (IOException e) {
@@ -97,7 +92,7 @@ public class PokeCraftRKSImpl {
         modelLoadingThreads.purge();
         shaders.clear();
         shadingMethods.clear();
-        rks.objectManager.reset();
+        rks.reset();
         openRepositories.values().forEach(is -> {
             try {
                 is.close();
