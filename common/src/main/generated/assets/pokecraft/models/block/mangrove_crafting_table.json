@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "pokecraft:block/mangrove_crafting_table"
+    "down": "minecraft:block/mangrove_planks",
+    "east": "pokecraft:block/mangrove_crafting_table_side",
+    "north": "pokecraft:block/mangrove_crafting_table_front",
+    "particle": "pokecraft:block/mangrove_crafting_table_front",
+    "south": "pokecraft:block/mangrove_crafting_table_side",
+    "up": "pokecraft:block/mangrove_crafting_table_top",
+    "west": "pokecraft:block/mangrove_crafting_table_front"
   }
 }

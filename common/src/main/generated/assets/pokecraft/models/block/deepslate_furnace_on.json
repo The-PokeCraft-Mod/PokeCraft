@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "pokecraft:block/deepslate_furnace_front",
+    "front": "pokecraft:block/deepslate_furnace_front_on",
     "side": "pokecraft:block/deepslate_furnace_side",
     "top": "pokecraft:block/deepslate_furnace_top"
   }

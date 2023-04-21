@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "pokecraft:block/warped_crafting_table"
+    "down": "minecraft:block/warped_planks",
+    "east": "pokecraft:block/warped_crafting_table_side",
+    "north": "pokecraft:block/warped_crafting_table_front",
+    "particle": "pokecraft:block/warped_crafting_table_front",
+    "south": "pokecraft:block/warped_crafting_table_side",
+    "up": "pokecraft:block/warped_crafting_table_top",
+    "west": "pokecraft:block/warped_crafting_table_front"
   }
 }

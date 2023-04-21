@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "pokecraft:block/spruce_crafting_table"
+    "down": "minecraft:block/spruce_planks",
+    "east": "pokecraft:block/spruce_crafting_table_side",
+    "north": "pokecraft:block/spruce_crafting_table_front",
+    "particle": "pokecraft:block/spruce_crafting_table_front",
+    "south": "pokecraft:block/spruce_crafting_table_side",
+    "up": "pokecraft:block/spruce_crafting_table_top",
+    "west": "pokecraft:block/spruce_crafting_table_front"
   }
 }

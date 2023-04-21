@@ -28,15 +28,17 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.FlowerBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 
 public class PokeCraftBlocks {
     private static final MojangRegistry<Block, Registry<Block>> REGISTRY = PokeCraft.getInstance().newRegistry(Registries.BLOCK);
+
+    private static final BlockBehaviour.Properties SAND = BlockBehaviour.Properties.of(Material.SAND, MaterialColor.COLOR_ORANGE)
+            .strength(0.5f)
+            .sound(SoundType.SAND);
 
     public static final Block GREGANACL = blockItem("greganacl", new Block(BlockBehaviour.Properties.of(Material.BAMBOO)), PokeCraftCreativeTabs.BLOCKS);
     //Sandstone
@@ -44,7 +46,7 @@ public class PokeCraftBlocks {
     public static final Block ORANGE_SANDSTONE_STAIRS = blockItem("orange_sandstone_stairs", new StairBlock(ORANGE_SANDSTONE.defaultBlockState(), BlockBehaviour.Properties.copy(ORANGE_SANDSTONE)), PokeCraftCreativeTabs.BLOCKS);
     public static final Block ORANGE_CRACKED_SANDSTONE = blockItem("orange_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.BLOCKS);
     public static final Block ORANGE_SMOOTH_SANDSTONE = blockItem("orange_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.BLOCKS);
-    public static final Block ORANGE_SAND = blockItem("orange_sand", new Block(BlockBehaviour.Properties.of(Material.SAND)), PokeCraftCreativeTabs.BLOCKS);
+    public static final Block ORANGE_SAND = blockItem("orange_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.BLOCKS);
     public static final Block ORANGE_CHISELED_SANDSTONE = blockItem("orange_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.BLOCKS);
     public static final Block ORANGE_CUT_SANDSTONE = blockItem("orange_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.BLOCKS);
     public static final Block YELLOW_SANDSTONE = blockItem("yellow_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.BLOCKS);
@@ -203,8 +205,8 @@ public class PokeCraftBlocks {
     public static final Block MANGROVE_CRAFTING_TABLE = blockItem("mangrove_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BLOCKS);
     public static final Block CHERRY_CRAFTING_TABLE = blockItem("cherry_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BLOCKS);
     //Furnace
-    public static final Block DEEPSLATE_FURNACE = blockItem("deepslate_furnace", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.BLOCKS);
-    public static final Block BLACKSTONE_FURNACE = blockItem("blackstone_furnace", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.BLOCKS);
+    public static final Block DEEPSLATE_FURNACE = blockItem("deepslate_furnace", new FurnaceBlock(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.BLOCKS);
+    public static final Block BLACKSTONE_FURNACE = blockItem("blackstone_furnace", new FurnaceBlock(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.BLOCKS);
     //Shingles
     public static final Block WHITE_SHINGLES = blockItem("white_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BLOCKS);
     public static final Block LIGHT_GRAY_SHINGLES = blockItem("light_gray_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BLOCKS);

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "pokecraft:block/blackstone_furnace_front",
+    "front": "pokecraft:block/blackstone_furnace_front_on",
     "side": "pokecraft:block/blackstone_furnace_side",
     "top": "pokecraft:block/blackstone_furnace_top"
   }

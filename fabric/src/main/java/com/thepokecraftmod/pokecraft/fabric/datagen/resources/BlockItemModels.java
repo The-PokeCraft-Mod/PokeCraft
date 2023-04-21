@@ -35,10 +35,13 @@ public class BlockItemModels extends FabricModelProvider {
     public BlockItemModels(FabricDataOutput output) {
         super(output);
     }
+
     @Override
     public void generateBlockStateModels(BlockModelGenerators generator) {
         generator.createTrivialBlock(PokeCraftBlocks.GREGANACL, TexturedModel.CUBE_TOP_BOTTOM);
         generator.createTrivialBlock(PokeCraftBlocks.ORANGE_SANDSTONE, TexturedModel.CUBE_TOP_BOTTOM);
+        generator.family(PokeCraftBlocks.ORANGE_SANDSTONE)
+                .stairs(PokeCraftBlocks.ORANGE_SANDSTONE_STAIRS);
         generator.createTrivialBlock(PokeCraftBlocks.ORANGE_CUT_SANDSTONE, TexturedModel.CUBE_TOP_BOTTOM);
         generator.createTrivialBlock(PokeCraftBlocks.ORANGE_CHISELED_SANDSTONE, TexturedModel.CUBE_TOP_BOTTOM);
         generator.createTrivialCube(PokeCraftBlocks.ORANGE_SMOOTH_SANDSTONE);
@@ -187,7 +190,6 @@ public class BlockItemModels extends FabricModelProvider {
         generator.createTrivialCube(PokeCraftBlocks.BLACK_BRICKS);
         generator.createTrivialCube(PokeCraftBlocks.WHITE_BRICKS);
         generator.createTrivialCube(PokeCraftBlocks.BROWN_BRICKS);
-        generator.createTrivialCube(PokeCraftBlocks.BROWN_BRICKS);
         generator.createFurnace(PokeCraftBlocks.DEEPSLATE_FURNACE, TexturedModel.ORIENTABLE_ONLY_TOP);
         generator.createFurnace(PokeCraftBlocks.BLACKSTONE_FURNACE, TexturedModel.ORIENTABLE_ONLY_TOP);
         generator.createCraftingTableLike(PokeCraftBlocks.BIRCH_CRAFTING_TABLE, Blocks.BIRCH_PLANKS, TextureMapping::craftingTable);
@@ -261,8 +263,6 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.BLACKSTONE_AXE, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.BLACKSTONE_SHOVEL, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.BLACKSTONE_HOE, ModelTemplates.FLAT_ITEM);
-
-
 
 
         // PokeBalls
@@ -776,7 +776,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.ADRENALINE_ORB, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.BOTTLE_CAP, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.CALCIUM, ModelTemplates.FLAT_ITEM);
-        generator.generateFlatItem(PokeCraftItems.CARBOS , ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.CARBOS, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.DIRE_HIT, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.DYNAMAX_CANDY, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.EXP_CANDY_L, ModelTemplates.FLAT_ITEM);

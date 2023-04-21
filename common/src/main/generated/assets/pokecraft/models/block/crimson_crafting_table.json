@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "pokecraft:block/crimson_crafting_table"
+    "down": "minecraft:block/crimson_planks",
+    "east": "pokecraft:block/crimson_crafting_table_side",
+    "north": "pokecraft:block/crimson_crafting_table_front",
+    "particle": "pokecraft:block/crimson_crafting_table_front",
+    "south": "pokecraft:block/crimson_crafting_table_side",
+    "up": "pokecraft:block/crimson_crafting_table_top",
+    "west": "pokecraft:block/crimson_crafting_table_front"
   }
 }

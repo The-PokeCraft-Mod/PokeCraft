@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "pokecraft:block/jungle_crafting_table"
+    "down": "minecraft:block/jungle_planks",
+    "east": "pokecraft:block/jungle_crafting_table_side",
+    "north": "pokecraft:block/jungle_crafting_table_front",
+    "particle": "pokecraft:block/jungle_crafting_table_front",
+    "south": "pokecraft:block/jungle_crafting_table_side",
+    "up": "pokecraft:block/jungle_crafting_table_top",
+    "west": "pokecraft:block/jungle_crafting_table_front"
   }
 }

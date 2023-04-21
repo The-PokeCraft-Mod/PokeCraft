@@ -9,4 +9,5 @@ accessible method net/minecraft/commands/synchronization/ArgumentTypeInfos regis
 accessible field net/minecraft/commands/synchronization/ArgumentTypeInfos BY_CLASS Ljava/util/Map;
 
 accessible method net/minecraft/world/level/block/StairBlock <init> (Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V
-
+accessible method net/minecraft/world/level/block/FurnaceBlock <init> (Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V
+accessible field net/minecraft/data/models/BlockModelGenerators texturedModels Ljava/util/Map;

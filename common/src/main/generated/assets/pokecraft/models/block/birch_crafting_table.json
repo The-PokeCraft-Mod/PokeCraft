@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "pokecraft:block/birch_crafting_table"
+    "down": "minecraft:block/birch_planks",
+    "east": "pokecraft:block/birch_crafting_table_side",
+    "north": "pokecraft:block/birch_crafting_table_front",
+    "particle": "pokecraft:block/birch_crafting_table_front",
+    "south": "pokecraft:block/birch_crafting_table_side",
+    "up": "pokecraft:block/birch_crafting_table_top",
+    "west": "pokecraft:block/birch_crafting_table_front"
   }
 }

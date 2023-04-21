@@ -8,6 +8,7 @@
     "client.WindowMixin"
   ],
   "mixins": [
+    "datagen.BlockModelGenerators$BlockFamilyProviderMixin"
   ],
   "injectors": {
     "defaultRequire": 1
