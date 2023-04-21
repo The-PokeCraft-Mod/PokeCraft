@@ -219,7 +219,9 @@ public class PokeCraftBlocks {
     public static final Block PURPLE_SHINGLES = blockItem("purple_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
     public static final Block MAGENTA_SHINGLES = blockItem("magenta_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
     public static final Block PINK_SHINGLES = blockItem("pink_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
-    public static final Block CHARGESTONE_BLOCK = blockItem("chargestone_block", new Block(BlockBehaviour.Properties.of(Material.WOOD)));
+    public static final Block CHARGESTONE_BLOCK = blockItem("chargestone_block", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block WATER_STONE_BLOCK = blockItem("water_stone_block", new Block(BlockBehaviour.Properties.of(Material.STONE)));
+    public static final Block THUNDER_STONE_BLOCK = blockItem("thunder_stone_block", new Block(BlockBehaviour.Properties.of(Material.STONE)));
 
     public static final Block BERRY_BUSH = blockItem("berry_bush", new FlowerBlock(MobEffects.WEAKNESS, 0, BlockBehaviour.Properties.of(Material.PLANT)
             .noCollission()
