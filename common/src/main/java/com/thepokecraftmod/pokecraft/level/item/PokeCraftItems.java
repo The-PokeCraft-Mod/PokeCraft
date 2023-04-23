@@ -620,9 +620,13 @@ public class PokeCraftItems {
     //Ore
     public static final Item RUBY = register("ruby", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item SAPPHIRE = register("sapphire", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item CHARGESTONE = register("chargestone", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item RAW_Z_ORE = register("chargestone", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item Z_CRYSTAL = register("chargestone", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item WISHING_CHIP = register("wishing_chip", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item WISHING_PIECE = register("wishing_piece", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item WISHING_STAR = register("wishing_star", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
+    public static final Item ORIGIN_NUGGET = register("origin_nugget", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     public static final Item ORIGIN_ORE = register("origin_ore", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
     //Fossil
     public static final Item HELIX_FOSSIL = register("helix_fossil", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL);
