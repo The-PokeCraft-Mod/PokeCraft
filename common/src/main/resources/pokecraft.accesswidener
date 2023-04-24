@@ -10,4 +10,7 @@ accessible field net/minecraft/commands/synchronization/ArgumentTypeInfos BY_CLA
 
 accessible method net/minecraft/world/level/block/StairBlock <init> (Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V
 accessible method net/minecraft/world/level/block/FurnaceBlock <init> (Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V
+accessible method net/minecraft/world/level/block/Blocks litBlockEmission (I)Ljava/util/function/ToIntFunction;
+accessible method net/minecraft/world/level/block/state/BlockBehaviour$Properties isValidSpawn (Lnet/minecraft/world/level/block/state/BlockBehaviour$StateArgumentPredicate;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;
 accessible field net/minecraft/data/models/BlockModelGenerators texturedModels Ljava/util/Map;
+
