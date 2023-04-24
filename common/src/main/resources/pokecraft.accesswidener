@@ -1,5 +1,7 @@
 accessWidener   v2  named
 
+accessible method net/minecraft/world/level/block/Blocks always (Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z
+
 accessible method net/minecraft/core/Holder$Reference bindTags (Ljava/util/Collection;)V
 
 accessible field com/mojang/blaze3d/systems/RenderSystem shaderLightDirections [Lorg/joml/Vector3f;
@@ -13,4 +15,3 @@ accessible method net/minecraft/world/level/block/FurnaceBlock <init> (Lnet/mine
 accessible method net/minecraft/world/level/block/Blocks litBlockEmission (I)Ljava/util/function/ToIntFunction;
 accessible method net/minecraft/world/level/block/state/BlockBehaviour$Properties isValidSpawn (Lnet/minecraft/world/level/block/state/BlockBehaviour$StateArgumentPredicate;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;
 accessible field net/minecraft/data/models/BlockModelGenerators texturedModels Ljava/util/Map;
-
