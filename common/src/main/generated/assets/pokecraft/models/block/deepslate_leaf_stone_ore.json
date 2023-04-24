@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pokecraft:block/deepslate_leaf_stone_ore"
+  }
+}

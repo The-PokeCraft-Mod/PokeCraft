@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "pokecraft:item/origin_ore"
-  }
+  "parent": "pokecraft:block/origin_ore"
 }

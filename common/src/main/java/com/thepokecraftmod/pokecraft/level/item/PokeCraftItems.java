@@ -651,7 +651,7 @@ public class PokeCraftItems {
     public static final Item PURPLE_NECTAR = register("purple_nectar", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);
     public static final Item GALARICA_TWIG = register("galarica_twig", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);
     //Ore
-    public static final Item ORIGIN_ORE = register("origin_ore", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);
+    public static final Item ORIGIN_ORE = register("origin_ore_item", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);
     public static final Item WISHING_CHIP = register("wishing_chip", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);
     public static final Item WISHING_PIECE = register("wishing_piece", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);
     public static final Item WISHING_STAR = register("wishing_star", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);

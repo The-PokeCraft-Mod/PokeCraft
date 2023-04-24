@@ -322,8 +322,8 @@ public class BlockItemModels extends FabricModelProvider {
         generator.createTrivialCube(PokeCraftBlocks.OVAL_STONE_ORE);
         generator.createTrivialCube(PokeCraftBlocks.DEEPSLATE_OVAL_STONE_ORE);
         generator.createTrivialCube(PokeCraftBlocks.OVAL_STONE_BLOCK);
-        generator.createRotatableColumn(PokeCraftBlocks.DREAD_LOG);
-        generator.createRotatableColumn(PokeCraftBlocks.STRIPPED_DREAD_LOG);
+        generator.woodProvider(PokeCraftBlocks.DREAD_LOG);
+        generator.woodProvider(PokeCraftBlocks.STRIPPED_DREAD_LOG);
         generator.createTrivialCube(PokeCraftBlocks.DREAD_WOOD);
         generator.createTrivialCube(PokeCraftBlocks.STRIPPED_DREAD_WOOD);
         generator.createTrivialCube(PokeCraftBlocks.DREAD_PLANKS);

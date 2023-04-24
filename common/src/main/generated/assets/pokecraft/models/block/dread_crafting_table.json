@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/dark_oak_planks",
+    "east": "pokecraft:block/dread_crafting_table_side",
+    "north": "pokecraft:block/dread_crafting_table_front",
+    "particle": "pokecraft:block/dread_crafting_table_front",
+    "south": "pokecraft:block/dread_crafting_table_side",
+    "up": "pokecraft:block/dread_crafting_table_top",
+    "west": "pokecraft:block/dread_crafting_table_front"
+  }
+}

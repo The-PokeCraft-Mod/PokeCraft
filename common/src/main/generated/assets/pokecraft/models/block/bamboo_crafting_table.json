@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/bamboo_planks",
+    "east": "pokecraft:block/bamboo_crafting_table_side",
+    "north": "pokecraft:block/bamboo_crafting_table_front",
+    "particle": "pokecraft:block/bamboo_crafting_table_front",
+    "south": "pokecraft:block/bamboo_crafting_table_side",
+    "up": "pokecraft:block/bamboo_crafting_table_top",
+    "west": "pokecraft:block/bamboo_crafting_table_front"
+  }
+}

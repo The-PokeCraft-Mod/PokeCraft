@@ -1,6 +1,8 @@
 accessWidener   v2  named
 
 accessible method net/minecraft/world/level/block/Blocks always (Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z
+accessible method net/minecraft/world/level/block/Blocks log (Lnet/minecraft/world/level/material/MaterialColor;Lnet/minecraft/world/level/material/MaterialColor;)Lnet/minecraft/world/level/block/RotatedPillarBlock;
+accessible method net/minecraft/world/level/block/Blocks log (Lnet/minecraft/world/level/material/MaterialColor;Lnet/minecraft/world/level/material/MaterialColor;Lnet/minecraft/world/level/block/SoundType;[Lnet/minecraft/world/flag/FeatureFlag;)Lnet/minecraft/world/level/block/RotatedPillarBlock;
 
 accessible method net/minecraft/core/Holder$Reference bindTags (Ljava/util/Collection;)V
 
