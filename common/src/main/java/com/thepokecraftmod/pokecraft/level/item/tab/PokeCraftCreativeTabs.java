@@ -32,7 +32,7 @@ public class PokeCraftCreativeTabs {
     public static final CreativeTab GIMMICK_ITEMS = PokeCraft.getInstance().newCreativeTab("gimmick_items", () -> PokeCraftItems.VENUSAURITE);
     public static final CreativeTab NATURAL_ITEMS = PokeCraft.getInstance().newCreativeTab("natural_items", () -> PokeCraftItems.RED_APRICORN);
     public static final CreativeTab SPECIAL_ITEMS = PokeCraft.getInstance().newCreativeTab("special_items", () -> PokeCraftItems.BLUE_ORB);
-    public static final CreativeTab PLAYER_ITEMS = PokeCraft.getInstance().newCreativeTab("player_items", () -> PokeCraftItems.MAX_REPEL);
+    public static final CreativeTab KEY_ITEMS = PokeCraft.getInstance().newCreativeTab("key_items", () -> PokeCraftItems.SHINY_CHARM);
     public static final CreativeTab BLOCKS = PokeCraft.getInstance().newCreativeTab("blocks", () -> PokeCraftItems.POKE_BALL);
     public static final CreativeTab TOOLS_AND_UTILITIES = PokeCraft.getInstance().newCreativeTab("tools_utilities", () -> PokeCraftItems.RUBY_PICKAXE);
     public static final CreativeTab COMBAT = PokeCraft.getInstance().newCreativeTab("combat", () -> PokeCraftItems.EMERALD_SWORD);

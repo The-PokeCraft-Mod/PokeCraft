@@ -286,28 +286,35 @@ public class PokeCraftBlocks {
     public static final Block MAGENTA_GLOWSTONE = blockItem("magenta_glowstone", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 15)), PokeCraftCreativeTabs.COLORED_BLOCKS);
     public static final Block PINK_GLOWSTONE = blockItem("pink_glowstone", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 15)), PokeCraftCreativeTabs.COLORED_BLOCKS);
     //UltraLight
-    public static final Block WHITE_ULTRA_LIGHT = blockItem("white_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_GRAY_ULTRA_LIGHT = blockItem("light_gray_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GRAY_ULTRA_LIGHT = blockItem("gray_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLACK_ULTRA_LIGHT = blockItem("black_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BROWN_ULTRA_LIGHT = blockItem("brown_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block RED_ULTRA_LIGHT = blockItem("red_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block ORANGE_ULTRA_LIGHT = blockItem("orange_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block YELLOW_ULTRA_LIGHT = blockItem("yellow_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIME_ULTRA_LIGHT = blockItem("lime_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GREEN_ULTRA_LIGHT = blockItem("green_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block CYAN_ULTRA_LIGHT = blockItem("cyan_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_BLUE_ULTRA_LIGHT = blockItem("light_blue_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLUE_ULTRA_LIGHT = blockItem("blue_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PURPLE_ULTRA_LIGHT = blockItem("purple_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block MAGENTA_ULTRA_LIGHT = blockItem("magenta_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PINK_ULTRA_LIGHT = blockItem("pink_ultra_light", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block WHITE_LIGHT = blockItem("white_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block LIGHT_GRAY_LIGHT = blockItem("light_gray_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block GRAY_LIGHT = blockItem("gray_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block BLACK_LIGHT = blockItem("black_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block BROWN_LIGHT = blockItem("brown_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block RED_LIGHT = blockItem("red_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block ORANGE_LIGHT = blockItem("orange_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block YELLOW_LIGHT = blockItem("yellow_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block LIME_LIGHT = blockItem("lime_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block GREEN_LIGHT = blockItem("green_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CYAN_LIGHT = blockItem("cyan_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block LIGHT_BLUE_LIGHT = blockItem("light_blue_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block BLUE_LIGHT = blockItem("blue_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block PURPLE_LIGHT = blockItem("purple_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block MAGENTA_LIGHT = blockItem("magenta_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block PINK_LIGHT = blockItem("pink_light", new Block(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.SAND).strength(0.3f).sound(SoundType.GLASS).lightLevel(blockState -> 25)), PokeCraftCreativeTabs.COLORED_BLOCKS);
 
 
 
     //          Natural Blocks
     //Misc
+    public static final Block WET_PACKED_MUD = blockItem("wet_packed_mud", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     //Stone/Ore
+    public static final Block PINK_AMETHYST_BLOCK = blockItem("pink_amethyst_block", new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_PINK).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    public static final Block BUDDING_PINK_AMETHYST = blockItem("budding_pink_amethyst", new BuddingAmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).randomTicks().strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    //public static final Block SMALL_PINK_AMETHYST_BUD = blockItem("small_pink_amethyst_bud", new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(PINK_AMETHYST_CLUSTER).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel(blockState -> 1)));
+    //public static final Block MEDIUM_PINK_AMETHYST_BUD = blockItem("medium_pink_amethyst_bud", new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(PINK_AMETHYST_CLUSTER).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel(blockState -> 2)));
+    //public static final Block LARGE_PINK_AMETHYST_BUD = blockItem("large_pink_amethyst_bud", new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(PINK_AMETHYST_CLUSTER).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel(blockState -> 4)));
+    //public static final Block PINK_AMETHYST_CLUSTER = blockItem("pink_amethyst_cluster", new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(PINK_AMETHYST_BLOCK).sound(SoundType.AMETHYST_CLUSTER).lightLevel(blockState -> 1)));
     public static final Block RUBY_ORE = blockItem("ruby_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block DEEPSLATE_RUBY_ORE = blockItem("deepslate_ruby_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block SAPPHIRE_ORE = blockItem("sapphire_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
