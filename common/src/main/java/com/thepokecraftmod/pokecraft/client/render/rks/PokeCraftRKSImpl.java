@@ -114,7 +114,9 @@ public class PokeCraftRKSImpl {
         var resourceManager = Minecraft.getInstance().getResourceManager();
 
         try (var is = resourceManager.open(id)) {
-            return new String(is.readAllBytes(), StandardCharsets.UTF_8);
+            var s = new String(is.readAllBytes(), StandardCharsets.UTF_8);
+            if (!PokeCraft.isDevelopmentEnvironment()) s = s.replace("#pragma optionNV(strict on)\n", "");
+            return s;
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
