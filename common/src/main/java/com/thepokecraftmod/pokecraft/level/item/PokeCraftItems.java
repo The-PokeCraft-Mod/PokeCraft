@@ -114,6 +114,8 @@ public class PokeCraftItems {
     public static final Item RUBY = register("ruby", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item SAPPHIRE = register("sapphire", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item CHARGESTONE = register("chargestone", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item PINK_AMETHYST_SHARD = register("pink_amethyst_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item PINK_DIAMOND = register("pink_diamond", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item ORIGIN_NUGGET = register("origin_nugget", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item RAW_Z_ORE = register("raw_z_ore", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item Z_CRYSTAL = register("z_crystal", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
@@ -762,6 +764,7 @@ public class PokeCraftItems {
     public static final Item GRISEOUS_CORE = register("griseous_core", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
     public static final Item LUNAR_WING = register("lunar_wing", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
     public static final Item GRACIDEA = register("gracidea", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
+    public static final Item AZURE_FLUTE = register("azure_flute", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
     public static final Item MEADOW_PLATE = register("meadow_plate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
     public static final Item FLAME_PLATE = register("flame_plate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
     public static final Item SPLASH_PLATE = register("splash_plate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
@@ -782,7 +785,6 @@ public class PokeCraftItems {
     public static final Item DRACO_PLATE = register("draco_plate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
     public static final Item LEGEND_PLATE = register("legend_plate", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
     public static final Item MYSTERIOUS_BALM = register("mysterious_balm", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
-    public static final Item AZURE_FLUTE = register("azure_flute", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
     //Unova
     public static final Item REVEAL_GLASS = register("reveal_glass", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
     public static final Item LIGHT_STONE = register("light_stone", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);

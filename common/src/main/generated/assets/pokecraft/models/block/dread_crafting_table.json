@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube",
   "textures": {
-    "down": "minecraft:block/dark_oak_planks",
+    "down": "pokecraft:block/dread_planks",
     "east": "pokecraft:block/dread_crafting_table_side",
     "north": "pokecraft:block/dread_crafting_table_front",
     "particle": "pokecraft:block/dread_crafting_table_front",

@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "pokecraft:block/pink_amethyst_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "pokecraft:block/pink_amethyst_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "pokecraft:block/pink_amethyst_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "pokecraft:block/pink_amethyst_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "pokecraft:block/pink_amethyst_cluster"
+    },
+    "facing=west": {
+      "model": "pokecraft:block/pink_amethyst_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

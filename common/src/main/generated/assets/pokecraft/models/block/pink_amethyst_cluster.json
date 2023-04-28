@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pokecraft:block/pink_amethyst_cluster"
+  }
+}

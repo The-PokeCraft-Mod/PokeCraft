@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pokecraft:block/medium_pink_amethyst_bud"
+  }
+}

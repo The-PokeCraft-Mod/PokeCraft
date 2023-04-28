@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "pokecraft:block/magenta_chiseled_sandstone_bottom",
-    "side": "pokecraft:block/magenta_chiseled_sandstone_side",
-    "top": "pokecraft:block/magenta_chiseled_sandstone_top"
-  }
-}

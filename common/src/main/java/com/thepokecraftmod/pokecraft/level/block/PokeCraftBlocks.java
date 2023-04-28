@@ -27,13 +27,18 @@ import com.thepokecraftmod.pokecraft.level.item.tab.PokeCraftCreativeTabs;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.grower.CherryTreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
+
+import static net.minecraft.world.level.block.Blocks.AMETHYST_CLUSTER;
 
 public class PokeCraftBlocks {
     private static final MojangRegistry<Block, Registry<Block>> REGISTRY = PokeCraft.getInstance().newRegistry(Registries.BLOCK);
@@ -42,22 +47,22 @@ public class PokeCraftBlocks {
             .strength(0.5f)
             .sound(SoundType.SAND);
 
-    public static final Block GREGANACL = blockItem("greganacl", new Block(BlockBehaviour.Properties.of(Material.BAMBOO)), PokeCraftCreativeTabs.BLOCKS);
-
     //          Building Blocks
     //Wood Types
     public static final Block DREAD_LOG = blockItem("dread_log", Blocks.log(MaterialColor.WOOD, MaterialColor.PODZOL), PokeCraftCreativeTabs.BUILDING_BLOCKS);
-    public static final Block DREAD_WOOD = blockItem("dread_wood", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
-    public static final Block STRIPPED_DREAD_LOG = blockItem("stripped_dread_log", Blocks.log(MaterialColor.WOOD, MaterialColor.PODZOL), PokeCraftCreativeTabs.BUILDING_BLOCKS);
-    public static final Block STRIPPED_DREAD_WOOD = blockItem("stripped_dread_wood", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
+    public static final Block DREAD_WOOD = blockItem("dread_wood", new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.TERRACOTTA_GRAY).strength(2.0f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
+    public static final Block STRIPPED_DREAD_LOG = blockItem("stripped_dread_log", Blocks.log(MaterialColor.WOOD, MaterialColor.TERRACOTTA_GRAY), PokeCraftCreativeTabs.BUILDING_BLOCKS);
+    public static final Block STRIPPED_DREAD_WOOD = blockItem("stripped_dread_wood", new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.TERRACOTTA_BLACK).strength(2.0f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
     public static final Block DREAD_PLANKS = blockItem("dread_planks", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
-    public static final Block DREAD_DOOR = blockItem("dread_door", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
-    public static final Block DREAD_TRAPDOOR = blockItem("dread_trapdoor", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
+    public static final Block DREAD_DOOR = blockItem("dread_door", new DoorBlock(BlockBehaviour.Properties.of(Material.WOOD, DREAD_PLANKS.defaultMaterialColor()).strength(3.0f).noOcclusion(), BlockSetType.CHERRY), PokeCraftCreativeTabs.BUILDING_BLOCKS);
+    public static final Block DREAD_TRAPDOOR = blockItem("dread_trapdoor", new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.TERRACOTTA_GRAY).strength(3.0f).noOcclusion(), BlockSetType.CHERRY), PokeCraftCreativeTabs.BUILDING_BLOCKS);
+    //Other
+    public static final Block SILK_BLOCK = blockItem("silk_block", new Block(BlockBehaviour.Properties.of(Material.WOOL)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
     //Brick Blocks
     //Scripted Sandstone
     // Gem Blocks
-    public static final Block RUBY_BLOCK = blockItem("ruby_block", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
-    public static final Block SAPPHIRE_BLOCK = blockItem("sapphire_block", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
+    public static final Block RUBY_BLOCK = blockItem("ruby_block", new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.EMERALD).requiresCorrectToolForDrops().strength(5.0f, 6.0f).sound(SoundType.METAL)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
+    public static final Block SAPPHIRE_BLOCK = blockItem("sapphire_block", new Block(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.EMERALD).requiresCorrectToolForDrops().strength(5.0f, 6.0f).sound(SoundType.METAL)),PokeCraftCreativeTabs.BUILDING_BLOCKS);
     public static final Block CHARGESTONE_BLOCK = blockItem("chargestone_block", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
     public static final Block FIRE_STONE_BLOCK = blockItem("fire_stone_block", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
     public static final Block WATER_STONE_BLOCK = blockItem("water_stone_block", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.BUILDING_BLOCKS);
@@ -109,99 +114,103 @@ public class PokeCraftBlocks {
     public static final Block MAGENTA_SHINGLES = blockItem("magenta_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.COLORED_BLOCKS);
     public static final Block PINK_SHINGLES = blockItem("pink_shingles", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.COLORED_BLOCKS);
     //Sandstone
-    public static final Block CRACKED_SANDSTONE = blockItem("cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block RED_CRACKED_SANDSTONE = blockItem("red_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block WHITE_SANDSTONE = blockItem("white_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block WHITE_CHISELED_SANDSTONE = blockItem("white_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block WHITE_SMOOTH_SANDSTONE = blockItem("white_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block WHITE_CUT_SANDSTONE = blockItem("white_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block WHITE_SAND = blockItem("white_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block WHITE_CRACKED_SANDSTONE = blockItem("white_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_GRAY_SANDSTONE = blockItem("light_gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_GRAY_CHISELED_SANDSTONE = blockItem("light_gray_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_GRAY_SMOOTH_SANDSTONE = blockItem("light_gray_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_GRAY_CUT_SANDSTONE = blockItem("light_gray_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_GRAY_SAND = blockItem("light_gray_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_GRAY_CRACKED_SANDSTONE = blockItem("light_gray_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GRAY_SANDSTONE = blockItem("gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GRAY_CHISELED_SANDSTONE = blockItem("gray_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GRAY_SMOOTH_SANDSTONE = blockItem("gray_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GRAY_CUT_SANDSTONE = blockItem("gray_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GRAY_SAND = blockItem("gray_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GRAY_CRACKED_SANDSTONE = blockItem("gray_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLACK_SANDSTONE = blockItem("black_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLACK_CHISELED_SANDSTONE = blockItem("black_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLACK_SMOOTH_SANDSTONE = blockItem("black_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLACK_CUT_SANDSTONE = blockItem("black_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLACK_SAND = blockItem("black_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLACK_CRACKED_SANDSTONE = blockItem("black_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BROWN_SANDSTONE = blockItem("brown_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BROWN_CHISELED_SANDSTONE = blockItem("brown_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BROWN_SMOOTH_SANDSTONE = blockItem("brown_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BROWN_CUT_SANDSTONE = blockItem("brown_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BROWN_SAND = blockItem("brown_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BROWN_CRACKED_SANDSTONE = blockItem("brown_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block ORANGE_SANDSTONE = blockItem("orange_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_SANDSTONE = blockItem("cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_RED_SANDSTONE = blockItem("cracked_red_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block WHITE_SANDSTONE = blockItem("white_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_WHITE_SANDSTONE = blockItem("chiseled_white_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_WHITE_SANDSTONE = blockItem("smooth_white_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_WHITE_SANDSTONE = blockItem("cut_white_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block WHITE_SAND = blockItem("white_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_WHITE_SANDSTONE = blockItem("cracked_white_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block LIGHT_GRAY_SANDSTONE = blockItem("light_gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_LIGHT_GRAY_SANDSTONE = blockItem("chiseled_light_gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_LIGHT_GRAY_SANDSTONE = blockItem("smooth_light_gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_LIGHT_GRAY_SANDSTONE = blockItem("cut_light_gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block LIGHT_GRAY_SAND = blockItem("light_gray_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_LIGHT_GRAY_SANDSTONE = blockItem("cracked_light_gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block GRAY_SANDSTONE = blockItem("gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_GRAY_SANDSTONE = blockItem("chiseled_gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_GRAY_SANDSTONE = blockItem("smooth_gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_GRAY_SANDSTONE = blockItem("cut_gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block GRAY_SAND = blockItem("gray_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_GRAY_SANDSTONE = blockItem("cracked_gray_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block BLACK_SANDSTONE = blockItem("black_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_BLACK_SANDSTONE = blockItem("chiseled_black_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_BLACK_SANDSTONE = blockItem("smooth_black_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_BLACK_SANDSTONE = blockItem("cut_black_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block BLACK_SAND = blockItem("black_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_BLACK_SANDSTONE = blockItem("cracked_black_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block BROWN_SANDSTONE = blockItem("brown_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_BROWN_SANDSTONE = blockItem("chiseled_brown_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_BROWN_SANDSTONE = blockItem("smooth_brown_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_BROWN_SANDSTONE = blockItem("cut_brown_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block BROWN_SAND = blockItem("brown_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_BROWN_SANDSTONE = blockItem("cracked_brown_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block ORANGE_SANDSTONE = blockItem("orange_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
     public static final Block ORANGE_SANDSTONE_STAIRS = blockItem("orange_sandstone_stairs", new StairBlock(ORANGE_SANDSTONE.defaultBlockState(), BlockBehaviour.Properties.copy(ORANGE_SANDSTONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block ORANGE_CHISELED_SANDSTONE = blockItem("orange_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block ORANGE_SMOOTH_SANDSTONE = blockItem("orange_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block ORANGE_CUT_SANDSTONE = blockItem("orange_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block ORANGE_SAND = blockItem("orange_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block ORANGE_CRACKED_SANDSTONE = blockItem("orange_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block YELLOW_SANDSTONE = blockItem("yellow_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block YELLOW_CHISELED_SANDSTONE = blockItem("yellow_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block YELLOW_SMOOTH_SANDSTONE = blockItem("yellow_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block YELLOW_CUT_SANDSTONE = blockItem("yellow_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block YELLOW_SAND = blockItem("yellow_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block YELLOW_CRACKED_SANDSTONE = blockItem("yellow_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIME_SANDSTONE = blockItem("lime_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIME_CHISELED_SANDSTONE = blockItem("lime_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIME_SMOOTH_SANDSTONE = blockItem("lime_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIME_CUT_SANDSTONE = blockItem("lime_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIME_SAND = blockItem("lime_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIME_CRACKED_SANDSTONE = blockItem("lime_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GREEN_SANDSTONE = blockItem("green_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GREEN_CHISELED_SANDSTONE = blockItem("green_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GREEN_SMOOTH_SANDSTONE = blockItem("green_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GREEN_CUT_SANDSTONE = blockItem("green_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GREEN_SAND = blockItem("green_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block GREEN_CRACKED_SANDSTONE = blockItem("green_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block CYAN_SANDSTONE = blockItem("cyan_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block CYAN_CHISELED_SANDSTONE = blockItem("cyan_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block CYAN_SMOOTH_SANDSTONE = blockItem("cyan_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block CYAN_CUT_SANDSTONE = blockItem("cyan_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block CYAN_SAND = blockItem("cyan_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block CYAN_CRACKED_SANDSTONE = blockItem("cyan_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_BLUE_SANDSTONE = blockItem("light_blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_BLUE_CHISELED_SANDSTONE = blockItem("light_blue_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_BLUE_SMOOTH_SANDSTONE = blockItem("light_blue_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_BLUE_CUT_SANDSTONE = blockItem("light_blue_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_BLUE_SAND = blockItem("light_blue_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block LIGHT_BLUE_CRACKED_SANDSTONE = blockItem("light_blue_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLUE_SANDSTONE = blockItem("blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLUE_CHISELED_SANDSTONE = blockItem("blue_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLUE_SMOOTH_SANDSTONE = blockItem("blue_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLUE_CUT_SANDSTONE = blockItem("blue_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLUE_SAND = blockItem("blue_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block BLUE_CRACKED_SANDSTONE = blockItem("blue_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PURPLE_SANDSTONE = blockItem("purple_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PURPLE_CHISELED_SANDSTONE = blockItem("purple_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PURPLE_SMOOTH_SANDSTONE = blockItem("purple_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PURPLE_CUT_SANDSTONE = blockItem("purple_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PURPLE_SAND = blockItem("purple_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PURPLE_CRACKED_SANDSTONE = blockItem("purple_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block MAGENTA_SANDSTONE = blockItem("magenta_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block MAGENTA_CHISELED_SANDSTONE = blockItem("magenta_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block MAGENTA_SMOOTH_SANDSTONE = blockItem("magenta_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block MAGENTA_CUT_SANDSTONE = blockItem("magenta_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block MAGENTA_SAND = blockItem("magenta_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block MAGENTA_CRACKED_SANDSTONE = blockItem("magenta_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PINK_SANDSTONE = blockItem("pink_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PINK_CHISELED_SANDSTONE = blockItem("pink_chiseled_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PINK_SMOOTH_SANDSTONE = blockItem("pink_smooth_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PINK_CUT_SANDSTONE = blockItem("pink_cut_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PINK_SAND = blockItem("pink_sand", new SandBlock(0xA95821, SAND), PokeCraftCreativeTabs.COLORED_BLOCKS);
-    public static final Block PINK_CRACKED_SANDSTONE = blockItem("pink_cracked_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block ORANGE_SANDSTONE_SLAB = blockItem("orange_sandstone_slab", new SlabBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(2.0f, 6.0f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block ORANGE_SANDSTONE_WALL = blockItem("orange_sandstone_wall", new WallBlock(BlockBehaviour.Properties.copy(ORANGE_SANDSTONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_ORANGE_SANDSTONE = blockItem("chiseled_orange_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_ORANGE_SANDSTONE = blockItem("smooth_orange_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_ORANGE_SANDSTONE_STAIRS = blockItem("smooth_orange_sandstone_stairs", new StairBlock(SMOOTH_ORANGE_SANDSTONE.defaultBlockState(), BlockBehaviour.Properties.copy(SMOOTH_ORANGE_SANDSTONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_ORANGE_SANDSTONE_SLAB = blockItem("smooth_orange_sandstone_slab", new SlabBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(2.0f, 6.0f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_ORANGE_SANDSTONE_WALL = blockItem("smooth_orange_sandstone_wall", new WallBlock(BlockBehaviour.Properties.copy(SMOOTH_ORANGE_SANDSTONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);    public static final Block CUT_ORANGE_SANDSTONE = blockItem("cut_orange_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block ORANGE_SAND = blockItem("orange_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_ORANGE_SANDSTONE = blockItem("cracked_orange_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block YELLOW_SANDSTONE = blockItem("yellow_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_YELLOW_SANDSTONE = blockItem("chiseled_yellow_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_YELLOW_SANDSTONE = blockItem("smooth_yellow_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_YELLOW_SANDSTONE = blockItem("cut_yellow_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block YELLOW_SAND = blockItem("yellow_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_YELLOW_SANDSTONE = blockItem("cracked_yellow_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block LIME_SANDSTONE = blockItem("lime_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_LIME_SANDSTONE = blockItem("chiseled_lime_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_LIME_SANDSTONE = blockItem("smooth_lime_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_LIME_SANDSTONE = blockItem("cut_lime_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block LIME_SAND = blockItem("lime_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_LIME_SANDSTONE = blockItem("cracked_lime_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block GREEN_SANDSTONE = blockItem("green_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_GREEN_SANDSTONE = blockItem("chiseled_green_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_GREEN_SANDSTONE = blockItem("smooth_green_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_GREEN_SANDSTONE = blockItem("cut_green_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block GREEN_SAND = blockItem("green_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_GREEN_SANDSTONE = blockItem("cracked_green_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CYAN_SANDSTONE = blockItem("cyan_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_CYAN_SANDSTONE = blockItem("chiseled_cyan_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_CYAN_SANDSTONE = blockItem("smooth_cyan_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_CYAN_SANDSTONE = blockItem("cut_cyan_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CYAN_SAND = blockItem("cyan_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_CYAN_SANDSTONE = blockItem("cracked_cyan_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block LIGHT_BLUE_SANDSTONE = blockItem("light_blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_LIGHT_BLUE_SANDSTONE = blockItem("chiseled_light_blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_LIGHT_BLUE_SANDSTONE = blockItem("smooth_light_blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_LIGHT_BLUE_SANDSTONE = blockItem("cut_light_blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block LIGHT_BLUE_SAND = blockItem("light_blue_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_LIGHT_BLUE_SANDSTONE = blockItem("cracked_light_blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block BLUE_SANDSTONE = blockItem("blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_BLUE_SANDSTONE = blockItem("chiseled_blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_BLUE_SANDSTONE = blockItem("smooth_blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_BLUE_SANDSTONE = blockItem("cut_blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block BLUE_SAND = blockItem("blue_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_BLUE_SANDSTONE = blockItem("cracked_blue_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block PURPLE_SANDSTONE = blockItem("purple_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_PURPLE_SANDSTONE = blockItem("chiseled_purple_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_PURPLE_SANDSTONE = blockItem("smooth_purple_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_PURPLE_SANDSTONE = blockItem("cut_purple_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block PURPLE_SAND = blockItem("purple_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_PURPLE_SANDSTONE = blockItem("cracked_purple_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block MAGENTA_SANDSTONE = blockItem("magenta_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_MAGENTA_SANDSTONE = blockItem("chiseled_magenta_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_MAGENTA_SANDSTONE = blockItem("smooth_magenta_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_MAGENTA_SANDSTONE = blockItem("cut_magenta_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block MAGENTA_SAND = blockItem("magenta_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_MAGENTA_SANDSTONE = blockItem("cracked_magenta_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block PINK_SANDSTONE = blockItem("pink_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CHISELED_PINK_SANDSTONE = blockItem("chiseled_pink_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block SMOOTH_PINK_SANDSTONE = blockItem("smooth_pink_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CUT_PINK_SANDSTONE = blockItem("cut_pink_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block PINK_SAND = blockItem("pink_sand", new SandBlock(0xA95821, BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND).strength(0.5f).sound(SoundType.SAND)), PokeCraftCreativeTabs.COLORED_BLOCKS);
+    public static final Block CRACKED_PINK_SANDSTONE = blockItem("cracked_pink_sandstone", new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.SAND).requiresCorrectToolForDrops().strength(0.8f)), PokeCraftCreativeTabs.COLORED_BLOCKS);
     //Prismarine
     public static final Block WHITE_PRISMARINE = blockItem("white_prismarine", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
     public static final Block WHITE_PRISMARINE_BRICKS = blockItem("white_prismarine_bricks", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.COLORED_BLOCKS);
@@ -307,14 +316,14 @@ public class PokeCraftBlocks {
 
     //          Natural Blocks
     //Misc
-    public static final Block WET_PACKED_MUD = blockItem("wet_packed_mud", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    public static final Block WET_PACKED_MUD = blockItem("wet_packed_mud", new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).strength(1.0f, 3.0f).sound(SoundType.PACKED_MUD)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     //Stone/Ore
     public static final Block PINK_AMETHYST_BLOCK = blockItem("pink_amethyst_block", new AmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.COLOR_PINK).strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block BUDDING_PINK_AMETHYST = blockItem("budding_pink_amethyst", new BuddingAmethystBlock(BlockBehaviour.Properties.of(Material.AMETHYST).randomTicks().strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), PokeCraftCreativeTabs.NATURAL_BLOCKS);
-    //public static final Block SMALL_PINK_AMETHYST_BUD = blockItem("small_pink_amethyst_bud", new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(PINK_AMETHYST_CLUSTER).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel(blockState -> 1)));
-    //public static final Block MEDIUM_PINK_AMETHYST_BUD = blockItem("medium_pink_amethyst_bud", new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(PINK_AMETHYST_CLUSTER).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel(blockState -> 2)));
-    //public static final Block LARGE_PINK_AMETHYST_BUD = blockItem("large_pink_amethyst_bud", new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(PINK_AMETHYST_CLUSTER).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel(blockState -> 4)));
-    //public static final Block PINK_AMETHYST_CLUSTER = blockItem("pink_amethyst_cluster", new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(PINK_AMETHYST_BLOCK).sound(SoundType.AMETHYST_CLUSTER).lightLevel(blockState -> 1)));
+    public static final Block SMALL_PINK_AMETHYST_BUD = blockItem("small_pink_amethyst_bud", new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.SMALL_AMETHYST_BUD).lightLevel(blockState -> 1)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    public static final Block MEDIUM_PINK_AMETHYST_BUD = blockItem("medium_pink_amethyst_bud", new AmethystClusterBlock(4, 3, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.MEDIUM_AMETHYST_BUD).lightLevel(blockState -> 2)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    public static final Block LARGE_PINK_AMETHYST_BUD = blockItem("large_pink_amethyst_bud", new AmethystClusterBlock(5, 3, BlockBehaviour.Properties.copy(AMETHYST_CLUSTER).sound(SoundType.LARGE_AMETHYST_BUD).lightLevel(blockState -> 4)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    public static final Block PINK_AMETHYST_CLUSTER = blockItem("pink_amethyst_cluster", new AmethystClusterBlock(3, 4, BlockBehaviour.Properties.copy(PINK_AMETHYST_BLOCK).sound(SoundType.AMETHYST_CLUSTER).lightLevel(blockState -> 1)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block RUBY_ORE = blockItem("ruby_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block DEEPSLATE_RUBY_ORE = blockItem("deepslate_ruby_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block SAPPHIRE_ORE = blockItem("sapphire_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
@@ -350,24 +359,27 @@ public class PokeCraftBlocks {
     public static final Block OVAL_STONE_ORE = blockItem("oval_stone_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block DEEPSLATE_OVAL_STONE_ORE = blockItem("deepslate_oval_stone_ore", new Block(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     // Plants
-    public static final Block SHORT_GRASS = blockItem("short_grass", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
-    public static final Block DREAD_SAPLING = blockItem("dread_sapling", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    public static final Block SHORT_GRASS = blockItem("short_grass", new TallGrassBlock(BlockBehaviour.Properties.of(Material.REPLACEABLE_PLANT).noCollission().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XYZ)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    public static final Block DREAD_SAPLING = blockItem("dread_sapling", new SaplingBlock(new CherryTreeGrower(), BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_GRAY).noCollission().randomTicks().instabreak().sound(SoundType.CHERRY_SAPLING)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    //public static final Block WEB_STRING = blockItem("web_string", new SaplingBlock(new CherryTreeGrower(), BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_GRAY).noCollission().randomTicks().instabreak().sound(SoundType.CHERRY_SAPLING)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    //public static final Block FRAYED_WEB_STRING = blockItem("frayed_web_string", new SaplingBlock(new CherryTreeGrower(), BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_GRAY).noCollission().randomTicks().instabreak().sound(SoundType.CHERRY_SAPLING)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    //public static final Block SMALL_COBWEB = blockItem("small_cobweb", new SaplingBlock(new CherryTreeGrower(), BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_GRAY).noCollission().randomTicks().instabreak().sound(SoundType.CHERRY_SAPLING)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
 
 
 
     //          Utility Blocks
     //Crafting
-    public static final Block SPRUCE_CRAFTING_TABLE = blockItem("spruce_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
-    public static final Block BIRCH_CRAFTING_TABLE = blockItem("birch_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
-    public static final Block JUNGLE_CRAFTING_TABLE = blockItem("jungle_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
-    public static final Block ACACIA_CRAFTING_TABLE = blockItem("acacia_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
-    public static final Block DARK_OAK_CRAFTING_TABLE = blockItem("dark_oak_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
-    public static final Block MANGROVE_CRAFTING_TABLE = blockItem("mangrove_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
-    public static final Block CHERRY_CRAFTING_TABLE = blockItem("cherry_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
-    public static final Block BAMBOO_CRAFTING_TABLE = blockItem("bamboo_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
-    public static final Block CRIMSON_CRAFTING_TABLE = blockItem("crimson_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
-    public static final Block WARPED_CRAFTING_TABLE = blockItem("warped_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
-    public static final Block DREAD_CRAFTING_TABLE = blockItem("dread_crafting_table", new Block(BlockBehaviour.Properties.of(Material.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block SPRUCE_CRAFTING_TABLE = blockItem("spruce_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block BIRCH_CRAFTING_TABLE = blockItem("birch_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block JUNGLE_CRAFTING_TABLE = blockItem("jungle_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block ACACIA_CRAFTING_TABLE = blockItem("acacia_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block DARK_OAK_CRAFTING_TABLE = blockItem("dark_oak_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block MANGROVE_CRAFTING_TABLE = blockItem("mangrove_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block CHERRY_CRAFTING_TABLE = blockItem("cherry_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block BAMBOO_CRAFTING_TABLE = blockItem("bamboo_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block CRIMSON_CRAFTING_TABLE = blockItem("crimson_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block WARPED_CRAFTING_TABLE = blockItem("warped_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    public static final Block DREAD_CRAFTING_TABLE = blockItem("dread_crafting_table", new CraftingTableBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5f).sound(SoundType.WOOD)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
     public static final Block DEEPSLATE_FURNACE = blockItem("deepslate_furnace", new FurnaceBlock(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
     public static final Block BLACKSTONE_FURNACE = blockItem("blackstone_furnace", new FurnaceBlock(BlockBehaviour.Properties.of(Material.STONE)), PokeCraftCreativeTabs.UTILITY_BLOCKS);
     //Other
@@ -388,7 +400,7 @@ public class PokeCraftBlocks {
             .instabreak()
             .sound(SoundType.GRASS)
             .offsetType(BlockBehaviour.OffsetType.XZ)
-    ), PokeCraftCreativeTabs.BLOCKS);
+    ), PokeCraftCreativeTabs.DECORATION_BLOCKS);
 
     private static Block blockItem(String name, Block block, CreativeTab tab) {
         REGISTRY.register(name, block);

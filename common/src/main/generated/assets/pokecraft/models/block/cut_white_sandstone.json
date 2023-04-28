@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "pokecraft:block/cut_white_sandstone_bottom",
+    "side": "pokecraft:block/cut_white_sandstone_side",
+    "top": "pokecraft:block/cut_white_sandstone_top"
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "pokecraft:block/orange_sandstone",
-    "side": "pokecraft:block/orange_sandstone",
-    "top": "pokecraft:block/orange_sandstone"
-  }
-}

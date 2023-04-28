@@ -1,3 +1,6 @@
 {
-  "parent": "pokecraft:block/short_grass"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pokecraft:block/short_grass"
+  }
 }

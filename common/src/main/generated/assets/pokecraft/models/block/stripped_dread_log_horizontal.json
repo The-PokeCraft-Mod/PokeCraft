@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "pokecraft:block/stripped_dread_log_top",
+    "side": "pokecraft:block/stripped_dread_log"
+  }
+}

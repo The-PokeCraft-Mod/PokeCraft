@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "pokecraft:block/dread_wood"
+    "end": "pokecraft:block/dread_log",
+    "side": "pokecraft:block/dread_log"
   }
 }

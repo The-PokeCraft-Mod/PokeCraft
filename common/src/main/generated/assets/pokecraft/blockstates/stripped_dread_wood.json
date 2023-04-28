@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "pokecraft:block/stripped_dread_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "pokecraft:block/stripped_dread_wood"
+    },
+    "axis=z": {
+      "model": "pokecraft:block/stripped_dread_wood",
+      "x": 90
     }
   }
 }

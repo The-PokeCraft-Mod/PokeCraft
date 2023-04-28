@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "pokecraft:block/large_pink_amethyst_bud"
+  }
+}
