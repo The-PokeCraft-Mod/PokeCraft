@@ -115,7 +115,7 @@ public class PokeCraftRKSImpl {
 
         try (var is = resourceManager.open(id)) {
             var s = new String(is.readAllBytes(), StandardCharsets.UTF_8);
-            if (!PokeCraft.isDevelopmentEnvironment()) s = s.replace("#pragma optionNV(strict on)\n", "");
+            if (!PokeCraft.isDevelopmentEnvironment()) s = s.replace("#pragma optionNV(strict on)", "");
             return s;
         } catch (IOException e) {
             throw new RuntimeException(e);
