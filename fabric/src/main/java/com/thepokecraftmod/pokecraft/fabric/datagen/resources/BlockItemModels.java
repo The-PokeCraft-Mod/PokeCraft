@@ -351,6 +351,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.createCrossBlockWithDefaultItem(PokeCraftBlocks.FRAYED_WEB_STRING, BlockModelGenerators.TintState.NOT_TINTED);
         generator.createCrossBlockWithDefaultItem(PokeCraftBlocks.SMALL_COBWEB, BlockModelGenerators.TintState.NOT_TINTED);
 
+
         generator.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(PokeCraftBlocks.BERRY_BUSH, PokeCraft.id("block/berry_bush_stage3")));
     }
 
@@ -415,6 +416,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.ULTRA_RECON_BOOTS, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.PINK_AMETHYST_SHARD, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.PINK_DIAMOND, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.MUD_BUCKET, ModelTemplates.FLAT_ITEM);
 
 
 
@@ -1055,9 +1057,9 @@ public class BlockItemModels extends FabricModelProvider {
         generator.generateFlatItem(PokeCraftItems.STRANGE_SOUVENIR, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.SAPPHIRE, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.RUBY, ModelTemplates.FLAT_ITEM);
-        generator.generateFlatItem(PokeCraftItems.CHARGESTONE, ModelTemplates.FLAT_ITEM);
-        generator.generateFlatItem(PokeCraftItems.ORIGIN_NUGGET, ModelTemplates.FLAT_ITEM);
-        generator.generateFlatItem(PokeCraftItems.RAW_Z_ORE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.CHARGESTONE_DUST, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.RAW_ORIGIN_ORE, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(PokeCraftItems.Z_NUGGET, ModelTemplates.FLAT_ITEM);
         generator.generateFlatItem(PokeCraftItems.Z_CRYSTAL, ModelTemplates.FLAT_ITEM);
         // Player
         generator.generateFlatItem(PokeCraftItems.BALL_OF_MUD, ModelTemplates.FLAT_ITEM);

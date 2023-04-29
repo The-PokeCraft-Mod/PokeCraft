@@ -36,9 +36,8 @@ import net.minecraft.world.level.block.grower.CherryTreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.WoodType;
+import net.minecraft.world.level.material.*;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.MaterialColor;
 
 import static net.minecraft.world.level.block.Blocks.AMETHYST_CLUSTER;
 
@@ -331,6 +330,7 @@ public class PokeCraftBlocks {
     public static final Block DEEPSLATE_SAPPHIRE_ORE = blockItem("deepslate_sapphire_ore", new DropExperienceBlock(BlockBehaviour.Properties.copy(SAPPHIRE_ORE).color(MaterialColor.DEEPSLATE).strength(4.5f, 3.0f).sound(SoundType.DEEPSLATE), UniformInt.of(3, 7)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block CHARGESTONE_ORE = blockItem("chargestone_ore", new RedStoneOreBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().randomTicks().lightLevel(Blocks.litBlockEmission(9)).strength(3.0f, 3.0f)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block DEEPSLATE_CHARGESTONE_ORE = blockItem("deepslate_chargestone_ore", new RedStoneOreBlock(BlockBehaviour.Properties.copy(CHARGESTONE_ORE).color(MaterialColor.DEEPSLATE).strength(4.5f, 3.0f).sound(SoundType.DEEPSLATE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    public static final Block CHARGESTONE_WIRE = blockItem("chargestone_wire", new RedStoneWireBlock(BlockBehaviour.Properties.of(Material.DECORATION).noCollission().instabreak()), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block FOSSIL_ORE = blockItem("fossil_ore", new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.0f, 3.0f)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block DEEPSLATE_FOSSIL_ORE = blockItem("deepslate_fossil_ore", new DropExperienceBlock(BlockBehaviour.Properties.copy(FOSSIL_ORE).color(MaterialColor.DEEPSLATE).strength(4.5f, 3.0f).sound(SoundType.DEEPSLATE)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     public static final Block Z_CRYSTAL_ORE = blockItem("z_crystal_ore", new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(3.0f, 3.0f)), PokeCraftCreativeTabs.NATURAL_BLOCKS);
@@ -395,6 +395,8 @@ public class PokeCraftBlocks {
     //public static final Block DREAD_WALL_SIGN = blockItem("dread_wall_sign", new WallSignBlock(BlockBehaviour.Properties.of(Material.WOOD, DREAD_LOG.defaultMaterialColor()).noCollission().strength(1.0f).dropsLike(DREAD_SIGN), WoodType.DARK_OAK), PokeCraftCreativeTabs.UTILITY_BLOCKS);
     //public static final Block DREAD_HANGING_SIGN = blockItem("dread_hanging_sign", new CeilingHangingSignBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.TERRACOTTA_GRAY).noCollission().strength(1.0f), WoodType.DARK_OAK), PokeCraftCreativeTabs.UTILITY_BLOCKS);
     //public static final Block DREAD_WALL_HANGING_SIGN = blockItem("dread_wall_hanging_sign", new WallHangingSignBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.TERRACOTTA_GRAY).noCollission().strength(1.0f).dropsLike(DREAD_HANGING_SIGN), WoodType.DARK_OAK), PokeCraftCreativeTabs.UTILITY_BLOCKS);
+    //public static final FlowingFluid FLOWING_MUD = blockItem("flowing_mud", new MudFluid.Flowing(), PokeCraftCreativeTabs.NATURAL_BLOCKS);
+    //public static final FlowingFluid MUD = blockItem("mud", new MudFluid.Source(), PokeCraftCreativeTabs.NATURAL_BLOCKS);
     //PixelmonTech
     //Containers
 

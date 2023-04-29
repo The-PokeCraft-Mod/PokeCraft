@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "pokecraft:item/origin_nugget"
+    "layer0": "pokecraft:item/mud_bucket"
   }
 }

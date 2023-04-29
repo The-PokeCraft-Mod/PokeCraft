@@ -739,6 +739,7 @@ public class EnUsLang extends FabricLanguageProvider {
         builder.add(PokeCraftItems.SAPPHIRE_AXE, "Sapphire Axe");
         builder.add(PokeCraftItems.SAPPHIRE_HOE, "Sapphire Hoe");
         builder.add(PokeCraftItems.SAPPHIRE_DIGGER_DRILL, "Sapphire Digger Drill");
+        builder.add(PokeCraftItems.MUD_BUCKET, "Mud Bucket");
         //builder.add(PokeCraftItems.MUSIC_PLAYER, "Music Player");
         builder.add(PokeCraftItems.REPEL, "Repel");
         builder.add(PokeCraftItems.SUPER_REPEL, "Super Repel");
@@ -783,11 +784,11 @@ public class EnUsLang extends FabricLanguageProvider {
         builder.add(PokeCraftItems.STEALTH_SPRAY, "Stealth Spray");
         builder.add(PokeCraftItems.RUBY, "Ruby");
         builder.add(PokeCraftItems.SAPPHIRE, "Sapphire");
-        builder.add(PokeCraftItems.CHARGESTONE, "Chargestone");
+        builder.add(PokeCraftItems.CHARGESTONE_DUST, "Chargestone Dust");
         builder.add(PokeCraftItems.PINK_AMETHYST_SHARD, "Pink Amethyst Shard");
         builder.add(PokeCraftItems.PINK_DIAMOND, "Pink Diamond");
-        builder.add(PokeCraftItems.ORIGIN_NUGGET, "Origin Nugget");
-        builder.add(PokeCraftItems.RAW_Z_ORE, "Raw Z Ore");
+        builder.add(PokeCraftItems.RAW_ORIGIN_ORE, "Raw Origin Ore");
+        builder.add(PokeCraftItems.Z_NUGGET, "Z Nugget");
         builder.add(PokeCraftItems.Z_CRYSTAL, "Z-Crystal");
         builder.add(PokeCraftItems.DIGGER_HANDLE, "Digger Handle");
         builder.add(PokeCraftItems.STONE_DRILL_BIT, "Stone Drill Bit");
@@ -1121,6 +1122,7 @@ public class EnUsLang extends FabricLanguageProvider {
         builder.add(PokeCraftBlocks.LARGE_PINK_AMETHYST_BUD, "Large Pink Amethyst Bud");
         builder.add(PokeCraftBlocks.PINK_AMETHYST_CLUSTER, "Pink Amethyst Cluster");
         builder.add(PokeCraftBlocks.SILK_BLOCK, "Silk Block");
+        //builder.add(PokeCraftBlocks.MUD, "Mud");
         //builder.add(PokeCraftBlocks., "");
         //builder.add(PokeCraftBlocks., "");
         //builder.add(PokeCraftBlocks., "");
