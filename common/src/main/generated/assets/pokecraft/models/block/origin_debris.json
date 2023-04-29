@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pokecraft:block/origin_debris_top",
+    "side": "pokecraft:block/origin_debris_side"
+  }
+}

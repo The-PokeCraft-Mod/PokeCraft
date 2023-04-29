@@ -916,9 +916,10 @@ public class EnUsLang extends FabricLanguageProvider {
         builder.add(PokeCraftBlocks.SAPPHIRE_ORE, "Sapphire Ore");
         builder.add(PokeCraftBlocks.DEEPSLATE_SAPPHIRE_ORE, "Deepslate Sapphire Ore");
         builder.add(PokeCraftBlocks.SAPPHIRE_BLOCK, "Block of Sapphire");
-        builder.add(PokeCraftBlocks.RUBY_BLOCK, "BLock of Ruby");
+        builder.add(PokeCraftBlocks.RUBY_BLOCK, "Block of Ruby");
         builder.add(PokeCraftBlocks.CHARGESTONE_ORE, "Chargestone Ore");
         builder.add(PokeCraftBlocks.CHARGESTONE_BLOCK, "Block of Chargestone");
+        builder.add(PokeCraftBlocks.CHARGESTONE_CRYSTAL, "Chargestone Crystal");
         builder.add(PokeCraftBlocks.DEEPSLATE_CHARGESTONE_ORE, "Deepslate Chargestone Ore");
         builder.add(PokeCraftBlocks.RED_PRISMARINE_BRICKS, "Red Prismarine Bricks");
         builder.add(PokeCraftBlocks.RED_DARK_PRISMARINE, "Red Dark Prismarine");
@@ -1065,8 +1066,7 @@ public class EnUsLang extends FabricLanguageProvider {
         builder.add(PokeCraftBlocks.DEEPSLATE_FOSSIL_ORE, "Deepslate Fossil Ore");
         builder.add(PokeCraftBlocks.Z_CRYSTAL_ORE, "Z-Crystal Ore");
         builder.add(PokeCraftBlocks.DEEPSLATE_Z_CRYSTAL_ORE, "Deepslate Z-Crystal Ore");
-        builder.add(PokeCraftBlocks.ORIGIN_ORE, "Origin Ore");
-        builder.add(PokeCraftBlocks.DEEPSLATE_ORIGIN_ORE, "Deepslate Origin Ore");
+        builder.add(PokeCraftBlocks.ORIGIN_DEBRIS, "Origin Debris");
         builder.add(PokeCraftBlocks.FIRE_STONE_ORE, "Fire Stone Ore");
         builder.add(PokeCraftBlocks.DEEPSLATE_FIRE_STONE_ORE, "Deepslate Fire Stone Ore");
         builder.add(PokeCraftBlocks.FIRE_STONE_BLOCK, "Fire Stone Block");
@@ -1107,7 +1107,11 @@ public class EnUsLang extends FabricLanguageProvider {
         builder.add(PokeCraftBlocks.DREAD_PLANKS, "Dread Planks");
         builder.add(PokeCraftBlocks.DREAD_DOOR, "Dread Door");
         builder.add(PokeCraftBlocks.DREAD_TRAPDOOR, "Dread Trapdoor");
+        builder.add(PokeCraftBlocks.DREAD_SIGN, "Dread Sign");
+       // builder.add(PokeCraftBlocks.DREAD_HANGING_SIGN, "Dread Hanging Sign");
+       // builder.add(PokeCraftBlocks.DREAD_WALL_HANGING_SIGN, "Dread Wall Hanging Sign");
         builder.add(PokeCraftBlocks.DREAD_SAPLING, "Dread Sapling");
+        builder.add(PokeCraftBlocks.DREAD_LEAVES, "Dread Leaves");
         builder.add(PokeCraftBlocks.SHORT_GRASS, "Short Grass");
         builder.add(PokeCraftBlocks.WET_PACKED_MUD, "Wet Packed Mud");
         builder.add(PokeCraftBlocks.PINK_AMETHYST_BLOCK, "Block of Pink Amethyst");
@@ -1143,6 +1147,8 @@ public class EnUsLang extends FabricLanguageProvider {
         //builder.add(PokeCraftBlocks., "");
         builder.add(PokeCraftBlocks.BERRY_BUSH, "Berry Bush");
         builder.add(PokeCraftEntities.POKEMON, "pokemon");
+        //builder.add(PokeCraftEntities.DREAD_BOAT, "Dread Boat");
+        //builder.add(PokeCraftEntities.DREAD_CHEST_BOAT, "Dread Boat with Chest");
 
         builder.add("pokecraft.species.bulbasaur.name", "Bulbasaur");
         builder.add("pokecraft.species.bulbasaur.desc", "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.");

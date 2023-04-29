@@ -23,7 +23,10 @@ import com.thepokecraftmod.pokecraft.level.block.PokeCraftBlocks;
 import com.thepokecraftmod.pokecraft.level.item.PokeCraftItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.data.BlockFamilies;
+import net.minecraft.data.BlockFamily;
 import net.minecraft.data.models.BlockModelGenerators;
+import net.minecraft.data.models.BlockModelGenerators.BlockFamilyProvider;
 import net.minecraft.data.models.ItemModelGenerators;
 import net.minecraft.data.models.model.ModelTemplates;
 import net.minecraft.data.models.model.TextureMapping;
@@ -140,6 +143,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.createTrivialCube(PokeCraftBlocks.RUBY_BLOCK);
         generator.createTrivialCube(PokeCraftBlocks.CHARGESTONE_ORE);
         generator.createTrivialCube(PokeCraftBlocks.CHARGESTONE_BLOCK);
+        generator.createTrivialCube(PokeCraftBlocks.CHARGESTONE_CRYSTAL);
         generator.createTrivialCube(PokeCraftBlocks.DEEPSLATE_CHARGESTONE_ORE);
         generator.createTrivialCube(PokeCraftBlocks.RED_PRISMARINE_BRICKS);
         generator.createTrivialCube(PokeCraftBlocks.RED_DARK_PRISMARINE);
@@ -286,8 +290,7 @@ public class BlockItemModels extends FabricModelProvider {
         generator.createTrivialCube(PokeCraftBlocks.DEEPSLATE_FOSSIL_ORE);
         generator.createTrivialCube(PokeCraftBlocks.Z_CRYSTAL_ORE);
         generator.createTrivialCube(PokeCraftBlocks.DEEPSLATE_Z_CRYSTAL_ORE);
-        generator.createTrivialCube(PokeCraftBlocks.ORIGIN_ORE);
-        generator.createTrivialCube(PokeCraftBlocks.DEEPSLATE_ORIGIN_ORE);
+        generator.createTrivialBlock(PokeCraftBlocks.ORIGIN_DEBRIS, TexturedModel.COLUMN);
         generator.createTrivialCube(PokeCraftBlocks.FIRE_STONE_ORE);
         generator.createTrivialCube(PokeCraftBlocks.DEEPSLATE_FIRE_STONE_ORE);
         generator.createTrivialCube(PokeCraftBlocks.FIRE_STONE_BLOCK);
@@ -321,15 +324,17 @@ public class BlockItemModels extends FabricModelProvider {
         generator.createTrivialCube(PokeCraftBlocks.OVAL_STONE_ORE);
         generator.createTrivialCube(PokeCraftBlocks.DEEPSLATE_OVAL_STONE_ORE);
         generator.createTrivialCube(PokeCraftBlocks.OVAL_STONE_BLOCK);
+        // Dread Blocks
         generator.woodProvider(PokeCraftBlocks.DREAD_LOG).logWithHorizontal(PokeCraftBlocks.DREAD_LOG).wood(PokeCraftBlocks.DREAD_WOOD);
         generator.woodProvider(PokeCraftBlocks.STRIPPED_DREAD_LOG).logWithHorizontal(PokeCraftBlocks.STRIPPED_DREAD_LOG).wood(PokeCraftBlocks.STRIPPED_DREAD_WOOD);
-        //generator.createTrivialCube(PokeCraftBlocks.DREAD_WOOD);
-        //generator.createTrivialCube(PokeCraftBlocks.STRIPPED_DREAD_WOOD);
         generator.createTrivialCube(PokeCraftBlocks.DREAD_PLANKS);
-        generator.createDoor(PokeCraftBlocks.DREAD_DOOR);
-        generator.createTrapdoor(PokeCraftBlocks.DREAD_TRAPDOOR);
+            //generator.family(PokeCraftBlocks.DREAD_PLANKS).button(PokeCraftBlocks.DREAD_BUTTON).fence(PokeCraftBlocks.DREAD_FENCE).fenceGate(PokeCraftBlocks.DREAD_FENCE_GATE).pressurePlate(PokeCraftBlocks.DREAD_PRESSURE_PLATE).slab(PokeCraftBlocks.DREAD_SLAB).stairs(PokeCraftBlocks.DREAD_STAIRS);
+        generator.createTrivialCube(PokeCraftBlocks.DREAD_LEAVES);
+       // generator.createHangingSign(PokeCraftBlocks.STRIPPED_DREAD_LOG, PokeCraftBlocks.DREAD_HANGING_SIGN, PokeCraftBlocks.DREAD_WALL_HANGING_SIGN);
+           // generator.createSimpleFlatItemModel(PokeCraftBlocks.DREAD_HANGING_SIGN);
         generator.createCrossBlockWithDefaultItem(PokeCraftBlocks.DREAD_SAPLING, BlockModelGenerators.TintState.NOT_TINTED);
         generator.createCrossBlockWithDefaultItem(PokeCraftBlocks.SHORT_GRASS, BlockModelGenerators.TintState.TINTED);
+        // Natural
         generator.createTrivialCube(PokeCraftBlocks.WET_PACKED_MUD);
         generator.createTrivialCube(PokeCraftBlocks.PINK_AMETHYST_BLOCK);
         generator.createTrivialCube(PokeCraftBlocks.BUDDING_PINK_AMETHYST);
@@ -340,11 +345,11 @@ public class BlockItemModels extends FabricModelProvider {
         generator.createAmethystCluster(PokeCraftBlocks.LARGE_PINK_AMETHYST_BUD);
         generator.createSimpleFlatItemModel(PokeCraftBlocks.LARGE_PINK_AMETHYST_BUD);
         generator.createAmethystCluster(PokeCraftBlocks.PINK_AMETHYST_CLUSTER);
-                generator.createSimpleFlatItemModel(PokeCraftBlocks.PINK_AMETHYST_CLUSTER);
+            generator.createSimpleFlatItemModel(PokeCraftBlocks.PINK_AMETHYST_CLUSTER);
         generator.createTrivialCube(PokeCraftBlocks.SILK_BLOCK);
-        //generator.createCrossBlockWithDefaultItem(PokeCraftBlocks.WEB_STRING);
-        //generator.createCrossBlockWithDefaultItem(PokeCraftBlocks.FRAYED_WEB_STRING);
-        //generator.createCrossBlockWithDefaultItem(PokeCraftBlocks.SMALL_COBWEB);
+        generator.createCrossBlockWithDefaultItem(PokeCraftBlocks.WEB_STRING, BlockModelGenerators.TintState.NOT_TINTED);
+        generator.createCrossBlockWithDefaultItem(PokeCraftBlocks.FRAYED_WEB_STRING, BlockModelGenerators.TintState.NOT_TINTED);
+        generator.createCrossBlockWithDefaultItem(PokeCraftBlocks.SMALL_COBWEB, BlockModelGenerators.TintState.NOT_TINTED);
 
         generator.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(PokeCraftBlocks.BERRY_BUSH, PokeCraft.id("block/berry_bush_stage3")));
     }
