@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "pokecraft:block/haven_planks",
+    "east": "pokecraft:block/haven_crafting_table_side",
+    "north": "pokecraft:block/haven_crafting_table_front",
+    "particle": "pokecraft:block/haven_crafting_table_front",
+    "south": "pokecraft:block/haven_crafting_table_side",
+    "up": "pokecraft:block/haven_crafting_table_top",
+    "west": "pokecraft:block/haven_crafting_table_front"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pokecraft:block/haven_log_top",
+    "side": "pokecraft:block/haven_log"
+  }
+}

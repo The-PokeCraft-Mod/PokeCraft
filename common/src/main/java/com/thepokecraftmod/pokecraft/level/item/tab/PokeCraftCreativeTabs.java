@@ -33,12 +33,13 @@ public class PokeCraftCreativeTabs {
     public static final CreativeTab NATURAL_ITEMS = PokeCraft.getInstance().newCreativeTab("natural_items", () -> PokeCraftItems.RED_APRICORN);
     public static final CreativeTab SPECIAL_ITEMS = PokeCraft.getInstance().newCreativeTab("special_items", () -> PokeCraftItems.BLUE_ORB);
     public static final CreativeTab KEY_ITEMS = PokeCraft.getInstance().newCreativeTab("key_items", () -> PokeCraftItems.SHINY_CHARM);
-    public static final CreativeTab TOOLS_AND_UTILITIES = PokeCraft.getInstance().newCreativeTab("tools_utilities", () -> PokeCraftItems.RUBY_PICKAXE);
-    public static final CreativeTab COMBAT = PokeCraft.getInstance().newCreativeTab("combat", () -> PokeCraftItems.EMERALD_SWORD);
-    public static final CreativeTab INGREDIENTS = PokeCraft.getInstance().newCreativeTab("ingredients", () -> PokeCraftItems.SAPPHIRE);
     public static final CreativeTab BUILDING_BLOCKS = PokeCraft.getInstance().newCreativeTab("building_blocks", () -> PokeCraftItems.FIRE_STONE);
     public static final CreativeTab COLORED_BLOCKS = PokeCraft.getInstance().newCreativeTab("colored_blocks", () -> PokeCraftItems.WATER_STONE);
     public static final CreativeTab NATURAL_BLOCKS = PokeCraft.getInstance().newCreativeTab("natural_blocks", () -> PokeCraftItems.THUNDER_STONE);
     public static final CreativeTab UTILITY_BLOCKS = PokeCraft.getInstance().newCreativeTab("utility_blocks", () -> PokeCraftItems.LEAF_STONE);
     public static final CreativeTab DECORATION_BLOCKS = PokeCraft.getInstance().newCreativeTab("decoration_blocks", () -> PokeCraftItems.SUN_STONE);
+    public static final CreativeTab TOOLS_AND_UTILITIES = PokeCraft.getInstance().newCreativeTab("tools_utilities", () -> PokeCraftItems.RUBY_PICKAXE);
+    public static final CreativeTab COMBAT = PokeCraft.getInstance().newCreativeTab("combat", () -> PokeCraftItems.EMERALD_SWORD);
+    public static final CreativeTab INGREDIENTS = PokeCraft.getInstance().newCreativeTab("ingredients", () -> PokeCraftItems.SAPPHIRE);
+
 }
