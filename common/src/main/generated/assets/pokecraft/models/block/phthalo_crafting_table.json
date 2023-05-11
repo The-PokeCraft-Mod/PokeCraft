@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "pokecraft:block/phthalo_planks",
+    "east": "pokecraft:block/phthalo_crafting_table_side",
+    "north": "pokecraft:block/phthalo_crafting_table_front",
+    "particle": "pokecraft:block/phthalo_crafting_table_front",
+    "south": "pokecraft:block/phthalo_crafting_table_side",
+    "up": "pokecraft:block/phthalo_crafting_table_top",
+    "west": "pokecraft:block/phthalo_crafting_table_front"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "pokecraft:block/astral_planks",
+    "east": "pokecraft:block/astral_crafting_table_side",
+    "north": "pokecraft:block/astral_crafting_table_front",
+    "particle": "pokecraft:block/astral_crafting_table_front",
+    "south": "pokecraft:block/astral_crafting_table_side",
+    "up": "pokecraft:block/astral_crafting_table_top",
+    "west": "pokecraft:block/astral_crafting_table_front"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "pokecraft:block/phthalo_bookshelf_bottom",
+    "side": "pokecraft:block/phthalo_bookshelf",
+    "top": "pokecraft:block/phthalo_bookshelf_top"
+  }
+}

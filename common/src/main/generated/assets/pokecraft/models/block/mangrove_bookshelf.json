@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "pokecraft:block/mangrove_bookshelf_bottom",
+    "side": "pokecraft:block/mangrove_bookshelf",
+    "top": "pokecraft:block/mangrove_bookshelf_top"
+  }
+}

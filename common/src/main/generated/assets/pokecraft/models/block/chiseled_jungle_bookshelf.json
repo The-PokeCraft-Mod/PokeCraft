@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "pokecraft:block/chiseled_jungle_bookshelf_front",
+    "side": "pokecraft:block/chiseled_jungle_bookshelf_side",
+    "top": "pokecraft:block/chiseled_jungle_bookshelf_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pokecraft:block/astral_stem_top",
+    "side": "pokecraft:block/astral_stem"
+  }
+}

@@ -25,7 +25,9 @@ import com.thepokecraftmod.pokecraft.level.item.tab.CreativeTab;
 import com.thepokecraftmod.pokecraft.level.item.tab.PokeCraftCreativeTabs;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Fluids;
@@ -42,36 +44,41 @@ public class PokeCraftItems {
     private static final Item.Properties SINGLE_PROPERTIES = new Item.Properties().stacksTo(1);
 
     //                          Non-Pokemon
-    //          Tools & Utilities
+    //          TOOLS % UTILITIES
+    public static final Item DEEPSLATE_SHOVEL = register("deepslate_shovel", new ShovelItem(Tiers.STONE, 1.5f, -3.0f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item DEEPSLATE_PICKAXE = register("deepslate_pickaxe", new PickaxeItem(Tiers.STONE, 1, -2.8f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item DEEPSLATE_AXE = register("deepslate_axe", new AxeItem(Tiers.STONE, 7.0f, -3.2f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item DEEPSLATE_SHOVEL = register("deepslate_shovel", new ShovelItem(Tiers.STONE, 1.5f, -3.0f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item DEEPSLATE_HOE = register("deepslate_hoe", new HoeItem(Tiers.STONE, -1, -2.0f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item BLACKSTONE_SHOVEL = register("blackstone_shovel", new ShovelItem(Tiers.STONE, 1.5f, -3.0f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item BLACKSTONE_PICKAXE = register("blackstone_pickaxe", new PickaxeItem(Tiers.STONE, 1, -2.8f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item BLACKSTONE_AXE = register("blackstone_axe", new AxeItem(Tiers.STONE, 7.0f, -3.2f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item BLACKSTONE_SHOVEL = register("blackstone_shovel", new ShovelItem(Tiers.STONE, 1.5f, -3.0f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item BLACKSTONE_HOE = register("blackstone_hoe", new HoeItem(Tiers.STONE, -1, -2.0f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item STONE_DIGGER_DRILL = register("stone_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item IRON_DIGGER_DRILL = register("iron_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item DIAMOND_DIGGER_DRILL = register("diamond_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item NETHERITE_DIGGER_DRILL = register("netherite_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item EMERALD_SHOVEL = register("emerald_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item EMERALD_PICKAXE = register("emerald_pickaxe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item EMERALD_AXE = register("emerald_axe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item EMERALD_SHOVEL = register("emerald_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item EMERALD_HOE = register("emerald_hoe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item EMERALD_DIGGER_DRILL = register("emerald_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item RUBY_SHOVEL = register("ruby_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item RUBY_PICKAXE = register("ruby_pickaxe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item RUBY_AXE = register("ruby_axe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item RUBY_SHOVEL = register("ruby_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item RUBY_HOE = register("ruby_hoe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item RUBY_DIGGER_DRILL = register("ruby_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item SAPPHIRE_SHOVEL = register("sapphire_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item SAPPHIRE_PICKAXE = register("sapphire_pickaxe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item SAPPHIRE_AXE = register("sapphire_axe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item SAPPHIRE_SHOVEL = register("sapphire_shovel", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item SAPPHIRE_HOE = register("sapphire_hoe", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item STONE_DIGGER_DRILL = register("stone_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item IRON_DIGGER_DRILL = register("iron_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item EMERALD_DIGGER_DRILL = register("emerald_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item RUBY_DIGGER_DRILL = register("ruby_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item SAPPHIRE_DIGGER_DRILL = register("sapphire_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item DIAMOND_DIGGER_DRILL = register("diamond_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item NETHERITE_DIGGER_DRILL = register("netherite_digger_drill", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item MUD_BUCKET = register("mud_bucket", new BucketItem(Fluids.WATER, new Item.Properties().craftRemainder(BUCKET).stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    //public static final Item MUSIC_PLAYER = register("music_player", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item SPRING_WATER_BUCKET = register("spring_water_bucket", new BucketItem(Fluids.WATER, new Item.Properties().craftRemainder(BUCKET).stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item TOXIC_WATER_BUCKET = register("toxic_water_bucket", new BucketItem(Fluids.WATER, new Item.Properties().craftRemainder(BUCKET).stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item QUICKSAND_BUCKET = register("quicksand_bucket", (Item)new SolidBucketItem(Blocks.WATER, SoundEvents.BUCKET_EMPTY_POWDER_SNOW, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item OLD_ROD = register("old_rod", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item GOOD_ROD = register("good_rod", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
+    public static final Item SUPER_ROD = register("super_rod", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item REPEL = register("repel", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item SUPER_REPEL = register("super_repel", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item MAX_REPEL = register("max_repel", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
@@ -80,14 +87,11 @@ public class PokeCraftItems {
     public static final Item MAX_LURE = register("max_lure", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item ESCAPE_ROPE = register("escape_rope", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item POKE_TOY = register("poke_toy", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item OLD_ROD = register("old_rod", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item GOOD_ROD = register("good_rod", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
-    public static final Item SUPER_ROD = register("super_rod", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
     public static final Item EXP_ALL = register("exp_all", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.TOOLS_AND_UTILITIES);
 
 
 
-    //          Combat
+    //          COMBAT
     public static final Item DEEPSLATE_SWORD = register("deepslate_sword", new SwordItem(Tiers.STONE, 3, -2.4f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.COMBAT);
     public static final Item BLACKSTONE_SWORD = register("blackstone_sword", new SwordItem(Tiers.STONE, 3, -2.4f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.COMBAT);
     public static final Item EMERALD_SWORD = register("emerald_sword", new SwordItem(Tiers.IRON, 3, -2.4f, new Item.Properties().stacksTo(1)), PokeCraftCreativeTabs.COMBAT);
@@ -120,25 +124,44 @@ public class PokeCraftItems {
 
 
     //          Ingredients
+    //Gem
     public static final Item RUBY = register("ruby", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item SAPPHIRE = register("sapphire", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item CHARGESTONE_DUST = register("chargestone_dust", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item PINK_AMETHYST_SHARD = register("pink_amethyst_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item PINK_DIAMOND = register("pink_diamond", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
-    public static final Item ORIGIN_SCRAP = register("origin_scrap", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item Z_SHARD = register("z_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item Z_CRYSTAL = register("z_crystal", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item ORIGIN_SCRAP = register("origin_scrap", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    //Bricks
+    public static final Item WHITE_BRICK = register("white_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item LIGHT_GRAY_BRICK = register("light_gray_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item GRAY_BRICK = register("gray_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item BLACK_BRICK = register("black_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item BROWN_BRICK = register("brown_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item RED_BRICK = register("red_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item ORANGE_BRICK = register("orange_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item YELLOW_BRICK = register("yellow_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item LIME_BRICK = register("lime_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item GREEN_BRICK = register("green_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item CYAN_BRICK = register("cyan_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item LIGHT_BLUE_BRICK = register("light_blue_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item BLUE_BRICK = register("blue_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item PURPLE_BRICK = register("purple_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item MAGENTA_BRICK = register("magenta_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item PINK_BRICK = register("pink_brick", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    //Digger Items
     public static final Item DIGGER_HANDLE = register("digger_handle", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item STONE_DRILL_BIT = register("stone_drill_bit", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item IRON_DRILL_BIT = register("iron_drill_bit", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
-    public static final Item DIAMOND_DRILL_BIT = register("diamond_drill_bit", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
-    public static final Item NETHERITE_DRILL_BIT = register("netherite_drill_bit", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item EMERALD_DRILL_BIT = register("emerald_drill_bit", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item RUBY_DRILL_BIT = register("ruby_drill_bit", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
     public static final Item SAPPHIRE_DRILL_BIT = register("sapphire_drill_bit", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item DIAMOND_DRILL_BIT = register("diamond_drill_bit", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
+    public static final Item NETHERITE_DRILL_BIT = register("netherite_drill_bit", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.INGREDIENTS);
 
     //                             Pokemon
-    // PokeBalls
+    //          POKEBALLS
     public static final Item POKE_BALL = register("poke_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
     public static final Item GREAT_BALL = register("great_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
     public static final Item ULTRA_BALL = register("ultra_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
@@ -170,11 +193,15 @@ public class PokeCraftItems {
     public static final Item ANCIENT_POKE_BALL = register("ancient_poke_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
     public static final Item ANCIENT_GREAT_BALL = register("ancient_great_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
     public static final Item ANCIENT_ULTRA_BALL = register("ancient_ultra_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item FEATHER_BALL = register("feather_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
     public static final Item WING_BALL = register("wing_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item JET_BALL = register("jet_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item ANCIENT_HEAVY_BALL = register("ancient_heavy_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
     public static final Item LEADEN_BALL = register("leaden_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
+    public static final Item GIGATON_BALL = register("gigaton_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
     public static final Item ORIGIN_BALL = register("origin_ball", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.POKEBALLS);
 
-    // Berries
+    //          BERRIES
     public static final Item AGUAV_BERRY = register("aguav_berry", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BERRIES);
     public static final Item APICOT_BERRY = register("apicot_berry", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BERRIES);
     public static final Item ASPEAR_BERRY = register("aspear_berry", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BERRIES);
@@ -243,7 +270,7 @@ public class PokeCraftItems {
     public static final Item WIKI_BERRY = register("wiki_berry", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BERRIES);
     public static final Item YACHE_BERRY = register("yache_berry", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BERRIES);
 
-    // Restoration
+    //          RESTORATION
     //Potions
     public static final Item POTION = register("potion", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.RESTORATION_ITEMS);
     public static final Item SUPER_POTION = register("super_potion", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.RESTORATION_ITEMS);
@@ -288,7 +315,7 @@ public class PokeCraftItems {
     //Other
     public static final Item MAX_HONEY = register("max_honey", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.RESTORATION_ITEMS);
 
-    // Battle/Stat
+    //          BATTLE & STAT
     //Bottle
     public static final Item HP_UP = register("hp_up", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STAT_ITEMS);
     public static final Item PROTEIN = register("protein", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STAT_ITEMS);
@@ -373,8 +400,7 @@ public class PokeCraftItems {
     public static final Item ICE_TM = register("ice_tm", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STAT_ITEMS);
     public static final Item STEEL_TM = register("steel_tm", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STAT_ITEMS);
     public static final Item DRAGON_TM = register("dragon_tm", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.BATTLE_AND_STAT_ITEMS);
-
-    // Held Items
+    //          HELD ITEMS
     //Held
     public static final Item ABILITY_SHIELD = register("ability_shield", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.HELD_ITEMS);
     public static final Item ABSORB_BULB = register("absorb_bulb", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.HELD_ITEMS);
@@ -515,7 +541,7 @@ public class PokeCraftItems {
     public static final Item STEEL_GEM = register("steel_gem", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.HELD_ITEMS);
     public static final Item DRAGON_GEM = register("dragon_gem", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.HELD_ITEMS);
 
-    // Evolution
+    //          EVOLUTION ITEMS
     //Stones
     public static final Item FIRE_STONE = register("fire_stone", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.EVOLUTION_ITEMS);
     public static final Item WATER_STONE = register("water_stone", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.EVOLUTION_ITEMS);
@@ -563,7 +589,7 @@ public class PokeCraftItems {
     public static final Item AUSPICIOUS_ARMOR = register("auspicious_armor", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.EVOLUTION_ITEMS);
     public static final Item MALICIOUS_ARMOR = register("malicious_armor", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.EVOLUTION_ITEMS);
 
-    // Gimmick Items
+    //          GIMMICK ITEMS
     //Mega Stone
     public static final Item VENUSAURITE = register("venusaurite", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK_ITEMS);
     public static final Item CHARIZARDITE_X = register("charizardite_x", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.GIMMICK_ITEMS);
@@ -668,7 +694,7 @@ public class PokeCraftItems {
     public static final Item STEEL_TERA_SHARD = register("steel_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK_ITEMS);
     public static final Item DRAGON_TERA_SHARD = register("dragon_tera_shard", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.GIMMICK_ITEMS);
 
-    // Natural
+    //          NATURAL
     //Apricorns
     public static final Item RED_APRICORN = register("red_apricorn", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);
     public static final Item YELLOW_APRICORN = register("yellow_apricorn", new Item(GENERIC_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);
@@ -747,7 +773,7 @@ public class PokeCraftItems {
     public static final Item STRETCHY_SPRING = register("stretchy_spring", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);
     public static final Item TROPICAL_SHELL = register("tropical_shell", new Item(SIXTEEN_PROPERTIES), PokeCraftCreativeTabs.NATURAL_ITEMS);
 
-    // Legend Items
+    //          SPECIAL ITEMS
     //Johto
     public static final Item SILVER_WING = register("silver_wing", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
     public static final Item TIDAL_BELL = register("tidal_bell", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.SPECIAL_ITEMS);
@@ -848,7 +874,6 @@ public class PokeCraftItems {
     public static final Item EXP_CHARM = register("exp_charm", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
     public static final Item MARK_CHARM = register("mark_charm", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
     public static final Item BOX_LINK = register("box_link", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
-    public static final Item ZYGARDE_CUBE = register("zygarde_cube", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);    
     public static final Item EON_FLUTE = register("eon_flute", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
     public static final Item RIDE_PAGER = register("ride_pager", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
     public static final Item MEGA_BRACELET = register("mega_bracelet", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
@@ -856,12 +881,8 @@ public class PokeCraftItems {
     public static final Item DYNAMAX_BAND = register("dynamax_band", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
     public static final Item TERA_ORB = register("tera_orb", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
     public static final Item ODD_KEYSTONE = register("odd_keystone", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
+    public static final Item ZYGARDE_CUBE = register("zygarde_cube", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
     public static final Item ROTOM_CATALOG = register("rotom_catalog", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
-    public static final Item ETERNAL_ICE = register("eternal_ice", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.KEY_ITEMS);
-
-    // Blocks-Items
-
-    public static final Item DREAD_HANGING_SIGN = register("dread_hanging_sign", new Item(SINGLE_PROPERTIES), PokeCraftCreativeTabs.HELD_ITEMS);
 
     public static void onInitialize() {
     }

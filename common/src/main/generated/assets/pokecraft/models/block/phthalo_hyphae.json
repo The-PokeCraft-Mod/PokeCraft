@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pokecraft:block/phthalo_stem",
+    "side": "pokecraft:block/phthalo_stem"
+  }
+}

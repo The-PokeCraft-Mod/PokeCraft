@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "pokecraft:block/dread_bookshelf_bottom",
+    "side": "pokecraft:block/dread_bookshelf",
+    "top": "pokecraft:block/dread_bookshelf_top"
+  }
+}
